@@ -1,0 +1,303 @@
+{
+  "meta": {
+    "series_en": "World Affairs 1",
+    "series_ja": "国際・政治 1",
+    "track": "01",
+    "title_en": "Voters send a clear message to Washington",
+    "subtitle_en": "Japan must prepare for a divided America",
+    "title_ja": "米中間選挙　有権者が突きつけた明確な審判",
+    "subtitle_ja": "分断する米国に日本は備えを",
+    "source_en": "Original text based on reports from AP, NPR and NBC News, Nov. 2026",
+    "date_ja": "2026年11月8日作成",
+    "start_page": 14,
+    "voice": "Samantha",
+    "rate": 145,
+    "pause_sec": 1.0
+  },
+  "sections": [
+    {
+      "heading_en": "",
+      "heading_ja": "",
+      "paragraphs": [
+        {
+          "en": "Americans went to the polls on Nov. 3, and the result was a clear rebuke to President Donald Trump and the Republican Party. Democrats won control of both the House of Representatives and the Senate, ending two years of unified Republican rule in Washington.",
+          "ja": "米国の有権者は11月3日に投票し、その結果はトランプ大統領と共和党に対する明確な批判となった。民主党は下院と上院の両方で多数派を獲得し、2年間続いた共和党によるワシントンの一体的な支配に終止符を打った。"
+        },
+        {
+          "en": "It is not unusual for the president's party to lose ground in a midterm election. Between 1934 and 2018, the party in the White House lost an average of 28 House seats. This time, however, the scale of the shift in the Senate stands out.",
+          "ja": "中間選挙で大統領の党が議席を減らすこと自体は珍しくない。1934年から2018年までの間、政権党は下院で平均28議席を失ってきた。しかし今回は、上院での変化の大きさが際立っている。"
+        },
+        {
+          "en": "Democrats flipped Senate seats in states that had long been considered safe for Republicans, including North Carolina, Ohio and Texas. In Texas, Democrat James Talarico defeated Attorney General Ken Paxton, a close ally of the president.",
+          "ja": "民主党は、ノースカロライナ、オハイオ、テキサスなど、長く共和党の牙城とみなされてきた州で上院議席を奪った。テキサス州では、民主党のジェームズ・タラリコ氏が、大統領に近い州司法長官のケン・パクストン氏を破った。"
+        },
+        {
+          "en": "The results were felt in governors' races as well. Democrats won the governorship in Georgia, a key battleground state, while Republicans held on to Florida. Across the country, turnout was high, a sign of how strongly many Americans felt about the direction of their nation.",
+          "ja": "結果は知事選にも表れた。民主党は激戦州ジョージアで知事の座を獲得し、共和党はフロリダを守った。全米で投票率は高く、多くの米国民が国の進む方向に強い関心を抱いていることをうかがわせた。"
+        },
+        {
+          "en": "Several races, including Senate contests in Alaska and Mississippi, had yet to be decided days after the vote. Even so, the overall direction is unmistakable.",
+          "ja": "アラスカ州やミシシッピ州の上院選など、投票から数日たっても決着していない選挙区もある。それでも、全体の流れは明らかだ。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "go to the polls",
+          "m": "投票に行く"
+        },
+        {
+          "w": "rebuke",
+          "m": "非難、叱責"
+        },
+        {
+          "w": "unified",
+          "m": "統一された、一体の"
+        },
+        {
+          "w": "lose ground",
+          "m": "後退する、勢力を失う"
+        },
+        {
+          "w": "stand out",
+          "m": "際立つ、目立つ"
+        },
+        {
+          "w": "flip",
+          "m": "（議席・州を）奪う、ひっくり返す"
+        },
+        {
+          "w": "ally",
+          "m": "盟友、同盟国"
+        },
+        {
+          "w": "unmistakable",
+          "m": "紛れもない、明白な"
+        },
+        {
+          "w": "battleground state",
+          "m": "激戦州"
+        },
+        {
+          "w": "turnout",
+          "m": "投票率"
+        }
+      ]
+    },
+    {
+      "heading_en": "Prices and war weigh on voters",
+      "heading_ja": "物価と戦争が有権者に重く",
+      "paragraphs": [
+        {
+          "en": "What drove voters to change course? According to the AP's survey of voters, about six in 10 disapproved of the way Trump has handled his job as president. Many said they were struggling with high prices, and concerns over the conflict with Iran also appear to have played a role.",
+          "ja": "何が有権者に方向転換を促したのか。AP通信の有権者調査によると、約6割がトランプ氏の大統領としての仕事ぶりを支持しなかった。多くの人が物価高に苦しんでいると答え、イランとの紛争への懸念も影響したとみられる。"
+        },
+        {
+          "en": "Young people and Latino voters, two groups that had moved toward Republicans in 2024, shifted back toward Democrats. That swing suggests that the coalition which returned Trump to the White House two years ago was more fragile than it seemed.",
+          "ja": "2024年に共和党寄りに動いた若者とヒスパニック系の有権者は、再び民主党へと戻った。この揺り戻しは、2年前にトランプ氏をホワイトハウスに返り咲かせた支持基盤が、見た目以上にもろかったことを示している。"
+        },
+        {
+          "en": "Rising costs for food, housing and health care have put pressure on households across the country. Although the administration argued that its tariffs would protect American workers, many voters felt that the policy had instead made everyday goods more expensive.",
+          "ja": "食料や住宅、医療の費用上昇は、全米の家計を圧迫している。政権は関税が米国の労働者を守ると主張したが、多くの有権者はむしろ日用品が値上がりしたと感じた。"
+        },
+        {
+          "en": "Republicans also appear to have been hurt by their own strategy. Efforts to redraw district maps in their favor were expected to add seats, but some analysts now say the new maps may have backfired.",
+          "ja": "共和党は自らの戦略によっても打撃を受けたようだ。自党に有利になるよう選挙区割りを変更すれば議席が増えると見込まれていたが、新たな区割りは裏目に出た可能性があると指摘する専門家もいる。"
+        },
+        {
+          "en": "Of course, a midterm victory does not guarantee success in the next presidential election. Democrats still lack a clear leader and a unified message, and they must now show that they can govern, not just oppose.",
+          "ja": "もちろん、中間選挙での勝利が次の大統領選での成功を保証するわけではない。民主党には依然として明確な指導者も統一されたメッセージもない。反対するだけでなく、統治できることを示さなければならない。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "weigh on ~",
+          "m": "～に重くのしかかる"
+        },
+        {
+          "w": "change course",
+          "m": "方針を転換する"
+        },
+        {
+          "w": "disapprove of ~",
+          "m": "～を支持しない、認めない"
+        },
+        {
+          "w": "struggle with ~",
+          "m": "～に苦しむ"
+        },
+        {
+          "w": "swing",
+          "m": "（支持の）変動、揺れ"
+        },
+        {
+          "w": "coalition",
+          "m": "連合、支持基盤"
+        },
+        {
+          "w": "fragile",
+          "m": "もろい、壊れやすい"
+        },
+        {
+          "w": "redraw",
+          "m": "引き直す（区割りを変更する）"
+        },
+        {
+          "w": "backfire",
+          "m": "裏目に出る"
+        },
+        {
+          "w": "govern",
+          "m": "統治する"
+        },
+        {
+          "w": "household",
+          "m": "世帯、家計"
+        },
+        {
+          "w": "everyday goods",
+          "m": "日用品"
+        }
+      ]
+    },
+    {
+      "heading_en": "A new era of divided government",
+      "heading_ja": "「ねじれ」の新時代へ",
+      "paragraphs": [
+        {
+          "en": "With Congress now in Democratic hands, the president will find it much harder to pass legislation. Budgets, tax measures and trade policy will all require negotiation with the opposition.",
+          "ja": "議会が民主党の手に渡ったことで、大統領が法案を成立させるのははるかに難しくなる。予算、税制措置、通商政策はいずれも野党との交渉が必要になる。"
+        },
+        {
+          "en": "Democrats are also expected to use their new power to launch investigations into the administration. If the two sides choose confrontation over compromise, Washington could be paralyzed, and the political divide among Americans could deepen even further.",
+          "ja": "民主党は新たな権限を使い、政権に対する調査に乗り出すとみられる。双方が妥協より対決を選べば、ワシントンは機能不全に陥り、米国民の政治的分断はさらに深まりかねない。"
+        },
+        {
+          "en": "For the next two years, the president is likely to rely more heavily on executive orders. However, governing through such orders can be fragile, because they can be challenged in court or easily reversed by a future administration.",
+          "ja": "今後2年間、大統領は大統領令への依存を強めるとみられる。しかし、大統領令による統治は不安定になりやすい。裁判で争われたり、将来の政権によって簡単に覆されたりするからだ。"
+        },
+        {
+          "en": "There are already worrying signs, as a legal dispute has emerged over the Senate race in Alaska. Respect for the outcome of elections is the very foundation of democracy, and it must not be undermined.",
+          "ja": "アラスカ州の上院選を巡って法的な争いが起きるなど、すでに気がかりな兆候もある。選挙結果の尊重は民主主義の根幹であり、損なわれてはならない。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "divided government",
+          "m": "分割政府（「ねじれ」状態）"
+        },
+        {
+          "w": "legislation",
+          "m": "法律、法案"
+        },
+        {
+          "w": "measure",
+          "m": "措置、法案"
+        },
+        {
+          "w": "the opposition",
+          "m": "野党"
+        },
+        {
+          "w": "launch",
+          "m": "開始する、乗り出す"
+        },
+        {
+          "w": "confrontation",
+          "m": "対決、対立"
+        },
+        {
+          "w": "compromise",
+          "m": "妥協"
+        },
+        {
+          "w": "paralyze",
+          "m": "麻痺させる"
+        },
+        {
+          "w": "dispute",
+          "m": "争い、論争"
+        },
+        {
+          "w": "undermine",
+          "m": "損なう、むしばむ"
+        },
+        {
+          "w": "executive order",
+          "m": "大統領令"
+        },
+        {
+          "w": "reverse",
+          "m": "覆す、撤回する"
+        }
+      ]
+    },
+    {
+      "heading_en": "What Japan should do",
+      "heading_ja": "日本が取るべき道",
+      "paragraphs": [
+        {
+          "en": "For Japan, the outcome has important implications. Trump may now turn his attention to foreign policy and trade, where he can act without the approval of Congress. Pressure on allies to spend more on defense and to accept new tariffs could intensify.",
+          "ja": "日本にとって、この結果は重要な意味を持つ。トランプ氏は今後、議会の承認なしに動ける外交や通商に目を向ける可能性がある。同盟国に防衛費の増額や新たな関税の受け入れを求める圧力が強まるかもしれない。"
+        },
+        {
+          "en": "Japan should therefore deepen its ties not only with the White House but also with members of Congress from both parties. Building a broad network of support in Washington is the best insurance against sudden changes in policy.",
+          "ja": "したがって日本は、ホワイトハウスだけでなく、与野党双方の議員との関係も深めるべきだ。ワシントンに幅広い支持のネットワークを築くことが、急な政策転換に対する最善の備えとなる。"
+        },
+        {
+          "en": "Japan's economy is also closely tied to that of the United States. The government should carefully analyze how changes in American trade policy could affect Japanese companies, and prepare measures to support industries that may be hit hard, such as automobiles.",
+          "ja": "日本経済は米国経済とも密接に結びついている。政府は米国の通商政策の変化が日本企業にどう影響するかを慎重に分析し、自動車など大きな打撃を受けかねない産業を支える策を用意すべきだ。"
+        },
+        {
+          "en": "The United States remains Japan's most important ally. Precisely because American politics is in flux, Japan must think for itself, strengthen cooperation with like-minded countries, and work to keep the international order stable.",
+          "ja": "米国は引き続き日本にとって最も重要な同盟国である。米国政治が流動的だからこそ、日本は自ら考え、価値観を共有する国々との協力を強化し、国際秩序の安定に努めなければならない。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "implication",
+          "m": "影響、含意"
+        },
+        {
+          "w": "turn one's attention to ~",
+          "m": "～に注意を向ける"
+        },
+        {
+          "w": "approval",
+          "m": "承認"
+        },
+        {
+          "w": "tariff",
+          "m": "関税"
+        },
+        {
+          "w": "intensify",
+          "m": "強まる、激化する"
+        },
+        {
+          "w": "ties",
+          "m": "関係、つながり"
+        },
+        {
+          "w": "insurance against ~",
+          "m": "～に対する備え、保険"
+        },
+        {
+          "w": "in flux",
+          "m": "流動的で、変化している"
+        },
+        {
+          "w": "like-minded",
+          "m": "同じ考えを持つ、価値観を共有する"
+        },
+        {
+          "w": "be tied to ~",
+          "m": "～と結びついている"
+        },
+        {
+          "w": "be hit hard",
+          "m": "大きな打撃を受ける"
+        }
+      ]
+    }
+  ]
+}

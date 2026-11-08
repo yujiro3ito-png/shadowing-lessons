@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Israel turns a page, but the hard part lies ahead</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --desk:#e9e6df; --paper:#fbfaf6; --ink:#1d1d1b; --muted:#6b6a65; --rule:#2b2b2b;
+  --band:#8a8a88; --band-ink:#fff; --hl:#fff2b3; --hl-line:#e0b400; --gutter:rgba(0,0,0,.10);
+  --bar:#1f1f1e; --bar-ink:#f4f3ef; --accent:#c8a200;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --desk:#151514; --paper:#22221f; --ink:#e9e7e1; --muted:#a3a19a; --rule:#cfcdc6;
+    --band:#5c5c59; --band-ink:#fff; --hl:#4a4120; --hl-line:#d8b42a; --gutter:rgba(0,0,0,.45);
+    --bar:#0d0d0c; --bar-ink:#f4f3ef;
+  }
+}
+:root[data-theme="dark"]{
+  --desk:#151514; --paper:#22221f; --ink:#e9e7e1; --muted:#a3a19a; --rule:#cfcdc6;
+  --band:#5c5c59; --band-ink:#fff; --hl:#4a4120; --hl-line:#d8b42a; --gutter:rgba(0,0,0,.45);
+  --bar:#0d0d0c; --bar-ink:#f4f3ef;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--desk);color:var(--ink);font-family:"Noto Sans JP",system-ui,sans-serif;padding:24px 16px 120px}
+.spread{max-width:1240px;margin:0 auto 32px;display:grid;grid-template-columns:1fr 1fr;background:var(--paper);
+  box-shadow:0 1px 2px rgba(0,0,0,.08),0 10px 30px rgba(0,0,0,.10);border-radius:4px;position:relative}
+.spread::after{content:"";position:absolute;top:0;bottom:0;left:50%;width:36px;transform:translateX(-50%);
+  background:linear-gradient(90deg,transparent,var(--gutter) 50%,transparent);pointer-events:none}
+.page{padding:44px 52px 56px;position:relative;min-height:640px;display:flex;flex-direction:column}
+.runhead{display:flex;align-items:center;gap:10px;font-size:13px;letter-spacing:.02em;color:var(--ink);margin-bottom:28px}
+.runhead::after{content:"";flex:1;border-top:1px solid var(--rule)}
+.page.ja .runhead{flex-direction:row-reverse}
+.track{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:700;cursor:pointer;border:0;background:none;color:inherit;padding:0}
+.track i{width:18px;height:18px;border-radius:50%;border:1.5px solid currentColor;display:grid;place-items:center;font-style:normal;font-size:9px}
+h1{font-family:"Source Serif 4",Georgia,serif;font-size:30px;line-height:1.15;margin:0 0 6px;font-weight:700}
+h2.sub{font-family:"Source Serif 4",Georgia,serif;font-size:19px;line-height:1.3;margin:0 0 14px;font-weight:700}
+.page.ja h1{font-family:"Noto Serif JP",serif;font-size:24px;line-height:1.45;font-weight:700;margin-bottom:2px}
+.page.ja h2.sub{font-family:"Noto Serif JP",serif;font-size:18px;font-weight:700}
+.source{text-align:right;font-size:12px;color:var(--muted);margin:0 0 22px}
+.source::before{content:"● "}
+h3{font-family:"Source Serif 4",Georgia,serif;font-size:17px;margin:4px 0 8px;font-weight:700}
+.page.ja h3{font-family:"Noto Sans JP",sans-serif;font-size:15px}
+.en p{font-family:"Source Serif 4",Georgia,serif;font-size:18px;line-height:1.72;margin:0;text-indent:1.4em;text-align:justify;hyphens:auto}
+.ja p{font-family:"Noto Serif JP",serif;font-size:15px;line-height:2.0;margin:0;text-indent:1em;text-align:justify}
+.para{cursor:pointer;border-radius:3px;transition:background .2s;padding:1px 4px;margin:0 -4px}
+.para:hover{background:color-mix(in srgb,var(--hl) 45%,transparent)}
+.para.on{background:var(--hl);box-shadow:inset 3px 0 0 var(--hl-line)}
+body.hide-en .en .body{filter:blur(6px);user-select:none}
+body.hide-en .en .para.on{filter:none}
+body.hide-ja .ja .body{filter:blur(5px)}
+.words{margin-top:auto;padding-top:28px}
+.words .band{background:var(--band);color:var(--band-ink);font-weight:700;font-size:14px;padding:5px 14px;border-radius:999px 999px 0 0;width:92%}
+.words ul{list-style:none;margin:0;padding:10px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(165px,1fr));gap:4px 14px;font-size:13px}
+.words li{display:flex;gap:6px;align-items:baseline}
+.words label{display:block;cursor:pointer;padding-left:20px;text-indent:-20px;line-height:1.5}
+.words input{margin:0 6px 0 0;vertical-align:-1px;accent-color:var(--accent)}
+.words b{font-family:"Source Serif 4",Georgia,serif;font-weight:400;font-size:14px;margin-right:6px}
+.words span{color:var(--muted)}
+.folio{position:absolute;bottom:18px;font-size:13px;color:var(--muted)}
+.en .folio{left:52px}.ja .folio{right:52px}
+/* player */
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--bar);color:var(--bar-ink);padding:10px 16px calc(10px + env(safe-area-inset-bottom));z-index:10}
+.bar .in{max-width:1240px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px}
+.bar button,.bar select{font:inherit;font-size:13px;color:inherit;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:6px;padding:6px 10px;cursor:pointer}
+.bar button.on{background:var(--accent);border-color:var(--accent);color:#111}
+.bar .play{width:44px;height:36px;font-size:16px}
+.seek{flex:1;min-width:160px;display:flex;align-items:center;gap:8px;font-size:12px;font-variant-numeric:tabular-nums}
+.seek input{flex:1;accent-color:var(--accent)}
+@media (max-width:860px){
+  .spread{grid-template-columns:1fr}
+  .spread::after{display:none}
+  .page{padding:28px 18px 48px;min-height:0}
+  .page.ja{border-top:1px dashed var(--gutter)}
+  h1{font-size:25px}
+  .en p{font-size:17px}
+  .folio{display:none}
+  body{padding:12px 0 150px}
+  .spread{border-radius:0}
+}
+@media print{
+  body{background:#fff;padding:0}
+  .bar{display:none}
+  .spread{box-shadow:none;break-after:page;margin:0;max-width:none}
+  .para.on{background:none;box-shadow:none}
+  body.hide-en .en .body,body.hide-ja .ja .body{filter:none}
+  @page{size:A4 landscape;margin:10mm}
+}
+</style>
+</head>
+<body>
+<main id="book"></main>
+<audio id="au" preload="auto"></audio>
+<div class="bar"><div class="in">
+  <button class="play" id="play" aria-label="再生">▶</button>
+  <button id="prev" aria-label="前の段落">⏮</button>
+  <button id="next" aria-label="次の段落">⏭</button>
+  <div class="seek"><span id="cur">0:00</span><input type="range" id="pos" min="0" max="1000" value="0"><span id="dur">0:00</span></div>
+  <select id="rate" aria-label="速度">
+    <option value="0.7">0.7×</option><option value="0.8">0.8×</option><option value="0.9">0.9×</option>
+    <option value="1" selected>1.0×</option><option value="1.1">1.1×</option><option value="1.2">1.2×</option>
+  </select>
+  <button id="loop" title="今の段落をくり返す">段落リピート</button>
+  <button id="hideEn" title="英文をぼかす（音だけでシャドーイング）">英文を隠す</button>
+  <button id="hideJa">訳を隠す</button>
+</div></div>
+<script>
+const D = {"meta": {"series_en": "Weekly Focus 1", "series_ja": "今週の焦点 1", "track": "02", "title_en": "Israel turns a page, but the hard part lies ahead", "subtitle_en": "A new government must put stability and peace first", "title_ja": "イスラエル政局　政権交代へ動くも難題山積", "subtitle_ja": "新政権は安定と和平を最優先に", "source_en": "Original text based on reports from AP, AFP, Al Jazeera and NBC News, Nov. 2026", "date_ja": "2026年11月8日作成", "start_page": 14, "voice": "Samantha", "rate": 145, "pause_sec": 1.0, "openai_voice": "cedar"}, "sections": [{"heading_en": "", "heading_ja": "", "paragraphs": [{"en": "Israeli politics has reached a turning point. On November 7, President Isaac Herzog asked Gadi Eisenkot, a former military chief who leads the opposition, to form the next government. The decision is a serious setback for Prime Minister Benjamin Netanyahu, the country's longest-serving leader.", "ja": "イスラエル政治は転換点を迎えた。ヘルツォグ大統領は11月7日、野党を率いる元軍参謀総長のガディ・アイゼンコット氏に次期政権の組閣を要請した。この決定は、同国史上最長の在任期間を誇るネタニヤフ首相にとって深刻な痛手である。"}, {"en": "The general election held on October 27 failed to produce a clear winner. Mr. Netanyahu's right-wing and religious bloc won 53 seats, while Mr. Eisenkot's four-party alliance took 48. Neither came close to the 61 seats needed for a majority in the 120-member Knesset, the Israeli parliament.", "ja": "10月27日に行われた総選挙では、明確な勝者が決まらなかった。ネタニヤフ氏の右派・宗教政党連合は53議席、アイゼンコット氏の4党連合は48議席を獲得した。いずれも、定数120のイスラエル国会クネセトで過半数に必要な61議席には遠く及ばなかった。"}, {"en": "What tipped the balance was the round of consultations at the president's residence. Parties representing 67 lawmakers recommended Mr. Eisenkot, compared with 46 for Mr. Netanyahu. Among those backing the former general were Arab-led parties, which won a record 19 seats on a wave of anger at the government.", "ja": "形勢を決めたのは、大統領公邸で行われた各党との協議だった。議員67人を代表する政党がアイゼンコット氏を推薦し、ネタニヤフ氏への推薦は46人にとどまった。元将軍を支持した中には、政権への怒りの高まりを背景に過去最多の19議席を得たアラブ系政党も含まれていた。"}, {"en": "Mr. Eisenkot now has 28 days to put together a coalition, with a possible extension of two more weeks. If he fails, the president can turn to another candidate. If no one succeeds, Israelis would have to go back to the polls, with Mr. Netanyahu remaining in office as caretaker prime minister in the meantime.", "ja": "アイゼンコット氏には連立政権を組むために28日間が与えられ、さらに2週間の延長も可能だ。失敗すれば、大統領は別の候補者に組閣を託すことができる。誰も成功しなければ再び選挙を行うことになり、その間はネタニヤフ氏が暫定首相として職にとどまる。"}], "vocab": [{"w": "turning point", "m": "転換点"}, {"w": "form a government", "m": "組閣する、政権を樹立する"}, {"w": "setback", "m": "痛手、後退"}, {"w": "bloc", "m": "（政党などの）連合、陣営"}, {"w": "come close to", "m": "～に迫る、近づく"}, {"w": "tip the balance", "m": "形勢を決定づける"}, {"w": "on a wave of", "m": "～の高まりに乗って"}, {"w": "put together", "m": "まとめ上げる、組み立てる"}, {"w": "go back to the polls", "m": "再び選挙を行う"}, {"w": "caretaker", "m": "暫定の、職務代行の"}]}, {"heading_en": "A difficult path to a majority", "heading_ja": "過半数への険しい道", "paragraphs": [{"en": "The arithmetic is daunting. Mr. Eisenkot has said he will not govern together with Arab-led parties. Without them, his most obvious route to 61 seats runs through the two ultra-Orthodox parties, Shas and United Torah Judaism, which have long been loyal partners of Mr. Netanyahu.", "ja": "数の計算は厳しい。アイゼンコット氏は、アラブ系政党とは共に政権を担わないと表明している。そうなると、61議席に届く最も現実的な道は、長くネタニヤフ氏の忠実なパートナーであった超正統派の2政党、シャスと統一トーラー・ユダヤ教を取り込むことになる。"}, {"en": "Courting those parties would come at a price. They have demanded that young ultra-Orthodox men remain exempt from military service, an issue that has angered many Israelis after three years of war. Mr. Eisenkot, who built his campaign on appeals to secular and liberal voters, would find such a deal hard to justify.", "ja": "これらの政党を取り込むには代償が伴う。両党は超正統派の若い男性の兵役免除の継続を求めており、この問題は3年に及ぶ戦争を経て多くの国民の怒りを買っている。世俗派やリベラル層への訴えを軸に選挙戦を展開してきたアイゼンコット氏にとって、そのような取引を正当化するのは難しいだろう。"}, {"en": "Another option is a minority government that survives with the outside support of Arab-led parties. Israeli law allows a government with fewer than 61 seats to take office if it wins a confidence vote in parliament. Ahmad Tibi, a veteran Arab lawmaker, has said he expects exactly that kind of arrangement.", "ja": "もう一つの選択肢は、アラブ系政党の閣外協力によって存続する少数与党政権だ。イスラエルの法律では、61議席に満たない政権でも国会の信任投票で勝てば発足できる。ベテランのアラブ系議員アフマド・ティビ氏は、まさにそうした形を見込んでいると述べている。"}, {"en": "Yet some members of Mr. Eisenkot's own alliance have rejected relying on Arab votes. Only once in Israel's history has an Arab party joined a governing coalition, and that government lasted only about a year. Whatever Mr. Eisenkot decides, he will be walking a political tightrope.", "ja": "しかし、アイゼンコット氏自身の連合の中にも、アラブ系の票に頼ることを拒む勢力がある。イスラエルの歴史上、アラブ系政党が連立政権に加わったのは一度きりで、その政権は約1年しか続かなかった。どのような決断をしても、アイゼンコット氏は政治的な綱渡りを強いられる。"}], "vocab": [{"w": "arithmetic", "m": "（議席などの）数の計算"}, {"w": "daunting", "m": "困難な、ひるませるような"}, {"w": "ultra-Orthodox", "m": "（ユダヤ教）超正統派の"}, {"w": "court", "m": "（支持などを）求める、取り込もうとする"}, {"w": "come at a price", "m": "代償を伴う"}, {"w": "exempt from", "m": "～を免除された"}, {"w": "justify", "m": "正当化する"}, {"w": "minority government", "m": "少数与党政権"}, {"w": "confidence vote", "m": "信任投票"}, {"w": "walk a tightrope", "m": "綱渡りをする、危うい立場にある"}]}, {"heading_en": "Netanyahu fights back", "heading_ja": "ネタニヤフ氏の反撃", "paragraphs": [{"en": "Mr. Netanyahu is not giving up. In a recorded video message, he called for a national unity government and warned that a government depending on what he called terrorist supporters would tear Israel apart from within. He has also claimed, without offering any evidence, that Arab parties stole the election.", "ja": "ネタニヤフ氏はあきらめていない。録画のビデオメッセージで挙国一致内閣を呼びかけ、同氏が「テロ支持者」と呼ぶ勢力に依存する政権はイスラエルを内側から引き裂くと警告した。また、何の証拠も示さずに、アラブ系政党が選挙を盗んだと主張している。"}, {"en": "Such rhetoric is deeply troubling. Arab citizens make up about a fifth of Israel's population, and they voted in a free and lawful election. Questioning the legitimacy of their ballots only deepens divisions in a society that has already been badly shaken by war.", "ja": "こうした言動は極めて憂慮すべきものだ。アラブ系市民はイスラエルの人口の約5分の1を占め、自由で合法的な選挙で投票した。彼らの票の正当性に疑問を投げかけることは、すでに戦争で大きく揺さぶられた社会の分断を深めるだけである。"}, {"en": "The prime minister's personal stakes are high. He is on trial on corruption charges and could face prison if he leaves office. The International Criminal Court has also issued a warrant for his arrest over the conduct of the war in Gaza, an accusation he firmly rejects.", "ja": "首相個人にとっても、懸かっているものは大きい。同氏は汚職の罪で裁判を受けており、退任すれば収監される可能性もある。国際刑事裁判所もガザでの戦争遂行をめぐって同氏に逮捕状を出しているが、本人はこの訴えを強く否定している。"}], "vocab": [{"w": "give up", "m": "あきらめる"}, {"w": "national unity government", "m": "挙国一致内閣"}, {"w": "tear apart", "m": "引き裂く、分裂させる"}, {"w": "rhetoric", "m": "（誇張された）言動、言い回し"}, {"w": "troubling", "m": "憂慮すべき、気がかりな"}, {"w": "make up", "m": "（割合を）占める、構成する"}, {"w": "legitimacy", "m": "正当性"}, {"w": "stakes", "m": "懸かっているもの、利害"}, {"w": "on trial", "m": "裁判にかけられて"}]}, {"heading_en": "What is at stake for the region", "heading_ja": "地域に及ぶ影響", "paragraphs": [{"en": "The stakes extend far beyond Israel's borders. The region remains fragile after years of fighting in Gaza and a dangerous standoff with Iran. Mr. Netanyahu has threatened to resume military action against Iran, while shipping through the Strait of Hormuz has been severely disrupted.", "ja": "影響はイスラエル国内にとどまらない。ガザでの長年の戦闘とイランとの危険な対立を経て、地域は依然として不安定な状態にある。ネタニヤフ氏はイランへの軍事行動の再開をちらつかせており、ホルムズ海峡の船舶航行も深刻な混乱に陥っている。"}, {"en": "For Japan, which depends on the Middle East for most of its crude oil, stability in the region is a matter of national interest. A government in Israel that favors diplomacy over confrontation would help reduce the risk of a wider conflict that could send energy prices soaring.", "ja": "原油の大半を中東に頼る日本にとって、地域の安定は国益に直結する問題だ。対決よりも外交を重んじる政権がイスラエルに誕生すれば、エネルギー価格の高騰を招きかねない紛争拡大のリスクを減らす助けとなるだろう。"}, {"en": "Japan has long maintained good relations with both Israel and the Arab world. Tokyo should make use of that position to support humanitarian aid for the people of Gaza and to encourage all sides to return to serious talks on a lasting settlement.", "ja": "日本は長年、イスラエルとアラブ諸国の双方と良好な関係を保ってきた。政府はその立場を生かし、ガザの人々への人道支援を後押しするとともに、恒久的な解決に向けた真剣な対話に戻るよう、すべての当事者に働きかけるべきである。"}, {"en": "Israel needs a government that can heal its internal divisions, rebuild trust with its neighbors and work toward a lasting peace. Mr. Eisenkot has promised to do everything possible to prove worthy of the task. The coming weeks will show whether he can turn that promise into a stable government.", "ja": "イスラエルに必要なのは、国内の分断を癒やし、近隣諸国との信頼を再構築し、永続的な平和に向けて取り組める政権だ。アイゼンコット氏は、その任にふさわしいことを示すためにあらゆる努力をすると約束した。その約束を安定した政権へと結実させられるかどうかは、今後数週間で明らかになる。"}], "vocab": [{"w": "extend beyond", "m": "～を越えて広がる"}, {"w": "fragile", "m": "不安定な、もろい"}, {"w": "standoff", "m": "にらみ合い、膠着状態"}, {"w": "resume", "m": "再開する"}, {"w": "disrupt", "m": "混乱させる、妨げる"}, {"w": "national interest", "m": "国益"}, {"w": "favor A over B", "m": "BよりAを重視する"}, {"w": "send prices soaring", "m": "価格を急騰させる"}, {"w": "make use of", "m": "～を活用する"}, {"w": "lasting settlement", "m": "恒久的な解決"}, {"w": "prove worthy of", "m": "～にふさわしいことを示す"}]}], "timings": [[0.0, 17.76], [18.76, 38.87], [39.87, 60.03], [61.03, 80.54], [81.54, 98.94], [99.94, 117.46], [118.46, 139.97], [140.97, 158.27], [159.27, 176.07], [177.07, 192.84], [193.84, 210.16], [211.16, 227.02], [228.02, 243.53], [244.53, 258.5], [259.5, 274.76]], "audio": "audio.m4a"};
+const $ = s => document.querySelector(s);
+const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const store = { get(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}} };
+const KEY = 'shadow:' + D.meta.title_en;
+const checked = store.get(KEY) || {};
+const m = D.meta;
+let pi = 0, page = m.start_page || 1, html = '';
+D.sections.forEach((s, si) => {
+  const first = si === 0;
+  const enP = s.paragraphs.map(p => `<p class="para" data-i="${pi++}">${esc(p.en)}</p>`).join('');
+  pi -= s.paragraphs.length;
+  const jaP = s.paragraphs.map(p => `<p class="para" data-i="${pi++}">${esc(p.ja)}</p>`).join('');
+  const vocab = s.vocab.map((v, vi) => { const id = `v${si}-${vi}`;
+    return `<li><label><input type="checkbox" data-k="${id}" ${checked[id]?'checked':''}><b>${esc(v.w)}</b><span>${esc(v.m)}</span></label></li>`; }).join('');
+  html += `<section class="spread">
+    <div class="page en">
+      <div class="runhead">${esc(m.series_en)} <button class="track" data-s="${si}"><i>▶</i>Track ${esc(m.track)}</button></div>
+      ${first ? `<h1>${esc(m.title_en)}</h1><h2 class="sub">${esc(m.subtitle_en)}</h2><p class="source">${esc(m.source_en)}</p>` : ''}
+      ${s.heading_en ? `<h3>${esc(s.heading_en)}</h3>` : ''}
+      <div class="body">${enP}</div>
+      <span class="folio">${page}</span>
+    </div>
+    <div class="page ja">
+      <div class="runhead">${esc(m.series_ja)}</div>
+      ${first ? `<h1>${esc(m.title_ja)}</h1><h2 class="sub">${esc(m.subtitle_ja)}</h2><p class="source">${esc(m.date_ja)}</p>` : ''}
+      ${s.heading_ja ? `<h3>${esc(s.heading_ja)}</h3>` : ''}
+      <div class="body">${jaP}</div>
+      <div class="words"><div class="band">Words and Phrases</div><ul>${vocab}</ul></div>
+      <span class="folio">${page + 1}</span>
+    </div></section>`;
+  page += 2;
+});
+$('#book').innerHTML = html;
+
+const au = $('#au');
+// 音声を丸ごと読み込んでから再生する（Range 非対応のサーバーでもシークできるように）
+fetch(D.audio).then(r => { if (!r.ok) throw 0; return r.blob(); })
+  .then(b => au.src = URL.createObjectURL(b)).catch(() => au.src = D.audio);
+const T = D.timings, fmt = t => `${Math.floor(t/60)}:${String(Math.floor(t%60)).padStart(2,'0')}`;
+let loop = false, cur = -1;
+const idxAt = t => { for (let i = T.length - 1; i >= 0; i--) if (t >= T[i][0] - 0.05) return i; return 0; };
+const seekTo = i => { i = Math.max(0, Math.min(T.length - 1, i)); au.currentTime = T[i][0]; mark(i); au.play(); };
+function mark(i){
+  if (i === cur) return; cur = i;
+  document.querySelectorAll('.para.on').forEach(e => e.classList.remove('on'));
+  document.querySelectorAll(`.para[data-i="${i}"]`).forEach(e => e.classList.add('on'));
+  const el = document.querySelector(`.en .para[data-i="${i}"]`);
+  if (el && !au.paused) { const r = el.getBoundingClientRect(); if (r.top < 60 || r.bottom > innerHeight - 110) el.scrollIntoView({behavior:'smooth', block:'center'}); }
+}
+au.addEventListener('loadedmetadata', () => $('#dur').textContent = fmt(au.duration));
+au.addEventListener('timeupdate', () => {
+  const t = au.currentTime;
+  if (loop && cur >= 0 && t >= T[cur][1] + 0.4) { au.currentTime = T[cur][0]; return; }
+  mark(idxAt(t));
+  $('#cur').textContent = fmt(t);
+  if (au.duration) $('#pos').value = t / au.duration * 1000;
+});
+au.addEventListener('play', () => $('#play').textContent = '❚❚');
+au.addEventListener('pause', () => $('#play').textContent = '▶');
+$('#play').onclick = () => au.paused ? au.play() : au.pause();
+$('#prev').onclick = () => seekTo((cur < 0 ? 0 : cur) - 1);
+$('#next').onclick = () => seekTo(cur + 1);
+$('#pos').oninput = e => { if (au.duration) au.currentTime = e.target.value / 1000 * au.duration; };
+$('#rate').onchange = e => au.playbackRate = +e.target.value;
+const tog = (id, fn) => $(id).onclick = e => { e.currentTarget.classList.toggle('on'); fn(e.currentTarget.classList.contains('on')); };
+tog('#loop', v => loop = v);
+tog('#hideEn', v => document.body.classList.toggle('hide-en', v));
+tog('#hideJa', v => document.body.classList.toggle('hide-ja', v));
+document.addEventListener('click', e => {
+  const p = e.target.closest('.para'); if (p) return seekTo(+p.dataset.i);
+  const t = e.target.closest('.track'); if (t) { const s = +t.dataset.s; let i = 0; for (let k = 0; k < s; k++) i += D.sections[k].paragraphs.length; seekTo(i); }
+});
+document.addEventListener('change', e => { const k = e.target.dataset && e.target.dataset.k; if (k) { checked[k] = e.target.checked; store.set(KEY, checked); } });
+document.addEventListener('keydown', e => { if (e.target.tagName === 'INPUT' && e.target.type !== 'range') return;
+  if (e.code === 'Space') { e.preventDefault(); $('#play').click(); }
+  if (e.code === 'ArrowRight') seekTo(cur + 1); if (e.code === 'ArrowLeft') seekTo(cur - 1); });
+</script>
+</body>
+</html>

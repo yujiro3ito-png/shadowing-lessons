@@ -1,0 +1,6 @@
+# 秘密情報・作業用（GitHub に上げない）
+.env
+.tts_cache/
+.claude/
+.DS_Store
+__pycache__/
