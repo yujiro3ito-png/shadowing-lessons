@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Talks stall, strikes resume, and oil stays on edge</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --desk:#e9e6df; --paper:#fbfaf6; --ink:#1d1d1b; --muted:#6b6a65; --rule:#2b2b2b;
+  --band:#8a8a88; --band-ink:#fff; --hl:#fff2b3; --hl-line:#e0b400; --gutter:rgba(0,0,0,.10);
+  --bar:#1f1f1e; --bar-ink:#f4f3ef; --accent:#c8a200;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --desk:#151514; --paper:#22221f; --ink:#e9e7e1; --muted:#a3a19a; --rule:#cfcdc6;
+    --band:#5c5c59; --band-ink:#fff; --hl:#4a4120; --hl-line:#d8b42a; --gutter:rgba(0,0,0,.45);
+    --bar:#0d0d0c; --bar-ink:#f4f3ef;
+  }
+}
+:root[data-theme="dark"]{
+  --desk:#151514; --paper:#22221f; --ink:#e9e7e1; --muted:#a3a19a; --rule:#cfcdc6;
+  --band:#5c5c59; --band-ink:#fff; --hl:#4a4120; --hl-line:#d8b42a; --gutter:rgba(0,0,0,.45);
+  --bar:#0d0d0c; --bar-ink:#f4f3ef;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--desk);color:var(--ink);font-family:"Noto Sans JP",system-ui,sans-serif;padding:24px 16px 120px}
+.spread{max-width:1240px;margin:0 auto 32px;display:grid;grid-template-columns:1fr 1fr;background:var(--paper);
+  box-shadow:0 1px 2px rgba(0,0,0,.08),0 10px 30px rgba(0,0,0,.10);border-radius:4px;position:relative}
+.spread::after{content:"";position:absolute;top:0;bottom:0;left:50%;width:36px;transform:translateX(-50%);
+  background:linear-gradient(90deg,transparent,var(--gutter) 50%,transparent);pointer-events:none}
+.page{padding:44px 52px 56px;position:relative;min-height:640px;display:flex;flex-direction:column}
+.runhead{display:flex;align-items:center;gap:10px;font-size:13px;letter-spacing:.02em;color:var(--ink);margin-bottom:28px}
+.runhead::after{content:"";flex:1;border-top:1px solid var(--rule)}
+.page.ja .runhead{flex-direction:row-reverse}
+.track{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:700;cursor:pointer;border:0;background:none;color:inherit;padding:0}
+.track i{width:18px;height:18px;border-radius:50%;border:1.5px solid currentColor;display:grid;place-items:center;font-style:normal;font-size:9px}
+h1{font-family:"Source Serif 4",Georgia,serif;font-size:30px;line-height:1.15;margin:0 0 6px;font-weight:700}
+h2.sub{font-family:"Source Serif 4",Georgia,serif;font-size:19px;line-height:1.3;margin:0 0 14px;font-weight:700}
+.page.ja h1{font-family:"Noto Serif JP",serif;font-size:24px;line-height:1.45;font-weight:700;margin-bottom:2px}
+.page.ja h2.sub{font-family:"Noto Serif JP",serif;font-size:18px;font-weight:700}
+.source{text-align:right;font-size:12px;color:var(--muted);margin:0 0 22px}
+.source::before{content:"● "}
+h3{font-family:"Source Serif 4",Georgia,serif;font-size:17px;margin:4px 0 8px;font-weight:700}
+.page.ja h3{font-family:"Noto Sans JP",sans-serif;font-size:15px}
+.en p{font-family:"Source Serif 4",Georgia,serif;font-size:18px;line-height:1.72;margin:0;text-indent:1.4em;text-align:justify;hyphens:auto}
+.ja p{font-family:"Noto Serif JP",serif;font-size:15px;line-height:2.0;margin:0;text-indent:1em;text-align:justify}
+.para{cursor:pointer;border-radius:3px;transition:background .2s;padding:1px 4px;margin:0 -4px}
+.para:hover{background:color-mix(in srgb,var(--hl) 45%,transparent)}
+.para.on{background:var(--hl);box-shadow:inset 3px 0 0 var(--hl-line)}
+body.hide-en .en .body{filter:blur(6px);user-select:none}
+body.hide-en .en .para.on{filter:none}
+body.hide-ja .ja .body{filter:blur(5px)}
+.words{margin-top:auto;padding-top:28px}
+.words .band{background:var(--band);color:var(--band-ink);font-weight:700;font-size:14px;padding:5px 14px;border-radius:999px 999px 0 0;width:92%}
+.words ul{list-style:none;margin:0;padding:10px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(165px,1fr));gap:4px 14px;font-size:13px}
+.words li{display:flex;gap:6px;align-items:baseline}
+.words label{display:block;cursor:pointer;padding-left:20px;text-indent:-20px;line-height:1.5}
+.words input{margin:0 6px 0 0;vertical-align:-1px;accent-color:var(--accent)}
+.words b{font-family:"Source Serif 4",Georgia,serif;font-weight:400;font-size:14px;margin-right:6px}
+.words span{color:var(--muted)}
+.folio{position:absolute;bottom:18px;font-size:13px;color:var(--muted)}
+.en .folio{left:52px}.ja .folio{right:52px}
+/* player */
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--bar);color:var(--bar-ink);padding:10px 16px calc(10px + env(safe-area-inset-bottom));z-index:10}
+.bar .in{max-width:1240px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px}
+.bar button,.bar select{font:inherit;font-size:13px;color:inherit;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:6px;padding:6px 10px;cursor:pointer}
+.bar button.on{background:var(--accent);border-color:var(--accent);color:#111}
+.bar .play{width:44px;height:36px;font-size:16px}
+.seek{flex:1;min-width:160px;display:flex;align-items:center;gap:8px;font-size:12px;font-variant-numeric:tabular-nums}
+.seek input{flex:1;accent-color:var(--accent)}
+@media (max-width:860px){
+  .spread{grid-template-columns:1fr}
+  .spread::after{display:none}
+  .page{padding:28px 18px 48px;min-height:0}
+  .page.ja{border-top:1px dashed var(--gutter)}
+  h1{font-size:25px}
+  .en p{font-size:17px}
+  .folio{display:none}
+  body{padding:12px 0 150px}
+  .spread{border-radius:0}
+}
+@media print{
+  body{background:#fff;padding:0}
+  .bar{display:none}
+  .spread{box-shadow:none;break-after:page;margin:0;max-width:none}
+  .para.on{background:none;box-shadow:none}
+  body.hide-en .en .body,body.hide-ja .ja .body{filter:none}
+  @page{size:A4 landscape;margin:10mm}
+}
+</style>
+</head>
+<body>
+<main id="book"></main>
+<audio id="au" preload="auto"></audio>
+<div class="bar"><div class="in">
+  <button class="play" id="play" aria-label="再生">▶</button>
+  <button id="prev" aria-label="前の段落">⏮</button>
+  <button id="next" aria-label="次の段落">⏭</button>
+  <div class="seek"><span id="cur">0:00</span><input type="range" id="pos" min="0" max="1000" value="0"><span id="dur">0:00</span></div>
+  <select id="rate" aria-label="速度">
+    <option value="0.7">0.7×</option><option value="0.8">0.8×</option><option value="0.9">0.9×</option>
+    <option value="1" selected>1.0×</option><option value="1.1">1.1×</option><option value="1.2">1.2×</option>
+  </select>
+  <button id="loop" title="今の段落をくり返す">段落リピート</button>
+  <button id="hideEn" title="英文をぼかす（音だけでシャドーイング）">英文を隠す</button>
+  <button id="hideJa">訳を隠す</button>
+</div></div>
+<script>
+const D = {"meta": {"series_en": "Weekly Focus 2", "series_ja": "今週の焦点 2", "track": "03", "title_en": "Talks stall, strikes resume, and oil stays on edge", "title_ja": "対イラン協議　合意なき1週間、ホルムズの緊張続く", "subtitle_en": "A phased deal is better than another round of war", "subtitle_ja": "再戦より段階的合意を", "source_en": "Original text based on reports from Business Standard, Jerusalem Post and Northeast Times, Nov. 2026", "date_ja": "2026年11月8日作成", "start_page": 14, "voice": "Samantha", "rate": 145, "pause_sec": 1.0, "engine": "openai", "openai_voice": "cedar"}, "sections": [{"heading_en": "", "heading_ja": "", "paragraphs": [{"en": "The war with Iran is now in its ninth month, and this week offered a familiar mix of hope and menace. Three days of talks mediated by Qatar ended without a deal. Soon after, American forces struck an air defense site on an Iranian island, showing how fragile the pause remains.", "ja": "イランとの戦争は9か月目に入り、今週も希望と脅威が入り混じる見慣れた光景となった。カタールが仲介した3日間の協議は合意なく終わった。その直後、米軍はイランの島にある防空施設を攻撃し、小康状態がいかに脆いかを示した。"}, {"en": "Washington calls the strikes limited. Tehran says otherwise, reporting explosions along its southern coast. Neither side wants to be seen as the first to blink, and each small incident makes it harder for diplomats to build the trust that any agreement needs.", "ja": "米国は攻撃は限定的だと説明する。一方テヘランは、南部沿岸で爆発があったと伝え、見方は異なる。双方とも先に折れたと見られたくなく、小さな衝突の一つ一つが、合意に必要な信頼を外交官が築くことを難しくしている。"}, {"en": "At the center of the dispute lies the Strait of Hormuz, the narrow waterway through which a large share of the world's oil once passed. Before the crisis, about eighty-five ships crossed it every day. Trackers counted only two transits on one day in late October.", "ja": "対立の中心にあるのはホルムズ海峡である。かつて世界の石油の多くがこの狭い水路を通っていた。危機の前には1日に約85隻が通過していたが、追跡会社は10月下旬のある日、わずか2隻しか確認しなかった。"}, {"en": "Iran insists the strait will stay closed until Washington meets seven conditions. These include lifting the American naval blockade of Iranian ports, waiving oil sanctions, and releasing frozen assets. American officials call the demands excessive, while mediators say the gaps are narrowing.", "ja": "イランは、米国が7つの条件を満たすまで海峡を閉じたままにすると主張している。条件には、イランの港に対する米海軍の封鎖の解除、石油制裁の免除、凍結資産の解放などが含まれる。米側は要求が過大だとし、仲介国は溝は狭まっていると言う。"}], "vocab": [{"w": "mediate", "m": "仲介する"}, {"w": "fragile", "m": "脆い、壊れやすい"}, {"w": "blink", "m": "先に折れる、譲歩する"}, {"w": "air defense site", "m": "防空施設"}, {"w": "relatively calm", "m": "比較的平穏な"}, {"w": "waterway", "m": "水路"}, {"w": "transit", "m": "通過"}, {"w": "naval blockade", "m": "海上封鎖"}, {"w": "waive", "m": "免除する、放棄する"}, {"w": "frozen assets", "m": "凍結資産"}, {"w": "excessive", "m": "過大な、行き過ぎた"}, {"w": "narrow the gap", "m": "溝を埋める"}]}, {"heading_en": "Mediators search for a middle path", "heading_ja": "仲介国が探る中間の道", "paragraphs": [{"en": "Qatar has drafted a sequence of steps to be carried out over two or three days. Under that outline, Washington would end the blockade and release some frozen funds, and Iran would invite international nuclear inspectors back. Only then would the strait reopen and broader nuclear talks resume.", "ja": "カタールは、2、3日かけて実施する一連の段階的措置の案をまとめた。それによれば、米国が封鎖を解いて一部の凍結資金を解放し、イランが国際的な核査察官を再び受け入れる。その後に初めて海峡が再開され、より広範な核協議が再開される。"}, {"en": "Pakistan has joined Qatar in promoting a smaller interim bargain. Iran would stop attacking commercial vessels, and the United States would lift its blockade of Iranian ports. Such a deal would not settle the nuclear question, but it could stop the bleeding.", "ja": "パキスタンもカタールと共に、より小規模な暫定合意を推している。イランが商船への攻撃をやめ、米国がイランの港の封鎖を解くという内容だ。このような取引は核問題を解決しないが、事態の悪化に歯止めをかけうる。"}, {"en": "Inside the American government, advisers reportedly disagree. Some favor a deal, arguing that voters have grown tired of the conflict. Others prefer sustained pressure through sanctions and the blockade, and a few would resume major combat. President Donald Trump says he will decide soon but has set no deadline.", "ja": "米政権内では、側近の意見が割れていると伝えられる。有権者が紛争に疲れたとして合意を支持する者もいれば、制裁と封鎖による持続的な圧力を好む者もおり、大規模な戦闘の再開を主張する者も少数いる。トランプ大統領は近く決断すると述べたが、期限は示していない。"}, {"en": "Iran faces its own pressures. Its inflation was reported to be close to ninety percent in September, and American officials say no new oil has been loaded at its export terminals since late August. Tehran has reasons to bargain, yet fears that looking weak would invite further attack.", "ja": "イランも独自の圧力に直面している。9月のインフレ率は90%近くに達したと報じられ、米当局者によれば8月下旬以降、輸出ターミナルでは新たな原油の積み込みが行われていない。テヘランには交渉する理由があるが、弱さを見せれば更なる攻撃を招くと恐れている。"}], "vocab": [{"w": "interim", "m": "暫定的な"}, {"w": "bargain", "m": "取引、交渉する"}, {"w": "inspector", "m": "査察官"}, {"w": "resume", "m": "再開する"}, {"w": "stop the bleeding", "m": "出血を止める、悪化を食い止める"}, {"w": "sustained", "m": "持続的な"}, {"w": "combat", "m": "戦闘"}, {"w": "deadline", "m": "期限"}, {"w": "export terminal", "m": "輸出ターミナル"}, {"w": "invite further attack", "m": "更なる攻撃を招く"}, {"w": "sequence of steps", "m": "一連の段階的措置"}, {"w": "draft", "m": "起草する、案をまとめる"}]}, {"heading_en": "Costs felt far from the battlefield", "heading_ja": "戦場から遠く離れた場所で感じる代償", "paragraphs": [{"en": "The costs are being felt well beyond the Gulf. Oil prices swung sharply this week, falling on hopes of talks and rebounding on news of strikes. Brent crude hovered around one hundred dollars a barrel on Friday, still painful for importing economies.", "ja": "代償は湾岸地域をはるかに越えて感じられている。原油価格は今週、協議への期待で下落し、攻撃の報で反発するなど大きく揺れた。金曜日のブレント原油は1バレル100ドル前後で推移し、輸入国にとって依然として重い負担だ。"}, {"en": "The war has also reshaped American politics. Democrats won control of both chambers of Congress in last Tuesday's midterm elections, and the president himself has acknowledged that the conflict cost his party votes. He nonetheless maintains that the fight was necessary to keep Iran from obtaining a nuclear weapon.", "ja": "戦争は米国政治の構図も変えた。先週火曜日の中間選挙で民主党が上下両院の主導権を握り、大統領自身も、この紛争が与党への票を減らしたと認めている。それでも大統領は、イランの核兵器保有を防ぐために戦いは必要だったと主張している。"}, {"en": "Other powers are watching closely. Iran's security chief traveled to Moscow this week to meet President Vladimir Putin, a sign that Tehran is seeking friends as pressure mounts. A possible summit of the leaders of the United States, China and Russia later this month could add another layer of complexity.", "ja": "他の大国も注視している。イランの安全保障トップは今週モスクワを訪れてプーチン大統領と会談し、圧力が強まる中でテヘランが味方を求めていることを示した。今月下旬に米中ロの首脳会談が開かれる可能性もあり、状況は一段と複雑になりかねない。"}, {"en": "Gulf states, meanwhile, bear the daily risk. The United Arab Emirates alone has faced thousands of Iranian drones and missiles since February, most of which were intercepted. Their governments want the fighting to end, but they also want guarantees that Iran can never again threaten their ports and airports.", "ja": "一方、湾岸諸国は日々の危険を負っている。アラブ首長国連邦だけでも、2月以降に数千機のイランの無人機やミサイルに見舞われ、その大半は迎撃された。各国政府は戦闘の終結を望むが、同時に、イランが二度と自国の港や空港を脅かせないという保証も求めている。"}], "vocab": [{"w": "swing", "m": "揺れ動く"}, {"w": "rebound", "m": "反発する"}, {"w": "hover around", "m": "～前後で推移する"}, {"w": "absorb", "m": "吸収する、受け止める"}, {"w": "midterm elections", "m": "中間選挙"}, {"w": "chamber", "m": "議院"}, {"w": "acknowledge", "m": "認める"}, {"w": "maintain", "m": "主張する"}, {"w": "pressure mounts", "m": "圧力が高まる"}, {"w": "summit", "m": "首脳会談"}, {"w": "intercept", "m": "迎撃する"}, {"w": "guarantee", "m": "保証"}]}, {"heading_en": "Why Japan has a stake", "heading_ja": "日本にとっての利害", "paragraphs": [{"en": "Japan has more at stake than most countries. It imports almost all of its crude oil, and a large portion has traditionally come from the Middle East through the Strait of Hormuz. Every week of disruption shows up in electricity bills, factory costs and household budgets across the nation.", "ja": "日本は多くの国にもまして利害が大きい。原油のほぼ全量を輸入しており、その多くは伝統的に中東からホルムズ海峡を通って運ばれてきた。混乱が1週間続くごとに、電気料金や工場のコスト、全国の家計に影響が表れる。"}, {"en": "Tokyo should therefore use its good relations with both Washington and Tehran. It cannot send warships to settle the dispute, but it can support mediation, back a phased agreement, and coordinate with allies on emergency oil reserves. Quiet diplomacy has long been one of Japan's most valuable assets.", "ja": "したがって日本は、ワシントンとテヘランの双方との良好な関係を活用すべきだ。紛争解決のために軍艦を送ることはできないが、仲介を支援し、段階的な合意を後押しし、緊急の石油備蓄で同盟国と連携することはできる。静かな外交は、日本の最も貴重な資産の一つである。"}, {"en": "A lasting solution will require compromise from both sides. Washington must accept that sanctions alone have not produced surrender, and Tehran must accept that closing a global waterway cannot be a permanent bargaining chip. The sooner leaders choose a phased deal over another round of strikes, the better for everyone.", "ja": "持続的な解決には双方の妥協が必要だ。米国は、制裁だけでは屈服を引き出せなかったと認めねばならず、イランは、世界の水路の封鎖を恒久的な交渉材料にはできないと認めねばならない。指導者が新たな攻撃よりも段階的な合意を選ぶのが早いほど、すべての人にとって望ましい。"}], "vocab": [{"w": "have a stake", "m": "利害関係がある"}, {"w": "crude oil", "m": "原油"}, {"w": "disruption", "m": "混乱、途絶"}, {"w": "household budget", "m": "家計"}, {"w": "settle a dispute", "m": "紛争を解決する"}, {"w": "phased agreement", "m": "段階的な合意"}, {"w": "emergency reserves", "m": "緊急備蓄"}, {"w": "coordinate with", "m": "～と調整・連携する"}, {"w": "asset", "m": "資産"}, {"w": "lasting solution", "m": "持続的な解決策"}, {"w": "compromise", "m": "妥協"}, {"w": "bargaining chip", "m": "交渉材料"}]}], "timings": [[0.0, 16.56], [17.56, 33.62], [34.62, 50.07], [51.07, 68.47], [69.47, 86.27], [87.27, 102.32], [103.32, 122.64], [123.64, 142.46], [143.46, 159.37], [160.37, 178.82], [179.82, 197.03], [198.03, 215.48], [216.48, 233.14], [234.14, 252.4], [253.4, 270.92]], "audio": "audio.m4a"};
+const $ = s => document.querySelector(s);
+const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const store = { get(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}} };
+const KEY = 'shadow:' + D.meta.title_en;
+const checked = store.get(KEY) || {};
+const m = D.meta;
+let pi = 0, page = m.start_page || 1, html = '';
+D.sections.forEach((s, si) => {
+  const first = si === 0;
+  const enP = s.paragraphs.map(p => `<p class="para" data-i="${pi++}">${esc(p.en)}</p>`).join('');
+  pi -= s.paragraphs.length;
+  const jaP = s.paragraphs.map(p => `<p class="para" data-i="${pi++}">${esc(p.ja)}</p>`).join('');
+  const vocab = s.vocab.map((v, vi) => { const id = `v${si}-${vi}`;
+    return `<li><label><input type="checkbox" data-k="${id}" ${checked[id]?'checked':''}><b>${esc(v.w)}</b><span>${esc(v.m)}</span></label></li>`; }).join('');
+  html += `<section class="spread">
+    <div class="page en">
+      <div class="runhead">${esc(m.series_en)} <button class="track" data-s="${si}"><i>▶</i>Track ${esc(m.track)}</button></div>
+      ${first ? `<h1>${esc(m.title_en)}</h1><h2 class="sub">${esc(m.subtitle_en)}</h2><p class="source">${esc(m.source_en)}</p>` : ''}
+      ${s.heading_en ? `<h3>${esc(s.heading_en)}</h3>` : ''}
+      <div class="body">${enP}</div>
+      <span class="folio">${page}</span>
+    </div>
+    <div class="page ja">
+      <div class="runhead">${esc(m.series_ja)}</div>
+      ${first ? `<h1>${esc(m.title_ja)}</h1><h2 class="sub">${esc(m.subtitle_ja)}</h2><p class="source">${esc(m.date_ja)}</p>` : ''}
+      ${s.heading_ja ? `<h3>${esc(s.heading_ja)}</h3>` : ''}
+      <div class="body">${jaP}</div>
+      <div class="words"><div class="band">Words and Phrases</div><ul>${vocab}</ul></div>
+      <span class="folio">${page + 1}</span>
+    </div></section>`;
+  page += 2;
+});
+$('#book').innerHTML = html;
+
+const au = $('#au');
+// 音声を丸ごと読み込んでから再生する（Range 非対応のサーバーでもシークできるように）
+fetch(D.audio).then(r => { if (!r.ok) throw 0; return r.blob(); })
+  .then(b => au.src = URL.createObjectURL(b)).catch(() => au.src = D.audio);
+const T = D.timings, fmt = t => `${Math.floor(t/60)}:${String(Math.floor(t%60)).padStart(2,'0')}`;
+let loop = false, cur = -1;
+const idxAt = t => { for (let i = T.length - 1; i >= 0; i--) if (t >= T[i][0] - 0.05) return i; return 0; };
+const seekTo = i => { i = Math.max(0, Math.min(T.length - 1, i)); au.currentTime = T[i][0]; mark(i); au.play(); };
+function mark(i){
+  if (i === cur) return; cur = i;
+  document.querySelectorAll('.para.on').forEach(e => e.classList.remove('on'));
+  document.querySelectorAll(`.para[data-i="${i}"]`).forEach(e => e.classList.add('on'));
+  const el = document.querySelector(`.en .para[data-i="${i}"]`);
+  if (el && !au.paused) { const r = el.getBoundingClientRect(); if (r.top < 60 || r.bottom > innerHeight - 110) el.scrollIntoView({behavior:'smooth', block:'center'}); }
+}
+au.addEventListener('loadedmetadata', () => $('#dur').textContent = fmt(au.duration));
+au.addEventListener('timeupdate', () => {
+  const t = au.currentTime;
+  if (loop && cur >= 0 && t >= T[cur][1] + 0.4) { au.currentTime = T[cur][0]; return; }
+  mark(idxAt(t));
+  $('#cur').textContent = fmt(t);
+  if (au.duration) $('#pos').value = t / au.duration * 1000;
+});
+au.addEventListener('play', () => $('#play').textContent = '❚❚');
+au.addEventListener('pause', () => $('#play').textContent = '▶');
+$('#play').onclick = () => au.paused ? au.play() : au.pause();
+$('#prev').onclick = () => seekTo((cur < 0 ? 0 : cur) - 1);
+$('#next').onclick = () => seekTo(cur + 1);
+$('#pos').oninput = e => { if (au.duration) au.currentTime = e.target.value / 1000 * au.duration; };
+$('#rate').onchange = e => au.playbackRate = +e.target.value;
+const tog = (id, fn) => $(id).onclick = e => { e.currentTarget.classList.toggle('on'); fn(e.currentTarget.classList.contains('on')); };
+tog('#loop', v => loop = v);
+tog('#hideEn', v => document.body.classList.toggle('hide-en', v));
+tog('#hideJa', v => document.body.classList.toggle('hide-ja', v));
+document.addEventListener('click', e => {
+  const p = e.target.closest('.para'); if (p) return seekTo(+p.dataset.i);
+  const t = e.target.closest('.track'); if (t) { const s = +t.dataset.s; let i = 0; for (let k = 0; k < s; k++) i += D.sections[k].paragraphs.length; seekTo(i); }
+});
+document.addEventListener('change', e => { const k = e.target.dataset && e.target.dataset.k; if (k) { checked[k] = e.target.checked; store.set(KEY, checked); } });
+document.addEventListener('keydown', e => { if (e.target.tagName === 'INPUT' && e.target.type !== 'range') return;
+  if (e.code === 'Space') { e.preventDefault(); $('#play').click(); }
+  if (e.code === 'ArrowRight') seekTo(cur + 1); if (e.code === 'ArrowLeft') seekTo(cur - 1); });
+</script>
+</body>
+</html>

@@ -1,0 +1,305 @@
+{
+ "meta": {
+  "series_en": "Weekly Focus 2",
+  "series_ja": "今週の焦点 2",
+  "track": "03",
+  "title_en": "Talks stall, strikes resume, and oil stays on edge",
+  "title_ja": "対イラン協議　合意なき1週間、ホルムズの緊張続く",
+  "subtitle_en": "A phased deal is better than another round of war",
+  "subtitle_ja": "再戦より段階的合意を",
+  "source_en": "Original text based on reports from Business Standard, Jerusalem Post and Northeast Times, Nov. 2026",
+  "date_ja": "2026年11月8日作成",
+  "start_page": 14,
+  "voice": "Samantha",
+  "rate": 145,
+  "pause_sec": 1.0,
+  "engine": "openai",
+  "openai_voice": "cedar"
+ },
+ "sections": [
+  {
+   "heading_en": "",
+   "heading_ja": "",
+   "paragraphs": [
+    {
+     "en": "The war with Iran is now in its ninth month, and this week offered a familiar mix of hope and menace. Three days of talks mediated by Qatar ended without a deal. Soon after, American forces struck an air defense site on an Iranian island, showing how fragile the pause remains.",
+     "ja": "イランとの戦争は9か月目に入り、今週も希望と脅威が入り混じる見慣れた光景となった。カタールが仲介した3日間の協議は合意なく終わった。その直後、米軍はイランの島にある防空施設を攻撃し、小康状態がいかに脆いかを示した。"
+    },
+    {
+     "en": "Washington calls the strikes limited. Tehran says otherwise, reporting explosions along its southern coast. Neither side wants to be seen as the first to blink, and each small incident makes it harder for diplomats to build the trust that any agreement needs.",
+     "ja": "米国は攻撃は限定的だと説明する。一方テヘランは、南部沿岸で爆発があったと伝え、見方は異なる。双方とも先に折れたと見られたくなく、小さな衝突の一つ一つが、合意に必要な信頼を外交官が築くことを難しくしている。"
+    },
+    {
+     "en": "At the center of the dispute lies the Strait of Hormuz, the narrow waterway through which a large share of the world's oil once passed. Before the crisis, about eighty-five ships crossed it every day. Trackers counted only two transits on one day in late October.",
+     "ja": "対立の中心にあるのはホルムズ海峡である。かつて世界の石油の多くがこの狭い水路を通っていた。危機の前には1日に約85隻が通過していたが、追跡会社は10月下旬のある日、わずか2隻しか確認しなかった。"
+    },
+    {
+     "en": "Iran insists the strait will stay closed until Washington meets seven conditions. These include lifting the American naval blockade of Iranian ports, waiving oil sanctions, and releasing frozen assets. American officials call the demands excessive, while mediators say the gaps are narrowing.",
+     "ja": "イランは、米国が7つの条件を満たすまで海峡を閉じたままにすると主張している。条件には、イランの港に対する米海軍の封鎖の解除、石油制裁の免除、凍結資産の解放などが含まれる。米側は要求が過大だとし、仲介国は溝は狭まっていると言う。"
+    }
+   ],
+   "vocab": [
+    {
+     "w": "mediate",
+     "m": "仲介する"
+    },
+    {
+     "w": "fragile",
+     "m": "脆い、壊れやすい"
+    },
+    {
+     "w": "blink",
+     "m": "先に折れる、譲歩する"
+    },
+    {
+     "w": "air defense site",
+     "m": "防空施設"
+    },
+    {
+     "w": "relatively calm",
+     "m": "比較的平穏な"
+    },
+    {
+     "w": "waterway",
+     "m": "水路"
+    },
+    {
+     "w": "transit",
+     "m": "通過"
+    },
+    {
+     "w": "naval blockade",
+     "m": "海上封鎖"
+    },
+    {
+     "w": "waive",
+     "m": "免除する、放棄する"
+    },
+    {
+     "w": "frozen assets",
+     "m": "凍結資産"
+    },
+    {
+     "w": "excessive",
+     "m": "過大な、行き過ぎた"
+    },
+    {
+     "w": "narrow the gap",
+     "m": "溝を埋める"
+    }
+   ]
+  },
+  {
+   "heading_en": "Mediators search for a middle path",
+   "heading_ja": "仲介国が探る中間の道",
+   "paragraphs": [
+    {
+     "en": "Qatar has drafted a sequence of steps to be carried out over two or three days. Under that outline, Washington would end the blockade and release some frozen funds, and Iran would invite international nuclear inspectors back. Only then would the strait reopen and broader nuclear talks resume.",
+     "ja": "カタールは、2、3日かけて実施する一連の段階的措置の案をまとめた。それによれば、米国が封鎖を解いて一部の凍結資金を解放し、イランが国際的な核査察官を再び受け入れる。その後に初めて海峡が再開され、より広範な核協議が再開される。"
+    },
+    {
+     "en": "Pakistan has joined Qatar in promoting a smaller interim bargain. Iran would stop attacking commercial vessels, and the United States would lift its blockade of Iranian ports. Such a deal would not settle the nuclear question, but it could stop the bleeding.",
+     "ja": "パキスタンもカタールと共に、より小規模な暫定合意を推している。イランが商船への攻撃をやめ、米国がイランの港の封鎖を解くという内容だ。このような取引は核問題を解決しないが、事態の悪化に歯止めをかけうる。"
+    },
+    {
+     "en": "Inside the American government, advisers reportedly disagree. Some favor a deal, arguing that voters have grown tired of the conflict. Others prefer sustained pressure through sanctions and the blockade, and a few would resume major combat. President Donald Trump says he will decide soon but has set no deadline.",
+     "ja": "米政権内では、側近の意見が割れていると伝えられる。有権者が紛争に疲れたとして合意を支持する者もいれば、制裁と封鎖による持続的な圧力を好む者もおり、大規模な戦闘の再開を主張する者も少数いる。トランプ大統領は近く決断すると述べたが、期限は示していない。"
+    },
+    {
+     "en": "Iran faces its own pressures. Its inflation was reported to be close to ninety percent in September, and American officials say no new oil has been loaded at its export terminals since late August. Tehran has reasons to bargain, yet fears that looking weak would invite further attack.",
+     "ja": "イランも独自の圧力に直面している。9月のインフレ率は90%近くに達したと報じられ、米当局者によれば8月下旬以降、輸出ターミナルでは新たな原油の積み込みが行われていない。テヘランには交渉する理由があるが、弱さを見せれば更なる攻撃を招くと恐れている。"
+    }
+   ],
+   "vocab": [
+    {
+     "w": "interim",
+     "m": "暫定的な"
+    },
+    {
+     "w": "bargain",
+     "m": "取引、交渉する"
+    },
+    {
+     "w": "inspector",
+     "m": "査察官"
+    },
+    {
+     "w": "resume",
+     "m": "再開する"
+    },
+    {
+     "w": "stop the bleeding",
+     "m": "出血を止める、悪化を食い止める"
+    },
+    {
+     "w": "sustained",
+     "m": "持続的な"
+    },
+    {
+     "w": "combat",
+     "m": "戦闘"
+    },
+    {
+     "w": "deadline",
+     "m": "期限"
+    },
+    {
+     "w": "export terminal",
+     "m": "輸出ターミナル"
+    },
+    {
+     "w": "invite further attack",
+     "m": "更なる攻撃を招く"
+    },
+    {
+     "w": "sequence of steps",
+     "m": "一連の段階的措置"
+    },
+    {
+     "w": "draft",
+     "m": "起草する、案をまとめる"
+    }
+   ]
+  },
+  {
+   "heading_en": "Costs felt far from the battlefield",
+   "heading_ja": "戦場から遠く離れた場所で感じる代償",
+   "paragraphs": [
+    {
+     "en": "The costs are being felt well beyond the Gulf. Oil prices swung sharply this week, falling on hopes of talks and rebounding on news of strikes. Brent crude hovered around one hundred dollars a barrel on Friday, still painful for importing economies.",
+     "ja": "代償は湾岸地域をはるかに越えて感じられている。原油価格は今週、協議への期待で下落し、攻撃の報で反発するなど大きく揺れた。金曜日のブレント原油は1バレル100ドル前後で推移し、輸入国にとって依然として重い負担だ。"
+    },
+    {
+     "en": "The war has also reshaped American politics. Democrats won control of both chambers of Congress in last Tuesday's midterm elections, and the president himself has acknowledged that the conflict cost his party votes. He nonetheless maintains that the fight was necessary to keep Iran from obtaining a nuclear weapon.",
+     "ja": "戦争は米国政治の構図も変えた。先週火曜日の中間選挙で民主党が上下両院の主導権を握り、大統領自身も、この紛争が与党への票を減らしたと認めている。それでも大統領は、イランの核兵器保有を防ぐために戦いは必要だったと主張している。"
+    },
+    {
+     "en": "Other powers are watching closely. Iran's security chief traveled to Moscow this week to meet President Vladimir Putin, a sign that Tehran is seeking friends as pressure mounts. A possible summit of the leaders of the United States, China and Russia later this month could add another layer of complexity.",
+     "ja": "他の大国も注視している。イランの安全保障トップは今週モスクワを訪れてプーチン大統領と会談し、圧力が強まる中でテヘランが味方を求めていることを示した。今月下旬に米中ロの首脳会談が開かれる可能性もあり、状況は一段と複雑になりかねない。"
+    },
+    {
+     "en": "Gulf states, meanwhile, bear the daily risk. The United Arab Emirates alone has faced thousands of Iranian drones and missiles since February, most of which were intercepted. Their governments want the fighting to end, but they also want guarantees that Iran can never again threaten their ports and airports.",
+     "ja": "一方、湾岸諸国は日々の危険を負っている。アラブ首長国連邦だけでも、2月以降に数千機のイランの無人機やミサイルに見舞われ、その大半は迎撃された。各国政府は戦闘の終結を望むが、同時に、イランが二度と自国の港や空港を脅かせないという保証も求めている。"
+    }
+   ],
+   "vocab": [
+    {
+     "w": "swing",
+     "m": "揺れ動く"
+    },
+    {
+     "w": "rebound",
+     "m": "反発する"
+    },
+    {
+     "w": "hover around",
+     "m": "～前後で推移する"
+    },
+    {
+     "w": "absorb",
+     "m": "吸収する、受け止める"
+    },
+    {
+     "w": "midterm elections",
+     "m": "中間選挙"
+    },
+    {
+     "w": "chamber",
+     "m": "議院"
+    },
+    {
+     "w": "acknowledge",
+     "m": "認める"
+    },
+    {
+     "w": "maintain",
+     "m": "主張する"
+    },
+    {
+     "w": "pressure mounts",
+     "m": "圧力が高まる"
+    },
+    {
+     "w": "summit",
+     "m": "首脳会談"
+    },
+    {
+     "w": "intercept",
+     "m": "迎撃する"
+    },
+    {
+     "w": "guarantee",
+     "m": "保証"
+    }
+   ]
+  },
+  {
+   "heading_en": "Why Japan has a stake",
+   "heading_ja": "日本にとっての利害",
+   "paragraphs": [
+    {
+     "en": "Japan has more at stake than most countries. It imports almost all of its crude oil, and a large portion has traditionally come from the Middle East through the Strait of Hormuz. Every week of disruption shows up in electricity bills, factory costs and household budgets across the nation.",
+     "ja": "日本は多くの国にもまして利害が大きい。原油のほぼ全量を輸入しており、その多くは伝統的に中東からホルムズ海峡を通って運ばれてきた。混乱が1週間続くごとに、電気料金や工場のコスト、全国の家計に影響が表れる。"
+    },
+    {
+     "en": "Tokyo should therefore use its good relations with both Washington and Tehran. It cannot send warships to settle the dispute, but it can support mediation, back a phased agreement, and coordinate with allies on emergency oil reserves. Quiet diplomacy has long been one of Japan's most valuable assets.",
+     "ja": "したがって日本は、ワシントンとテヘランの双方との良好な関係を活用すべきだ。紛争解決のために軍艦を送ることはできないが、仲介を支援し、段階的な合意を後押しし、緊急の石油備蓄で同盟国と連携することはできる。静かな外交は、日本の最も貴重な資産の一つである。"
+    },
+    {
+     "en": "A lasting solution will require compromise from both sides. Washington must accept that sanctions alone have not produced surrender, and Tehran must accept that closing a global waterway cannot be a permanent bargaining chip. The sooner leaders choose a phased deal over another round of strikes, the better for everyone.",
+     "ja": "持続的な解決には双方の妥協が必要だ。米国は、制裁だけでは屈服を引き出せなかったと認めねばならず、イランは、世界の水路の封鎖を恒久的な交渉材料にはできないと認めねばならない。指導者が新たな攻撃よりも段階的な合意を選ぶのが早いほど、すべての人にとって望ましい。"
+    }
+   ],
+   "vocab": [
+    {
+     "w": "have a stake",
+     "m": "利害関係がある"
+    },
+    {
+     "w": "crude oil",
+     "m": "原油"
+    },
+    {
+     "w": "disruption",
+     "m": "混乱、途絶"
+    },
+    {
+     "w": "household budget",
+     "m": "家計"
+    },
+    {
+     "w": "settle a dispute",
+     "m": "紛争を解決する"
+    },
+    {
+     "w": "phased agreement",
+     "m": "段階的な合意"
+    },
+    {
+     "w": "emergency reserves",
+     "m": "緊急備蓄"
+    },
+    {
+     "w": "coordinate with",
+     "m": "～と調整・連携する"
+    },
+    {
+     "w": "asset",
+     "m": "資産"
+    },
+    {
+     "w": "lasting solution",
+     "m": "持続的な解決策"
+    },
+    {
+     "w": "compromise",
+     "m": "妥協"
+    },
+    {
+     "w": "bargaining chip",
+     "m": "交渉材料"
+    }
+   ]
+  }
+ ]
+}
