@@ -1,0 +1,305 @@
+{
+  "meta": {
+    "series_en": "Politics & Diplomacy 1",
+    "series_ja": "政治・外交 1",
+    "track": "04",
+    "title_en": "Peace talks resume, but Kyiv must not be left outside the room",
+    "subtitle_en": "Abu Dhabi talks will test whether diplomacy can match the pace of war",
+    "title_ja": "和平協議再開　ウクライナ抜きの決着は許されない",
+    "subtitle_ja": "アブダビ協議は外交が戦争に追いつけるかの試金石",
+    "source_en": "Original text based on reports from CNBC, AP and NBC News, Nov. 2026",
+    "date_ja": "2026年11月9日作成",
+    "start_page": 14,
+    "voice": "Samantha",
+    "rate": 145,
+    "pause_sec": 1.0,
+    "engine": "openai",
+    "openai_voice": "cedar"
+  },
+  "sections": [
+    {
+      "heading_en": "",
+      "heading_ja": "",
+      "paragraphs": [
+        {
+          "en": "Negotiators from Russia, Ukraine and the United States are due to meet in Abu Dhabi on Tuesday and Wednesday. It will be another round of talks in a war that has lasted far longer than anyone predicted. Expectations are low, and that alone shows how heavy the burden of diplomacy has become.",
+          "ja": "ロシア、ウクライナ、米国の交渉団が、火曜と水曜にアブダビで協議する予定だ。誰の予想よりもはるかに長く続く戦争をめぐる、新たな一回の協議である。期待は低く、そのこと自体が外交の負担の重さを物語っている。"
+        },
+        {
+          "en": "Moscow has confirmed that Vladimir Medinsky, an aide to President Vladimir Putin, will lead its delegation. Washington will act as mediator, and the envoy Steve Witkoff says the agenda covers security arrangements, de-escalation and humanitarian issues. Notably, no one has promised a ceasefire.",
+          "ja": "モスクワは、プーチン大統領の側近ウラジーミル・メジンスキー氏が代表団を率いると確認した。米国は仲介役を務め、特使のスティーブ・ウィトコフ氏は、議題は安全保障の取り決め、緊張緩和、人道問題だと述べている。注目すべきは、停戦を約束した者が誰もいないことだ。"
+        },
+        {
+          "en": "The violence has not paused for diplomacy. Last Monday, Russian guided bombs struck a former school and a nearby shelter in the village of Komyshuvakha as residents waited for aid. President Volodymyr Zelenskyy said forty three people were confirmed dead, and rescuers were still searching for more than thirty others.",
+          "ja": "外交を待たずに暴力は続いている。先週月曜日、コミシュバハ村で、住民が支援物資を待つ中、ロシア軍の誘導爆弾が元学校と近くの避難所を直撃した。ゼレンスキー大統領は、43人の死亡が確認され、救助隊が30人以上の行方を捜していると述べた。"
+        },
+        {
+          "en": "Ukraine said it shot down or jammed one hundred five of one hundred twenty eight Russian attack drones in a single night, while Russia claimed to have downed nearly five hundred Ukrainian drones. Each side hopes pressure will strengthen its bargaining position, yet civilians keep paying the price.",
+          "ja": "ウクライナは一晩でロシアの攻撃ドローン128機のうち105機を撃墜または無力化したと発表し、ロシアはウクライナのドローン500機近くを撃墜したと主張した。双方とも圧力が交渉力を高めると期待するが、代償を払い続けるのは民間人である。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "be due to",
+          "m": "〜する予定である"
+        },
+        {
+          "w": "burden",
+          "m": "負担、重荷"
+        },
+        {
+          "w": "delegation",
+          "m": "代表団"
+        },
+        {
+          "w": "mediator",
+          "m": "仲介者"
+        },
+        {
+          "w": "envoy",
+          "m": "特使"
+        },
+        {
+          "w": "de-escalation",
+          "m": "緊張緩和"
+        },
+        {
+          "w": "ceasefire",
+          "m": "停戦"
+        },
+        {
+          "w": "guided bomb",
+          "m": "誘導爆弾"
+        },
+        {
+          "w": "shelter",
+          "m": "避難所"
+        },
+        {
+          "w": "rescuer",
+          "m": "救助隊員"
+        },
+        {
+          "w": "jam",
+          "m": "妨害する、無力化する"
+        },
+        {
+          "w": "bargaining position",
+          "m": "交渉上の立場"
+        }
+      ]
+    },
+    {
+      "heading_en": "Talks beside the battlefield",
+      "heading_ja": "戦場の傍らでの協議",
+      "paragraphs": [
+        {
+          "en": "Last week, officials from the United States, Britain, France, Germany and the European Union gathered at NATO headquarters in Brussels to discuss security guarantees and reconstruction. Jared Kushner called the two days productive and substantive. Such planning matters, because a peace without guarantees would only be a pause before the next attack.",
+          "ja": "先週、米国、英国、フランス、ドイツ、欧州連合の当局者がブリュッセルのNATO本部に集まり、安全の保証と復興について協議した。ジャレッド・クシュナー氏は、二日間の会合を生産的で中身があったと評した。保証なき平和は次の攻撃までの小休止にすぎないため、こうした計画づくりは重要である。"
+        },
+        {
+          "en": "Money is part of the picture. The European Commission has sent Ukraine four point four billion euros from a loan of ninety billion euros agreed in April. Ukrainian negotiators say the World Bank and the investment firm BlackRock took part in the Brussels talks.",
+          "ja": "資金も重要な要素だ。欧州委員会は、4月に合意された900億ユーロの融資のうち44億ユーロをウクライナに送った。ウクライナの交渉担当者によれば、ブリュッセルの協議には世界銀行と投資会社ブラックロックも参加しており。"
+        },
+        {
+          "en": "The White House has also taken an unexpected role. First Lady Melania Trump has been credited with brokering a six day ceasefire around the town of Oleshky so that residents could be evacuated. It ended on Monday, and Ukraine accused Russia of using the pause to reinforce its positions.",
+          "ja": "ホワイトハウスも意外な役割を担っている。メラニア・トランプ大統領夫人は、住民を避難させるためオレシキ周辺での6日間の停戦を仲介したと評価されている。停戦は月曜日に終わり、ウクライナは、ロシアがその間に陣地を強化したと非難した。"
+        },
+        {
+          "en": "Small local pauses can save lives, but they can also become tools of tactical advantage if nobody verifies them. A lasting arrangement needs monitors, clear maps and consequences for violations. Without these, every humanitarian gesture will be met with suspicion from the other side.",
+          "ja": "局地的な小さな停戦は人命を救い得るが、誰も検証しなければ、戦術的優位を得る道具にもなりかねない。持続的な取り決めには、監視要員、明確な地図、違反への対応措置が必要だ。それがなければ、人道的な措置はすべて相手側の疑念を招くことになる。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "security guarantee",
+          "m": "安全の保証"
+        },
+        {
+          "w": "reconstruction",
+          "m": "復興、再建"
+        },
+        {
+          "w": "productive",
+          "m": "生産的な"
+        },
+        {
+          "w": "substantive",
+          "m": "中身のある、実質的な"
+        },
+        {
+          "w": "broker",
+          "m": "仲介する"
+        },
+        {
+          "w": "evacuate",
+          "m": "避難させる"
+        },
+        {
+          "w": "reinforce",
+          "m": "強化する"
+        },
+        {
+          "w": "tactical",
+          "m": "戦術的な"
+        },
+        {
+          "w": "verify",
+          "m": "検証する"
+        },
+        {
+          "w": "monitor",
+          "m": "監視要員"
+        },
+        {
+          "w": "violation",
+          "m": "違反"
+        },
+        {
+          "w": "humanitarian gesture",
+          "m": "人道的措置"
+        }
+      ]
+    },
+    {
+      "heading_en": "Kyiv's seat at the table",
+      "heading_ja": "協議の席にウクライナを",
+      "paragraphs": [
+        {
+          "en": "Mr. Zelenskyy has repeated that nothing about Ukraine can be decided without Ukraine. The phrase is simple, yet it has become the test of every proposal. Moscow, meanwhile, says it hopes to finalize a three way summit of the leaders of Russia, the United States and China within days.",
+          "ja": "ゼレンスキー氏は、ウクライナ抜きでウクライナについて何も決められないと繰り返してきた。単純な言葉だが、あらゆる提案への試金石となっている。一方モスクワは、ロシア、米国、中国の首脳による三者会談の日程を数日中に固めたいとしている。"
+        },
+        {
+          "en": "Such a meeting would be dramatic, but it raises an uncomfortable question. Would Ukraine's fate be discussed by great powers while Kyiv waits outside the room? History offers painful examples of small nations whose borders were redrawn without their consent, and Europe has not forgotten them.",
+          "ja": "そのような会談は劇的だが、居心地の悪い疑問を生む。大国がウクライナの運命を論じる間、キーウは部屋の外で待たされるのだろうか。歴史には、同意なく国境線を引き直された小国の痛ましい例があり、欧州はそれを忘れていない。"
+        },
+        {
+          "en": "Relations between Washington and Kyiv have also grown tense. A series of decisions in October left many Ukrainians wondering whether the United States remains a dependable partner. Mr. Zelenskyy has voiced hope that the Democratic gains in the midterm elections might bring renewed American support.",
+          "ja": "ワシントンとキーウの関係も緊張を増している。10月の一連の決定は、米国が今も頼れるパートナーなのかと多くのウクライナ人に疑問を抱かせた。ゼレンスキー氏は、中間選挙での民主党の躍進が米国の支援再開につながることへの期待を口にしている。"
+        },
+        {
+          "en": "Officials in Estonia offer a sober reply. The election result may change the mood in Washington, they say, but President Donald Trump still sets policy. Congress can influence funding and rhetoric, yet the daily direction of diplomacy remains in the hands of the White House.",
+          "ja": "エストニアの当局者は冷静に応じている。選挙結果はワシントンの空気を変えるかもしれないが、政策を決めるのは今もトランプ大統領だという。議会は予算や論調に影響を与え得るが、外交の日々の舵取りは依然としてホワイトハウスの手にある。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "finalize",
+          "m": "最終的に固める"
+        },
+        {
+          "w": "summit",
+          "m": "首脳会談"
+        },
+        {
+          "w": "uncomfortable",
+          "m": "居心地の悪い"
+        },
+        {
+          "w": "great powers",
+          "m": "大国"
+        },
+        {
+          "w": "redraw",
+          "m": "引き直す"
+        },
+        {
+          "w": "consent",
+          "m": "同意"
+        },
+        {
+          "w": "dependable",
+          "m": "頼りになる"
+        },
+        {
+          "w": "midterm elections",
+          "m": "中間選挙"
+        },
+        {
+          "w": "renewed",
+          "m": "再開された、新たな"
+        },
+        {
+          "w": "sober",
+          "m": "冷静な、現実的な"
+        },
+        {
+          "w": "rhetoric",
+          "m": "論調、修辞"
+        },
+        {
+          "w": "fair reading",
+          "m": "妥当な見方"
+        }
+      ]
+    },
+    {
+      "heading_en": "What Japan should say",
+      "heading_ja": "日本が発すべきこと",
+      "paragraphs": [
+        {
+          "en": "For Japan, this is not a distant quarrel. Tokyo has long argued that borders must not be changed by force, partly because the same principle protects the waters around its own islands. If aggression is rewarded in Europe, leaders elsewhere may conclude that patience and violence pay off.",
+          "ja": "日本にとって、これは遠い国の争いではない。東京は、力による国境の変更は許されないと長年主張してきた。同じ原則が自国の島々を囲む海を守るからでもある。欧州で侵略が報われれば、他の地域の指導者は、忍耐と暴力が割に合うと結論づけかねない。"
+        },
+        {
+          "en": "Japan can contribute in practical ways. It can keep sanctions in step with its partners, support reconstruction and speak clearly in international forums. It should also encourage any process that treats Ukraine as a full participant, rather than as the subject of decisions made elsewhere.",
+          "ja": "日本は実際的な形で貢献できる。同盟国・友好国と歩調を合わせて制裁を維持し、復興を支え、国際会議の場で明確に発言することだ。また、ウクライナを他所で下される決定の対象ではなく、完全な当事者として扱う枠組みを後押しすべきである。"
+        },
+        {
+          "en": "The talks in Abu Dhabi may well end without a breakthrough. Even so, a dialogue that continues is better than one that collapses. The real test is whether Moscow will accept a ceasefire that can be checked and a settlement that Kyiv can accept. Until then, pressure and patience must go together.",
+          "ja": "アブダビでの協議は、突破口のないまま終わる可能性が十分にある。それでも、続く対話は決裂する対話よりましである。真の試金石は、モスクワが検証可能な停戦と、キーウが受け入れ得る解決を受け入れるかどうかだ。それまでは、圧力と忍耐を併せ持たねばならない。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "quarrel",
+          "m": "争い、口論"
+        },
+        {
+          "w": "by force",
+          "m": "力によって"
+        },
+        {
+          "w": "aggression",
+          "m": "侵略"
+        },
+        {
+          "w": "pay off",
+          "m": "報われる、割に合う"
+        },
+        {
+          "w": "in step with",
+          "m": "〜と歩調を合わせて"
+        },
+        {
+          "w": "sanctions",
+          "m": "制裁"
+        },
+        {
+          "w": "forum",
+          "m": "会議の場"
+        },
+        {
+          "w": "full participant",
+          "m": "完全な当事者"
+        },
+        {
+          "w": "breakthrough",
+          "m": "突破口、打開"
+        },
+        {
+          "w": "collapse",
+          "m": "決裂する、崩壊する"
+        },
+        {
+          "w": "settlement",
+          "m": "解決、和解"
+        },
+        {
+          "w": "test",
+          "m": "試金石"
+        }
+      ]
+    }
+  ]
+}

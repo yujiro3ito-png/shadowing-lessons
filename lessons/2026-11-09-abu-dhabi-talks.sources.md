@@ -1,0 +1,3 @@
+- https://www.cnbc.com/2026/11/03/russia-ukraine-peace-talks-abu-dhabi-trump-putin-xi.html
+- https://www.nbcnews.com/world/ukraine/russia-ukraine-exchange-airstrikes-us-envoy-describes-renewed-security-rcna607778 (AP)
+- https://www.axios.com/2026/11/03/us-russia-ukraine-peace-talks-uae-trump-witkoff-kushner (search summary only)
