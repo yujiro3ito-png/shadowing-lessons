@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wall Street's wild week shows how much now rides on artificial intelligence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --desk:#e9e6df; --paper:#fbfaf6; --ink:#1d1d1b; --muted:#6b6a65; --rule:#2b2b2b;
+  --band:#8a8a88; --band-ink:#fff; --hl:#fff2b3; --hl-line:#e0b400; --gutter:rgba(0,0,0,.10);
+  --bar:#1f1f1e; --bar-ink:#f4f3ef; --accent:#c8a200;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --desk:#151514; --paper:#22221f; --ink:#e9e7e1; --muted:#a3a19a; --rule:#cfcdc6;
+    --band:#5c5c59; --band-ink:#fff; --hl:#4a4120; --hl-line:#d8b42a; --gutter:rgba(0,0,0,.45);
+    --bar:#0d0d0c; --bar-ink:#f4f3ef;
+  }
+}
+:root[data-theme="dark"]{
+  --desk:#151514; --paper:#22221f; --ink:#e9e7e1; --muted:#a3a19a; --rule:#cfcdc6;
+  --band:#5c5c59; --band-ink:#fff; --hl:#4a4120; --hl-line:#d8b42a; --gutter:rgba(0,0,0,.45);
+  --bar:#0d0d0c; --bar-ink:#f4f3ef;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--desk);color:var(--ink);font-family:"Noto Sans JP",system-ui,sans-serif;padding:24px 16px 120px}
+.spread{max-width:1240px;margin:0 auto 32px;display:grid;grid-template-columns:1fr 1fr;background:var(--paper);
+  box-shadow:0 1px 2px rgba(0,0,0,.08),0 10px 30px rgba(0,0,0,.10);border-radius:4px;position:relative}
+.spread::after{content:"";position:absolute;top:0;bottom:0;left:50%;width:36px;transform:translateX(-50%);
+  background:linear-gradient(90deg,transparent,var(--gutter) 50%,transparent);pointer-events:none}
+.page{padding:44px 52px 56px;position:relative;min-height:640px;display:flex;flex-direction:column}
+.runhead{display:flex;align-items:center;gap:10px;font-size:13px;letter-spacing:.02em;color:var(--ink);margin-bottom:28px}
+.runhead::after{content:"";flex:1;border-top:1px solid var(--rule)}
+.page.ja .runhead{flex-direction:row-reverse}
+.track{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:700;cursor:pointer;border:0;background:none;color:inherit;padding:0}
+.track i{width:18px;height:18px;border-radius:50%;border:1.5px solid currentColor;display:grid;place-items:center;font-style:normal;font-size:9px}
+h1{font-family:"Source Serif 4",Georgia,serif;font-size:30px;line-height:1.15;margin:0 0 6px;font-weight:700}
+h2.sub{font-family:"Source Serif 4",Georgia,serif;font-size:19px;line-height:1.3;margin:0 0 14px;font-weight:700}
+.page.ja h1{font-family:"Noto Serif JP",serif;font-size:24px;line-height:1.45;font-weight:700;margin-bottom:2px}
+.page.ja h2.sub{font-family:"Noto Serif JP",serif;font-size:18px;font-weight:700}
+.source{text-align:right;font-size:12px;color:var(--muted);margin:0 0 22px}
+.source::before{content:"● "}
+h3{font-family:"Source Serif 4",Georgia,serif;font-size:17px;margin:4px 0 8px;font-weight:700}
+.page.ja h3{font-family:"Noto Sans JP",sans-serif;font-size:15px}
+.en p{font-family:"Source Serif 4",Georgia,serif;font-size:18px;line-height:1.72;margin:0;text-indent:1.4em;text-align:justify;hyphens:auto}
+.ja p{font-family:"Noto Serif JP",serif;font-size:15px;line-height:2.0;margin:0;text-indent:1em;text-align:justify}
+.para{cursor:pointer;border-radius:3px;transition:background .2s;padding:1px 4px;margin:0 -4px}
+.para:hover{background:color-mix(in srgb,var(--hl) 45%,transparent)}
+.para.on{background:var(--hl);box-shadow:inset 3px 0 0 var(--hl-line)}
+body.hide-en .en .body{filter:blur(6px);user-select:none}
+body.hide-en .en .para.on{filter:none}
+body.hide-ja .ja .body{filter:blur(5px)}
+.words{margin-top:auto;padding-top:28px}
+.words .band{background:var(--band);color:var(--band-ink);font-weight:700;font-size:14px;padding:5px 14px;border-radius:999px 999px 0 0;width:92%}
+.words ul{list-style:none;margin:0;padding:10px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(165px,1fr));gap:4px 14px;font-size:13px}
+.words li{display:flex;gap:6px;align-items:baseline}
+.words label{display:block;cursor:pointer;padding-left:20px;text-indent:-20px;line-height:1.5}
+.words input{margin:0 6px 0 0;vertical-align:-1px;accent-color:var(--accent)}
+.words b{font-family:"Source Serif 4",Georgia,serif;font-weight:400;font-size:14px;margin-right:6px}
+.words span{color:var(--muted)}
+.folio{position:absolute;bottom:18px;font-size:13px;color:var(--muted)}
+.en .folio{left:52px}.ja .folio{right:52px}
+/* player */
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--bar);color:var(--bar-ink);padding:10px 16px calc(10px + env(safe-area-inset-bottom));z-index:10}
+.bar .in{max-width:1240px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px}
+.bar button,.bar select{font:inherit;font-size:13px;color:inherit;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:6px;padding:6px 10px;cursor:pointer}
+.bar button.on{background:var(--accent);border-color:var(--accent);color:#111}
+.bar .play{width:44px;height:36px;font-size:16px}
+.seek{flex:1;min-width:160px;display:flex;align-items:center;gap:8px;font-size:12px;font-variant-numeric:tabular-nums}
+.seek input{flex:1;accent-color:var(--accent)}
+@media (max-width:860px){
+  .spread{grid-template-columns:1fr}
+  .spread::after{display:none}
+  .page{padding:28px 18px 48px;min-height:0}
+  .page.ja{border-top:1px dashed var(--gutter)}
+  h1{font-size:25px}
+  .en p{font-size:17px}
+  .folio{display:none}
+  body{padding:12px 0 150px}
+  .spread{border-radius:0}
+}
+@media print{
+  body{background:#fff;padding:0}
+  .bar{display:none}
+  .spread{box-shadow:none;break-after:page;margin:0;max-width:none}
+  .para.on{background:none;box-shadow:none}
+  body.hide-en .en .body,body.hide-ja .ja .body{filter:none}
+  @page{size:A4 landscape;margin:10mm}
+}
+</style>
+</head>
+<body>
+<main id="book"></main>
+<audio id="au" preload="auto"></audio>
+<div class="bar"><div class="in">
+  <button class="play" id="play" aria-label="再生">▶</button>
+  <button id="prev" aria-label="前の段落">⏮</button>
+  <button id="next" aria-label="次の段落">⏭</button>
+  <div class="seek"><span id="cur">0:00</span><input type="range" id="pos" min="0" max="1000" value="0"><span id="dur">0:00</span></div>
+  <select id="rate" aria-label="速度">
+    <option value="0.7">0.7×</option><option value="0.8">0.8×</option><option value="0.9">0.9×</option>
+    <option value="1" selected>1.0×</option><option value="1.1">1.1×</option><option value="1.2">1.2×</option>
+  </select>
+  <button id="loop" title="今の段落をくり返す">段落リピート</button>
+  <button id="hideEn" title="英文をぼかす（音だけでシャドーイング）">英文を隠す</button>
+  <button id="hideJa">訳を隠す</button>
+</div></div>
+<script>
+const D = {"meta": {"series_en": "Economy & Business 1", "series_ja": "経済・ビジネス 1", "track": "05", "title_en": "Wall Street's wild week shows how much now rides on artificial intelligence", "subtitle_en": "A sharp sell-off and a swift rebound should prompt caution, not complacency", "title_ja": "米株の乱高下　AI頼みの相場に潜む危うさ", "subtitle_ja": "急落と急反発は楽観ではなく警戒を促している", "source_en": "Original text based on reports from CNBC and AP, Nov. 2026", "date_ja": "2026年11月10日作成", "start_page": 14, "voice": "Samantha", "rate": 145, "pause_sec": 1.0, "engine": "openai", "openai_voice": "cedar"}, "sections": [{"heading_en": "", "heading_ja": "", "paragraphs": [{"en": "Few weeks in recent memory have tested investors as severely as the one that just ended on Wall Street. Stocks surged after the midterm elections, then collapsed so quickly that veteran traders spoke of panic. By Monday, the market was rebounding again. Such whiplash deserves attention.", "ja": "最近の記憶の中で、先週のウォール街ほど投資家を厳しく試した週はほとんどない。株価は中間選挙の後に急上昇し、その後あまりに急激に崩れたため、ベテランの市場関係者さえ恐慌という言葉を口にした。月曜日には再び反発した。この乱高下は、肩をすくめて済ませてよいものではない。"}, {"en": "On Wednesday, the Dow Jones Industrial Average jumped about fifteen hundred points. On Thursday, it fell roughly eighteen hundred, the worst single day for American stocks since April of last year. Technology shares led the slide, and the Nasdaq composite index slipped into what traders call a correction.", "ja": "水曜日、ダウ平均は約1500ポイント上昇した。木曜日には約1800ポイント下落し、昨年4月以来で最悪の一日となった。下げを主導したのはハイテク株で、ナスダック総合指数は市場関係者が調整局面と呼ぶ水準に落ち込んだ。"}, {"en": "The scale of the damage was striking. The seven largest technology companies lost about one trillion dollars in market value in a single session, with the chipmaker Nvidia alone shedding roughly four hundred forty billion. Retail investors sold at a pace not seen since the pandemic.", "ja": "被害の大きさは際立っていた。大手ハイテク七社は一回の取引で時価総額を約1兆ドル失い、半導体大手エヌビディア一社だけで約4400億ドルが消えた。アナリストによれば、個人投資家の売りは新型コロナの流行以来の勢いだったという。"}, {"en": "Then came Monday. The S&P 500 rose more than two percent, and Nasdaq gained even more. Advanced Micro Devices climbed by double digits. Yet the broad index still sits nearly four percent below last month's record. A rebound after panic is not the same as a recovery.", "ja": "そして月曜日が来た。S&P500は2%超上昇し、ナスダックはそれ以上に値を上げた。AMDは二桁の上昇となった。それでも、主要指数は先月の最高値をなお4%近く下回っている。パニックの後の反発は、回復と同じではない。"}], "vocab": [{"w": "put to the test", "m": "試練にさらす"}, {"w": "veteran", "m": "ベテランの、経験豊富な"}, {"w": "whiplash", "m": "急激な反転、乱高下"}, {"w": "deserve more than a shrug", "m": "無視できない"}, {"w": "slide", "m": "下落、値下がり"}, {"w": "correction", "m": "調整局面（直近高値から10%以上の下落）"}, {"w": "shed", "m": "（価値を）失う"}, {"w": "market value", "m": "時価総額"}, {"w": "retail investor", "m": "個人投資家"}, {"w": "rebound", "m": "反発、持ち直し"}]}, {"heading_en": "Why the market flinched", "heading_ja": "市場がひるんだ理由", "paragraphs": [{"en": "Several worries collided at once. Democratic gains in state governments raised the prospect that local officials might restrict new data centers, especially where voters are angry about rising electricity bills. Those buildings are the physical backbone of the artificial intelligence boom, and any limit on them threatens expected profits.", "ja": "複数の懸念が同時に重なった。州政府で民主党が議席を伸ばしたことで、特に電気料金の上昇に有権者が怒っている地域で、自治体がデータセンターの新設を制限するのではないかとの見方が強まった。これらの施設は人工知能ブームを支える物理的な土台であり、制限が加われば期待された利益が損なわれる。"}, {"en": "Borrowing costs are a second concern. The yield on the ten year Treasury note stands near four point nine percent. That is below last month's peak of more than five point three, the highest in two decades, but it is still high enough to make expensive construction projects harder to finance.", "ja": "借り入れコストが第二の懸念である。米10年国債の利回りは4.9%近くにある。先月の5.3%超という20年ぶりの高水準は下回っているが、巨額の建設事業の資金を調達しにくくするには十分に高い。"}, {"en": "The third worry is the oldest one: valuation. For months, critics have argued that prices for artificial intelligence companies have run far ahead of their earnings. When confidence cracks, such arguments gain force quickly. Last week showed how fast a crowded trade can reverse when everyone heads for the exit together.", "ja": "第三の懸念は最も古くからあるもの、つまり株価の割高感である。人工知能関連企業の株価は利益をはるかに先取りしていると、批判派は数か月前から指摘してきた。信認にひびが入ると、こうした議論はたちまち説得力を増す。先週は、誰もが一斉に出口へ向かうとき、混み合った取引がいかに速く反転するかを示した。"}, {"en": "Individual companies also made headlines. Nvidia fell again on Monday while its board looked into a personal matter involving its chief executive, and the company said it had no reason to believe that national security or trade secrets were compromised. A nervous market needs no such distractions.", "ja": "個別企業の話題もあった。エヌビディアは、取締役会が最高経営責任者に関する私的な問題を調べるなか、月曜日も下落した。同社は、国家安全保障や企業秘密が損なわれたと考える理由はないと述べている。神経質な市場にとって、こうした雑音は最も避けたいものだ。"}], "vocab": [{"w": "collide", "m": "衝突する、重なる"}, {"w": "restrict", "m": "制限する"}, {"w": "backbone", "m": "土台、中核"}, {"w": "borrowing cost", "m": "借り入れコスト"}, {"w": "yield", "m": "利回り"}, {"w": "finance", "m": "資金を調達する"}, {"w": "valuation", "m": "株価評価、割高・割安の度合い"}, {"w": "run ahead of", "m": "〜を先取りして上昇する"}, {"w": "crowded trade", "m": "投資家が一方向に集中した取引"}, {"w": "look into", "m": "調査する"}]}, {"heading_en": "Oil offers some relief", "heading_ja": "原油が与えた安心材料", "paragraphs": [{"en": "One piece of good news arrived from the energy market. Brent crude fell nearly five percent on Monday to about ninety four dollars a barrel, down from more than one hundred twelve at the start of the month. Cheaper fuel helped airlines and cruise operators, and it eased fears about inflation.", "ja": "エネルギー市場からは一つ朗報が届いた。ブレント原油は月曜日に5%近く下落して1バレル94ドル前後となり、月初の112ドル超から下がった。燃料が安くなったことで航空会社やクルーズ会社が買われ、インフレへの懸念も和らいだ。"}, {"en": "The cause is diplomatic rather than economic. President Donald Trump said renewed American strikes on Iran are highly unlikely if negotiations make progress, while Secretary of State Marco Rubio criticized some Iranian demands as outrageous. A price built on hope can vanish overnight.", "ja": "原因は経済ではなく外交にある。トランプ大統領は、交渉が進展すれば米国によるイランへの再攻撃はきわめて考えにくいと述べた。一方、ルビオ国務長官はイランの要求の一部を法外だと批判した。市場関係者は協議に賭けているが、期待で成り立つ価格は一夜で消えかねない。"}, {"en": "Inflation remains the central issue. Strong hiring figures on Friday showed that the labor market is holding up, and wages are still climbing. That is welcome news for workers, but it gives the Federal Reserve less reason to cut interest rates and may even revive talk of further increases.", "ja": "中心的な問題は依然としてインフレである。金曜日に発表された堅調な雇用統計は、労働市場が底堅く、賃金も上昇し続けていることを示した。働く人々には歓迎すべき知らせだが、連邦準備制度が利下げに動く理由は乏しくなり、追加利上げ論が再燃する可能性さえある。"}, {"en": "That is why today's consumer price report matters so much. Economists expect prices in October to be about three point nine percent higher than a year earlier, up from three point seven. A reading above forecast could undo Monday's relief and send stocks tumbling once more.", "ja": "だからこそ、きょう発表される消費者物価の統計が非常に重要になる。エコノミストは、10月の物価が前年同月比で約3.9%上昇し、前回の3.7%から加速したと見込んでいる。予想を上回る結果になれば、月曜日の安堵は帳消しとなり、株価が再び急落しかねない。"}], "vocab": [{"w": "crude", "m": "原油"}, {"w": "ease fears", "m": "懸念を和らげる"}, {"w": "renewed", "m": "再開された、新たな"}, {"w": "outrageous", "m": "法外な、とんでもない"}, {"w": "bet on", "m": "〜に賭ける"}, {"w": "vanish overnight", "m": "一夜にして消える"}, {"w": "labor market", "m": "労働市場"}, {"w": "hold up", "m": "持ちこたえる"}, {"w": "revive", "m": "再燃させる、復活させる"}, {"w": "undo", "m": "帳消しにする"}, {"w": "tumble", "m": "急落する"}]}, {"heading_en": "What it means for Japan", "heading_ja": "日本への意味", "paragraphs": [{"en": "Japan cannot treat this as a distant drama. The Nikkei 225 jumped two point three percent on Monday, following Wall Street's lead. Japanese equities contain many chip and electronics makers that depend on the same artificial intelligence demand, so a New York sell-off tends to cross the Pacific within hours.", "ja": "日本はこれを遠い国の出来事として扱うことはできない。日経平均株価は月曜日、ウォール街に追随して2.3%上昇した。日本の株式市場には、同じ人工知能需要に依存する半導体・電子部品メーカーが多く、ニューヨークの急落は数時間のうちに太平洋を越えてくる傾向がある。"}, {"en": "Households are exposed as well. As more Japanese savers move money into overseas stocks through tax advantaged accounts, swings in American technology shares reach family budgets directly. Policymakers should remind investors that diversification and a long horizon matter more than chasing rallies.", "ja": "家計も無縁ではない。日本の貯蓄者が非課税口座を通じて海外株に資金を移す動きが広がるにつれ、米ハイテク株の変動は家計に直接及ぶ。政策当局と金融機関は、分散投資と長期の視点が、直近の上昇を追うことよりも大切だと投資家に伝えるべきである。"}, {"en": "The lesson is not that artificial intelligence is a bubble, nor that it is a sure bet. The technology is real and its uses are spreading. But a story this large depends on electricity, financing and public consent, and last week showed that all three can wobble at once.", "ja": "教訓は、人工知能がバブルだということでも、確実な投資先だということでもない。この技術は本物であり、用途も広がっている。だが、これほど大きな物語は電力、資金調達、そして社会の理解に支えられており、先週は、その三つが同時に揺らぎうることが示された。"}], "vocab": [{"w": "distant", "m": "遠く離れた"}, {"w": "follow someone's lead", "m": "〜に追随する"}, {"w": "equities", "m": "株式"}, {"w": "depend on", "m": "〜に依存する"}, {"w": "be exposed to", "m": "〜の影響を受ける"}, {"w": "tax advantaged account", "m": "税制優遇口座"}, {"w": "swing", "m": "変動、揺れ"}, {"w": "diversification", "m": "分散投資"}, {"w": "long horizon", "m": "長期的な視野"}, {"w": "sure bet", "m": "確実な賭け"}, {"w": "wobble", "m": "ぐらつく"}]}], "timings": [[0.0, 18.77], [19.77, 38.82], [39.82, 57.34], [58.34, 77.06], [78.06, 97.17], [98.17, 115.52], [116.52, 137.04], [138.04, 154.96], [155.96, 173.86], [174.86, 193.82], [194.82, 211.98], [212.98, 229.54], [230.54, 249.7], [250.7, 270.66], [271.66, 289.28]], "audio": "audio.m4a"};
+const $ = s => document.querySelector(s);
+const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const store = { get(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}} };
+const KEY = 'shadow:' + D.meta.title_en;
+const checked = store.get(KEY) || {};
+const m = D.meta;
+let pi = 0, page = m.start_page || 1, html = '';
+D.sections.forEach((s, si) => {
+  const first = si === 0;
+  const enP = s.paragraphs.map(p => `<p class="para" data-i="${pi++}">${esc(p.en)}</p>`).join('');
+  pi -= s.paragraphs.length;
+  const jaP = s.paragraphs.map(p => `<p class="para" data-i="${pi++}">${esc(p.ja)}</p>`).join('');
+  const vocab = s.vocab.map((v, vi) => { const id = `v${si}-${vi}`;
+    return `<li><label><input type="checkbox" data-k="${id}" ${checked[id]?'checked':''}><b>${esc(v.w)}</b><span>${esc(v.m)}</span></label></li>`; }).join('');
+  html += `<section class="spread">
+    <div class="page en">
+      <div class="runhead">${esc(m.series_en)} <button class="track" data-s="${si}"><i>▶</i>Track ${esc(m.track)}</button></div>
+      ${first ? `<h1>${esc(m.title_en)}</h1><h2 class="sub">${esc(m.subtitle_en)}</h2><p class="source">${esc(m.source_en)}</p>` : ''}
+      ${s.heading_en ? `<h3>${esc(s.heading_en)}</h3>` : ''}
+      <div class="body">${enP}</div>
+      <span class="folio">${page}</span>
+    </div>
+    <div class="page ja">
+      <div class="runhead">${esc(m.series_ja)}</div>
+      ${first ? `<h1>${esc(m.title_ja)}</h1><h2 class="sub">${esc(m.subtitle_ja)}</h2><p class="source">${esc(m.date_ja)}</p>` : ''}
+      ${s.heading_ja ? `<h3>${esc(s.heading_ja)}</h3>` : ''}
+      <div class="body">${jaP}</div>
+      <div class="words"><div class="band">Words and Phrases</div><ul>${vocab}</ul></div>
+      <span class="folio">${page + 1}</span>
+    </div></section>`;
+  page += 2;
+});
+$('#book').innerHTML = html;
+
+const au = $('#au');
+// 音声を丸ごと読み込んでから再生する（Range 非対応のサーバーでもシークできるように）
+fetch(D.audio).then(r => { if (!r.ok) throw 0; return r.blob(); })
+  .then(b => au.src = URL.createObjectURL(b)).catch(() => au.src = D.audio);
+const T = D.timings, fmt = t => `${Math.floor(t/60)}:${String(Math.floor(t%60)).padStart(2,'0')}`;
+let loop = false, cur = -1;
+const idxAt = t => { for (let i = T.length - 1; i >= 0; i--) if (t >= T[i][0] - 0.05) return i; return 0; };
+const seekTo = i => { i = Math.max(0, Math.min(T.length - 1, i)); au.currentTime = T[i][0]; mark(i); au.play(); };
+function mark(i){
+  if (i === cur) return; cur = i;
+  document.querySelectorAll('.para.on').forEach(e => e.classList.remove('on'));
+  document.querySelectorAll(`.para[data-i="${i}"]`).forEach(e => e.classList.add('on'));
+  const el = document.querySelector(`.en .para[data-i="${i}"]`);
+  if (el && !au.paused) { const r = el.getBoundingClientRect(); if (r.top < 60 || r.bottom > innerHeight - 110) el.scrollIntoView({behavior:'smooth', block:'center'}); }
+}
+au.addEventListener('loadedmetadata', () => $('#dur').textContent = fmt(au.duration));
+au.addEventListener('timeupdate', () => {
+  const t = au.currentTime;
+  if (loop && cur >= 0 && t >= T[cur][1] + 0.4) { au.currentTime = T[cur][0]; return; }
+  mark(idxAt(t));
+  $('#cur').textContent = fmt(t);
+  if (au.duration) $('#pos').value = t / au.duration * 1000;
+});
+au.addEventListener('play', () => $('#play').textContent = '❚❚');
+au.addEventListener('pause', () => $('#play').textContent = '▶');
+$('#play').onclick = () => au.paused ? au.play() : au.pause();
+$('#prev').onclick = () => seekTo((cur < 0 ? 0 : cur) - 1);
+$('#next').onclick = () => seekTo(cur + 1);
+$('#pos').oninput = e => { if (au.duration) au.currentTime = e.target.value / 1000 * au.duration; };
+$('#rate').onchange = e => au.playbackRate = +e.target.value;
+const tog = (id, fn) => $(id).onclick = e => { e.currentTarget.classList.toggle('on'); fn(e.currentTarget.classList.contains('on')); };
+tog('#loop', v => loop = v);
+tog('#hideEn', v => document.body.classList.toggle('hide-en', v));
+tog('#hideJa', v => document.body.classList.toggle('hide-ja', v));
+document.addEventListener('click', e => {
+  const p = e.target.closest('.para'); if (p) return seekTo(+p.dataset.i);
+  const t = e.target.closest('.track'); if (t) { const s = +t.dataset.s; let i = 0; for (let k = 0; k < s; k++) i += D.sections[k].paragraphs.length; seekTo(i); }
+});
+document.addEventListener('change', e => { const k = e.target.dataset && e.target.dataset.k; if (k) { checked[k] = e.target.checked; store.set(KEY, checked); } });
+document.addEventListener('keydown', e => { if (e.target.tagName === 'INPUT' && e.target.type !== 'range') return;
+  if (e.code === 'Space') { e.preventDefault(); $('#play').click(); }
+  if (e.code === 'ArrowRight') seekTo(cur + 1); if (e.code === 'ArrowLeft') seekTo(cur - 1); });
+</script>
+</body>
+</html>

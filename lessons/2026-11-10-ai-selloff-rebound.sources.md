@@ -1,0 +1,3 @@
+- https://www.cnbc.com/2026/11/06/stock-market-next-week-outlook-for-nov-9-13-2026.html
+- https://www.2news.com/news/national/us-stocks-rally-and-recover-more-of-last-weeks-losses-as-oil-prices-swing-lower/article_04111bef-6a83-5908-9dff-8cd12f013434.html (AP)
+- https://finance.yahoo.com/markets/live/stock-market-today-monday-november-9-dow-sp-500-nasdaq-nvidia-090535419.html (search summary only)
