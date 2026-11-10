@@ -1,0 +1,297 @@
+{
+ "meta": {
+  "series_en": "Technology & AI 1",
+  "series_ja": "テクノロジー・AI 1",
+  "track": "06",
+  "title_en": "Nvidia's leadership probe is a test of trust for the whole AI industry",
+  "subtitle_en": "Japan should treat a shock at the top of the chip supply chain as a warning about dependence",
+  "title_ja": "エヌビディア社長調査　AI産業全体が問われる信頼",
+  "subtitle_ja": "半導体供給網の頂点の動揺は、日本にとって依存への警告である",
+  "source_en": "Original text based on reports from CNBC, NBC News, CBC and Fox Business, Nov. 2026",
+  "date_ja": "2026年11月11日作成",
+  "start_page": 14,
+  "voice": "Samantha",
+  "rate": 145,
+  "pause_sec": 1.0,
+  "engine": "openai",
+  "openai_voice": "cedar"
+ },
+ "sections": [
+  {
+   "heading_en": "",
+   "heading_ja": "",
+   "paragraphs": [
+    {
+     "en": "Nvidia's board of directors has opened an independent investigation into its co-founder and chief executive, Jensen Huang. The inquiry concerns his relationship with a businesswoman whom American intelligence agencies describe as a Chinese spy. Shares of the chip maker fell sharply on Monday, closing about four percent lower.",
+     "ja": "エヌビディアの取締役会は、共同創業者で最高経営責任者のジェンスン・フアン氏をめぐる独立調査を始めた。対象は、米情報機関が中国のスパイと見なす女性実業家との関係である。同社株は月曜日に大きく下げ、約4%安で取引を終えた。"
+    },
+    {
+     "en": "Mr. Huang admitted in an email to employees that he had an extramarital affair and said he had fallen short of his responsibilities. A committee of independent directors, assisted by outside counsel, will lead the review. The board says it has no reason to believe that national security or company secrets were compromised.",
+     "ja": "フアン氏は社員宛ての電子メールで不倫関係を認め、責任を果たせなかったと述べた。調査は独立取締役の委員会が外部の弁護士の助けを得て進める。取締役会は、国家安全保障や社内の機密が損なわれたと考える理由はないとしている。"
+    },
+    {
+     "en": "China's foreign ministry dismissed what it called the so-called spy narrative as unsubstantiated. Washington has not publicly laid out evidence, and the facts are still emerging. Readers should therefore separate what is confirmed, namely the admission and the investigation, from what remains an allegation by officials.",
+     "ja": "中国外務省は、いわゆるスパイの話には根拠がないとして退けた。米政府は証拠を公には示しておらず、事実関係は今も明らかになりつつある。したがって、確認済みの事柄、つまり本人の認めた事実と調査の開始と、当局者による疑惑にとどまる部分は、区別して読む必要がある。"
+    },
+    {
+     "en": "It would be easy to treat this as a personal scandal. That would be a mistake. Nvidia sits at the center of the global race in artificial intelligence, and the conduct of its leader is a matter of governance, trust and, potentially, national security. The case deserves a sober reading.",
+     "ja": "これを個人の醜聞として片付けるのは簡単だが、それは誤りである。エヌビディアは人工知能をめぐる世界的な競争の中心にあり、その経営者の行動は、企業統治と信頼、さらには国家安全保障にもかかわりうる問題だ。冷静に受け止めるべき事案である。"
+    }
+   ],
+   "vocab": [
+    {
+     "w": "board of directors",
+     "m": "取締役会"
+    },
+    {
+     "w": "independent investigation",
+     "m": "独立した調査"
+    },
+    {
+     "w": "extramarital affair",
+     "m": "不倫関係"
+    },
+    {
+     "w": "fall short of",
+     "m": "（責任などを）果たせない"
+    },
+    {
+     "w": "outside counsel",
+     "m": "外部の弁護士"
+    },
+    {
+     "w": "compromise",
+     "m": "損なう、危うくする"
+    },
+    {
+     "w": "dismiss",
+     "m": "退ける、一蹴する"
+    },
+    {
+     "w": "unsubstantiated",
+     "m": "根拠のない"
+    },
+    {
+     "w": "allegation",
+     "m": "（証拠のない）主張、疑惑"
+    },
+    {
+     "w": "sober",
+     "m": "冷静な、落ち着いた"
+    }
+   ]
+  },
+  {
+   "heading_en": "A company too important to wobble",
+   "heading_ja": "揺らぐことが許されない企業",
+   "paragraphs": [
+    {
+     "en": "Few firms have shaped the technology boom as much as Nvidia. Its processors train and run the most advanced artificial intelligence systems, and its market value has swelled to levels once unimaginable. Governments, cloud providers and start-ups alike queue for its chips, often waiting months for deliveries.",
+     "ja": "技術ブームの形成にこれほど大きな役割を果たした企業は少ない。同社のプロセッサーは最先端の人工知能の訓練と運用を担い、時価総額はかつて想像もできなかった水準に膨らんだ。各国政府もクラウド事業者も新興企業も同社の半導体を求めて列をなし、納入を数か月待つことも多い。"
+    },
+    {
+     "en": "That dominance makes leadership stability a systemic issue. When one person is so closely tied to a company's strategy and public image, doubts about that person can shake investor confidence quickly. Analysts have already warned that Mr. Huang could face pressure to step aside, depending on what the board finds.",
+     "ja": "この圧倒的な地位のため、経営陣の安定は一企業を超えた構造的な問題となる。一人の人物が会社の戦略と対外的な顔にこれほど深く結び付いていると、その人物への疑念は投資家の信頼をたちまち揺るがしかねない。アナリストは、取締役会の調査結果次第でフアン氏に退任圧力がかかる可能性があると既に警告している。"
+    },
+    {
+     "en": "The market reaction was telling. Nvidia fell while other chip stocks rebounded strongly at the start of the week, which suggests investors see the problem as specific to the company, not the industry. Still, a prolonged fight over leadership could distract managers at a moment when competitors are closing the gap.",
+     "ja": "市場の反応は示唆に富む。週初めに他の半導体株が大きく反発するなか、エヌビディアだけが下げたことは、投資家がこれを業界全体ではなく同社固有の問題と見ていることを示す。それでも、経営をめぐる争いが長引けば、競合が差を縮めている時期に経営陣の注意がそがれかねない。"
+    }
+   ],
+   "vocab": [
+    {
+     "w": "shape",
+     "m": "形作る、左右する"
+    },
+    {
+     "w": "swell",
+     "m": "膨らむ"
+    },
+    {
+     "w": "queue for",
+     "m": "～を求めて列をなす"
+    },
+    {
+     "w": "systemic",
+     "m": "構造的な、全体に及ぶ"
+    },
+    {
+     "w": "step aside",
+     "m": "退く、辞任する"
+    },
+    {
+     "w": "telling",
+     "m": "示唆に富む"
+    },
+    {
+     "w": "rebound",
+     "m": "反発する"
+    },
+    {
+     "w": "prolonged",
+     "m": "長引く"
+    },
+    {
+     "w": "close the gap",
+     "m": "差を縮める"
+    },
+    {
+     "w": "export controls",
+     "m": "輸出規制"
+    },
+    {
+     "w": "lobby",
+     "m": "働きかける、陳情する"
+    },
+    {
+     "w": "scrutiny",
+     "m": "厳しい監視、精査"
+    }
+   ]
+  },
+  {
+   "heading_en": "What it means for Japan",
+   "heading_ja": "日本にとっての意味",
+   "paragraphs": [
+    {
+     "en": "For Japan, the stakes are practical. Companies here are racing to build data centers, and the government is subsidizing domestic computing power. Nearly all of those plans assume a steady supply of Nvidia hardware. A shock at the top of that supply chain is therefore not a distant foreign story.",
+     "ja": "日本にとって、これは現実的な問題である。国内企業はデータセンターの整備を急ぎ、政府も国内の計算基盤を補助金で後押ししている。そうした計画のほぼすべてが、エヌビディア製品の安定した供給を前提にしている。供給網の頂点で起きる動揺は、遠い外国の話ではない。"
+    },
+    {
+     "en": "South Korea offers a useful comparison. Its officials moved quickly to say the controversy would not affect contracted supplies of graphics processors. Tokyo would be wise to seek similar assurances, and to ask how its own firms would be protected if deliveries were delayed by a leadership crisis or a policy shift.",
+     "ja": "韓国の対応は参考になる。同国の当局者は、この問題が契約済みの画像処理半導体の供給に影響しないと素早く表明した。日本政府も同様の確約を求めるとともに、経営危機や政策転換で納入が遅れた場合に自国企業をどう守るのかを問うべきだ。"
+    },
+    {
+     "en": "The deeper lesson concerns dependence. Japanese manufacturers supply important materials and equipment for the chip industry, which gives the country some leverage. Yet in the market for advanced artificial intelligence processors, Japan is mostly a customer. Customers who rely on a single supplier accept risks they cannot control.",
+     "ja": "より深い教訓は依存の問題である。日本の製造業者は半導体産業に重要な素材や装置を供給しており、その点で一定の交渉力を持つ。しかし先端の人工知能向けプロセッサーの市場では、日本は主に買い手にすぎない。単一の供給元に頼る顧客は、自分では制御できない危険を引き受けている。"
+    },
+    {
+     "en": "Diversification will not be quick or cheap. Rival chips from other American firms, domestic start-ups and cloud providers' in-house designs are improving, but the software ecosystem around Nvidia remains hard to replace. Even so, building credible alternatives is now a matter of prudence, not only of industrial pride.",
+     "ja": "分散化は短期間でも低コストでもできない。米国の他社や国内の新興企業、クラウド事業者の自社設計による競合半導体は性能を高めているが、エヌビディアを取り巻くソフトウェアの生態系は容易に置き換えられない。それでも、信頼できる代替手段を育てることは、産業の誇りだけでなく、慎重な備えとして必要になっている。"
+    }
+   ],
+   "vocab": [
+    {
+     "w": "stakes",
+     "m": "利害、かかっているもの"
+    },
+    {
+     "w": "subsidize",
+     "m": "補助金を出す"
+    },
+    {
+     "w": "assume",
+     "m": "前提とする"
+    },
+    {
+     "w": "assurance",
+     "m": "確約、保証"
+    },
+    {
+     "w": "contracted",
+     "m": "契約済みの"
+    },
+    {
+     "w": "dependence",
+     "m": "依存"
+    },
+    {
+     "w": "leverage",
+     "m": "交渉力、影響力"
+    },
+    {
+     "w": "diversification",
+     "m": "分散化"
+    },
+    {
+     "w": "in-house",
+     "m": "自社内の"
+    },
+    {
+     "w": "ecosystem",
+     "m": "生態系、周辺環境"
+    },
+    {
+     "w": "prudence",
+     "m": "慎重さ、備え"
+    },
+    {
+     "w": "credible",
+     "m": "信頼できる"
+    }
+   ]
+  },
+  {
+   "heading_en": "Governance in the age of artificial intelligence",
+   "heading_ja": "人工知能の時代の企業統治",
+   "paragraphs": [
+    {
+     "en": "The board has done the right thing by appointing independent directors and outside counsel. Credibility depends on speed and transparency. Shareholders, customers and allies deserve a clear account of what was examined, what was found and what safeguards will follow, even if some details must remain confidential.",
+     "ja": "取締役会が独立取締役と外部の弁護士を起用したのは適切な判断だ。信頼を左右するのは、調査の速さと透明性である。一部の詳細は非公開とせざるを得ないにしても、株主や顧客、同盟国には、何を調べ、何が分かり、どのような再発防止策を取るのかを明確に説明する責任がある。"
+    },
+    {
+     "en": "Washington, for its part, should avoid turning a corporate inquiry into a political weapon. Unproven claims about espionage can damage reputations and distort policy debates. If intelligence agencies hold evidence, they should share what they can through proper channels. If they do not, restraint is the responsible course.",
+     "ja": "米政府の側も、企業の調査を政治的な武器にすることは避けるべきだ。裏付けのないスパイ疑惑は評判を傷つけ、政策論議をゆがめかねない。情報機関が証拠を持つなら、適切な経路で可能な範囲を共有すべきである。そうでないなら、自制こそが責任ある対応だ。"
+    },
+    {
+     "en": "Companies that hold the keys to strategic technology cannot treat their executives' private conduct as irrelevant. Close ties with people linked to foreign intelligence services create exactly the vulnerabilities that security officials fear. Clear rules on disclosure and conflicts of interest are now a basic requirement.",
+     "ja": "戦略的な技術の鍵を握る企業は、経営者の私的な行動を無関係なものと扱うことはできない。外国の情報機関と関係する人物との親密な付き合いは、安全保障当局が恐れる弱点そのものを生む。情報開示と利益相反に関する明確な規則は、今や基本的な要件である。"
+    },
+    {
+     "en": "In the end, the technology industry runs on trust. Customers trust that chips will arrive, investors trust that leaders tell the truth, and governments trust that sensitive know-how is protected. Nvidia now has the chance to show that its institutions are stronger than any one person.",
+     "ja": "結局のところ、技術産業は信頼で動いている。顧客は半導体が届くと信じ、投資家は経営者が真実を語ると信じ、政府は機微なノウハウが守られると信じている。エヌビディアは今、自社の組織が一人の人物よりも強固であることを示す機会を得ている。"
+    }
+   ],
+   "vocab": [
+    {
+     "w": "appoint",
+     "m": "任命する、起用する"
+    },
+    {
+     "w": "transparency",
+     "m": "透明性"
+    },
+    {
+     "w": "safeguard",
+     "m": "安全策、防止策"
+    },
+    {
+     "w": "confidential",
+     "m": "非公開の、機密の"
+    },
+    {
+     "w": "distort",
+     "m": "ゆがめる"
+    },
+    {
+     "w": "espionage",
+     "m": "スパイ活動"
+    },
+    {
+     "w": "restraint",
+     "m": "自制"
+    },
+    {
+     "w": "conflict of interest",
+     "m": "利益相反"
+    },
+    {
+     "w": "disclosure",
+     "m": "情報開示"
+    },
+    {
+     "w": "vulnerability",
+     "m": "弱点、脆弱性"
+    },
+    {
+     "w": "sensitive",
+     "m": "機微な"
+    },
+    {
+     "w": "know-how",
+     "m": "ノウハウ"
+    }
+   ]
+  }
+ ]
+}

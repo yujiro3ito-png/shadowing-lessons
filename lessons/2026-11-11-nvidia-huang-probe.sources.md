@@ -1,0 +1,6 @@
+- https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html
+- https://www.nbcnews.com/business/markets/nvidia-stock-falls-probe-ceos-relationship-chinese-spy-rcna608290
+- https://www.cbc.ca/news/business/nvidia-shares-ceo-jensen-huang-probe-9.7414655
+- https://www.foxbusiness.com/markets/nvidia-shares-fall-after-investigation-ceos-relationship-alleged-chinese-spy
+- https://www.theglobeandmail.com/business/international-business/article-nvidia-stock-jensen-huang-affair-chinese-spy/
+- https://www.techmeme.com/ (Reuters headlines, Nov. 9: South Korea says Nvidia issues won't affect contracted GPU supplies)

@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nvidia's leadership probe is a test of trust for the whole AI industry</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --desk:#e9e6df; --paper:#fbfaf6; --ink:#1d1d1b; --muted:#6b6a65; --rule:#2b2b2b;
+  --band:#8a8a88; --band-ink:#fff; --hl:#fff2b3; --hl-line:#e0b400; --gutter:rgba(0,0,0,.10);
+  --bar:#1f1f1e; --bar-ink:#f4f3ef; --accent:#c8a200;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --desk:#151514; --paper:#22221f; --ink:#e9e7e1; --muted:#a3a19a; --rule:#cfcdc6;
+    --band:#5c5c59; --band-ink:#fff; --hl:#4a4120; --hl-line:#d8b42a; --gutter:rgba(0,0,0,.45);
+    --bar:#0d0d0c; --bar-ink:#f4f3ef;
+  }
+}
+:root[data-theme="dark"]{
+  --desk:#151514; --paper:#22221f; --ink:#e9e7e1; --muted:#a3a19a; --rule:#cfcdc6;
+  --band:#5c5c59; --band-ink:#fff; --hl:#4a4120; --hl-line:#d8b42a; --gutter:rgba(0,0,0,.45);
+  --bar:#0d0d0c; --bar-ink:#f4f3ef;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--desk);color:var(--ink);font-family:"Noto Sans JP",system-ui,sans-serif;padding:24px 16px 120px}
+.spread{max-width:1240px;margin:0 auto 32px;display:grid;grid-template-columns:1fr 1fr;background:var(--paper);
+  box-shadow:0 1px 2px rgba(0,0,0,.08),0 10px 30px rgba(0,0,0,.10);border-radius:4px;position:relative}
+.spread::after{content:"";position:absolute;top:0;bottom:0;left:50%;width:36px;transform:translateX(-50%);
+  background:linear-gradient(90deg,transparent,var(--gutter) 50%,transparent);pointer-events:none}
+.page{padding:44px 52px 56px;position:relative;min-height:640px;display:flex;flex-direction:column}
+.runhead{display:flex;align-items:center;gap:10px;font-size:13px;letter-spacing:.02em;color:var(--ink);margin-bottom:28px}
+.runhead::after{content:"";flex:1;border-top:1px solid var(--rule)}
+.page.ja .runhead{flex-direction:row-reverse}
+.track{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:700;cursor:pointer;border:0;background:none;color:inherit;padding:0}
+.track i{width:18px;height:18px;border-radius:50%;border:1.5px solid currentColor;display:grid;place-items:center;font-style:normal;font-size:9px}
+h1{font-family:"Source Serif 4",Georgia,serif;font-size:30px;line-height:1.15;margin:0 0 6px;font-weight:700}
+h2.sub{font-family:"Source Serif 4",Georgia,serif;font-size:19px;line-height:1.3;margin:0 0 14px;font-weight:700}
+.page.ja h1{font-family:"Noto Serif JP",serif;font-size:24px;line-height:1.45;font-weight:700;margin-bottom:2px}
+.page.ja h2.sub{font-family:"Noto Serif JP",serif;font-size:18px;font-weight:700}
+.source{text-align:right;font-size:12px;color:var(--muted);margin:0 0 22px}
+.source::before{content:"● "}
+h3{font-family:"Source Serif 4",Georgia,serif;font-size:17px;margin:4px 0 8px;font-weight:700}
+.page.ja h3{font-family:"Noto Sans JP",sans-serif;font-size:15px}
+.en p{font-family:"Source Serif 4",Georgia,serif;font-size:18px;line-height:1.72;margin:0;text-indent:1.4em;text-align:justify;hyphens:auto}
+.ja p{font-family:"Noto Serif JP",serif;font-size:15px;line-height:2.0;margin:0;text-indent:1em;text-align:justify}
+.para{cursor:pointer;border-radius:3px;transition:background .2s;padding:1px 4px;margin:0 -4px}
+.para:hover{background:color-mix(in srgb,var(--hl) 45%,transparent)}
+.para.on{background:var(--hl);box-shadow:inset 3px 0 0 var(--hl-line)}
+body.hide-en .en .body{filter:blur(6px);user-select:none}
+body.hide-en .en .para.on{filter:none}
+body.hide-ja .ja .body{filter:blur(5px)}
+.words{margin-top:auto;padding-top:28px}
+.words .band{background:var(--band);color:var(--band-ink);font-weight:700;font-size:14px;padding:5px 14px;border-radius:999px 999px 0 0;width:92%}
+.words ul{list-style:none;margin:0;padding:10px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(165px,1fr));gap:4px 14px;font-size:13px}
+.words li{display:flex;gap:6px;align-items:baseline}
+.words label{display:block;cursor:pointer;padding-left:20px;text-indent:-20px;line-height:1.5}
+.words input{margin:0 6px 0 0;vertical-align:-1px;accent-color:var(--accent)}
+.words b{font-family:"Source Serif 4",Georgia,serif;font-weight:400;font-size:14px;margin-right:6px}
+.words span{color:var(--muted)}
+.folio{position:absolute;bottom:18px;font-size:13px;color:var(--muted)}
+.en .folio{left:52px}.ja .folio{right:52px}
+/* player */
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--bar);color:var(--bar-ink);padding:10px 16px calc(10px + env(safe-area-inset-bottom));z-index:10}
+.bar .in{max-width:1240px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px}
+.bar button,.bar select{font:inherit;font-size:13px;color:inherit;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:6px;padding:6px 10px;cursor:pointer}
+.bar button.on{background:var(--accent);border-color:var(--accent);color:#111}
+.bar .play{width:44px;height:36px;font-size:16px}
+.seek{flex:1;min-width:160px;display:flex;align-items:center;gap:8px;font-size:12px;font-variant-numeric:tabular-nums}
+.seek input{flex:1;accent-color:var(--accent)}
+@media (max-width:860px){
+  .spread{grid-template-columns:1fr}
+  .spread::after{display:none}
+  .page{padding:28px 18px 48px;min-height:0}
+  .page.ja{border-top:1px dashed var(--gutter)}
+  h1{font-size:25px}
+  .en p{font-size:17px}
+  .folio{display:none}
+  body{padding:12px 0 150px}
+  .spread{border-radius:0}
+}
+@media print{
+  body{background:#fff;padding:0}
+  .bar{display:none}
+  .spread{box-shadow:none;break-after:page;margin:0;max-width:none}
+  .para.on{background:none;box-shadow:none}
+  body.hide-en .en .body,body.hide-ja .ja .body{filter:none}
+  @page{size:A4 landscape;margin:10mm}
+}
+</style>
+</head>
+<body>
+<main id="book"></main>
+<audio id="au" preload="auto"></audio>
+<div class="bar"><div class="in">
+  <button class="play" id="play" aria-label="再生">▶</button>
+  <button id="prev" aria-label="前の段落">⏮</button>
+  <button id="next" aria-label="次の段落">⏭</button>
+  <div class="seek"><span id="cur">0:00</span><input type="range" id="pos" min="0" max="1000" value="0"><span id="dur">0:00</span></div>
+  <select id="rate" aria-label="速度">
+    <option value="0.7">0.7×</option><option value="0.8">0.8×</option><option value="0.9">0.9×</option>
+    <option value="1" selected>1.0×</option><option value="1.1">1.1×</option><option value="1.2">1.2×</option>
+  </select>
+  <button id="loop" title="今の段落をくり返す">段落リピート</button>
+  <button id="hideEn" title="英文をぼかす（音だけでシャドーイング）">英文を隠す</button>
+  <button id="hideJa">訳を隠す</button>
+</div></div>
+<script>
+const D = {"meta": {"series_en": "Technology & AI 1", "series_ja": "テクノロジー・AI 1", "track": "06", "title_en": "Nvidia's leadership probe is a test of trust for the whole AI industry", "subtitle_en": "Japan should treat a shock at the top of the chip supply chain as a warning about dependence", "title_ja": "エヌビディア社長調査　AI産業全体が問われる信頼", "subtitle_ja": "半導体供給網の頂点の動揺は、日本にとって依存への警告である", "source_en": "Original text based on reports from CNBC, NBC News, CBC and Fox Business, Nov. 2026", "date_ja": "2026年11月11日作成", "start_page": 14, "voice": "Samantha", "rate": 145, "pause_sec": 1.0, "engine": "openai", "openai_voice": "cedar"}, "sections": [{"heading_en": "", "heading_ja": "", "paragraphs": [{"en": "Nvidia's board of directors has opened an independent investigation into its co-founder and chief executive, Jensen Huang. The inquiry concerns his relationship with a businesswoman whom American intelligence agencies describe as a Chinese spy. Shares of the chip maker fell sharply on Monday, closing about four percent lower.", "ja": "エヌビディアの取締役会は、共同創業者で最高経営責任者のジェンスン・フアン氏をめぐる独立調査を始めた。対象は、米情報機関が中国のスパイと見なす女性実業家との関係である。同社株は月曜日に大きく下げ、約4%安で取引を終えた。"}, {"en": "Mr. Huang admitted in an email to employees that he had an extramarital affair and said he had fallen short of his responsibilities. A committee of independent directors, assisted by outside counsel, will lead the review. The board says it has no reason to believe that national security or company secrets were compromised.", "ja": "フアン氏は社員宛ての電子メールで不倫関係を認め、責任を果たせなかったと述べた。調査は独立取締役の委員会が外部の弁護士の助けを得て進める。取締役会は、国家安全保障や社内の機密が損なわれたと考える理由はないとしている。"}, {"en": "China's foreign ministry dismissed what it called the so-called spy narrative as unsubstantiated. Washington has not publicly laid out evidence, and the facts are still emerging. Readers should therefore separate what is confirmed, namely the admission and the investigation, from what remains an allegation by officials.", "ja": "中国外務省は、いわゆるスパイの話には根拠がないとして退けた。米政府は証拠を公には示しておらず、事実関係は今も明らかになりつつある。したがって、確認済みの事柄、つまり本人の認めた事実と調査の開始と、当局者による疑惑にとどまる部分は、区別して読む必要がある。"}, {"en": "It would be easy to treat this as a personal scandal. That would be a mistake. Nvidia sits at the center of the global race in artificial intelligence, and the conduct of its leader is a matter of governance, trust and, potentially, national security. The case deserves a sober reading.", "ja": "これを個人の醜聞として片付けるのは簡単だが、それは誤りである。エヌビディアは人工知能をめぐる世界的な競争の中心にあり、その経営者の行動は、企業統治と信頼、さらには国家安全保障にもかかわりうる問題だ。冷静に受け止めるべき事案である。"}], "vocab": [{"w": "board of directors", "m": "取締役会"}, {"w": "independent investigation", "m": "独立した調査"}, {"w": "extramarital affair", "m": "不倫関係"}, {"w": "fall short of", "m": "（責任などを）果たせない"}, {"w": "outside counsel", "m": "外部の弁護士"}, {"w": "compromise", "m": "損なう、危うくする"}, {"w": "dismiss", "m": "退ける、一蹴する"}, {"w": "unsubstantiated", "m": "根拠のない"}, {"w": "allegation", "m": "（証拠のない）主張、疑惑"}, {"w": "sober", "m": "冷静な、落ち着いた"}]}, {"heading_en": "A company too important to wobble", "heading_ja": "揺らぐことが許されない企業", "paragraphs": [{"en": "Few firms have shaped the technology boom as much as Nvidia. Its processors train and run the most advanced artificial intelligence systems, and its market value has swelled to levels once unimaginable. Governments, cloud providers and start-ups alike queue for its chips, often waiting months for deliveries.", "ja": "技術ブームの形成にこれほど大きな役割を果たした企業は少ない。同社のプロセッサーは最先端の人工知能の訓練と運用を担い、時価総額はかつて想像もできなかった水準に膨らんだ。各国政府もクラウド事業者も新興企業も同社の半導体を求めて列をなし、納入を数か月待つことも多い。"}, {"en": "That dominance makes leadership stability a systemic issue. When one person is so closely tied to a company's strategy and public image, doubts about that person can shake investor confidence quickly. Analysts have already warned that Mr. Huang could face pressure to step aside, depending on what the board finds.", "ja": "この圧倒的な地位のため、経営陣の安定は一企業を超えた構造的な問題となる。一人の人物が会社の戦略と対外的な顔にこれほど深く結び付いていると、その人物への疑念は投資家の信頼をたちまち揺るがしかねない。アナリストは、取締役会の調査結果次第でフアン氏に退任圧力がかかる可能性があると既に警告している。"}, {"en": "The market reaction was telling. Nvidia fell while other chip stocks rebounded strongly at the start of the week, which suggests investors see the problem as specific to the company, not the industry. Still, a prolonged fight over leadership could distract managers at a moment when competitors are closing the gap.", "ja": "市場の反応は示唆に富む。週初めに他の半導体株が大きく反発するなか、エヌビディアだけが下げたことは、投資家がこれを業界全体ではなく同社固有の問題と見ていることを示す。それでも、経営をめぐる争いが長引けば、競合が差を縮めている時期に経営陣の注意がそがれかねない。"}], "vocab": [{"w": "shape", "m": "形作る、左右する"}, {"w": "swell", "m": "膨らむ"}, {"w": "queue for", "m": "～を求めて列をなす"}, {"w": "systemic", "m": "構造的な、全体に及ぶ"}, {"w": "step aside", "m": "退く、辞任する"}, {"w": "telling", "m": "示唆に富む"}, {"w": "rebound", "m": "反発する"}, {"w": "prolonged", "m": "長引く"}, {"w": "close the gap", "m": "差を縮める"}, {"w": "export controls", "m": "輸出規制"}, {"w": "lobby", "m": "働きかける、陳情する"}, {"w": "scrutiny", "m": "厳しい監視、精査"}]}, {"heading_en": "What it means for Japan", "heading_ja": "日本にとっての意味", "paragraphs": [{"en": "For Japan, the stakes are practical. Companies here are racing to build data centers, and the government is subsidizing domestic computing power. Nearly all of those plans assume a steady supply of Nvidia hardware. A shock at the top of that supply chain is therefore not a distant foreign story.", "ja": "日本にとって、これは現実的な問題である。国内企業はデータセンターの整備を急ぎ、政府も国内の計算基盤を補助金で後押ししている。そうした計画のほぼすべてが、エヌビディア製品の安定した供給を前提にしている。供給網の頂点で起きる動揺は、遠い外国の話ではない。"}, {"en": "South Korea offers a useful comparison. Its officials moved quickly to say the controversy would not affect contracted supplies of graphics processors. Tokyo would be wise to seek similar assurances, and to ask how its own firms would be protected if deliveries were delayed by a leadership crisis or a policy shift.", "ja": "韓国の対応は参考になる。同国の当局者は、この問題が契約済みの画像処理半導体の供給に影響しないと素早く表明した。日本政府も同様の確約を求めるとともに、経営危機や政策転換で納入が遅れた場合に自国企業をどう守るのかを問うべきだ。"}, {"en": "The deeper lesson concerns dependence. Japanese manufacturers supply important materials and equipment for the chip industry, which gives the country some leverage. Yet in the market for advanced artificial intelligence processors, Japan is mostly a customer. Customers who rely on a single supplier accept risks they cannot control.", "ja": "より深い教訓は依存の問題である。日本の製造業者は半導体産業に重要な素材や装置を供給しており、その点で一定の交渉力を持つ。しかし先端の人工知能向けプロセッサーの市場では、日本は主に買い手にすぎない。単一の供給元に頼る顧客は、自分では制御できない危険を引き受けている。"}, {"en": "Diversification will not be quick or cheap. Rival chips from other American firms, domestic start-ups and cloud providers' in-house designs are improving, but the software ecosystem around Nvidia remains hard to replace. Even so, building credible alternatives is now a matter of prudence, not only of industrial pride.", "ja": "分散化は短期間でも低コストでもできない。米国の他社や国内の新興企業、クラウド事業者の自社設計による競合半導体は性能を高めているが、エヌビディアを取り巻くソフトウェアの生態系は容易に置き換えられない。それでも、信頼できる代替手段を育てることは、産業の誇りだけでなく、慎重な備えとして必要になっている。"}], "vocab": [{"w": "stakes", "m": "利害、かかっているもの"}, {"w": "subsidize", "m": "補助金を出す"}, {"w": "assume", "m": "前提とする"}, {"w": "assurance", "m": "確約、保証"}, {"w": "contracted", "m": "契約済みの"}, {"w": "dependence", "m": "依存"}, {"w": "leverage", "m": "交渉力、影響力"}, {"w": "diversification", "m": "分散化"}, {"w": "in-house", "m": "自社内の"}, {"w": "ecosystem", "m": "生態系、周辺環境"}, {"w": "prudence", "m": "慎重さ、備え"}, {"w": "credible", "m": "信頼できる"}]}, {"heading_en": "Governance in the age of artificial intelligence", "heading_ja": "人工知能の時代の企業統治", "paragraphs": [{"en": "The board has done the right thing by appointing independent directors and outside counsel. Credibility depends on speed and transparency. Shareholders, customers and allies deserve a clear account of what was examined, what was found and what safeguards will follow, even if some details must remain confidential.", "ja": "取締役会が独立取締役と外部の弁護士を起用したのは適切な判断だ。信頼を左右するのは、調査の速さと透明性である。一部の詳細は非公開とせざるを得ないにしても、株主や顧客、同盟国には、何を調べ、何が分かり、どのような再発防止策を取るのかを明確に説明する責任がある。"}, {"en": "Washington, for its part, should avoid turning a corporate inquiry into a political weapon. Unproven claims about espionage can damage reputations and distort policy debates. If intelligence agencies hold evidence, they should share what they can through proper channels. If they do not, restraint is the responsible course.", "ja": "米政府の側も、企業の調査を政治的な武器にすることは避けるべきだ。裏付けのないスパイ疑惑は評判を傷つけ、政策論議をゆがめかねない。情報機関が証拠を持つなら、適切な経路で可能な範囲を共有すべきである。そうでないなら、自制こそが責任ある対応だ。"}, {"en": "Companies that hold the keys to strategic technology cannot treat their executives' private conduct as irrelevant. Close ties with people linked to foreign intelligence services create exactly the vulnerabilities that security officials fear. Clear rules on disclosure and conflicts of interest are now a basic requirement.", "ja": "戦略的な技術の鍵を握る企業は、経営者の私的な行動を無関係なものと扱うことはできない。外国の情報機関と関係する人物との親密な付き合いは、安全保障当局が恐れる弱点そのものを生む。情報開示と利益相反に関する明確な規則は、今や基本的な要件である。"}, {"en": "In the end, the technology industry runs on trust. Customers trust that chips will arrive, investors trust that leaders tell the truth, and governments trust that sensitive know-how is protected. Nvidia now has the chance to show that its institutions are stronger than any one person.", "ja": "結局のところ、技術産業は信頼で動いている。顧客は半導体が届くと信じ、投資家は経営者が真実を語ると信じ、政府は機微なノウハウが守られると信じている。エヌビディアは今、自社の組織が一人の人物よりも強固であることを示す機会を得ている。"}], "vocab": [{"w": "appoint", "m": "任命する、起用する"}, {"w": "transparency", "m": "透明性"}, {"w": "safeguard", "m": "安全策、防止策"}, {"w": "confidential", "m": "非公開の、機密の"}, {"w": "distort", "m": "ゆがめる"}, {"w": "espionage", "m": "スパイ活動"}, {"w": "restraint", "m": "自制"}, {"w": "conflict of interest", "m": "利益相反"}, {"w": "disclosure", "m": "情報開示"}, {"w": "vulnerability", "m": "弱点、脆弱性"}, {"w": "sensitive", "m": "機微な"}, {"w": "know-how", "m": "ノウハウ"}]}], "timings": [[0.0, 19.01], [20.01, 38.01], [39.01, 57.32], [58.32, 75.34], [76.34, 95.34], [96.34, 115.59], [116.59, 136.2], [137.2, 154.55], [155.55, 173.5], [174.5, 196.56], [197.56, 217.67], [218.67, 237.73], [238.73, 257.14], [258.14, 277.14], [278.14, 296.1]], "audio": "audio.m4a"};
+const $ = s => document.querySelector(s);
+const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const store = { get(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}} };
+const KEY = 'shadow:' + D.meta.title_en;
+const checked = store.get(KEY) || {};
+const m = D.meta;
+let pi = 0, page = m.start_page || 1, html = '';
+D.sections.forEach((s, si) => {
+  const first = si === 0;
+  const enP = s.paragraphs.map(p => `<p class="para" data-i="${pi++}">${esc(p.en)}</p>`).join('');
+  pi -= s.paragraphs.length;
+  const jaP = s.paragraphs.map(p => `<p class="para" data-i="${pi++}">${esc(p.ja)}</p>`).join('');
+  const vocab = s.vocab.map((v, vi) => { const id = `v${si}-${vi}`;
+    return `<li><label><input type="checkbox" data-k="${id}" ${checked[id]?'checked':''}><b>${esc(v.w)}</b><span>${esc(v.m)}</span></label></li>`; }).join('');
+  html += `<section class="spread">
+    <div class="page en">
+      <div class="runhead">${esc(m.series_en)} <button class="track" data-s="${si}"><i>▶</i>Track ${esc(m.track)}</button></div>
+      ${first ? `<h1>${esc(m.title_en)}</h1><h2 class="sub">${esc(m.subtitle_en)}</h2><p class="source">${esc(m.source_en)}</p>` : ''}
+      ${s.heading_en ? `<h3>${esc(s.heading_en)}</h3>` : ''}
+      <div class="body">${enP}</div>
+      <span class="folio">${page}</span>
+    </div>
+    <div class="page ja">
+      <div class="runhead">${esc(m.series_ja)}</div>
+      ${first ? `<h1>${esc(m.title_ja)}</h1><h2 class="sub">${esc(m.subtitle_ja)}</h2><p class="source">${esc(m.date_ja)}</p>` : ''}
+      ${s.heading_ja ? `<h3>${esc(s.heading_ja)}</h3>` : ''}
+      <div class="body">${jaP}</div>
+      <div class="words"><div class="band">Words and Phrases</div><ul>${vocab}</ul></div>
+      <span class="folio">${page + 1}</span>
+    </div></section>`;
+  page += 2;
+});
+$('#book').innerHTML = html;
+
+const au = $('#au');
+// 音声を丸ごと読み込んでから再生する（Range 非対応のサーバーでもシークできるように）
+fetch(D.audio).then(r => { if (!r.ok) throw 0; return r.blob(); })
+  .then(b => au.src = URL.createObjectURL(b)).catch(() => au.src = D.audio);
+const T = D.timings, fmt = t => `${Math.floor(t/60)}:${String(Math.floor(t%60)).padStart(2,'0')}`;
+let loop = false, cur = -1;
+const idxAt = t => { for (let i = T.length - 1; i >= 0; i--) if (t >= T[i][0] - 0.05) return i; return 0; };
+const seekTo = i => { i = Math.max(0, Math.min(T.length - 1, i)); au.currentTime = T[i][0]; mark(i); au.play(); };
+function mark(i){
+  if (i === cur) return; cur = i;
+  document.querySelectorAll('.para.on').forEach(e => e.classList.remove('on'));
+  document.querySelectorAll(`.para[data-i="${i}"]`).forEach(e => e.classList.add('on'));
+  const el = document.querySelector(`.en .para[data-i="${i}"]`);
+  if (el && !au.paused) { const r = el.getBoundingClientRect(); if (r.top < 60 || r.bottom > innerHeight - 110) el.scrollIntoView({behavior:'smooth', block:'center'}); }
+}
+au.addEventListener('loadedmetadata', () => $('#dur').textContent = fmt(au.duration));
+au.addEventListener('timeupdate', () => {
+  const t = au.currentTime;
+  if (loop && cur >= 0 && t >= T[cur][1] + 0.4) { au.currentTime = T[cur][0]; return; }
+  mark(idxAt(t));
+  $('#cur').textContent = fmt(t);
+  if (au.duration) $('#pos').value = t / au.duration * 1000;
+});
+au.addEventListener('play', () => $('#play').textContent = '❚❚');
+au.addEventListener('pause', () => $('#play').textContent = '▶');
+$('#play').onclick = () => au.paused ? au.play() : au.pause();
+$('#prev').onclick = () => seekTo((cur < 0 ? 0 : cur) - 1);
+$('#next').onclick = () => seekTo(cur + 1);
+$('#pos').oninput = e => { if (au.duration) au.currentTime = e.target.value / 1000 * au.duration; };
+$('#rate').onchange = e => au.playbackRate = +e.target.value;
+const tog = (id, fn) => $(id).onclick = e => { e.currentTarget.classList.toggle('on'); fn(e.currentTarget.classList.contains('on')); };
+tog('#loop', v => loop = v);
+tog('#hideEn', v => document.body.classList.toggle('hide-en', v));
+tog('#hideJa', v => document.body.classList.toggle('hide-ja', v));
+document.addEventListener('click', e => {
+  const p = e.target.closest('.para'); if (p) return seekTo(+p.dataset.i);
+  const t = e.target.closest('.track'); if (t) { const s = +t.dataset.s; let i = 0; for (let k = 0; k < s; k++) i += D.sections[k].paragraphs.length; seekTo(i); }
+});
+document.addEventListener('change', e => { const k = e.target.dataset && e.target.dataset.k; if (k) { checked[k] = e.target.checked; store.set(KEY, checked); } });
+document.addEventListener('keydown', e => { if (e.target.tagName === 'INPUT' && e.target.type !== 'range') return;
+  if (e.code === 'Space') { e.preventDefault(); $('#play').click(); }
+  if (e.code === 'ArrowRight') seekTo(cur + 1); if (e.code === 'ArrowLeft') seekTo(cur - 1); });
+</script>
+</body>
+</html>
