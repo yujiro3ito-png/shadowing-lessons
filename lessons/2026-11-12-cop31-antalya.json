@@ -1,0 +1,160 @@
+{
+ "meta": {
+  "series_en": "Science & Environment 1",
+  "series_ja": "科学・環境 1",
+  "track": "07",
+  "title_en": "COP31 opens in Antalya, and the world cannot afford another summit of promises",
+  "subtitle_en": "Japan should press for money that reaches the vulnerable and a clear path away from fossil fuels",
+  "title_ja": "COP31開幕　約束だけの会議はもう許されない",
+  "subtitle_ja": "日本は、脆弱な国々に届く資金と、化石燃料からの明確な道筋を求めるべきだ",
+  "source_en": "Original text based on reports from AFP, Khaleej Times, EWN and WAM, Nov. 2026",
+  "date_ja": "2026年11月12日作成",
+  "start_page": 14,
+  "voice": "Samantha",
+  "rate": 145,
+  "pause_sec": 1.0,
+  "engine": "openai",
+  "openai_voice": "cedar"
+ },
+ "sections": [
+  {
+   "heading_en": "",
+   "heading_ja": "",
+   "paragraphs": [
+    {
+     "en": "The annual United Nations climate conference opened on Monday in the Turkish resort city of Antalya. Negotiators from nearly two hundred countries will spend two weeks there. Organizers call it the implementation summit, a gathering meant to turn years of pledges into real action on the ground.",
+     "ja": "国連の年次気候会議が月曜日、トルコの保養地アンタルヤで開幕した。二週間にわたり、ほぼ200か国の交渉担当者が議論する。主催者は「実行のCOP」と位置づけ、長年の約束を現場での行動に変えることを狙う。"
+    },
+    {
+     "en": "The mood at the opening was hopeful on the surface. The Turkish president of the conference and the Australian minister who leads the negotiations raised their clasped hands together. Their unusual partnership settled a dispute over who should host. Yet the ceremony began ninety minutes late, an omen of how slowly progress may come.",
+     "ja": "開幕時の雰囲気は表向き前向きだった。議長を務めるトルコの閣僚と、交渉を率いるオーストラリアの閣僚は、手を取り合って掲げた。この異例の協力関係は、開催地をめぐる対立を収めたものだ。だが式典は90分遅れて始まり、前途の遅さを暗示した。"
+    },
+    {
+     "en": "The pressure on delegates is enormous. The Secretary-General of the United Nations urged leaders to get serious, warning that the world has entered a new age of climate extremes. This year brought severe heat in Europe, huge wildfires in Indonesia and deadly floods in Nepal, all made worse by a strong El Niño.",
+     "ja": "代表団にかかる重圧は大きい。国連事務総長は各国首脳に本気になるよう促し、世界は気候の極端現象の新時代に入ったと警告した。今年は欧州の猛暑、インドネシアの大規模な森林火災、ネパールの死者を出した洪水が相次ぎ、強いエルニーニョがそれを悪化させた。"
+    },
+    {
+     "en": "The science is equally stark. In September, the United Nations warned that global temperatures were on course to exceed one and a half degrees above preindustrial levels, breaching the most ambitious limit in the Paris Agreement. Forecasters also say the El Niño could make this year or next the hottest ever recorded.",
+     "ja": "科学の示す状況も深刻だ。9月、国連は世界の気温が産業革命前より1.5度を超える軌道にあると警告し、パリ協定の最も野心的な目標が破られる恐れを示した。気象専門家は、エルニーニョにより今年か来年が観測史上最も暑くなる可能性も指摘する。"
+    }
+   ],
+   "vocab": [
+    {"w": "negotiator", "m": "交渉担当者"},
+    {"w": "pledge", "m": "公約、約束"},
+    {"w": "on the ground", "m": "現場で、実地で"},
+    {"w": "clasped hands", "m": "固く握り合った手"},
+    {"w": "settle a dispute", "m": "対立を収める"},
+    {"w": "omen", "m": "前兆、兆し"},
+    {"w": "urge", "m": "強く促す"},
+    {"w": "extremes", "m": "極端な現象"},
+    {"w": "wildfire", "m": "森林火災"},
+    {"w": "on course to", "m": "〜に向かう軌道にある"},
+    {"w": "preindustrial", "m": "産業革命前の"},
+    {"w": "breach", "m": "破る、突破する"}
+   ]
+  },
+  {
+   "heading_en": "A fight over money",
+   "heading_ja": "資金をめぐる攻防",
+   "paragraphs": [
+    {
+     "en": "The first battle was about money. Developing countries stayed up late on Sunday to demand that climate finance be placed on the official agenda. Wealthy nations took a hard line on a platform agreed last year in Brazil, which would discuss how richer countries should fund poorer ones.",
+     "ja": "最初の争点は資金だった。途上国は日曜夜遅くまで、気候資金を正式な議題に載せるよう求めた。豊かな国々は、昨年ブラジルで合意された、富裕国が貧しい国をどう支えるかを話し合う枠組みをめぐり、強硬な姿勢を取った。"
+    },
+    {
+     "en": "A compromise appears to have emerged. A climate finance work programme will be on the agenda. But African countries, who want adaptation finance tripled, will not get a separate item of their own. Adaptation money pays for sea walls and drought resistant crops, and for many vulnerable nations it is a matter of survival.",
+     "ja": "妥協は成立したようだ。気候資金の作業計画は議題に入る。しかし、適応資金の3倍増を求めるアフリカ諸国の要求は、独立した議題にはならない。適応資金は防潮堤や干ばつに強い作物のための費用で、脆弱な国々には死活問題である。"
+    },
+    {
+     "en": "A senior European Union official has already said there is no political will for new funding pledges. That blunt remark will anger poorer countries, which argue that existing aid falls far short of their needs. Without trust on money, every other negotiation, from emissions to energy, becomes harder to conclude.",
+     "ja": "欧州連合の高官はすでに、新たな資金拠出を約束する政治的意思はないと述べた。この率直な発言は、既存の支援では到底足りないと訴える貧しい国々の反発を招くだろう。資金への信頼がなければ、排出削減からエネルギーまで、他の交渉もまとまりにくくなる。"
+    },
+    {
+     "en": "The background is gloomy. An oil price shock, the war involving the United States and Iran, and Russia's war in Ukraine all weigh on governments. Treasuries are stretched, and voters worry about prices at home. Observers therefore expect few breakthroughs, and some fear that climate will slip down the priority list.",
+     "ja": "背景は暗い。原油価格の急騰、米国とイランをめぐる戦争、ロシアのウクライナ侵攻が、各国政府に重くのしかかる。財政は逼迫し、有権者は国内の物価を案じている。そのため大きな進展は期待されておらず、気候問題の優先順位が下がることを懸念する声もある。"
+    }
+   ],
+   "vocab": [
+    {"w": "climate finance", "m": "気候資金"},
+    {"w": "agenda", "m": "議題"},
+    {"w": "take a hard line", "m": "強硬姿勢を取る"},
+    {"w": "compromise", "m": "妥協"},
+    {"w": "adaptation", "m": "適応（対策）"},
+    {"w": "sea wall", "m": "防潮堤"},
+    {"w": "drought resistant", "m": "干ばつに強い"},
+    {"w": "political will", "m": "政治的意思"},
+    {"w": "blunt", "m": "率直な、歯に衣着せぬ"},
+    {"w": "fall short of", "m": "〜に届かない"},
+    {"w": "weigh on", "m": "〜に重くのしかかる"},
+    {"w": "breakthrough", "m": "突破口、大きな進展"}
+   ]
+  },
+  {
+   "heading_en": "Fossil fuels and an empty chair",
+   "heading_ja": "化石燃料と、空いたままの席",
+   "paragraphs": [
+    {
+     "en": "The thorniest question remains fossil fuels. Two years ago in Dubai, countries promised to transition away from coal, oil and gas, yet they have struggled to act. Last year's summit in Brazil ended without any explicit mention of fossil fuels, because oil producing nations opposed the wording.",
+     "ja": "最も厄介な問題は依然として化石燃料である。2年前のドバイで各国は石炭、石油、天然ガスからの移行を約束したが、行動には苦慮してきた。昨年のブラジルでの会議では、産油国が文言に反対し、最終合意に化石燃料への明確な言及は盛り込まれなかった。"
+    },
+    {
+     "en": "Brazil has since drawn up a voluntary roadmap for phasing out fossil fuels, which each country may adapt to its own circumstances. Turkey, for its part, is promoting a voluntary pledge to raise electricity's share of global energy demand from about twenty percent today to thirty five percent by 2035.",
+     "ja": "その後ブラジルは、各国が事情に合わせて調整できる、化石燃料を段階的に廃止するための自主的な工程表をまとめた。一方トルコは、世界のエネルギー需要に占める電力の割合を、現在の約20%から2035年までに35%へ高める自主的な誓約を推進している。"
+    },
+    {
+     "en": "Both ideas are worth supporting, but they carry a risk. Europe wants the electrification drive to be clean, so that new power does not simply come from burning more coal and gas. Without that condition, a pledge that sounds green could quietly help keep old energy systems alive.",
+     "ja": "どちらの構想も支持に値するが、危うさも抱える。欧州は電化の推進が「クリーン」であることを求めており、新たな電力が単に石炭や天然ガスをより多く燃やすことで賄われてはならないという立場だ。その条件がなければ、環境に優しく聞こえる誓約が、古いエネルギー体制の延命につながりかねない。"
+    },
+    {
+     "en": "One chair at the table is empty. President Donald Trump pulled the United States out of the Paris Agreement and has sent no officials to Antalya. Only a congressional delegation, energized by the Democrats' midterm victory, will attend. The world's largest historical emitter is absent just when leadership is needed.",
+     "ja": "交渉の席には、空いたままの椅子が一つある。トランプ大統領は米国をパリ協定から離脱させ、アンタルヤには政府関係者を一人も送っていない。出席するのは、中間選挙での勝利に勢いづく民主党議員を含む連邦議会の代表団だけだ。歴史的に最大の排出国が、指導力が最も必要な時に不在である。"
+    }
+   ],
+   "vocab": [
+    {"w": "thorny", "m": "厄介な、難しい"},
+    {"w": "transition away from", "m": "〜から移行する"},
+    {"w": "explicit", "m": "明確な、明示的な"},
+    {"w": "oil producing nation", "m": "産油国"},
+    {"w": "draw up", "m": "作成する、まとめる"},
+    {"w": "roadmap", "m": "工程表"},
+    {"w": "phase out", "m": "段階的に廃止する"},
+    {"w": "for its part", "m": "（一方）〜としては"},
+    {"w": "electrification", "m": "電化"},
+    {"w": "pull out of", "m": "〜から離脱する"},
+    {"w": "delegation", "m": "代表団"},
+    {"w": "emitter", "m": "排出国、排出者"}
+   ]
+  },
+  {
+   "heading_en": "What Japan should do",
+   "heading_ja": "日本が果たすべき役割",
+   "paragraphs": [
+    {
+     "en": "Japan has real stakes in this summit. It imports almost all of its oil and gas, and recent price swings have shown how exposed it is. It is also a major donor, and its typhoons, floods and heatwaves are growing more severe. Tokyo cannot treat these talks as somebody else's business.",
+     "ja": "日本にとって、この会議は切実な利害に関わる。石油や天然ガスのほとんどを輸入に頼り、最近の価格変動はその脆弱さを示した。日本は主要な支援国でもあり、台風や洪水、猛暑も深刻さを増している。東京は、この会議を他人事として扱うことはできない。"
+    },
+    {
+     "en": "Japan should push for adaptation finance that actually reaches vulnerable communities, and it should help make the money easier to access. Its experience with disaster prevention, early warning systems and resilient infrastructure is valuable. Sharing that knowledge would build the trust that wealthy countries badly need with the developing world.",
+     "ja": "日本は、脆弱な地域に実際に届く適応資金を主張し、その資金を使いやすくする仕組みづくりにも力を尽くすべきだ。防災や早期警報、強靱なインフラに関する経験は貴重である。その知見を共有することは、豊かな国々が途上国との間で切実に必要としている信頼を築くことにもなる。"
+    },
+    {
+     "en": "Japan should also be honest about its own energy choices. Promoting efficiency, renewables and storage while using gas and coal only as a bridge is a credible message. Delay, however, is the costliest outcome of all. Antalya will be judged not by speeches, but by whether promises finally become projects.",
+     "ja": "日本は自国のエネルギー選択についても誠実であるべきだ。効率化、再生可能エネルギー、蓄電を進め、ガスや石炭はあくまで橋渡しとして使うという姿勢なら、説得力のある発信になる。だが、先送りは最も高くつく結果である。アンタルヤは演説ではなく、約束がようやく事業に変わるかどうかで評価されるだろう。"
+    }
+   ],
+   "vocab": [
+    {"w": "have stakes in", "m": "〜に利害関係がある"},
+    {"w": "price swing", "m": "価格変動"},
+    {"w": "exposed", "m": "影響を受けやすい、さらされた"},
+    {"w": "donor", "m": "支援国、資金提供者"},
+    {"w": "vulnerable", "m": "脆弱な"},
+    {"w": "early warning system", "m": "早期警報システム"},
+    {"w": "resilient", "m": "強靱な、回復力のある"},
+    {"w": "infrastructure", "m": "社会基盤、インフラ"},
+    {"w": "renewables", "m": "再生可能エネルギー"},
+    {"w": "credible", "m": "信頼できる、説得力のある"},
+    {"w": "delay", "m": "遅れ、先送り"}
+   ]
+  }
+ ]
+}
