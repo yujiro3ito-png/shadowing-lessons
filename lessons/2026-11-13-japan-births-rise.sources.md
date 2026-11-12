@@ -1,0 +1,5 @@
+- https://www.nippon.com/en/articles/-/54326
+- https://www.nippon.com/en/news/yjj2026082800725/
+- https://english.adnkronos.com/2026/08/28/1st-half-births-in-japan-rise-for-1st-time-in-11-years/
+- https://asianews.network/?p=313028
+- https://www.japantimes.co.jp/news/2026/06/03/japan/society/birth-numbers/

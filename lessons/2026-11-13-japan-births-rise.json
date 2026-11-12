@@ -1,0 +1,301 @@
+{
+ "meta": {
+  "series_en": "Society & Culture 1",
+  "series_ja": "社会・文化 1",
+  "track": "08",
+  "title_en": "Japan's births tick up for the first time in eleven years, and the window must not close",
+  "subtitle_en": "A small rise offers time to fix pay, housing and work, not a reason to relax",
+  "title_ja": "出生数、11年ぶり増加　この好機を逃してはならない",
+  "subtitle_ja": "わずかな増加は、賃金・住宅・働き方を改める時間を与えるもので、安心の理由ではない",
+  "source_en": "Original text based on reports from Nippon.com, Jiji Press, Yomiuri Shimbun and Asia News Network, Nov. 2026",
+  "date_ja": "2026年11月13日作成",
+  "start_page": 14,
+  "voice": "Samantha",
+  "rate": 145,
+  "pause_sec": 1.0,
+  "engine": "openai",
+  "openai_voice": "cedar"
+ },
+ "sections": [
+  {
+   "heading_en": "",
+   "heading_ja": "",
+   "paragraphs": [
+    {
+     "en": "Japan has received a rare piece of encouraging demographic news. Revised government figures show that the number of babies born to Japanese citizens in the first half of this year rose for the first time in eleven years. The increase is small, but it deserves attention after a decade of steady decline.",
+     "ja": "日本に、人口動態をめぐる珍しい明るい知らせが届いた。政府の確定値によると、今年上半期に生まれた日本人の赤ちゃんの数が11年ぶりに増えた。増加はわずかだが、10年にわたる着実な減少の後だけに注目に値する。"
+    },
+    {
+     "en": "The health ministry counted about three hundred twenty thousand births between January and June, roughly fourteen hundred more than a year earlier. That is a gain of just under half a percent. Marriages also edged up slightly. Deaths, meanwhile, fell, which narrowed the natural population decline.",
+     "ja": "厚生労働省の集計では、1月から6月の出生数は約32万人で、前年同期より約1400人多かった。伸びは0.5％弱である。婚姻数もわずかに増えた。一方、死亡数は減り、自然減の幅は縮まった。"
+    },
+    {
+     "en": "Context matters, however. Annual births dropped below eight hundred thousand in 2022 and below seven hundred thousand in 2024. Last year the total reached a record low for the tenth consecutive year. Against that backdrop, a rise of even a few thousand babies feels like a pause in a long fall.",
+     "ja": "ただし、背景を見る必要がある。年間の出生数は2022年に80万人を、2024年には70万人を割り込んだ。昨年の総数は10年連続で過去最少となった。それを考えれば、数千人の増加でも、長い下落の途中の小休止に見える。"
+    },
+    {
+     "en": "Officials and analysts are cautious, and rightly so. One good half year does not make a trend. Still, the figures offer a moment to ask what is working, and what is not, in a country whose shrinking population threatens its economy, its schools, and its pension system.",
+     "ja": "当局者も専門家も慎重で、それは正しい。好調な半年が一度あっても傾向とは言えない。それでも、この数字は、人口減が経済、学校、年金制度を脅かす国で、何が効き、何が効いていないのかを問う好機である。"
+    }
+   ],
+   "vocab": [
+    {
+     "w": "demographic",
+     "m": "人口動態の"
+    },
+    {
+     "w": "revised figures",
+     "m": "確定値、改定値"
+    },
+    {
+     "w": "deserve attention",
+     "m": "注目に値する"
+    },
+    {
+     "w": "steady decline",
+     "m": "着実な減少"
+    },
+    {
+     "w": "edge up",
+     "m": "わずかに上がる"
+    },
+    {
+     "w": "narrow",
+     "m": "狭める"
+    },
+    {
+     "w": "consecutive",
+     "m": "連続した"
+    },
+    {
+     "w": "backdrop",
+     "m": "背景"
+    },
+    {
+     "w": "rightly so",
+     "m": "当然のことだが"
+    },
+    {
+     "w": "shrinking",
+     "m": "縮小する"
+    },
+    {
+     "w": "pension system",
+     "m": "年金制度"
+    }
+   ]
+  },
+  {
+   "heading_en": "Why the numbers moved",
+   "heading_ja": "数字はなぜ動いたか",
+   "paragraphs": [
+    {
+     "en": "The most likely explanation lies in marriage. Many couples delayed weddings during the pandemic and then married in larger numbers in 2024 and 2025. Because most births in Japan occur within marriage, a wave of weddings tends to be followed, a year or two later, by a wave of newborns.",
+     "ja": "最も有力な説明は婚姻にある。多くのカップルがパンデミック中に結婚を延期し、2024年と2025年にまとまって結婚した。日本では出生の大半が婚姻内で起こるため、結婚が増えると、1、2年後に出生も増えやすい。"
+    },
+    {
+     "en": "Tokyo stands out. The number of Japanese children born there in the first half rose by almost five percent, far above the national pace. The capital has expanded subsidies for child care, free school meals, and support for people seeking partners, and officials are eager to credit those measures.",
+     "ja": "東京は際立っている。上半期に生まれた日本人の子どもは5％近く増え、全国の伸びをはるかに上回った。都は保育の補助、給食の無償化、結婚を望む人への支援を拡充しており、担当者はそうした施策の成果だと強調したがっている。"
+    },
+    {
+     "en": "Credit may be partly deserved, but caution is needed. Tokyo attracts young adults from across the country, so more births there can reflect migration rather than a genuine rise in family size. If young people move to the capital and then cannot afford larger homes, the benefit may fade quickly.",
+     "ja": "成果は一部認められるかもしれないが、慎重さが要る。東京は全国から若者を引き寄せるため、出生の増加は、家族の規模が本当に増えたというより人の移動を反映している可能性がある。若者が上京しても広い家を買えなければ、効果は急速に薄れかねない。"
+    },
+    {
+     "en": "Another reminder is that the total fertility rate remains at an extremely low level, near one point one. Even if more couples marry, each family is having fewer children than in the past. Counting weddings alone, in other words, tells only half of the story.",
+     "ja": "もう一つ忘れてはならないのは、合計特殊出生率が1.1前後と極めて低いままだということだ。結婚するカップルが増えても、一家族あたりの子どもの数は昔より少ない。つまり、結婚の数だけでは話の半分しか分からない。"
+    }
+   ],
+   "vocab": [
+    {
+     "w": "pandemic",
+     "m": "世界的大流行"
+    },
+    {
+     "w": "delay",
+     "m": "先延ばしにする"
+    },
+    {
+     "w": "occur",
+     "m": "起こる"
+    },
+    {
+     "w": "a wave of",
+     "m": "〜の波"
+    },
+    {
+     "w": "stand out",
+     "m": "際立つ"
+    },
+    {
+     "w": "subsidy",
+     "m": "補助金"
+    },
+    {
+     "w": "be eager to",
+     "m": "〜したがる"
+    },
+    {
+     "w": "credit",
+     "m": "〜の手柄とする"
+    },
+    {
+     "w": "migration",
+     "m": "人口移動"
+    },
+    {
+     "w": "genuine",
+     "m": "本物の"
+    },
+    {
+     "w": "fade",
+     "m": "薄れる"
+    },
+    {
+     "w": "total fertility rate",
+     "m": "合計特殊出生率"
+    }
+   ]
+  },
+  {
+   "heading_en": "Barriers young families face",
+   "heading_ja": "若い家族の前にある壁",
+   "paragraphs": [
+    {
+     "en": "Surveys repeatedly show that young Japanese want to marry and have children, yet many hold back for financial reasons. Wages have grown slowly, housing in cities is costly, and unstable contracts make long-term planning difficult. The gap between hopes and reality is the central challenge for any population policy.",
+     "ja": "調査では、若い日本人が結婚や子育てを望みながら、経済的な理由で踏みとどまっていることが繰り返し示される。賃金の伸びは鈍く、都市の住宅は高く、不安定な雇用契約が長期の計画を難しくしている。希望と現実の隔たりこそ、あらゆる人口政策の核心的な課題だ。"
+    },
+    {
+     "en": "Work culture is equally important. Long hours and rigid expectations still fall heavily on women, who often carry most housework and child care. Companies that allow flexible schedules and encourage fathers to take leave are not merely being generous. They are helping to remove a real obstacle to having children.",
+     "ja": "職場文化も同じく重要だ。長時間労働や硬直した期待は今も女性に重くのしかかり、女性が家事や育児の大半を担うことが多い。柔軟な勤務を認め、父親の育休取得を促す企業は、単に寛大なのではない。子どもを持つうえでの現実の障害を取り除いているのだ。"
+    },
+    {
+     "en": "Local governments have been experimenting with cash payments, free medical care for children, and matchmaking programs. Some results are encouraging, and several prefectures recently reported higher fertility. Yet scattered programs create an uneven map, in which a family's support depends on the town where it happens to live.",
+     "ja": "自治体は、現金給付、子どもの医療費無償化、結婚支援事業などを試してきた。成果が出ている例もあり、最近は複数の県で出生率が上がったと報告された。だが施策が散在すれば地図は不均一になり、家族が受ける支援は、たまたま住んでいる町次第になる。"
+    },
+    {
+     "en": "The national government should therefore learn from these experiments and spread the best ones. Reliable funding is essential. Short-term campaigns launched with great fanfare and quietly dropped later will not persuade a twenty-eight-year-old to sign a mortgage or plan a second child.",
+     "ja": "したがって国は、こうした試みから学び、優れたものを広げるべきだ。確かな財源が不可欠である。鳴り物入りで始まり、いつの間にか打ち切られる短期の運動では、28歳の若者に住宅ローンを組ませたり、第二子を考えさせたりすることはできない。"
+    }
+   ],
+   "vocab": [
+    {
+     "w": "hold back",
+     "m": "ためらう、控える"
+    },
+    {
+     "w": "unstable contract",
+     "m": "不安定な雇用契約"
+    },
+    {
+     "w": "fall heavily on",
+     "m": "〜に重くのしかかる"
+    },
+    {
+     "w": "rigid",
+     "m": "硬直した"
+    },
+    {
+     "w": "flexible",
+     "m": "柔軟な"
+    },
+    {
+     "w": "obstacle",
+     "m": "障害"
+    },
+    {
+     "w": "matchmaking",
+     "m": "結婚の仲介"
+    },
+    {
+     "w": "prefecture",
+     "m": "県"
+    },
+    {
+     "w": "scattered",
+     "m": "散在した"
+    },
+    {
+     "w": "uneven",
+     "m": "不均一な"
+    },
+    {
+     "w": "fanfare",
+     "m": "鳴り物入り、華々しい宣伝"
+    },
+    {
+     "w": "mortgage",
+     "m": "住宅ローン"
+    }
+   ]
+  },
+  {
+   "heading_en": "What Japan should do next",
+   "heading_ja": "日本が次にすべきこと",
+   "paragraphs": [
+    {
+     "en": "Japan should also be honest about immigration. Even a strong recovery in births would not offset the decline of the working-age population within the next few decades. Public opinion has recently grown more skeptical of foreign settlement, but the economy already relies on foreign workers in hospitals, farms, and factories.",
+     "ja": "日本は移民についても率直であるべきだ。出生が力強く回復しても、今後数十年の生産年齢人口の減少は埋め合わせられない。世論は最近、外国人の定住に懐疑的になっているが、経済は病院、農場、工場で既に外国人労働者に頼っている。"
+    },
+    {
+     "en": "A sensible policy would combine support for families with a clear framework for welcoming newcomers, including language education and fair treatment at work. Treating the two as rivals is a false choice. A society that cares for its own children is more likely to treat newcomers decently as well.",
+     "ja": "賢明な政策は、家族への支援と、言語教育や職場での公正な待遇を含む、新たな住民を受け入れる明確な枠組みを組み合わせるものだ。両者を競合させるのは誤った二者択一である。自国の子どもを大切にする社会は、新しく来た人々にもまともに接する可能性が高い。"
+    },
+    {
+     "en": "The small rise in births is a gift of time, not a solution. Politicians should use it to build durable policies on pay, housing, and working hours. If they waste it, the next set of figures may revert to decline, and the chance to change course will narrow further.",
+     "ja": "出生のわずかな増加は、解決策ではなく時間の贈り物である。政治家はそれを使い、賃金、住宅、労働時間に関する持続可能な政策を築くべきだ。無駄にすれば、次の数字は再び減少に戻り、進路を変える機会はさらに狭まるだろう。"
+    }
+   ],
+   "vocab": [
+    {
+     "w": "offset",
+     "m": "埋め合わせる"
+    },
+    {
+     "w": "working-age population",
+     "m": "生産年齢人口"
+    },
+    {
+     "w": "skeptical",
+     "m": "懐疑的な"
+    },
+    {
+     "w": "settlement",
+     "m": "定住"
+    },
+    {
+     "w": "rely on",
+     "m": "〜に頼る"
+    },
+    {
+     "w": "sensible",
+     "m": "賢明な"
+    },
+    {
+     "w": "framework",
+     "m": "枠組み"
+    },
+    {
+     "w": "newcomer",
+     "m": "新参者"
+    },
+    {
+     "w": "false choice",
+     "m": "誤った二者択一"
+    },
+    {
+     "w": "durable",
+     "m": "持続性のある"
+    },
+    {
+     "w": "revert to",
+     "m": "〜に逆戻りする"
+    },
+    {
+     "w": "change course",
+     "m": "進路を変える"
+    }
+   ]
+  }
+ ]
+}
