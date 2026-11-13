@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Europe's streets are angry, and leaders must answer without excuses</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --desk:#e9e6df; --paper:#fbfaf6; --ink:#1d1d1b; --muted:#6b6a65; --rule:#2b2b2b;
+  --band:#8a8a88; --band-ink:#fff; --hl:#fff2b3; --hl-line:#e0b400; --gutter:rgba(0,0,0,.10);
+  --bar:#1f1f1e; --bar-ink:#f4f3ef; --accent:#c8a200;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --desk:#151514; --paper:#22221f; --ink:#e9e7e1; --muted:#a3a19a; --rule:#cfcdc6;
+    --band:#5c5c59; --band-ink:#fff; --hl:#4a4120; --hl-line:#d8b42a; --gutter:rgba(0,0,0,.45);
+    --bar:#0d0d0c; --bar-ink:#f4f3ef;
+  }
+}
+:root[data-theme="dark"]{
+  --desk:#151514; --paper:#22221f; --ink:#e9e7e1; --muted:#a3a19a; --rule:#cfcdc6;
+  --band:#5c5c59; --band-ink:#fff; --hl:#4a4120; --hl-line:#d8b42a; --gutter:rgba(0,0,0,.45);
+  --bar:#0d0d0c; --bar-ink:#f4f3ef;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--desk);color:var(--ink);font-family:"Noto Sans JP",system-ui,sans-serif;padding:24px 16px 120px}
+.spread{max-width:1240px;margin:0 auto 32px;display:grid;grid-template-columns:1fr 1fr;background:var(--paper);
+  box-shadow:0 1px 2px rgba(0,0,0,.08),0 10px 30px rgba(0,0,0,.10);border-radius:4px;position:relative}
+.spread::after{content:"";position:absolute;top:0;bottom:0;left:50%;width:36px;transform:translateX(-50%);
+  background:linear-gradient(90deg,transparent,var(--gutter) 50%,transparent);pointer-events:none}
+.page{padding:44px 52px 56px;position:relative;min-height:640px;display:flex;flex-direction:column}
+.runhead{display:flex;align-items:center;gap:10px;font-size:13px;letter-spacing:.02em;color:var(--ink);margin-bottom:28px}
+.runhead::after{content:"";flex:1;border-top:1px solid var(--rule)}
+.page.ja .runhead{flex-direction:row-reverse}
+.track{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:700;cursor:pointer;border:0;background:none;color:inherit;padding:0}
+.track i{width:18px;height:18px;border-radius:50%;border:1.5px solid currentColor;display:grid;place-items:center;font-style:normal;font-size:9px}
+h1{font-family:"Source Serif 4",Georgia,serif;font-size:30px;line-height:1.15;margin:0 0 6px;font-weight:700}
+h2.sub{font-family:"Source Serif 4",Georgia,serif;font-size:19px;line-height:1.3;margin:0 0 14px;font-weight:700}
+.page.ja h1{font-family:"Noto Serif JP",serif;font-size:24px;line-height:1.45;font-weight:700;margin-bottom:2px}
+.page.ja h2.sub{font-family:"Noto Serif JP",serif;font-size:18px;font-weight:700}
+.source{text-align:right;font-size:12px;color:var(--muted);margin:0 0 22px}
+.source::before{content:"● "}
+h3{font-family:"Source Serif 4",Georgia,serif;font-size:17px;margin:4px 0 8px;font-weight:700}
+.page.ja h3{font-family:"Noto Sans JP",sans-serif;font-size:15px}
+.en p{font-family:"Source Serif 4",Georgia,serif;font-size:18px;line-height:1.72;margin:0;text-indent:1.4em;text-align:justify;hyphens:auto}
+.ja p{font-family:"Noto Serif JP",serif;font-size:15px;line-height:2.0;margin:0;text-indent:1em;text-align:justify}
+.para{cursor:pointer;border-radius:3px;transition:background .2s;padding:1px 4px;margin:0 -4px}
+.para:hover{background:color-mix(in srgb,var(--hl) 45%,transparent)}
+.para.on{background:var(--hl);box-shadow:inset 3px 0 0 var(--hl-line)}
+body.hide-en .en .body{filter:blur(6px);user-select:none}
+body.hide-en .en .para.on{filter:none}
+body.hide-ja .ja .body{filter:blur(5px)}
+.words{margin-top:auto;padding-top:28px}
+.words .band{background:var(--band);color:var(--band-ink);font-weight:700;font-size:14px;padding:5px 14px;border-radius:999px 999px 0 0;width:92%}
+.words ul{list-style:none;margin:0;padding:10px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(165px,1fr));gap:4px 14px;font-size:13px}
+.words li{display:flex;gap:6px;align-items:baseline}
+.words label{display:block;cursor:pointer;padding-left:20px;text-indent:-20px;line-height:1.5}
+.words input{margin:0 6px 0 0;vertical-align:-1px;accent-color:var(--accent)}
+.words b{font-family:"Source Serif 4",Georgia,serif;font-weight:400;font-size:14px;margin-right:6px}
+.words span{color:var(--muted)}
+.folio{position:absolute;bottom:18px;font-size:13px;color:var(--muted)}
+.en .folio{left:52px}.ja .folio{right:52px}
+/* player */
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--bar);color:var(--bar-ink);padding:10px 16px calc(10px + env(safe-area-inset-bottom));z-index:10}
+.bar .in{max-width:1240px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px}
+.bar button,.bar select{font:inherit;font-size:13px;color:inherit;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:6px;padding:6px 10px;cursor:pointer}
+.bar button.on{background:var(--accent);border-color:var(--accent);color:#111}
+.bar .play{width:44px;height:36px;font-size:16px}
+.seek{flex:1;min-width:160px;display:flex;align-items:center;gap:8px;font-size:12px;font-variant-numeric:tabular-nums}
+.seek input{flex:1;accent-color:var(--accent)}
+@media (max-width:860px){
+  .spread{grid-template-columns:1fr}
+  .spread::after{display:none}
+  .page{padding:28px 18px 48px;min-height:0}
+  .page.ja{border-top:1px dashed var(--gutter)}
+  h1{font-size:25px}
+  .en p{font-size:17px}
+  .folio{display:none}
+  body{padding:12px 0 150px}
+  .spread{border-radius:0}
+}
+@media print{
+  body{background:#fff;padding:0}
+  .bar{display:none}
+  .spread{box-shadow:none;break-after:page;margin:0;max-width:none}
+  .para.on{background:none;box-shadow:none}
+  body.hide-en .en .body,body.hide-ja .ja .body{filter:none}
+  @page{size:A4 landscape;margin:10mm}
+}
+</style>
+</head>
+<body>
+<main id="book"></main>
+<audio id="au" preload="auto"></audio>
+<div class="bar"><div class="in">
+  <button class="play" id="play" aria-label="再生">▶</button>
+  <button id="prev" aria-label="前の段落">⏮</button>
+  <button id="next" aria-label="次の段落">⏭</button>
+  <div class="seek"><span id="cur">0:00</span><input type="range" id="pos" min="0" max="1000" value="0"><span id="dur">0:00</span></div>
+  <select id="rate" aria-label="速度">
+    <option value="0.7">0.7×</option><option value="0.8">0.8×</option><option value="0.9">0.9×</option>
+    <option value="1" selected>1.0×</option><option value="1.1">1.1×</option><option value="1.2">1.2×</option>
+  </select>
+  <button id="loop" title="今の段落をくり返す">段落リピート</button>
+  <button id="hideEn" title="英文をぼかす（音だけでシャドーイング）">英文を隠す</button>
+  <button id="hideJa">訳を隠す</button>
+</div></div>
+<script>
+const D = {"meta": {"series_en": "Weekly Focus 3", "series_ja": "今週の焦点 3", "track": "09", "title_en": "Europe's streets are angry, and leaders must answer without excuses", "subtitle_en": "Cost of living protests in France and Germany demand real results, and demand calm from the crowd", "title_ja": "欧州の街頭に広がる怒り　指導者は言い訳なく応えよ", "subtitle_ja": "仏独で広がる生活費抗議は、具体的な成果と、群衆の側の冷静さの両方を求めている", "source_en": "Original text based on reports from Al Jazeera, Euronews, Reuters and AFP, Nov. 2026", "date_ja": "2026年11月14日作成", "start_page": 14, "voice": "Samantha", "rate": 145, "pause_sec": 1.0, "engine": "openai", "openai_voice": "cedar"}, "sections": [{"heading_en": "", "heading_ja": "", "paragraphs": [{"en": "Europe's streets have been loud for weeks. In France, unions and students marched on November 5 in what many called the biggest day of protest in years. The interior ministry counted about six hundred thousand people. A week earlier in Germany, young demonstrators gathered in dozens of cities.", "ja": "欧州の街頭は数週間にわたって騒がしい。フランスでは11月5日、労働組合と学生が行進し、多くの人が近年で最大の抗議の日と呼んだ。内務省の集計では約60万人が参加した。その1週間前にはドイツでも、若者たちが数十の都市に集まった。"}, {"en": "This editorial argues that the protests deserve to be taken seriously, but that violence deserves no sympathy. A democracy can accept anger on the streets. What it cannot accept is the burning of shops, the looting of stores and attacks on police officers, which only hand critics an excuse to dismiss legitimate demands.", "ja": "本稿は、抗議は真剣に受け止めるに値するが、暴力には同情の余地がないと主張する。民主主義は街頭の怒りを受け入れることができる。受け入れられないのは、店舗の放火や略奪、警察官への攻撃である。それらは正当な要求を退ける口実を批判者に与えるだけだ。"}], "vocab": [{"w": "take to the streets", "m": "街頭に繰り出す"}, {"w": "turnout", "m": "参加者数、投票率"}, {"w": "stuck", "m": "行き詰まった、伸びない"}, {"w": "short of", "m": "〜が不足して"}, {"w": "legitimate", "m": "正当な"}, {"w": "deserve", "m": "〜に値する"}, {"w": "sympathy", "m": "同情"}, {"w": "looting", "m": "略奪"}, {"w": "dismiss", "m": "退ける、一蹴する"}, {"w": "editorial", "m": "社説"}]}, {"heading_en": "France: wages, prices and the budget", "heading_ja": "フランス：賃金、物価、予算", "paragraphs": [{"en": "The French movement began in the autumn with student anger and strikes by public workers. It then widened into a broad revolt against the cost of living. Marchers in Paris and other cities demanded higher pay and more money for schools, and some unions spoke of a dignified wage as a basic right.", "ja": "フランスの運動は秋、学生の怒りと公務員のストライキから始まり、やがて生活費高騰への広範な反発に広がった。パリなど各地の行進参加者は賃上げと学校予算の増額を求め、一部の労組は人間らしい賃金を基本的な権利だと訴えた。"}, {"en": "The timing made matters worse. Only a day before the large strike, lawmakers rejected the first part of the budget bill for next year. The government says it must rein in a swollen deficit, while its critics say that ordinary households are being asked to pay for choices they did not make.", "ja": "時期の悪さが事態を悪化させた。大規模ストの前日、議員らは来年度予算案の第1部を否決した。政府は膨らんだ赤字を抑える必要があると言い、批判する側は、庶民が自分たちの選んでいない政策の代償を払わされていると言う。"}, {"en": "Reports say that Prime Minister Sebastien Lecornu has invited union leaders to talks, yet another demonstration was already planned for the weekend. Protesters have returned for four weekends in a row. That persistence suggests that a single meeting will not calm a movement driven by daily worries.", "ja": "報道によれば、ルコルニュ首相は労組幹部を協議に招いたが、週末にはすでに別のデモが予定されていた。抗議する人々は4週連続の週末に戻ってきた。この粘り強さは、日々の不安に突き動かされた運動が、一度の会合では収まらないことを示している。"}], "vocab": [{"w": "rein in", "m": "抑制する"}, {"w": "deficit", "m": "赤字"}, {"w": "budget bill", "m": "予算案"}, {"w": "strike", "m": "ストライキ"}, {"w": "revolt", "m": "反乱、反発"}, {"w": "cost of living", "m": "生活費"}, {"w": "dignified", "m": "品位ある、人間らしい"}, {"w": "in a row", "m": "連続で"}, {"w": "persistence", "m": "粘り強さ"}, {"w": "clash", "m": "衝突"}, {"w": "condemn", "m": "非難する"}]}, {"heading_en": "Germany: a new generation speaks", "heading_ja": "ドイツ：新しい世代の声", "paragraphs": [{"en": "On October 31, a youth campaign called Gen Z regelt brought protesters into the streets of thirty four German cities. They demanded better schools, lower living costs and an end to the new compulsory military service. Police counted far fewer people than the organizers claimed, so the true turnout remains disputed.", "ja": "10月31日、「Gen Z regelt」と名乗る若者のキャンペーンが、ドイツの34都市で抗議者を街頭に集めた。参加者は、学校の改善、生活費の引き下げ、新たな兵役義務の撤廃を求めた。警察の集計は主催者の主張よりはるかに少なく、実際の参加者数は今も争われている。"}, {"en": "Most of the demonstrations were peaceful. After the main events ended, however, trouble flared in Frankfurt, where at least two stores were looted and emergency crews were attacked with fireworks and petrol bombs. The state interior minister blamed about one hundred left wing extremists who had mixed into the crowd.", "ja": "デモの大半は平和的だった。しかし主要行事が終わった後、フランクフルトで騒ぎが起き、少なくとも2店舗が略奪され、救急隊員が花火や火炎瓶で襲われた。州の内相は、群衆に紛れ込んだ約100人の左翼過激派の仕業だと非難した。"}, {"en": "The organizers quickly disowned the violence, and a national association of school students distanced itself from the campaign. Both reactions were sensible. Still, the episode shows how easily a youthful movement without a clear structure can be hijacked by people whose goals have little to do with schools or wages.", "ja": "主催者は暴力から速やかに距離を置き、全国の生徒組織もこの運動とは一線を画した。どちらの反応も賢明だった。それでもこの一件は、明確な組織を持たない若者の運動が、学校や賃金とはほとんど無関係な目的を持つ者たちに、いかに簡単に乗っ取られうるかを示している。"}, {"en": "Military service is a particularly sensitive subject. Berlin argues that a more dangerous Europe needs more trained people. Young Germans reply that they are being asked to carry the burden of defense while also struggling with rents and uncertain jobs. Both arguments contain truth, and neither can be waved away.", "ja": "兵役は特に微妙な問題である。ベルリンは、より危険になった欧州には訓練された人材がもっと必要だと主張する。若いドイツ人は、家賃や不安定な仕事に苦しみながら、防衛の負担まで背負わされていると反論する。どちらの主張にも真実があり、どちらも軽く片づけることはできない。"}], "vocab": [{"w": "campaign", "m": "運動、キャンペーン"}, {"w": "disputed", "m": "争われている"}, {"w": "flare up", "m": "突然燃え上がる"}, {"w": "petrol bomb", "m": "火炎瓶"}, {"w": "emergency crew", "m": "救急隊"}, {"w": "extremist", "m": "過激派"}, {"w": "disown", "m": "関係を否定する"}, {"w": "distance oneself from", "m": "〜から距離を置く"}, {"w": "hijack", "m": "乗っ取る"}, {"w": "sensitive", "m": "微妙な、デリケートな"}, {"w": "burden", "m": "負担"}, {"w": "wave away", "m": "軽くあしらう"}]}, {"heading_en": "What leaders should do, and what Japan can learn", "heading_ja": "指導者の課題と日本への示唆", "paragraphs": [{"en": "The first lesson is that the grievances are real. Across Europe, housing, food and energy have grown costly faster than paychecks, and young people feel this most. Dismissing them as spoiled or manipulated would repeat the mistake that often turns a peaceful protest into a lasting political crisis.", "ja": "第一の教訓は、不満が現実のものだということだ。欧州全域で、住居、食料、エネルギーの価格は賃金より速く上昇し、若者がそれを最も強く感じている。彼らを甘えている、あるいは踏み台にされていると決めつければ、平和的な抗議を長期の政治危機に変えてきた過ちを繰り返すことになる。"}, {"en": "The third lesson is that order and dialogue go together. Police should act firmly against looters and arsonists, yet use restraint toward peaceful crowds. Organizers should plan routes, work with local officials and refuse to shelter troublemakers. Only then can a movement keep public support and preserve the moral force of its message.", "ja": "第三の教訓は、秩序と対話は両立するということだ。警察は略奪者や放火犯には断固として対処しつつ、平和的な群衆には抑制的であるべきだ。主催者は経路を計画し、地元当局と連携し、騒ぎを起こす者をかばってはならない。そうして初めて、運動は世論の支持を保ち、訴えの道義的な力を守れる。"}, {"en": "Japan is not Europe, and its streets are far calmer. Yet Japanese households also face rising prices, and many young workers wonder whether wages will ever catch up. Quiet frustration does not appear in demonstration figures, but it can show up in low birth rates, weak consumption and falling trust in politics.", "ja": "日本は欧州ではなく、街頭ははるかに静かだ。しかし日本の家庭も物価上昇に直面し、多くの若い働き手は賃金がいつ追いつくのかと思っている。静かな不満はデモの参加者数には表れないが、低い出生率、弱い消費、政治への信頼低下という形で現れうる。"}, {"en": "Europe's experience also carries a warning about timing. Budget fights, defense burdens and the cost of living arrive together, and leaders who treat them separately may lose control of the debate. Tokyo, which is raising defense spending and weighing social security reform, should explain trade-offs to the young early and honestly.", "ja": "欧州の経験は、時機についての警告も含んでいる。予算をめぐる争い、防衛の負担、生活費の問題は同時に押し寄せ、それらを別々に扱う指導者は議論の主導権を失いかねない。防衛費を増やし、社会保障改革を検討している東京は、若者に対して早い段階で、率直にトレードオフを説明すべきだ。"}, {"en": "In the end, the streets of Paris and Frankfurt carry a simple message. Young people and workers are willing to accept sacrifice if the burden is shared fairly and the path ahead is clear. Leaders who offer both fairness and clarity will find protests fading. Leaders who offer neither will keep hearing the same chants.", "ja": "結局、パリとフランクフルトの街頭が伝えているのは単純なメッセージだ。若者や労働者は、負担が公平に分かち合われ、進むべき道が明確であれば、犠牲を受け入れる用意がある。公平さと明確さを示す指導者のもとで抗議は収まっていく。どちらも示さない指導者は、同じシュプレヒコールを聞き続けることになる。"}], "vocab": [{"w": "grievance", "m": "不満、苦情"}, {"w": "paycheck", "m": "給与"}, {"w": "spoiled", "m": "甘やかされた"}, {"w": "manipulate", "m": "操る"}, {"w": "concrete", "m": "具体的な"}, {"w": "timetable", "m": "日程表"}, {"w": "catch up", "m": "追いつく"}, {"w": "frustration", "m": "不満、いらだち"}, {"w": "consumption", "m": "消費"}, {"w": "trust in", "m": "〜への信頼"}, {"w": "carry a warning", "m": "警告を含む"}, {"w": "trade-off", "m": "相反する要素の取捨"}]}], "timings": [[0.0, 17.86], [18.86, 38.01], [39.01, 57.92], [58.92, 76.68], [77.68, 95.13], [96.13, 115.69], [116.69, 134.35], [135.35, 154.07], [155.07, 173.72], [174.72, 193.08], [194.08, 214.34], [215.34, 234.58], [235.58, 255.7], [256.7, 275.51]], "audio": "audio.m4a"};
+const $ = s => document.querySelector(s);
+const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const store = { get(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}} };
+const KEY = 'shadow:' + D.meta.title_en;
+const checked = store.get(KEY) || {};
+const m = D.meta;
+let pi = 0, page = m.start_page || 1, html = '';
+D.sections.forEach((s, si) => {
+  const first = si === 0;
+  const enP = s.paragraphs.map(p => `<p class="para" data-i="${pi++}">${esc(p.en)}</p>`).join('');
+  pi -= s.paragraphs.length;
+  const jaP = s.paragraphs.map(p => `<p class="para" data-i="${pi++}">${esc(p.ja)}</p>`).join('');
+  const vocab = s.vocab.map((v, vi) => { const id = `v${si}-${vi}`;
+    return `<li><label><input type="checkbox" data-k="${id}" ${checked[id]?'checked':''}><b>${esc(v.w)}</b><span>${esc(v.m)}</span></label></li>`; }).join('');
+  html += `<section class="spread">
+    <div class="page en">
+      <div class="runhead">${esc(m.series_en)} <button class="track" data-s="${si}"><i>▶</i>Track ${esc(m.track)}</button></div>
+      ${first ? `<h1>${esc(m.title_en)}</h1><h2 class="sub">${esc(m.subtitle_en)}</h2><p class="source">${esc(m.source_en)}</p>` : ''}
+      ${s.heading_en ? `<h3>${esc(s.heading_en)}</h3>` : ''}
+      <div class="body">${enP}</div>
+      <span class="folio">${page}</span>
+    </div>
+    <div class="page ja">
+      <div class="runhead">${esc(m.series_ja)}</div>
+      ${first ? `<h1>${esc(m.title_ja)}</h1><h2 class="sub">${esc(m.subtitle_ja)}</h2><p class="source">${esc(m.date_ja)}</p>` : ''}
+      ${s.heading_ja ? `<h3>${esc(s.heading_ja)}</h3>` : ''}
+      <div class="body">${jaP}</div>
+      <div class="words"><div class="band">Words and Phrases</div><ul>${vocab}</ul></div>
+      <span class="folio">${page + 1}</span>
+    </div></section>`;
+  page += 2;
+});
+$('#book').innerHTML = html;
+
+const au = $('#au');
+// 音声を丸ごと読み込んでから再生する（Range 非対応のサーバーでもシークできるように）
+fetch(D.audio).then(r => { if (!r.ok) throw 0; return r.blob(); })
+  .then(b => au.src = URL.createObjectURL(b)).catch(() => au.src = D.audio);
+const T = D.timings, fmt = t => `${Math.floor(t/60)}:${String(Math.floor(t%60)).padStart(2,'0')}`;
+let loop = false, cur = -1;
+const idxAt = t => { for (let i = T.length - 1; i >= 0; i--) if (t >= T[i][0] - 0.05) return i; return 0; };
+const seekTo = i => { i = Math.max(0, Math.min(T.length - 1, i)); au.currentTime = T[i][0]; mark(i); au.play(); };
+function mark(i){
+  if (i === cur) return; cur = i;
+  document.querySelectorAll('.para.on').forEach(e => e.classList.remove('on'));
+  document.querySelectorAll(`.para[data-i="${i}"]`).forEach(e => e.classList.add('on'));
+  const el = document.querySelector(`.en .para[data-i="${i}"]`);
+  if (el && !au.paused) { const r = el.getBoundingClientRect(); if (r.top < 60 || r.bottom > innerHeight - 110) el.scrollIntoView({behavior:'smooth', block:'center'}); }
+}
+au.addEventListener('loadedmetadata', () => $('#dur').textContent = fmt(au.duration));
+au.addEventListener('timeupdate', () => {
+  const t = au.currentTime;
+  if (loop && cur >= 0 && t >= T[cur][1] + 0.4) { au.currentTime = T[cur][0]; return; }
+  mark(idxAt(t));
+  $('#cur').textContent = fmt(t);
+  if (au.duration) $('#pos').value = t / au.duration * 1000;
+});
+au.addEventListener('play', () => $('#play').textContent = '❚❚');
+au.addEventListener('pause', () => $('#play').textContent = '▶');
+$('#play').onclick = () => au.paused ? au.play() : au.pause();
+$('#prev').onclick = () => seekTo((cur < 0 ? 0 : cur) - 1);
+$('#next').onclick = () => seekTo(cur + 1);
+$('#pos').oninput = e => { if (au.duration) au.currentTime = e.target.value / 1000 * au.duration; };
+$('#rate').onchange = e => au.playbackRate = +e.target.value;
+const tog = (id, fn) => $(id).onclick = e => { e.currentTarget.classList.toggle('on'); fn(e.currentTarget.classList.contains('on')); };
+tog('#loop', v => loop = v);
+tog('#hideEn', v => document.body.classList.toggle('hide-en', v));
+tog('#hideJa', v => document.body.classList.toggle('hide-ja', v));
+document.addEventListener('click', e => {
+  const p = e.target.closest('.para'); if (p) return seekTo(+p.dataset.i);
+  const t = e.target.closest('.track'); if (t) { const s = +t.dataset.s; let i = 0; for (let k = 0; k < s; k++) i += D.sections[k].paragraphs.length; seekTo(i); }
+});
+document.addEventListener('change', e => { const k = e.target.dataset && e.target.dataset.k; if (k) { checked[k] = e.target.checked; store.set(KEY, checked); } });
+document.addEventListener('keydown', e => { if (e.target.tagName === 'INPUT' && e.target.type !== 'range') return;
+  if (e.code === 'Space') { e.preventDefault(); $('#play').click(); }
+  if (e.code === 'ArrowRight') seekTo(cur + 1); if (e.code === 'ArrowLeft') seekTo(cur - 1); });
+</script>
+</body>
+</html>
