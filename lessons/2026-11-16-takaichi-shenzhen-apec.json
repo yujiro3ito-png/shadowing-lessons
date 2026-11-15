@@ -1,0 +1,277 @@
+{
+  "meta": {
+    "series_en": "Politics & Diplomacy 2",
+    "series_ja": "政治・外交 2",
+    "track": "11",
+    "title_en": "Takaichi heads to Shenzhen, where a handshake may be all Japan can win",
+    "subtitle_en": "Tokyo should hold its principle, keep the door open and build support beyond Beijing",
+    "title_ja": "高市首相、深圳へ　握手一つが精いっぱいか",
+    "subtitle_ja": "東京は原則を守り、対話の扉を開け続け、北京の外にも支持を広げるべきだ",
+    "source_en": "Original text based on reports from Kyodo, Anadolu Agency and Seoul Economic Daily, Nov. 2026",
+    "date_ja": "2026年11月16日作成",
+    "start_page": 14,
+    "voice": "Samantha",
+    "rate": 145,
+    "pause_sec": 1.0,
+    "engine": "openai",
+    "openai_voice": "cedar"
+  },
+  "sections": [
+    {
+      "heading_en": "",
+      "heading_ja": "",
+      "paragraphs": [
+        {
+          "en": "Prime Minister Sanae Takaichi leaves Tokyo today for a four day trip that will take her first to Manila and then to Shenzhen, where leaders of the Asia Pacific region gather for their annual economic summit. It is her first visit to China since relations deteriorated a year ago.",
+          "ja": "高市早苗首相は本日、4日間の外遊に出発する。最初にマニラを、次いでアジア太平洋地域の首脳が年次の経済サミットのために集まる深圳を訪れる。両国関係が1年前に悪化して以来、中国訪問は初めてである。"
+        },
+        {
+          "en": "The trouble began last November, when Ms. Takaichi told parliament that a Chinese attack on Taiwan, including a naval blockade, could threaten Japan's survival and allow its forces to act in collective self defense. Beijing demanded that she take the words back. She has declined to do so.",
+          "ja": "問題は昨年11月に始まった。高市氏は国会で、海上封鎖を含む中国による台湾攻撃は日本の存立を脅かす事態になり得て、日本が集団的自衛権を行使できる場合があると述べた。北京は発言の撤回を要求した。彼女はそれに応じていない。"
+        },
+        {
+          "en": "China answered with pressure. It urged its citizens to avoid travel to Japan, brought back its ban on Japanese seafood, and placed export controls on rare earths and other strategic materials that Japanese factories need. Ordinary companies and fishing towns have paid the price.",
+          "ja": "中国は圧力で応じた。自国民に日本への渡航を控えるよう促し、日本産水産物の禁輸を復活させ、日本の工場が必要とするレアアースなどの戦略物資に輸出管理をかけた。自分たちが始めたわけでもない争いの代償を、普通の企業や漁業の町が払っている。"
+        },
+        {
+          "en": "Now Japanese officials say a formal meeting between Ms. Takaichi and President Xi Jinping looks unlikely. A Chinese source reportedly noted that Japan would be the only major participant whose leader does not sit down with Mr. Xi. Tokyo is aiming for a brief handshake instead.",
+          "ja": "いま日本の当局者は、高市氏と習近平国家主席の正式な会談は難しい情勢だと語る。中国側の関係者は、首脳が習氏と会談しない主要参加国は日本だけになると指摘したと伝えられている。東京は代わりに短い握手を目指している。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "deteriorate",
+          "m": "悪化する"
+        },
+        {
+          "w": "blockade",
+          "m": "封鎖"
+        },
+        {
+          "w": "collective self defense",
+          "m": "集団的自衛権"
+        },
+        {
+          "w": "take back",
+          "m": "撤回する"
+        },
+        {
+          "w": "decline to",
+          "m": "〜するのを断る"
+        },
+        {
+          "w": "export controls",
+          "m": "輸出管理"
+        },
+        {
+          "w": "strategic materials",
+          "m": "戦略物資"
+        },
+        {
+          "w": "pay the price",
+          "m": "代償を払う"
+        },
+        {
+          "w": "participant",
+          "m": "参加者"
+        },
+        {
+          "w": "sit down with",
+          "m": "〜と腰を据えて話す"
+        }
+      ]
+    },
+    {
+      "heading_en": "A host who chooses its guests",
+      "heading_ja": "招待客を選ぶ主催国",
+      "paragraphs": [
+        {
+          "en": "Beijing's message is plain. As host of the summit, it can decide who receives a warm welcome and who is kept at a distance. Officials said Mr. Xi is preparing lavish treatment for the leaders of the United States, Russia and other countries, while Japan waits to learn what it will get.",
+          "ja": "北京のメッセージは明白だ。サミットの主催国として、誰を温かく迎え、誰を遠ざけるかを決められる。当局者によれば、習氏は米国やロシアなどの首脳を手厚くもてなす準備を進めており、日本は自国が何を得られるのかを待つしかない。"
+        },
+        {
+          "en": "There is a larger worry behind this. President Trump says he expects to meet both Mr. Xi and President Vladimir Putin in Shenzhen, which could produce the first summit of the three powers. Tokyo has told Washington it is concerned about the signal that such a gathering would send to allies.",
+          "ja": "背景にはより大きな懸念がある。トランプ大統領は深圳で習氏とプーチン大統領の双方と会談する見通しだと語っており、実現すれば3大国による初の首脳会談になり得る。東京は、そうした会合が同盟国に送る合図について懸念していると米国に伝えた。"
+        },
+        {
+          "en": "The American side reportedly said it understands. That is welcome, but understanding is not a strategy. If Washington strikes deals with Beijing and Moscow over the heads of its friends, Japan and other allies will have to ask how firmly they can count on its commitments.",
+          "ja": "米国側は理解していると述べたと伝えられる。それは歓迎すべきことだが、理解は戦略ではない。ワシントンが友好国の頭越しに北京やモスクワと取引をすれば、日本などの同盟国は、米国の約束をどこまで頼れるのかを問わざるを得なくなる。"
+        },
+        {
+          "en": "Japan should not exaggerate its isolation, however. Many governments in the region are uneasy about Chinese coercion, and they have seen what happened to Tokyo. Quiet sympathy is not public support, but careful diplomacy can turn it into practical cooperation.",
+          "ja": "もっとも、日本は自国の孤立を誇張すべきではない。域内の多くの政府は中国の威圧に不安を抱いており、東京に起きたことを見ている。静かな共感は公然の支持とは違うが、慎重な外交によって実際の協力へと変え得る資源である。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "lavish",
+          "m": "豪華な、手厚い"
+        },
+        {
+          "w": "keep at a distance",
+          "m": "遠ざける"
+        },
+        {
+          "w": "over the heads of",
+          "m": "〜の頭越しに"
+        },
+        {
+          "w": "count on",
+          "m": "当てにする"
+        },
+        {
+          "w": "commitment",
+          "m": "約束、関与"
+        },
+        {
+          "w": "exaggerate",
+          "m": "誇張する"
+        },
+        {
+          "w": "coercion",
+          "m": "威圧、強制"
+        },
+        {
+          "w": "uneasy",
+          "m": "不安な"
+        },
+        {
+          "w": "host",
+          "m": "主催国"
+        },
+        {
+          "w": "turn into",
+          "m": "〜に変える"
+        }
+      ]
+    },
+    {
+      "heading_en": "Firm on principle, flexible on method",
+      "heading_ja": "原則には固く、方法には柔軟に",
+      "paragraphs": [
+        {
+          "en": "Ms. Takaichi has said repeatedly that her door is open and that her remark did not change Japan's long standing position on Taiwan. That is the right line. A government cannot retract a statement of principle every time a larger neighbor objects, or it will never be able to speak plainly again.",
+          "ja": "高市氏は、対話の扉は開かれており、発言は台湾をめぐる日本の長年の立場を変えるものではないと繰り返し述べてきた。それは正しい線である。大きな隣国が反発するたびに原則の表明を撤回していては、二度と率直に語れなくなる。"
+        },
+        {
+          "en": "But firmness on principle does not require silence on everything else. Japan can explain that its position rests on peace and stability across the Taiwan Strait, that it opposes the use of force by anyone, and that it has no wish to see the quarrel harden into a permanent feature of regional politics.",
+          "ja": "だが原則への堅持は、それ以外のすべてについて沈黙することを意味しない。日本は、自国の立場が台湾海峡の平和と安定に基づくこと、誰による武力行使にも反対であること、この対立が域内政治の恒常的な特徴になることを望んでいないことを、説明できる。"
+        },
+        {
+          "en": "A short encounter in Shenzhen, even a stiff one, would have value. It would show that channels still exist, and it would give officials room to begin the slow work of restoring contacts on trade, tourism and crisis management. Neither side gains from a relationship built on mutual suspicion.",
+          "ja": "深圳での短い接触は、たとえぎこちなくても価値がある。連絡経路がまだ存在することを示し、貿易、観光、危機管理での接触を回復する地道な作業を始める余地を当局者に与える。互いへの疑念で成り立つ関係からは、どちらの側も利益を得られない。"
+        },
+        {
+          "en": "Beijing also has reasons to rethink. Its curbs on rare earths have pushed Japanese and other manufacturers to look for new suppliers, which weakens China's long term leverage. A boycott of a close trading partner also sits uncomfortably with the host's pledge to defend open markets at an economic forum.",
+          "ja": "北京にも考え直す理由がある。レアアースの規制は、日本などの製造業者に新たな調達先を探させており、中国の長期的な影響力を弱める。近しい貿易相手国へのボイコットは、経済フォーラムで開かれた市場を守ると誓う主催国の姿勢とも、居心地悪く並ぶ。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "repeatedly",
+          "m": "繰り返し"
+        },
+        {
+          "w": "long standing",
+          "m": "長年の"
+        },
+        {
+          "w": "retract",
+          "m": "撤回する"
+        },
+        {
+          "w": "rest on",
+          "m": "〜に基づく"
+        },
+        {
+          "w": "Taiwan Strait",
+          "m": "台湾海峡"
+        },
+        {
+          "w": "harden",
+          "m": "固まる、硬化する"
+        },
+        {
+          "w": "stiff",
+          "m": "ぎこちない"
+        },
+        {
+          "w": "channel",
+          "m": "連絡経路"
+        },
+        {
+          "w": "leverage",
+          "m": "影響力、てこ"
+        },
+        {
+          "w": "boycott",
+          "m": "ボイコット、不買"
+        },
+        {
+          "w": "pledge",
+          "m": "誓約"
+        }
+      ]
+    },
+    {
+      "heading_en": "What Tokyo should do next",
+      "heading_ja": "東京が次にすべきこと",
+      "paragraphs": [
+        {
+          "en": "First, Japan should keep seeking contact until the last hour, but without paying a political price for it. A meeting bought with a retreat on principle would be worse than no meeting at all, because it would invite more pressure in the future.",
+          "ja": "第一に、日本は最後の瞬間まで接触を求め続けるべきだが、そのために政治的な代償を払ってはならない。原則での後退と引き換えに得た会談は、会談がないことよりも悪い。将来さらなる圧力を招くからだ。"
+        },
+        {
+          "en": "Second, Tokyo should use the Manila meetings to build wider support. A leaders' gathering of the Quad, with Australia, India and the United States, is being arranged, and the talks with Southeast Asian partners offer a chance to show that Japan wants a stable region, not a confrontation.",
+          "ja": "第二に、東京はマニラでの会合を使って幅広い支持を築くべきだ。豪州、インド、米国との日米豪印の首脳会合が調整されており、東南アジアの各国との協議は、日本が望むのは対立ではなく安定した地域だと示す機会になる。"
+        },
+        {
+          "en": "Third, the government should help the companies and communities hurt by the Chinese measures. Diversifying the supply of critical minerals and finding new markets for seafood are not only emergency steps. They are the foundation of an economy that cannot easily be pressured.",
+          "ja": "第三に、政府は中国の措置で打撃を受けた企業や地域を支援すべきだ。重要鉱物の供給先を多様化し、水産物の新たな市場を見つけることは、緊急措置にとどまらない。圧力をかけられにくい経済の土台である。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "seek contact",
+          "m": "接触を求める"
+        },
+        {
+          "w": "retreat",
+          "m": "後退、撤退"
+        },
+        {
+          "w": "invite",
+          "m": "招く"
+        },
+        {
+          "w": "Quad",
+          "m": "日米豪印の枠組み"
+        },
+        {
+          "w": "confrontation",
+          "m": "対立、対決"
+        },
+        {
+          "w": "diversify",
+          "m": "多様化する"
+        },
+        {
+          "w": "critical minerals",
+          "m": "重要鉱物"
+        },
+        {
+          "w": "emergency step",
+          "m": "緊急措置"
+        },
+        {
+          "w": "foundation",
+          "m": "土台"
+        },
+        {
+          "w": "pressure",
+          "m": "圧力をかける"
+        }
+      ]
+    }
+  ]
+}
