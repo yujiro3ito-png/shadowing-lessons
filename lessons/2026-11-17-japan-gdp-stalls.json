@@ -1,0 +1,277 @@
+{
+ "meta": {
+  "series_en": "Economy & Business 2",
+  "series_ja": "経済・ビジネス 2",
+  "track": "12",
+  "title_en": "Japan's economy stalls as oil and the weak yen bite",
+  "subtitle_en": "One soft quarter is a warning: relief must be targeted, honest about its cost, and paired with energy security",
+  "title_ja": "日本経済、足踏み　原油高と円安が重しに",
+  "subtitle_ja": "1四半期の弱さは警告だ。支援は的を絞り、財源を明示し、エネルギー安全保障と併せて進めるべきだ",
+  "source_en": "Original text based on reports from the Cabinet Office release as covered by IndexBox, Brownstone Worldwide and MLQ, Nov. 2026",
+  "date_ja": "2026年11月17日作成",
+  "start_page": 14,
+  "voice": "Samantha",
+  "rate": 145,
+  "pause_sec": 1.0,
+  "engine": "openai",
+  "openai_voice": "cedar"
+ },
+ "sections": [
+  {
+   "heading_en": "",
+   "heading_ja": "",
+   "paragraphs": [
+    {
+     "en": "Japan's economy stopped growing this summer. Government figures released on Monday showed that output between July and September was essentially flat from the previous quarter, and that it shrank at an annualized pace of 0.1 percent. It is the first contraction in four quarters.",
+     "ja": "日本経済はこの夏、成長を止めた。月曜日に公表された政府統計によると、7〜9月期の生産は前期比でほぼ横ばいで、年率換算では0.1%のマイナスとなった。4四半期ぶりの縮小である。"
+    },
+    {
+     "en": "The number itself is small, and it may change when the final data arrive. Yet the details matter more than the headline. Households cut back, the cost of imported energy climbed, and only business investment kept the economy from sliding further.",
+     "ja": "数字そのものは小さく、確報で変わる可能性もある。だが、見出しよりも中身が重要だ。家計は支出を切り詰め、輸入エネルギーの負担は膨らみ、企業の設備投資だけが景気の一段の落ち込みを防いだ。"
+    },
+    {
+     "en": "Private consumption, which makes up more than half of the economy, fell 0.3 percent from the previous quarter. That is roughly a 1.1 percent drop at an annual rate. Officials pointed to long spells of rain and to prices that keep rising faster than many paychecks.",
+     "ja": "経済の半分強を占める個人消費は前期比0.3%減、年率ではおよそ1.1%減だった。当局は長雨と、多くの賃金を上回る勢いで上がり続ける物価を要因に挙げている。"
+    },
+    {
+     "en": "This is a warning, not a surprise. Families have spent two years adjusting to costlier food, electricity and gasoline. When shoppers begin to postpone purchases, a recovery that depends on domestic demand loses its foundation, however strong corporate profits may look.",
+     "ja": "これは驚きではなく警告である。家庭は2年にわたり、食料品や電気、ガソリンの値上がりに合わせて暮らしを調整してきた。買い物を先送りし始めれば、企業収益がいかに堅調に見えても、内需頼みの回復は土台を失う。"
+    }
+   ],
+   "vocab": [
+    {
+     "w": "annualized",
+     "m": "年率換算の"
+    },
+    {
+     "w": "contraction",
+     "m": "縮小、収縮"
+    },
+    {
+     "w": "essentially flat",
+     "m": "ほぼ横ばい"
+    },
+    {
+     "w": "slide",
+     "m": "落ち込む、滑り落ちる"
+    },
+    {
+     "w": "private consumption",
+     "m": "個人消費"
+    },
+    {
+     "w": "spell",
+     "m": "（天候などの）続く期間"
+    },
+    {
+     "w": "foundation",
+     "m": "土台、基盤"
+    },
+    {
+     "w": "cut back",
+     "m": "切り詰める、削減する"
+    },
+    {
+     "w": "headline",
+     "m": "見出しの数字"
+    }
+   ]
+  },
+  {
+   "heading_en": "Oil, the weak yen and an exposed economy",
+   "heading_ja": "原油、円安、そして脆弱な日本経済",
+   "paragraphs": [
+    {
+     "en": "The main culprit lies far from Japan's shores. The war involving Iran has disrupted shipping through the Strait of Hormuz, and crude oil has become far more expensive. Brent was reported near 125 dollars a barrel in October, up about 7 percent in a single month.",
+     "ja": "主因は日本から遠く離れた場所にある。イランをめぐる戦争でホルムズ海峡の航行が混乱し、原油は大幅に値上がりした。ブレント原油は10月に1バレル125ドル近くと伝えられ、1か月で約7%上昇した。"
+    },
+    {
+     "en": "Japan imports almost all of its oil, so every price shock becomes a bill that someone must pay. In the latest quarter, imports rose while exports softened, and trade took a noticeable bite out of growth. The country is paying more and receiving less.",
+     "ja": "日本は石油のほぼすべてを輸入に頼るため、価格の急騰は誰かが払わねばならない請求書となる。直近の四半期は輸入が増え、輸出は弱含み、貿易が成長率を明確に押し下げた。日本は、より多く支払い、より少なく受け取っている。"
+    },
+    {
+     "en": "The weak yen makes matters worse. The dollar has hovered around 160 yen, a level that lifts the price of every barrel in domestic terms. Finance Minister Satsuki Katayama has again warned against speculative moves, a sign that Tokyo is watching for a chance to act.",
+     "ja": "円安が事態をさらに悪化させている。ドルは160円前後で推移し、この水準では1バレルあたりの国内価格が押し上げられる。片山さつき財務相は投機的な動きに改めてけん制を発し、東京が介入の機会をうかがっていることをうかがわせた。"
+    },
+    {
+     "en": "Markets reacted sharply. The Nikkei average fell more than 2 percent on Monday, with technology shares leading the decline. Investors are nervous about the global outlook for artificial intelligence stocks, and the weak domestic data gave them one more reason to sell.",
+     "ja": "市場は敏感に反応した。月曜の日経平均株価は2%超下落し、テクノロジー株が下げを主導した。投資家は世界的なAI関連株の先行きに神経質になっており、国内の弱い統計は売りを促すもう一つの材料となった。"
+    }
+   ],
+   "vocab": [
+    {
+     "w": "culprit",
+     "m": "元凶、原因"
+    },
+    {
+     "w": "Strait of Hormuz",
+     "m": "ホルムズ海峡"
+    },
+    {
+     "w": "crude oil",
+     "m": "原油"
+    },
+    {
+     "w": "shock",
+     "m": "衝撃、急激な変動"
+    },
+    {
+     "w": "soften",
+     "m": "弱含む"
+    },
+    {
+     "w": "take a bite out of",
+     "m": "〜を削る、押し下げる"
+    },
+    {
+     "w": "hover around",
+     "m": "〜付近で推移する"
+    },
+    {
+     "w": "speculative",
+     "m": "投機的な"
+    },
+    {
+     "w": "lead the decline",
+     "m": "下げを主導する"
+    },
+    {
+     "w": "outlook",
+     "m": "見通し"
+    }
+   ]
+  },
+  {
+   "heading_en": "Investment holds, but cannot carry the load",
+   "heading_ja": "設備投資は踏みとどまるが、全体は支えられない",
+   "paragraphs": [
+    {
+     "en": "There was one bright spot. Business investment rose 1.6 percent from the previous quarter, or about 6.8 percent at an annual rate. Companies are spending on data centers, chips and automation, and demand linked to artificial intelligence remains the strongest engine in the economy.",
+     "ja": "明るい材料が一つあった。設備投資は前期比1.6%増、年率ではおよそ6.8%増となった。企業はデータセンターや半導体、自動化に資金を投じており、AI関連の需要が経済で最も力強い原動力であり続けている。"
+    },
+    {
+     "en": "Still, an economy cannot live on one engine. Investment gains tend to benefit large firms first, while smaller companies and ordinary workers feel the pain of higher costs right away. Growth that does not reach the household budget will not feel like growth at all.",
+     "ja": "とはいえ、経済は一つのエンジンだけでは走れない。投資の恩恵はまず大企業に及び、中小企業や一般の働き手は、コスト高の痛みをすぐに感じる。家計に届かない成長は、成長として実感されない。"
+    },
+    {
+     "en": "There is also a risk that the engine itself could stall. If the recent tremor in technology shares turns into a deeper correction, companies may postpone projects. Japan would then lose its last pillar of strength just as consumers and exporters are struggling.",
+     "ja": "そのエンジン自体が止まる危険もある。最近のテクノロジー株の動揺がより深い調整に発展すれば、企業は計画を先送りするかもしれない。消費者と輸出企業が苦戦する中で、日本は最後の支えを失うことになる。"
+    },
+    {
+     "en": "The Bank of Japan faces an awkward position. Inflation driven by energy and a weak currency is not the healthy kind that comes with rising wages. Raising rates could support the yen, but it could also deepen the slowdown. There are no easy choices.",
+     "ja": "日本銀行は厄介な立場に置かれている。エネルギーと円安が押し上げる物価上昇は、賃上げを伴う健全なものではない。利上げは円を支える可能性があるが、減速を深めるおそれもある。簡単な選択肢はない。"
+    }
+   ],
+   "vocab": [
+    {
+     "w": "bright spot",
+     "m": "明るい材料"
+    },
+    {
+     "w": "data center",
+     "m": "データセンター"
+    },
+    {
+     "w": "automation",
+     "m": "自動化"
+    },
+    {
+     "w": "engine",
+     "m": "原動力、エンジン"
+    },
+    {
+     "w": "stall",
+     "m": "失速する、止まる"
+    },
+    {
+     "w": "tremor",
+     "m": "動揺、揺れ"
+    },
+    {
+     "w": "correction",
+     "m": "（株価の）調整"
+    },
+    {
+     "w": "pillar",
+     "m": "支柱、柱"
+    },
+    {
+     "w": "awkward",
+     "m": "厄介な、難しい"
+    },
+    {
+     "w": "slowdown",
+     "m": "景気減速"
+    }
+   ]
+  },
+  {
+   "heading_en": "What Tokyo should do now",
+   "heading_ja": "政府が今なすべきこと",
+   "paragraphs": [
+    {
+     "en": "The government of Prime Minister Sanae Takaichi is pushing bills to cut taxes on food. The idea is attractive, because grocery prices hurt families most. But economists worry about swelling public debt and about how the lost revenue would be replaced.",
+     "ja": "高市早苗首相の政権は食料品の減税法案の成立を目指している。食料品の値上がりが家計に最もこたえるため、発想には魅力がある。だが、膨らむ公的債務や、失われる税収をどう補うのかについて、経済学者は懸念を抱いている。"
+    },
+    {
+     "en": "Relief should be targeted and temporary. Support for lower-income households and for small firms hit hardest by fuel costs would help more per yen spent than broad measures. Whatever Tokyo chooses, it must explain how the bill will be paid, or markets will ask the question for it.",
+     "ja": "支援は的を絞り、期限を区切るべきだ。燃料費の打撃が最も大きい低所得世帯や中小企業を支える方が、広く薄い施策よりも、支出1円あたりの効果は大きい。何を選ぶにせよ、財源を説明しなければ、市場が代わりに問いただすだろう。"
+    },
+    {
+     "en": "Energy security deserves equal attention. Japan cannot end a distant war, but it can reduce its exposure by diversifying suppliers, building reserves and speeding up renewable power and nuclear restarts that meet safety standards. A resilient economy starts with a resilient energy supply.",
+     "ja": "エネルギー安全保障にも同等の注意が要る。日本は遠い戦争を終わらせられないが、調達先の多様化や備蓄の積み増し、再生可能エネルギーの拡大、安全基準を満たす原発の再稼働によって、影響を和らげることはできる。強靱な経済は、強靱なエネルギー供給から始まる。"
+    },
+    {
+     "en": "One quarter of weak data does not make a recession. But it is a clear signal that Japan's recovery is fragile and depends on forces beyond its control. Leaders should treat the warning seriously, act early and avoid promises that the budget cannot keep.",
+     "ja": "1四半期の弱い統計が景気後退を意味するわけではない。しかし、日本の回復はもろく、自国では制御できない要因に左右されているという明確な合図である。指導者は警告を真剣に受け止め、早めに動き、予算で守れない約束は避けなければならない。"
+    }
+   ],
+   "vocab": [
+    {
+     "w": "targeted",
+     "m": "的を絞った"
+    },
+    {
+     "w": "temporary",
+     "m": "一時的な"
+    },
+    {
+     "w": "swelling",
+     "m": "膨らむ"
+    },
+    {
+     "w": "public debt",
+     "m": "公的債務"
+    },
+    {
+     "w": "revenue",
+     "m": "歳入、収入"
+    },
+    {
+     "w": "exposure",
+     "m": "（リスクへの）さらされ具合"
+    },
+    {
+     "w": "diversify",
+     "m": "多様化する"
+    },
+    {
+     "w": "reserves",
+     "m": "備蓄、準備金"
+    },
+    {
+     "w": "resilient",
+     "m": "強靱な、回復力のある"
+    },
+    {
+     "w": "recession",
+     "m": "景気後退"
+    },
+    {
+     "w": "fragile",
+     "m": "もろい、壊れやすい"
+    }
+   ]
+  }
+ ]
+}

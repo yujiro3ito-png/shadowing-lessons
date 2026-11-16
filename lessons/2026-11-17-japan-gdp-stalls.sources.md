@@ -1,0 +1,5 @@
+- https://www.brownstoneworldwide.com/japan-third-quarter-2026-gdp-contraction-consumer-spending/
+- https://www.indexbox.io/blog/japans-economy-contracts-slightly-in-july-september-quarter/
+- https://mlq.ai/news/japans-economy-shrinks-at-a-01-annualized-pace-in-the-third-quarter-as-imports-jump-and-consumers-cut-back/
+- https://www.fxstreet.com/news/asian-stocks-stay-mixed-as-kospi-drops-ahead-of-looming-nvidia-results-202611160634
+- https://newsonjapan.com/article/151361.php
