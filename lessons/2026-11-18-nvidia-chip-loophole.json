@@ -1,0 +1,297 @@
+{
+  "meta": {
+    "series_en": "Technology & AI 2",
+    "series_ja": "テクノロジー・AI 2",
+    "track": "13",
+    "title_en": "Washington closes the cloud loophole, and Nvidia's turmoil tests its resolve",
+    "subtitle_en": "Tighter rules on remote access to chips make sense, but they will convince only if they are enforced evenly and explained in public",
+    "title_ja": "米、クラウドの抜け穴をふさぐ　エヌビディアの混乱が問う執行の本気度",
+    "subtitle_ja": "チップへの遠隔アクセス規制の強化は理にかなう。だが、公平に執行し、公に説明してこそ説得力を持つ",
+    "source_en": "Original text based on reports from Fox News, Reuters, Gizmodo and The Wall Street Journal as relayed by AI Weekly, Nov. 2026",
+    "date_ja": "2026年11月18日作成",
+    "start_page": 14,
+    "voice": "Samantha",
+    "rate": 145,
+    "pause_sec": 1.0,
+    "engine": "openai",
+    "openai_voice": "cedar"
+  },
+  "sections": [
+    {
+      "heading_en": "",
+      "heading_ja": "",
+      "paragraphs": [
+        {
+          "en": "Washington has opened a new front in its technology contest with Beijing, and this time the target is not a chip but a connection. On Monday the Commerce Department issued an interim rule that would require export licenses for overseas data centers that give Chinese companies significant access to advanced American processors.",
+          "ja": "米国は対中技術競争で新たな戦線を開いた。今回の標的は半導体そのものではなく、接続である。商務省は16日、中国企業に先端の米国製プロセッサーへの大きなアクセスを与える海外のデータセンターに、輸出許可を義務づける暫定規則を出した。"
+        },
+        {
+          "en": "The change targets a gap that officials have worried about for years. American export rules limit what physical hardware can be shipped to China. They said little about renting that hardware by the hour from a server farm in another country. Reports say facilities in Singapore, Thailand and Malaysia will be affected.",
+          "ja": "当局が長年懸念してきた抜け穴を狙った措置である。米国の輸出規制は、中国に送れる物理的な機器を制限してきた。だが、他国のサーバー施設からその機器を時間単位で借りることには、ほとんど触れていなかった。報道によれば、シンガポール、タイ、マレーシアの施設が影響を受ける。"
+        },
+        {
+          "en": "The timing is hard to miss. President Trump is preparing to travel to China to meet President Xi Jinping, and both sides are trying to protect a fragile truce on trade. A tougher rule on chips lets Washington arrive at the table with leverage.",
+          "ja": "時期は見逃せない。トランプ大統領は習近平国家主席との会談のため訪中を準備しており、双方は脆弱な貿易休戦を守ろうとしている。半導体規制の強化は、交渉に臨む米国に交渉材料を与える。"
+        },
+        {
+          "en": "Yet the rule did not arrive in a vacuum. It landed in the middle of a scandal that has shaken the most valuable company in the artificial intelligence industry and raised a hard question about whether the government has been enforcing its own rules.",
+          "ja": "しかし、この規則は真空の中で生まれたわけではない。人工知能産業で最も価値の高い企業を揺るがした不祥事のさなかに出た。政府が自らの規則を実際に執行してきたのか、という重い問いも突きつけている。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "front",
+          "m": "戦線、分野"
+        },
+        {
+          "w": "interim rule",
+          "m": "暫定規則"
+        },
+        {
+          "w": "export license",
+          "m": "輸出許可"
+        },
+        {
+          "w": "processor",
+          "m": "プロセッサー"
+        },
+        {
+          "w": "gap",
+          "m": "抜け穴、隙間"
+        },
+        {
+          "w": "restrict",
+          "m": "制限する"
+        },
+        {
+          "w": "facility",
+          "m": "施設"
+        },
+        {
+          "w": "fragile truce",
+          "m": "脆弱な休戦"
+        },
+        {
+          "w": "leverage",
+          "m": "交渉上の優位、てこ"
+        },
+        {
+          "w": "counterpart",
+          "m": "交渉相手"
+        },
+        {
+          "w": "in a vacuum",
+          "m": "他と切り離されて"
+        }
+      ]
+    },
+    {
+      "heading_en": "A scandal at the top of Nvidia",
+      "heading_ja": "エヌビディア首脳陣の不祥事",
+      "paragraphs": [
+        {
+          "en": "Last week Jensen Huang stepped down as chief executive of Nvidia, the company he cofounded and led for more than thirty years. Reports linked his departure to a personal relationship with a woman whom some American officials suspect of having ties to Chinese intelligence. Those suspicions have not been proven.",
+          "ja": "先週、ジェンスン・フアン氏は共同創業し30年以上率いてきたエヌビディアの最高経営責任者を退いた。報道は、退任を、米当局の一部が中国の情報機関との関係を疑う女性との個人的関係に結びつけている。ただし、その疑いは立証されていない。"
+        },
+        {
+          "en": "The woman once worked at Megaspeed, a Singapore based cloud company accused of helping Chinese firms obtain advanced Nvidia chips. Megaspeed says she left in August of last year, denies any wrongdoing and has opened an internal investigation. Nvidia says it studied the deployments and counted every one.",
+          "ja": "この女性はかつて、中国企業による先端のエヌビディア製チップ入手を手助けしたと非難されるシンガポールのクラウド企業、メガスピードに勤めていた。同社は女性が昨年8月に退社したと述べ、不正を否定し、内部調査を始めた。エヌビディアは、導入先を調べ尽くしたと説明している。"
+        },
+        {
+          "en": "Treasury Secretary Scott Bessent said that four federal agencies had supported putting Megaspeed on a trade blacklist for months, yet the Commerce Department did not act. A senator has since accused the Commerce Secretary of sitting on national security warnings. Mr. Trump says he has full confidence in him.",
+          "ja": "ベッセント財務長官は、4つの連邦機関が数か月前からメガスピードの貿易ブラックリスト入りを支持していたのに、商務省は動かなかったと述べた。その後、ある上院議員は商務長官が安全保障上の警告を放置したと非難した。トランプ氏は長官への全面的な信頼を示している。"
+        },
+        {
+          "en": "Mr. Trump also said he would not mind seeing Mr. Huang return, and that he believes the executive has learned a lesson. Meanwhile a petition urging the board to bring him back has gathered well over one hundred seventy thousand signatures. The board, for its part, has hired a search firm.",
+          "ja": "トランプ氏はまた、フアン氏の復帰も構わず、本人は教訓を得たと思うとも語った。一方、取締役会に復帰を求める嘆願書には17万を超える署名が集まった。取締役会は、後任探しのため人材紹介会社を起用した。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "step down",
+          "m": "退任する"
+        },
+        {
+          "w": "cofound",
+          "m": "共同創業する"
+        },
+        {
+          "w": "suspect",
+          "m": "疑う"
+        },
+        {
+          "w": "intelligence",
+          "m": "情報機関、諜報"
+        },
+        {
+          "w": "accuse A of B",
+          "m": "AをBで非難する"
+        },
+        {
+          "w": "deny wrongdoing",
+          "m": "不正を否定する"
+        },
+        {
+          "w": "blacklist",
+          "m": "ブラックリスト"
+        },
+        {
+          "w": "sit on",
+          "m": "放置する"
+        },
+        {
+          "w": "national security",
+          "m": "国家安全保障"
+        },
+        {
+          "w": "petition",
+          "m": "嘆願書、署名運動"
+        },
+        {
+          "w": "signature",
+          "m": "署名"
+        },
+        {
+          "w": "search firm",
+          "m": "人材紹介会社"
+        }
+      ]
+    },
+    {
+      "heading_en": "Why the loophole mattered",
+      "heading_ja": "抜け穴が重大だった理由",
+      "paragraphs": [
+        {
+          "en": "The remote access loophole matters because modern artificial intelligence is built less by owning machines than by renting enormous amounts of computing power. A laboratory in Shanghai does not need a single restricted chip in its own building if it can train a model on servers in Kuala Lumpur.",
+          "ja": "遠隔アクセスの抜け穴が重要なのは、現代の人工知能が、機械を所有するよりも膨大な計算能力を借りることで築かれるからだ。上海の研究所は、クアラルンプールのサーバーでモデルを訓練できるなら、自前の建物に規制対象のチップを1枚も置く必要がない。"
+        },
+        {
+          "en": "Reports also say Chinese firms have been hurrying to sign cloud contracts abroad before the door closes. That suggests the gap was real, and widely understood. It also suggests that any rule announced in advance gives its targets time to adapt.",
+          "ja": "報道によれば、中国企業は扉が閉まる前に海外でクラウド契約を結ぼうと急いできた。抜け穴は現実のもので、広く知られていたことをうかがわせる。また、事前に発表された規則は対象に適応する時間を与えてしまう。これは、慎重で遅い政策決定の弱点でもある。"
+        },
+        {
+          "en": "There is a fair counterargument from industry. American chipmakers earn a large share of their revenue abroad, and sweeping limits can push customers toward Chinese rivals. Nvidia has long argued that selling to China keeps the world hooked on American technology and funds the next generation of research.",
+          "ja": "産業界からの反論にも一理ある。米国の半導体企業は収益の大きな部分を海外で稼いでおり、広範な制限は顧客を中国の競合に向かわせかねない。エヌビディアは長年、中国への販売が世界を米国の技術に依存させ、次世代の研究資金にもなると主張してきた。"
+        },
+        {
+          "en": "That argument has force, but it works only if the rules are enforced evenly. When a company, or a regulator, is seen to bend them for friends, the case for open markets weakens, and so does public trust in every executive who makes it.",
+          "ja": "この主張には説得力があるが、規則が公平に執行されて初めて成り立つ。企業にせよ規制当局にせよ、親しい相手のために規則を曲げたと見られれば、自由な市場の論拠は弱まる。それを唱えるあらゆる経営者への信頼も揺らぐ。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "remote access",
+          "m": "遠隔アクセス"
+        },
+        {
+          "w": "enormous",
+          "m": "莫大な"
+        },
+        {
+          "w": "rival",
+          "m": "競合相手"
+        },
+        {
+          "w": "sweeping",
+          "m": "広範な"
+        },
+        {
+          "w": "hook",
+          "m": "夢中にさせる、依存させる"
+        },
+        {
+          "w": "fund",
+          "m": "資金を出す"
+        },
+        {
+          "w": "enforce",
+          "m": "執行する"
+        },
+        {
+          "w": "evenly",
+          "m": "公平に"
+        },
+        {
+          "w": "bend the rules",
+          "m": "規則を曲げる"
+        },
+        {
+          "w": "public trust",
+          "m": "国民の信頼"
+        },
+        {
+          "w": "adapt",
+          "m": "適応する"
+        }
+      ]
+    },
+    {
+      "heading_en": "What Japan should take from this",
+      "heading_ja": "日本が学ぶべきこと",
+      "paragraphs": [
+        {
+          "en": "For Japan, the lessons are practical. Japanese companies supply materials and equipment to the same global chip chain, and a company in Tokyo can find itself caught between Washington's rules and Beijing's retaliation. Clear guidance from the government would help firms plan before a crisis arrives.",
+          "ja": "日本にとっての教訓は実務的である。日本企業は同じ世界の半導体供給網に素材や装置を供給しており、東京の企業が米国の規則と中国の報復の板挟みになる可能性がある。危機が来る前に企業が備えられるよう、政府の明確な指針が役立つ。"
+        },
+        {
+          "en": "Japan is also building its own artificial intelligence capacity, and many of its data centers rely on American chips. Tokyo should make sure that its own export controls and cloud rules are strong enough to deny any route to restricted customers, so that it is never named as a loophole.",
+          "ja": "日本も独自の人工知能基盤を整備しており、データセンターの多くは米国製チップに依存している。東京は、自国の輸出管理とクラウドの規則が、規制対象の顧客への経路を断てるほど強固であることを確認すべきだ。抜け穴と名指しされてはならない。"
+        },
+        {
+          "en": "Washington, for its part, needs to separate two problems. Closing a technical gap is sensible policy. Deciding who runs a company, or who gets favored treatment, is something else. If the government is to name national champions, as reports suggest, it must explain the standards in public.",
+          "ja": "米国の側も、2つの問題を切り分ける必要がある。技術的な抜け穴をふさぐのは妥当な政策だ。だが、誰が企業を率いるか、誰が優遇されるかは別の問題である。報道のとおり政府が国家的な代表企業を指名するなら、その基準を公に説明しなければならない。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "supply chain",
+          "m": "供給網"
+        },
+        {
+          "w": "retaliation",
+          "m": "報復"
+        },
+        {
+          "w": "caught between",
+          "m": "板挟みになる"
+        },
+        {
+          "w": "guidance",
+          "m": "指針"
+        },
+        {
+          "w": "capacity",
+          "m": "能力、基盤"
+        },
+        {
+          "w": "rely on",
+          "m": "依存する"
+        },
+        {
+          "w": "deny",
+          "m": "断つ、拒む"
+        },
+        {
+          "w": "route",
+          "m": "経路"
+        },
+        {
+          "w": "sensible",
+          "m": "妥当な"
+        },
+        {
+          "w": "favored treatment",
+          "m": "優遇"
+        },
+        {
+          "w": "national champion",
+          "m": "国家的代表企業"
+        },
+        {
+          "w": "standard",
+          "m": "基準"
+        }
+      ]
+    }
+  ]
+}

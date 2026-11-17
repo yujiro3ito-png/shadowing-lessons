@@ -1,0 +1,4 @@
+- https://www.foxnews.com/live-news/ai-news-nvidia-spy-scandal-jensen-huang-11-16-26
+- https://aiweekly.co/ai-news-today
+- https://gizmodo.com/china-is-racing-to-exploit-an-nvidia-loophole-before-the-trump-admin-slams-it-shut-2000839012
+- https://aiweekly.co/alerts/wsj-huang-personally-built-asia-route-feeding-nvidia-gpus-to-china
