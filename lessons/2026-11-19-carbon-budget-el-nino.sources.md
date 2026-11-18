@@ -1,0 +1,6 @@
+- https://www.lmu.de/en/newsroom/news-overview/news/fossil-co2-emissions-set-to-fall-slightly-in-2026-25d47770.html
+- https://www.eurekalert.org/news-releases/1150611
+- https://www.natureworldnews.com/articles/73803/20261111/fossil-fuel-co2-projected-fall-2026-total-emissions-are-still-rising.htm
+- https://www.preventionweb.net/news/could-be-strongest-el-nino-record
+- https://www.aa.com.tr/en/greenline/climate-change/-historic-el-nino-looms-with-global-impacts-into-2027/1831466
+- https://www.claimsjournal.com/news/national/2026/05/15/337582.htm

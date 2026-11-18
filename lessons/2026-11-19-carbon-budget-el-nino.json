@@ -1,0 +1,273 @@
+{
+  "meta": {
+    "series_en": "Science & Environment 2",
+    "series_ja": "科学・環境 2",
+    "track": "14",
+    "title_en": "Fossil emissions dip for the first time since the pandemic, but forests and El Niño cloud the good news",
+    "subtitle_en": "A fall of four tenths of one percent is a pause, not a turning point, and Japan should press for firm timelines and protect the forests",
+    "title_ja": "化石燃料の排出、コロナ後初の減少　だが森林とエルニーニョが喜びに影を落とす",
+    "subtitle_ja": "0.4％減は転換点ではなく小休止にすぎない。日本は明確な期限を求め、森林保護にも力を尽くすべきだ",
+    "source_en": "Original text based on reports from the Global Carbon Project, LMU Munich, EurekAlert, PreventionWeb and Anadolu Agency, Nov. 2026",
+    "date_ja": "2026年11月19日作成",
+    "start_page": 14,
+    "voice": "Samantha",
+    "rate": 145,
+    "pause_sec": 1.0,
+    "engine": "openai",
+    "openai_voice": "cedar"
+  },
+  "sections": [
+    {
+      "heading_en": "",
+      "heading_ja": "",
+      "paragraphs": [
+        {
+          "en": "For the first time since the pandemic, the world may burn slightly less coal, oil and gas this year than last. That is the headline of the new Global Carbon Budget, published on November 10 by an international team of scientists. It is welcome news, but it is far too small to celebrate.",
+          "ja": "パンデミック以来初めて、世界の石炭・石油・天然ガスの消費が前年よりわずかに減る可能性が出てきた。国際的な科学者チームが11月10日に公表した最新の「グローバル・カーボン・バジェット」の見出しである。歓迎すべき知らせだが、祝うには小さすぎる変化だ。"
+        },
+        {
+          "en": "The researchers project that carbon dioxide from fossil fuels will fall by about 0.4 percent in 2026, to roughly 38.2 billion tonnes. Growth in solar power, wind power and electric vehicles has begun to blunt demand for fossil energy, especially in large economies that spent years adding emissions.",
+          "ja": "研究者らは、化石燃料由来の二酸化炭素が2026年に約0.4％減り、約382億トンになると予測する。太陽光や風力、電気自動車の普及が、化石エネルギーへの需要を鈍らせ始めた。長年排出を増やし続けてきた大国で特に顕著である。"
+        },
+        {
+          "en": "Yet the picture changes once forests are counted. Emissions from land use are expected to edge up, and the total for this year is projected at 43.3 billion tonnes, compared with 42.8 billion last year. In other words, the planet is still adding more carbon dioxide to the air.",
+          "ja": "だが、森林を含めると状況は変わる。土地利用による排出はわずかに増える見通しで、今年の総排出量は433億トンと、昨年の428億トンを上回ると予測される。つまり、地球は大気に二酸化炭素を足し続けている。"
+        },
+        {
+          "en": "A decline of four tenths of one percent does not amount to a turning point. It is a pause in a long climb, and the authors warn that geopolitical shocks explain part of the drop. Governments should not mistake a lucky year for a lasting trend.",
+          "ja": "0.4％の減少は転換点とは呼べない。長い上り坂の小休止にすぎず、地政学的な混乱が減少の一部を説明すると執筆者らも注意を促している。各国政府は、幸運な一年を持続的な傾向と取り違えてはならない。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "for the first time since",
+          "m": "〜以来初めて"
+        },
+        {
+          "w": "burn",
+          "m": "燃やす"
+        },
+        {
+          "w": "carbon dioxide",
+          "m": "二酸化炭素"
+        },
+        {
+          "w": "project",
+          "m": "予測する"
+        },
+        {
+          "w": "blunt",
+          "m": "鈍らせる"
+        },
+        {
+          "w": "edge up",
+          "m": "わずかに上昇する"
+        },
+        {
+          "w": "turning point",
+          "m": "転換点"
+        },
+        {
+          "w": "geopolitical",
+          "m": "地政学的な"
+        },
+        {
+          "w": "lasting trend",
+          "m": "持続的な傾向"
+        },
+        {
+          "w": "mistake A for B",
+          "m": "AをBと取り違える"
+        }
+      ]
+    },
+    {
+      "heading_en": "Forests and the Missing Sink",
+      "heading_ja": "森林と失われつつある吸収源",
+      "paragraphs": [
+        {
+          "en": "Deforestation is the weak link. Permanent forest loss has released about 3.8 billion tonnes of carbon dioxide a year over the past decade. Tree planting and regrowth removed about 2.1 billion tonnes annually, so clearing still cancels out far more than replanting can repay.",
+          "ja": "弱点は森林破壊である。この10年間、恒久的な森林の消失は年に約38億トンの二酸化炭素を放出してきた。植林と再生による吸収は年約21億トンで、伐採の影響は植え直しで償える量をはるかに上回っている。"
+        },
+        {
+          "en": "That imbalance matters for the climate, but also for people. Forests regulate rainfall, shelter wildlife and protect the livelihoods of millions who live beside them. When a forest is cut or burned, the loss is felt first in local water supplies and harvests.",
+          "ja": "この不均衡は気候だけでなく、人々にとっても重大である。森林は降雨を調整し、野生生物を守り、周辺に暮らす何百万もの人々の生活を支える。森が伐られ焼かれれば、まず地元の水資源や収穫に影響が出る。"
+        },
+        {
+          "en": "Nature has so far been generous with its help. Land and oceans together soak up roughly half of the carbon dioxide that human activity produces. This year the land sink has recovered after a severe weakening during the last strong El Niño, and the ocean sink is expected to hold steady.",
+          "ja": "自然はこれまで、惜しみなく助けてくれた。陸と海は合わせて、人間活動が出す二酸化炭素のおよそ半分を吸収している。今年は、前回の強いエルニーニョで大きく弱まった陸の吸収が回復し、海の吸収も横ばいと見込まれる。"
+        },
+        {
+          "en": "That generosity should not be taken for granted. Scientists also worry that the number of ocean observations is shrinking, which leaves us watching a vital system with a dimmer lamp. Cutting monitoring budgets would be a false economy, because we cannot manage what we cannot measure.",
+          "ja": "その恩恵を当然と考えてはならない。科学者たちは、海洋観測の数が減っていることも懸念している。重要な仕組みを、暗いランプで見守るようなものだ。観測予算の削減は偽りの節約である。測れないものは管理できない。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "deforestation",
+          "m": "森林破壊"
+        },
+        {
+          "w": "weak link",
+          "m": "弱点"
+        },
+        {
+          "w": "regrowth",
+          "m": "再生"
+        },
+        {
+          "w": "cancel out",
+          "m": "相殺する"
+        },
+        {
+          "w": "repay",
+          "m": "償う、返す"
+        },
+        {
+          "w": "livelihood",
+          "m": "生計、暮らし"
+        },
+        {
+          "w": "soak up",
+          "m": "吸収する"
+        },
+        {
+          "w": "carbon sink",
+          "m": "炭素吸収源"
+        },
+        {
+          "w": "take for granted",
+          "m": "当然と思う"
+        },
+        {
+          "w": "false economy",
+          "m": "偽りの節約"
+        }
+      ]
+    },
+    {
+      "heading_en": "A Stronger El Niño Ahead",
+      "heading_ja": "強まるエルニーニョ",
+      "paragraphs": [
+        {
+          "en": "The next test is already forming in the Pacific. Forecasters say a very strong El Niño is developing, and in August the United States weather agency put the chance of an event stronger than any since 1950 at roughly seven in ten. Japan's weather agency expects it to last into early 2027.",
+          "ja": "次の試練は、すでに太平洋で形づくられている。予報機関は非常に強いエルニーニョが発達しつつあるとし、米国の気象当局は8月、1950年以降のどれよりも強い現象になる確率を約7割と見積もった。気象庁も2027年初めまで続くとみている。"
+        },
+        {
+          "en": "Researchers expect the effects on the carbon cycle to appear in 2027. During the last episode, drought and heat weakened forests and grasslands so badly that they absorbed far less carbon. A stronger event could push the Amazon, already stressed, closer to a point where fire and dryness feed on each other.",
+          "ja": "研究者らは、炭素循環への影響が2027年に表れるとみる。前回は、干ばつと高温で森林や草原が大きく弱り、吸収量が急減した。より強い現象は、すでに疲弊したアマゾンを、火災と乾燥が互いを助長する段階へ近づけかねない。"
+        },
+        {
+          "en": "Japan has reasons to pay attention. El Niño years can bring unusual weather across the Pacific rim, including heavy rain, warm winters and strained fisheries. Farmers, insurers and local governments need practical guidance now, not after the first season of losses has arrived.",
+          "ja": "日本にも注視すべき理由がある。エルニーニョの年は、大雨や暖冬、漁業の不振など、環太平洋の各地で異例の天候をもたらしうる。農家や保険会社、自治体は、最初の被害が出た後ではなく、今のうちに実用的な指針を必要としている。"
+        },
+        {
+          "en": "There is a further warning here. If a natural cycle can erase the gains of a single good year, then progress on emissions must be large and steady enough to survive bad weather. A margin of four tenths of one percent offers no such protection.",
+          "ja": "ここにはさらなる警告がある。自然の周期が一年の成果を消し去りうるなら、排出削減は悪天候に耐えるほど大きく着実でなければならない。0.4％の余裕では、そうした備えにならない。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "forecaster",
+          "m": "予報担当者"
+        },
+        {
+          "w": "El Niño",
+          "m": "エルニーニョ現象"
+        },
+        {
+          "w": "carbon cycle",
+          "m": "炭素循環"
+        },
+        {
+          "w": "grassland",
+          "m": "草原"
+        },
+        {
+          "w": "feed on",
+          "m": "〜を糧に拡大する"
+        },
+        {
+          "w": "Pacific rim",
+          "m": "環太平洋地域"
+        },
+        {
+          "w": "strained",
+          "m": "逼迫した"
+        },
+        {
+          "w": "practical guidance",
+          "m": "実用的な指針"
+        },
+        {
+          "w": "erase",
+          "m": "消し去る"
+        },
+        {
+          "w": "margin",
+          "m": "余裕、差"
+        }
+      ]
+    },
+    {
+      "heading_en": "What Japan Should Do",
+      "heading_ja": "日本が果たすべき役割",
+      "paragraphs": [
+        {
+          "en": "Japan should use the Antalya summit to press for firm timelines. Countries need to turn pledges into dated plans for phasing down coal, oil and gas, and wealthy nations must show where the money will come from. Vague promises have already cost the world years.",
+          "ja": "日本はアンタルヤでの首脳級会合を、明確な期限を迫る場として使うべきだ。各国は公約を、石炭・石油・ガスを段階的に減らす期日入りの計画に変え、富裕国は資金の出どころを示さねばならない。曖昧な約束は、すでに世界の数年を奪った。"
+        },
+        {
+          "en": "At home, Tokyo can do more than praise efficiency. It can speed up approval of offshore wind and grid connections, support the transmission lines that let renewable power travel, and help Asian neighbors finance cleaner energy instead of exporting aging coal plants.",
+          "ja": "国内では、効率の良さを誇るだけでなく、洋上風力や系統接続の承認を早め、再生可能エネルギーを運ぶ送電線を支援できる。老朽化した石炭火力を輸出するのではなく、アジアの隣国が清潔なエネルギーを賄うのを助けることもできる。"
+        },
+        {
+          "en": "Abroad, Japan can help protect tropical forests through satellite monitoring and fair payments to communities that guard them. A fall in fossil emissions is a good start. It will count only if governments keep it falling and stop the forests from burning away the progress.",
+          "ja": "海外では、衛星による監視や、森を守る地域社会への適正な対価を通じて、熱帯林の保護に貢献できる。化石燃料由来の排出減は良い出発点だ。政府が減少を続け、森林が進歩を焼き尽くすのを防いでこそ意味を持つ。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "press for",
+          "m": "強く求める"
+        },
+        {
+          "w": "timeline",
+          "m": "期限、工程表"
+        },
+        {
+          "w": "pledge",
+          "m": "公約、誓約"
+        },
+        {
+          "w": "phase down",
+          "m": "段階的に減らす"
+        },
+        {
+          "w": "vague",
+          "m": "曖昧な"
+        },
+        {
+          "w": "offshore wind",
+          "m": "洋上風力"
+        },
+        {
+          "w": "grid connection",
+          "m": "系統接続"
+        },
+        {
+          "w": "transmission line",
+          "m": "送電線"
+        },
+        {
+          "w": "aging",
+          "m": "老朽化した"
+        },
+        {
+          "w": "tropical forest",
+          "m": "熱帯林"
+        }
+      ]
+    }
+  ]
+}
