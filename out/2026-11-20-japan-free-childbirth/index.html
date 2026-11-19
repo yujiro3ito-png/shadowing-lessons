@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Japan promises free childbirth, but the price tag and the empty wards will decide its fate</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --desk:#e9e6df; --paper:#fbfaf6; --ink:#1d1d1b; --muted:#6b6a65; --rule:#2b2b2b;
+  --band:#8a8a88; --band-ink:#fff; --hl:#fff2b3; --hl-line:#e0b400; --gutter:rgba(0,0,0,.10);
+  --bar:#1f1f1e; --bar-ink:#f4f3ef; --accent:#c8a200;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --desk:#151514; --paper:#22221f; --ink:#e9e7e1; --muted:#a3a19a; --rule:#cfcdc6;
+    --band:#5c5c59; --band-ink:#fff; --hl:#4a4120; --hl-line:#d8b42a; --gutter:rgba(0,0,0,.45);
+    --bar:#0d0d0c; --bar-ink:#f4f3ef;
+  }
+}
+:root[data-theme="dark"]{
+  --desk:#151514; --paper:#22221f; --ink:#e9e7e1; --muted:#a3a19a; --rule:#cfcdc6;
+  --band:#5c5c59; --band-ink:#fff; --hl:#4a4120; --hl-line:#d8b42a; --gutter:rgba(0,0,0,.45);
+  --bar:#0d0d0c; --bar-ink:#f4f3ef;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--desk);color:var(--ink);font-family:"Noto Sans JP",system-ui,sans-serif;padding:24px 16px 120px}
+.spread{max-width:1240px;margin:0 auto 32px;display:grid;grid-template-columns:1fr 1fr;background:var(--paper);
+  box-shadow:0 1px 2px rgba(0,0,0,.08),0 10px 30px rgba(0,0,0,.10);border-radius:4px;position:relative}
+.spread::after{content:"";position:absolute;top:0;bottom:0;left:50%;width:36px;transform:translateX(-50%);
+  background:linear-gradient(90deg,transparent,var(--gutter) 50%,transparent);pointer-events:none}
+.page{padding:44px 52px 56px;position:relative;min-height:640px;display:flex;flex-direction:column}
+.runhead{display:flex;align-items:center;gap:10px;font-size:13px;letter-spacing:.02em;color:var(--ink);margin-bottom:28px}
+.runhead::after{content:"";flex:1;border-top:1px solid var(--rule)}
+.page.ja .runhead{flex-direction:row-reverse}
+.track{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:700;cursor:pointer;border:0;background:none;color:inherit;padding:0}
+.track i{width:18px;height:18px;border-radius:50%;border:1.5px solid currentColor;display:grid;place-items:center;font-style:normal;font-size:9px}
+h1{font-family:"Source Serif 4",Georgia,serif;font-size:30px;line-height:1.15;margin:0 0 6px;font-weight:700}
+h2.sub{font-family:"Source Serif 4",Georgia,serif;font-size:19px;line-height:1.3;margin:0 0 14px;font-weight:700}
+.page.ja h1{font-family:"Noto Serif JP",serif;font-size:24px;line-height:1.45;font-weight:700;margin-bottom:2px}
+.page.ja h2.sub{font-family:"Noto Serif JP",serif;font-size:18px;font-weight:700}
+.source{text-align:right;font-size:12px;color:var(--muted);margin:0 0 22px}
+.source::before{content:"● "}
+h3{font-family:"Source Serif 4",Georgia,serif;font-size:17px;margin:4px 0 8px;font-weight:700}
+.page.ja h3{font-family:"Noto Sans JP",sans-serif;font-size:15px}
+.en p{font-family:"Source Serif 4",Georgia,serif;font-size:18px;line-height:1.72;margin:0;text-indent:1.4em;text-align:justify;hyphens:auto}
+.ja p{font-family:"Noto Serif JP",serif;font-size:15px;line-height:2.0;margin:0;text-indent:1em;text-align:justify}
+.para{cursor:pointer;border-radius:3px;transition:background .2s;padding:1px 4px;margin:0 -4px}
+.para:hover{background:color-mix(in srgb,var(--hl) 45%,transparent)}
+.para.on{background:var(--hl);box-shadow:inset 3px 0 0 var(--hl-line)}
+body.hide-en .en .body{filter:blur(6px);user-select:none}
+body.hide-en .en .para.on{filter:none}
+body.hide-ja .ja .body{filter:blur(5px)}
+.words{margin-top:auto;padding-top:28px}
+.words .band{background:var(--band);color:var(--band-ink);font-weight:700;font-size:14px;padding:5px 14px;border-radius:999px 999px 0 0;width:92%}
+.words ul{list-style:none;margin:0;padding:10px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(165px,1fr));gap:4px 14px;font-size:13px}
+.words li{display:flex;gap:6px;align-items:baseline}
+.words label{display:block;cursor:pointer;padding-left:20px;text-indent:-20px;line-height:1.5}
+.words input{margin:0 6px 0 0;vertical-align:-1px;accent-color:var(--accent)}
+.words b{font-family:"Source Serif 4",Georgia,serif;font-weight:400;font-size:14px;margin-right:6px}
+.words span{color:var(--muted)}
+.folio{position:absolute;bottom:18px;font-size:13px;color:var(--muted)}
+.en .folio{left:52px}.ja .folio{right:52px}
+/* player */
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--bar);color:var(--bar-ink);padding:10px 16px calc(10px + env(safe-area-inset-bottom));z-index:10}
+.bar .in{max-width:1240px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px}
+.bar button,.bar select{font:inherit;font-size:13px;color:inherit;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:6px;padding:6px 10px;cursor:pointer}
+.bar button.on{background:var(--accent);border-color:var(--accent);color:#111}
+.bar .play{width:44px;height:36px;font-size:16px}
+.seek{flex:1;min-width:160px;display:flex;align-items:center;gap:8px;font-size:12px;font-variant-numeric:tabular-nums}
+.seek input{flex:1;accent-color:var(--accent)}
+@media (max-width:860px){
+  .spread{grid-template-columns:1fr}
+  .spread::after{display:none}
+  .page{padding:28px 18px 48px;min-height:0}
+  .page.ja{border-top:1px dashed var(--gutter)}
+  h1{font-size:25px}
+  .en p{font-size:17px}
+  .folio{display:none}
+  body{padding:12px 0 150px}
+  .spread{border-radius:0}
+}
+@media print{
+  body{background:#fff;padding:0}
+  .bar{display:none}
+  .spread{box-shadow:none;break-after:page;margin:0;max-width:none}
+  .para.on{background:none;box-shadow:none}
+  body.hide-en .en .body,body.hide-ja .ja .body{filter:none}
+  @page{size:A4 landscape;margin:10mm}
+}
+</style>
+</head>
+<body>
+<main id="book"></main>
+<audio id="au" preload="auto"></audio>
+<div class="bar"><div class="in">
+  <button class="play" id="play" aria-label="再生">▶</button>
+  <button id="prev" aria-label="前の段落">⏮</button>
+  <button id="next" aria-label="次の段落">⏭</button>
+  <div class="seek"><span id="cur">0:00</span><input type="range" id="pos" min="0" max="1000" value="0"><span id="dur">0:00</span></div>
+  <select id="rate" aria-label="速度">
+    <option value="0.7">0.7×</option><option value="0.8">0.8×</option><option value="0.9">0.9×</option>
+    <option value="1" selected>1.0×</option><option value="1.1">1.1×</option><option value="1.2">1.2×</option>
+  </select>
+  <button id="loop" title="今の段落をくり返す">段落リピート</button>
+  <button id="hideEn" title="英文をぼかす（音だけでシャドーイング）">英文を隠す</button>
+  <button id="hideJa">訳を隠す</button>
+</div></div>
+<script>
+const D = {"meta": {"series_en": "Society & Culture 2", "series_ja": "社会・文化 2", "track": "15", "title_en": "Japan promises free childbirth, but the price tag and the empty wards will decide its fate", "subtitle_en": "Full insurance coverage is a welcome signal, yet it must come with a fair national price, rural clinics that stay open, and help for families who cannot wait until 2028", "title_ja": "出産無償化の約束、成否を分けるのは「価格」と「空白の分娩室」", "subtitle_ja": "保険適用は歓迎すべきシグナルだが、適正な全国一律価格、地方の分娩施設の維持、2028年まで待てない家庭への支援が欠かせない", "source_en": "Original text based on reports from News On Japan, Adnkronos, Jiji Press and Japan Times, Nov. 2026", "date_ja": "2026年11月20日作成", "start_page": 14, "voice": "Samantha", "rate": 145, "pause_sec": 1.0, "engine": "openai", "openai_voice": "cedar"}, "sections": [{"heading_en": "", "heading_ja": "", "paragraphs": [{"en": "Japan has promised that having a baby will no longer cost a family a small fortune. A revised health insurance law, enacted in May, creates a system in which public insurance pays the full price of a normal delivery. The idea is sound, but the details will decide whether it works.", "ja": "日本は、子どもを産むことが家計に大きな負担を強いる時代を終わらせると約束した。5月に成立した改正健康保険法は、通常分娩の費用を公的保険が全額負担する仕組みをつくる。発想は妥当だが、成否は制度の細部にかかっている。"}, {"en": "Today parents receive a lump sum of five hundred thousand yen, yet the average delivery cost about five hundred eighteen thousand yen in the first half of 2024. Twelve years earlier, the figure was only about four hundred seventeen thousand. Every rise in prices has quietly eaten into the family budget.", "ja": "現在、親には50万円の一時金が支給されるが、2024年前半の平均的な出産費用は約51万8000円だった。12年前は約41万7000円にすぎなかった。物価が上がるたびに、費用は静かに家計を圧迫してきた。"}, {"en": "The cost also varies sharply by region and by hospital. A mother in one prefecture may pay far more than a mother in another, for much the same care. Such gaps feel unfair, and they can push a couple already worried about money to postpone, or give up, having a child.", "ja": "費用は地域や病院によっても大きく異なる。ほぼ同じ医療を受けても、ある県の母親は別の県よりはるかに多く支払うことがある。こうした格差は不公平感を生み、お金に不安を抱える夫婦が出産を先送りし、あるいは諦める一因にもなりうる。"}, {"en": "The government's answer is to set one national price for a normal delivery and pay it entirely through insurance. Officials hope to start the system nationwide by June 2028. Detailed talks began on October first, and the hardest question, how high that price should be, remains open.", "ja": "政府の答えは、通常分娩に全国一律の価格を設け、全額を保険で賄うことだ。当局は2028年6月までの全国開始を目指す。詳細な議論は10月1日に始まったが、最も難しい問い、つまり価格をいくらにするかは未解決のままだ。"}], "vocab": [{"w": "small fortune", "m": "大金"}, {"w": "enact", "m": "（法律を）成立させる"}, {"w": "normal delivery", "m": "通常分娩"}, {"w": "lump sum", "m": "一時金"}, {"w": "eat into", "m": "（蓄えなどを）食いつぶす、圧迫する"}, {"w": "vary sharply", "m": "大きく異なる"}, {"w": "postpone", "m": "先送りする"}, {"w": "give up", "m": "諦める"}, {"w": "nationwide", "m": "全国的に"}, {"w": "remain open", "m": "未解決のままである"}]}, {"heading_en": "Why the Price Matters", "heading_ja": "なぜ価格が重要なのか", "paragraphs": [{"en": "Setting the price is harder than it sounds. If it is too low, maternity clinics, many of them small and privately run, may lose money on every birth. If it is too high, the burden simply moves to the insurance funds that workers and employers already struggle to support.", "ja": "価格の設定は、聞こえるよりずっと難しい。低すぎれば、小規模で民営の産科診療所の多くが、お産のたびに赤字を出しかねない。高すぎれば、働く人や雇用主がすでに支えるのに苦労している保険財政に、負担が移るだけである。"}, {"en": "Obstetricians have already voiced concern. Births in Japan have fallen for years, and many clinics rely on a shrinking number of patients to cover fixed costs such as night staff and equipment. A fixed fee that ignores these pressures could push more clinics to close their doors.", "ja": "産科医らはすでに懸念を表明している。日本の出生数は長年減り続け、多くの診療所は、夜間の人員や設備といった固定費を、減りゆく患者数でまかなっている。こうした重圧を無視した定額の報酬は、閉院する診療所をさらに増やしかねない。"}, {"en": "That risk is real in rural areas, where a single clinic may serve an entire district. Women there already travel long distances to give birth. Free delivery means little if the nearest maternity ward has shut down. Free care must come with a place to receive it.", "ja": "このリスクは、一つの診療所が地区全体を支えることもある地方で現実味を帯びる。そこでは女性がすでに遠方まで出向いて出産している。最寄りの分娩施設が閉まっていては、無償化の意味は薄い。無料の医療には、それを受けられる場所が伴わねばならない。"}, {"en": "The plan also draws a line around what insurance will pay. Extras such as celebratory meals and beauty treatments are not covered in principle. Cesarean sections, which are already covered by insurance, will stay as they are, and cash benefits are planned for costs that may still arise.", "ja": "計画は、保険が支払う範囲にも線を引く。祝い膳や美容サービスなどの付加的なものは、原則として対象外となる。すでに保険が適用される帝王切開は現行のままで、なお生じうる費用には現金給付が検討されている。"}], "vocab": [{"w": "maternity clinic", "m": "産科診療所"}, {"w": "privately run", "m": "民間経営の"}, {"w": "insurance fund", "m": "保険基金、保険財政"}, {"w": "struggle to", "m": "〜するのに苦労する"}, {"w": "obstetrician", "m": "産科医"}, {"w": "voice concern", "m": "懸念を表明する"}, {"w": "fixed cost", "m": "固定費"}, {"w": "close one's doors", "m": "閉院・閉店する"}, {"w": "district", "m": "地区、地域"}, {"w": "in principle", "m": "原則として"}, {"w": "cesarean section", "m": "帝王切開"}]}, {"heading_en": "Beyond the Delivery Room", "heading_ja": "分娩室の先にある課題", "paragraphs": [{"en": "Even a perfect system would not solve the larger problem. Couples say they hesitate to have children because of housing, long working hours, and the cost of education. Delivery bills are only the first of many expenses. Removing one barrier will not clear the road by itself.", "ja": "どれほど完璧な制度でも、より大きな問題は解決しない。夫婦が子どもをためらう理由には、住居、長時間労働、教育費が挙がる。出産費用は数ある出費の最初の一つにすぎない。一つの障壁を取り除いても、道が開けるわけではない。"}, {"en": "Still, the symbolism matters. For years, Japanese policy treated childbirth as a private expense, like a purchase. Moving it into the public insurance system says that raising the next generation is a shared responsibility, and that the whole society benefits when children are born safely.", "ja": "それでも象徴性は重要だ。長年、日本の政策は出産を、買い物のような私的支出として扱ってきた。公的保険に組み込むことは、次世代を育てるのは社会全体の責任であり、子どもが安全に生まれれば社会全体が恩恵を受けるという意思表示になる。"}, {"en": "That message should be backed by action in the workplace. Fathers need real parental leave they feel free to take. Employers must stop treating pregnancy as an inconvenience. Mothers should not have to choose between a career and a family, and neither should their partners.", "ja": "そのメッセージは、職場での行動に裏打ちされねばならない。父親には、気兼ねなく取れる実質的な育児休業が必要だ。雇用主は妊娠を厄介事として扱うのをやめるべきだ。母親がキャリアか家庭かを選ばされてはならず、そのパートナーも同様である。"}, {"en": "Recent figures offer a small reason for hope, as births rose slightly this year for the first time in eleven years. Policymakers should treat that as a window, not a victory. Such windows close quickly if young families conclude that the promises are only words.", "ja": "最近の数字にはわずかな希望がある。今年、出生数が11年ぶりに小幅ながら増えたのだ。政策当局はこれを勝利ではなく好機と捉えるべきである。若い家庭が約束は言葉だけだと結論づければ、こうした好機はすぐに閉じてしまう。"}], "vocab": [{"w": "hesitate to", "m": "〜するのをためらう"}, {"w": "barrier", "m": "障壁"}, {"w": "symbolism", "m": "象徴性"}, {"w": "private expense", "m": "私的な支出"}, {"w": "shared responsibility", "m": "共同責任"}, {"w": "back up", "m": "裏付ける"}, {"w": "parental leave", "m": "育児休業"}, {"w": "inconvenience", "m": "厄介事、不便"}, {"w": "policymaker", "m": "政策立案者"}, {"w": "window", "m": "好機、機会の窓"}]}, {"heading_en": "What Should Be Done", "heading_ja": "いま求められること", "paragraphs": [{"en": "First, the health ministry should publish its reasoning for the national price and invite doctors, midwives and mothers to challenge it. A price that looks fair on paper but fails in a real clinic will damage trust in the whole reform.", "ja": "第一に、厚生労働省は全国一律価格の根拠を公表し、医師、助産師、母親たちからの異議を受け付けるべきだ。紙の上では公正でも、現場の診療所で機能しない価格は、改革全体への信頼を損なう。"}, {"en": "Second, the government should support maternity care in thinly populated regions, through subsidies, shared staffing and better transport. Access to a safe birth should not depend on where a family happens to live. The reform must reach every prefecture, not only the cities.", "ja": "第二に、政府は補助金、人員の共有、交通手段の改善を通じて、人口の少ない地域の周産期医療を支えるべきだ。安全な出産へのアクセスが、家族がたまたま住む場所に左右されてはならない。改革は都市だけでなく、すべての県に届かねばならない。"}, {"en": "Finally, leaders must be honest about time. The system will not begin until 2028, and families expecting a child now will not benefit. A bridge, such as a higher interim allowance, would show that the government understands the urgency. Promises that arrive late help no one.", "ja": "最後に、指導者は時間について正直であらねばならない。制度の開始は2028年で、いま子どもを待つ家庭は恩恵を受けられない。暫定的な手当の増額のような橋渡しは、政府が切迫感を理解していることを示すだろう。遅れて届く約束は誰も助けない。"}], "vocab": [{"w": "reasoning", "m": "根拠、論拠"}, {"w": "midwife", "m": "助産師"}, {"w": "on paper", "m": "理論上は、紙の上では"}, {"w": "thinly populated", "m": "人口の少ない"}, {"w": "subsidy", "m": "補助金"}, {"w": "staffing", "m": "人員配置"}, {"w": "happen to", "m": "たまたま〜する"}, {"w": "interim", "m": "暫定的な"}, {"w": "allowance", "m": "手当"}, {"w": "urgency", "m": "切迫性、緊急性"}]}], "timings": [[0.0, 17.95], [18.95, 38.1], [39.1, 57.42], [58.42, 77.33], [78.33, 95.73], [96.73, 113.48], [114.48, 131.04], [132.04, 147.16], [148.16, 165.73], [166.73, 185.04], [186.04, 200.85], [201.85, 219.42], [220.42, 235.42], [236.42, 252.18], [253.18, 271.09]], "audio": "audio.m4a"};
+const $ = s => document.querySelector(s);
+const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const store = { get(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}} };
+const KEY = 'shadow:' + D.meta.title_en;
+const checked = store.get(KEY) || {};
+const m = D.meta;
+let pi = 0, page = m.start_page || 1, html = '';
+D.sections.forEach((s, si) => {
+  const first = si === 0;
+  const enP = s.paragraphs.map(p => `<p class="para" data-i="${pi++}">${esc(p.en)}</p>`).join('');
+  pi -= s.paragraphs.length;
+  const jaP = s.paragraphs.map(p => `<p class="para" data-i="${pi++}">${esc(p.ja)}</p>`).join('');
+  const vocab = s.vocab.map((v, vi) => { const id = `v${si}-${vi}`;
+    return `<li><label><input type="checkbox" data-k="${id}" ${checked[id]?'checked':''}><b>${esc(v.w)}</b><span>${esc(v.m)}</span></label></li>`; }).join('');
+  html += `<section class="spread">
+    <div class="page en">
+      <div class="runhead">${esc(m.series_en)} <button class="track" data-s="${si}"><i>▶</i>Track ${esc(m.track)}</button></div>
+      ${first ? `<h1>${esc(m.title_en)}</h1><h2 class="sub">${esc(m.subtitle_en)}</h2><p class="source">${esc(m.source_en)}</p>` : ''}
+      ${s.heading_en ? `<h3>${esc(s.heading_en)}</h3>` : ''}
+      <div class="body">${enP}</div>
+      <span class="folio">${page}</span>
+    </div>
+    <div class="page ja">
+      <div class="runhead">${esc(m.series_ja)}</div>
+      ${first ? `<h1>${esc(m.title_ja)}</h1><h2 class="sub">${esc(m.subtitle_ja)}</h2><p class="source">${esc(m.date_ja)}</p>` : ''}
+      ${s.heading_ja ? `<h3>${esc(s.heading_ja)}</h3>` : ''}
+      <div class="body">${jaP}</div>
+      <div class="words"><div class="band">Words and Phrases</div><ul>${vocab}</ul></div>
+      <span class="folio">${page + 1}</span>
+    </div></section>`;
+  page += 2;
+});
+$('#book').innerHTML = html;
+
+const au = $('#au');
+// 音声を丸ごと読み込んでから再生する（Range 非対応のサーバーでもシークできるように）
+fetch(D.audio).then(r => { if (!r.ok) throw 0; return r.blob(); })
+  .then(b => au.src = URL.createObjectURL(b)).catch(() => au.src = D.audio);
+const T = D.timings, fmt = t => `${Math.floor(t/60)}:${String(Math.floor(t%60)).padStart(2,'0')}`;
+let loop = false, cur = -1;
+const idxAt = t => { for (let i = T.length - 1; i >= 0; i--) if (t >= T[i][0] - 0.05) return i; return 0; };
+const seekTo = i => { i = Math.max(0, Math.min(T.length - 1, i)); au.currentTime = T[i][0]; mark(i); au.play(); };
+function mark(i){
+  if (i === cur) return; cur = i;
+  document.querySelectorAll('.para.on').forEach(e => e.classList.remove('on'));
+  document.querySelectorAll(`.para[data-i="${i}"]`).forEach(e => e.classList.add('on'));
+  const el = document.querySelector(`.en .para[data-i="${i}"]`);
+  if (el && !au.paused) { const r = el.getBoundingClientRect(); if (r.top < 60 || r.bottom > innerHeight - 110) el.scrollIntoView({behavior:'smooth', block:'center'}); }
+}
+au.addEventListener('loadedmetadata', () => $('#dur').textContent = fmt(au.duration));
+au.addEventListener('timeupdate', () => {
+  const t = au.currentTime;
+  if (loop && cur >= 0 && t >= T[cur][1] + 0.4) { au.currentTime = T[cur][0]; return; }
+  mark(idxAt(t));
+  $('#cur').textContent = fmt(t);
+  if (au.duration) $('#pos').value = t / au.duration * 1000;
+});
+au.addEventListener('play', () => $('#play').textContent = '❚❚');
+au.addEventListener('pause', () => $('#play').textContent = '▶');
+$('#play').onclick = () => au.paused ? au.play() : au.pause();
+$('#prev').onclick = () => seekTo((cur < 0 ? 0 : cur) - 1);
+$('#next').onclick = () => seekTo(cur + 1);
+$('#pos').oninput = e => { if (au.duration) au.currentTime = e.target.value / 1000 * au.duration; };
+$('#rate').onchange = e => au.playbackRate = +e.target.value;
+const tog = (id, fn) => $(id).onclick = e => { e.currentTarget.classList.toggle('on'); fn(e.currentTarget.classList.contains('on')); };
+tog('#loop', v => loop = v);
+tog('#hideEn', v => document.body.classList.toggle('hide-en', v));
+tog('#hideJa', v => document.body.classList.toggle('hide-ja', v));
+document.addEventListener('click', e => {
+  const p = e.target.closest('.para'); if (p) return seekTo(+p.dataset.i);
+  const t = e.target.closest('.track'); if (t) { const s = +t.dataset.s; let i = 0; for (let k = 0; k < s; k++) i += D.sections[k].paragraphs.length; seekTo(i); }
+});
+document.addEventListener('change', e => { const k = e.target.dataset && e.target.dataset.k; if (k) { checked[k] = e.target.checked; store.set(KEY, checked); } });
+document.addEventListener('keydown', e => { if (e.target.tagName === 'INPUT' && e.target.type !== 'range') return;
+  if (e.code === 'Space') { e.preventDefault(); $('#play').click(); }
+  if (e.code === 'ArrowRight') seekTo(cur + 1); if (e.code === 'ArrowLeft') seekTo(cur - 1); });
+</script>
+</body>
+</html>
