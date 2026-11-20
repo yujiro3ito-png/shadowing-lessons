@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "series_en": "Weekly Focus 5",
+    "series_ja": "今週の焦点 5",
+    "track": "16",
+    "title_en": "One router in Arkansas grounded America's skies, and the lesson reaches far beyond aviation",
+    "subtitle_en": "The nationwide ground stop exposed an air traffic system held together by aging parts, and it shows why upgrades must be as careful as they are urgent",
+    "title_ja": "アーカンソーの1台のルーターが米国の空を止めた――教訓は航空を超えて広がる",
+    "subtitle_ja": "全米運航停止は老朽化した部品でつなぎとめられた航空管制の実態を露呈した。更新は急務であると同時に慎重でなければならない",
+    "source_en": "Original text based on reports from Axios, KATV, AeroTime and the FAA, Nov. 2026",
+    "date_ja": "2026年11月21日作成",
+    "start_page": 14,
+    "voice": "Samantha",
+    "rate": 145,
+    "pause_sec": 1.0,
+    "engine": "openai",
+    "openai_voice": "cedar"
+  },
+  "sections": [
+    {
+      "heading_en": "",
+      "heading_ja": "",
+      "paragraphs": [
+        {
+          "en": "On the afternoon of Friday, November 13, flights across the United States came to a sudden halt. Air traffic controllers lost reliable contact with pilots, and the Federal Aviation Administration ordered a nationwide ground stop. Planes waited at gates and on runways while thousands of travelers wondered when they would move again.",
+          "ja": "11月13日金曜日の午後、米国全土で航空機の運航が突然止まった。管制官はパイロットとの確実な連絡を失い、連邦航空局は全国的な運航停止を命じた。搭乗口や滑走路で待機する機体の中で、何千人もの旅行者がいつ動き出すのかと気をもんだ。"
+        },
+        {
+          "en": "The cause, officials say, was strikingly small. A new router had been switched on at a remote radio site in El Dorado, Arkansas, a town few Americans could find on a map. Within minutes, that single device appeared to send a flood of data across the aviation network.",
+          "ja": "当局によれば、原因は驚くほど小さなものだった。アーカンソー州エルドラドという、米国人でも地図で見つけられる人は少ない町の遠隔無線施設で、新しいルーターが稼働を始めた。数分のうちに、この1台の機器が航空ネットワーク全体へ大量のデータを流し込んだとみられる。"
+        },
+        {
+          "en": "The damage spread far beyond one small town. Federal investigators found that seventeen of the twenty-two regional control centers suffered communications problems. Radio links and radar feeds were disrupted, and controllers could not safely guide aircraft as usual. Grounding flights was the only responsible choice.",
+          "ja": "被害は一つの小さな町をはるかに超えて広がった。連邦の調査によれば、22ある地域管制センターのうち17で通信に支障が出た。無線回線やレーダー情報が乱れ、管制官はいつものように安全に航空機を誘導できなかった。運航停止は唯一の責任ある選択だった。"
+        },
+        {
+          "en": "Officials have found no sign of a cyberattack. Even so, the episode should not be dismissed as a lucky escape. It revealed how fragile the invisible system behind American aviation has become, and it carries lessons for every country that depends on aging networks.",
+          "ja": "当局はサイバー攻撃の兆候は見つかっていないとしている。それでも、この出来事を幸運な難逃れとして片づけてはならない。米国の航空を支える目に見えない仕組みがいかにもろくなっているかが露呈し、老朽化したネットワークに頼るあらゆる国への教訓を含んでいる。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "come to a halt",
+          "m": "停止する"
+        },
+        {
+          "w": "ground stop",
+          "m": "全国的な運航停止措置"
+        },
+        {
+          "w": "air traffic controller",
+          "m": "航空管制官"
+        },
+        {
+          "w": "strikingly",
+          "m": "驚くほど"
+        },
+        {
+          "w": "remote",
+          "m": "遠隔の、人里離れた"
+        },
+        {
+          "w": "flood of",
+          "m": "大量の、洪水のような"
+        },
+        {
+          "w": "disrupt",
+          "m": "混乱させる、妨げる"
+        },
+        {
+          "w": "responsible",
+          "m": "責任ある"
+        },
+        {
+          "w": "dismiss as",
+          "m": "〜として片づける"
+        },
+        {
+          "w": "fragile",
+          "m": "もろい、壊れやすい"
+        }
+      ]
+    },
+    {
+      "heading_en": "A Single Point of Failure",
+      "heading_ja": "たった一つの弱点",
+      "paragraphs": [
+        {
+          "en": "The router was part of a nationwide upgrade that replaces old copper wiring with modern fiber-optic lines. The contractor, L3Harris, was carrying out the work under a plan the aviation agency had approved. In other words, the failure came not from neglect alone but from the difficult process of repair.",
+          "ja": "このルーターは、古い銅線を最新の光ファイバー回線に置き換える全国的な更新事業の一部だった。請負業者のL3ハリスは、航空当局が承認した計画に沿って作業を進めていた。つまり、失敗は放置だけでなく、修繕という難しい過程からも生じたのである。"
+        },
+        {
+          "en": "Who is to blame remains unclear. The manufacturer of the router has said the device worked as it was configured, which suggests a setup problem rather than a broken machine. Investigators have not yet said whether the fault lay in the hardware, the settings, or the way the installation was planned.",
+          "ja": "誰に責任があるのかは依然として不明だ。ルーターの製造元は、機器は設定どおりに動作したと述べており、故障ではなく設定上の問題を示唆している。調査当局は、欠陥が機器本体にあったのか、設定にあったのか、導入の計画にあったのかを、まだ明らかにしていない。"
+        },
+        {
+          "en": "The agency has paused similar installations while the inquiry continues. That is a sensible step, but it also creates a dilemma. Delaying the upgrade keeps the old equipment in service longer, and the old equipment is exactly what officials describe as the deeper problem.",
+          "ja": "航空当局は、調査が続く間、同種の設置作業を中断している。賢明な措置だが、ジレンマも生む。更新を遅らせれば古い設備がそれだけ長く使われ続けるが、その古い設備こそ、当局者が根本的な問題と呼ぶものだからである。"
+        },
+        {
+          "en": "Senate Democrats have demanded a broader pause and a full explanation. As they put it in a letter, finding the device that failed does not explain why it failed. That is a fair point. Without a clear answer, the same mistake could be repeated at another site on another day.",
+          "ja": "上院民主党は、より広範な中断と完全な説明を求めている。書簡にあるように、失敗した機器を特定することは、なぜ失敗したのかの説明にはならない。もっともな指摘だ。明確な答えがなければ、同じ誤りが別の場所で別の日に繰り返されかねない。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "fiber-optic",
+          "m": "光ファイバーの"
+        },
+        {
+          "w": "carry out",
+          "m": "実行する"
+        },
+        {
+          "w": "neglect",
+          "m": "放置、怠慢"
+        },
+        {
+          "w": "to blame",
+          "m": "責任がある"
+        },
+        {
+          "w": "configure",
+          "m": "設定する"
+        },
+        {
+          "w": "suggest",
+          "m": "示唆する"
+        },
+        {
+          "w": "fault",
+          "m": "欠陥、過失"
+        },
+        {
+          "w": "pause",
+          "m": "一時停止する"
+        },
+        {
+          "w": "inquiry",
+          "m": "調査"
+        },
+        {
+          "w": "dilemma",
+          "m": "ジレンマ、板挟み"
+        },
+        {
+          "w": "a fair point",
+          "m": "もっともな指摘"
+        }
+      ]
+    },
+    {
+      "heading_en": "The Price of Aging Systems",
+      "heading_ja": "老朽化したシステムの代償",
+      "paragraphs": [
+        {
+          "en": "American air traffic control has long run on aging technology. Officials have spoken of copper wires, outdated radar and even floppy disks still in use. Passengers rarely see this hidden machinery, which is why its weaknesses are easy to ignore until a single afternoon exposes them.",
+          "ja": "米国の航空管制は長年、老朽化した技術で動いてきた。当局者は、銅線や時代遅れのレーダー、さらにはフロッピーディスクが今も使われていると語っている。乗客がこの裏方の機械を目にすることはほとんどなく、だからこそ弱点は、ある午後に露呈するまで見過ごされやすい。"
+        },
+        {
+          "en": "Congress approved twelve and a half billion dollars last year for modernization, and the administration has now asked for fifty billion more. Of that, about ten billion would go to the control system itself, including new control centers and upgraded towers. These are large sums, and they deserve careful oversight.",
+          "ja": "議会は昨年、近代化のために125億ドルを承認し、政権は今回さらに500億ドルを要請した。そのうち約100億ドルは、新たな管制センターや塔の改修など、管制システム自体に充てられる。巨額であり、慎重な監視に値する。"
+        },
+        {
+          "en": "President Trump blamed outdated technology and his Democratic opponents for the disruption. Politicians will inevitably trade accusations, but blame does not fix a network. Years of underinvestment, under presidents of both parties, built this problem, and it will take years of steady funding and patient management to solve.",
+          "ja": "トランプ大統領は、混乱の原因を時代遅れの技術と民主党の対立勢力に求めた。政治家が非難の応酬をするのは避けられないが、非難でネットワークは直らない。この問題は、両党の大統領のもとでの長年の投資不足が生んだものであり、解決には何年にもわたる安定した資金と辛抱強い運営が要る。"
+        },
+        {
+          "en": "There is also a lesson about speed. Modernization is urgent, yet rushing upgrades on a live system carries its own danger. A daytime installation on a network that carries safety-critical voice traffic is a bold choice. Work of this kind should be tested thoroughly and done where failure cannot spread.",
+          "ja": "速度についての教訓もある。近代化は急務だが、稼働中のシステムで更新を急ぐことにも固有の危険がある。安全に直結する音声通信を運ぶネットワークで日中に設置作業を行うのは、大胆な選択だ。この種の作業は、十分な試験を経て、失敗が広がらない形で行うべきである。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "air traffic control",
+          "m": "航空管制"
+        },
+        {
+          "w": "outdated",
+          "m": "時代遅れの"
+        },
+        {
+          "w": "expose",
+          "m": "露呈させる"
+        },
+        {
+          "w": "modernization",
+          "m": "近代化"
+        },
+        {
+          "w": "oversight",
+          "m": "監督、監視"
+        },
+        {
+          "w": "administration",
+          "m": "政権"
+        },
+        {
+          "w": "trade accusations",
+          "m": "非難し合う"
+        },
+        {
+          "w": "underinvestment",
+          "m": "投資不足"
+        },
+        {
+          "w": "steady",
+          "m": "安定した"
+        },
+        {
+          "w": "live system",
+          "m": "稼働中のシステム"
+        },
+        {
+          "w": "safety-critical",
+          "m": "安全に直結する"
+        }
+      ]
+    },
+    {
+      "heading_en": "Lessons for Japan and Beyond",
+      "heading_ja": "日本と世界への教訓",
+      "paragraphs": [
+        {
+          "en": "Japan should pay close attention. Our own airports, railways and power grids are also built on equipment installed decades ago, and our population is shrinking along with the pool of skilled engineers. A small error in a critical network could spread just as quickly here as it did in America.",
+          "ja": "日本も注意深く見るべきだ。我が国の空港、鉄道、電力網もまた、数十年前に設置された設備の上に成り立ち、人口の減少とともに熟練技術者の層も薄くなっている。重要なネットワークの小さな誤りは、米国と同じように素早くここでも広がりうる。"
+        },
+        {
+          "en": "Three principles stand out. Critical systems need backups that truly work independently. Upgrades should be tested in isolation and rolled out in small steps. And when something fails, authorities must explain honestly and quickly what happened, so that the public can keep its trust in the system.",
+          "ja": "三つの原則が際立つ。重要なシステムには、本当に独立して機能する予備が必要だ。更新は隔離した環境で試験し、小さな段階に分けて展開すべきだ。そして不具合が起きたとき、当局は何が起きたかを正直かつ迅速に説明し、国民の信頼を保たねばならない。"
+        },
+        {
+          "en": "The Arkansas router was a tiny box, yet it grounded flights across a nation for hours. Technology that nobody notices is technology that nobody funds, until it breaks. The lesson is simple: invest in the quiet infrastructure before it forces itself onto the front page.",
+          "ja": "アーカンソーのルーターは小さな箱にすぎなかったが、数時間にわたり一国の空の便を止めた。誰も気づかない技術は、壊れるまで誰も予算を付けない技術である。教訓は単純だ。静かなインフラへの投資は、それが一面に躍り出る前に行うべきである。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "pay close attention",
+          "m": "注意深く見る"
+        },
+        {
+          "w": "power grid",
+          "m": "電力網"
+        },
+        {
+          "w": "skilled",
+          "m": "熟練した"
+        },
+        {
+          "w": "critical",
+          "m": "重要な、不可欠な"
+        },
+        {
+          "w": "stand out",
+          "m": "際立つ"
+        },
+        {
+          "w": "backup",
+          "m": "予備、バックアップ"
+        },
+        {
+          "w": "independently",
+          "m": "独立して"
+        },
+        {
+          "w": "in isolation",
+          "m": "隔離して"
+        },
+        {
+          "w": "roll out",
+          "m": "展開する"
+        },
+        {
+          "w": "trust",
+          "m": "信頼"
+        },
+        {
+          "w": "infrastructure",
+          "m": "インフラ、社会基盤"
+        }
+      ]
+    }
+  ]
+}
