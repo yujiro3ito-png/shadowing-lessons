@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The world court names genocide in Myanmar, but a verdict is only the beginning</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --desk:#e9e6df; --paper:#fbfaf6; --ink:#1d1d1b; --muted:#6b6a65; --rule:#2b2b2b;
+  --band:#8a8a88; --band-ink:#fff; --hl:#fff2b3; --hl-line:#e0b400; --gutter:rgba(0,0,0,.10);
+  --bar:#1f1f1e; --bar-ink:#f4f3ef; --accent:#c8a200;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --desk:#151514; --paper:#22221f; --ink:#e9e7e1; --muted:#a3a19a; --rule:#cfcdc6;
+    --band:#5c5c59; --band-ink:#fff; --hl:#4a4120; --hl-line:#d8b42a; --gutter:rgba(0,0,0,.45);
+    --bar:#0d0d0c; --bar-ink:#f4f3ef;
+  }
+}
+:root[data-theme="dark"]{
+  --desk:#151514; --paper:#22221f; --ink:#e9e7e1; --muted:#a3a19a; --rule:#cfcdc6;
+  --band:#5c5c59; --band-ink:#fff; --hl:#4a4120; --hl-line:#d8b42a; --gutter:rgba(0,0,0,.45);
+  --bar:#0d0d0c; --bar-ink:#f4f3ef;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--desk);color:var(--ink);font-family:"Noto Sans JP",system-ui,sans-serif;padding:24px 16px 120px}
+.spread{max-width:1240px;margin:0 auto 32px;display:grid;grid-template-columns:1fr 1fr;background:var(--paper);
+  box-shadow:0 1px 2px rgba(0,0,0,.08),0 10px 30px rgba(0,0,0,.10);border-radius:4px;position:relative}
+.spread::after{content:"";position:absolute;top:0;bottom:0;left:50%;width:36px;transform:translateX(-50%);
+  background:linear-gradient(90deg,transparent,var(--gutter) 50%,transparent);pointer-events:none}
+.page{padding:44px 52px 56px;position:relative;min-height:640px;display:flex;flex-direction:column}
+.runhead{display:flex;align-items:center;gap:10px;font-size:13px;letter-spacing:.02em;color:var(--ink);margin-bottom:28px}
+.runhead::after{content:"";flex:1;border-top:1px solid var(--rule)}
+.page.ja .runhead{flex-direction:row-reverse}
+.track{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:700;cursor:pointer;border:0;background:none;color:inherit;padding:0}
+.track i{width:18px;height:18px;border-radius:50%;border:1.5px solid currentColor;display:grid;place-items:center;font-style:normal;font-size:9px}
+h1{font-family:"Source Serif 4",Georgia,serif;font-size:30px;line-height:1.15;margin:0 0 6px;font-weight:700}
+h2.sub{font-family:"Source Serif 4",Georgia,serif;font-size:19px;line-height:1.3;margin:0 0 14px;font-weight:700}
+.page.ja h1{font-family:"Noto Serif JP",serif;font-size:24px;line-height:1.45;font-weight:700;margin-bottom:2px}
+.page.ja h2.sub{font-family:"Noto Serif JP",serif;font-size:18px;font-weight:700}
+.source{text-align:right;font-size:12px;color:var(--muted);margin:0 0 22px}
+.source::before{content:"● "}
+h3{font-family:"Source Serif 4",Georgia,serif;font-size:17px;margin:4px 0 8px;font-weight:700}
+.page.ja h3{font-family:"Noto Sans JP",sans-serif;font-size:15px}
+.en p{font-family:"Source Serif 4",Georgia,serif;font-size:18px;line-height:1.72;margin:0;text-indent:1.4em;text-align:justify;hyphens:auto}
+.ja p{font-family:"Noto Serif JP",serif;font-size:15px;line-height:2.0;margin:0;text-indent:1em;text-align:justify}
+.para{cursor:pointer;border-radius:3px;transition:background .2s;padding:1px 4px;margin:0 -4px}
+.para:hover{background:color-mix(in srgb,var(--hl) 45%,transparent)}
+.para.on{background:var(--hl);box-shadow:inset 3px 0 0 var(--hl-line)}
+body.hide-en .en .body{filter:blur(6px);user-select:none}
+body.hide-en .en .para.on{filter:none}
+body.hide-ja .ja .body{filter:blur(5px)}
+.words{margin-top:auto;padding-top:28px}
+.words .band{background:var(--band);color:var(--band-ink);font-weight:700;font-size:14px;padding:5px 14px;border-radius:999px 999px 0 0;width:92%}
+.words ul{list-style:none;margin:0;padding:10px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(165px,1fr));gap:4px 14px;font-size:13px}
+.words li{display:flex;gap:6px;align-items:baseline}
+.words label{display:block;cursor:pointer;padding-left:20px;text-indent:-20px;line-height:1.5}
+.words input{margin:0 6px 0 0;vertical-align:-1px;accent-color:var(--accent)}
+.words b{font-family:"Source Serif 4",Georgia,serif;font-weight:400;font-size:14px;margin-right:6px}
+.words span{color:var(--muted)}
+.folio{position:absolute;bottom:18px;font-size:13px;color:var(--muted)}
+.en .folio{left:52px}.ja .folio{right:52px}
+/* player */
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--bar);color:var(--bar-ink);padding:10px 16px calc(10px + env(safe-area-inset-bottom));z-index:10}
+.bar .in{max-width:1240px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px}
+.bar button,.bar select{font:inherit;font-size:13px;color:inherit;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:6px;padding:6px 10px;cursor:pointer}
+.bar button.on{background:var(--accent);border-color:var(--accent);color:#111}
+.bar .play{width:44px;height:36px;font-size:16px}
+.seek{flex:1;min-width:160px;display:flex;align-items:center;gap:8px;font-size:12px;font-variant-numeric:tabular-nums}
+.seek input{flex:1;accent-color:var(--accent)}
+@media (max-width:860px){
+  .spread{grid-template-columns:1fr}
+  .spread::after{display:none}
+  .page{padding:28px 18px 48px;min-height:0}
+  .page.ja{border-top:1px dashed var(--gutter)}
+  h1{font-size:25px}
+  .en p{font-size:17px}
+  .folio{display:none}
+  body{padding:12px 0 150px}
+  .spread{border-radius:0}
+}
+@media print{
+  body{background:#fff;padding:0}
+  .bar{display:none}
+  .spread{box-shadow:none;break-after:page;margin:0;max-width:none}
+  .para.on{background:none;box-shadow:none}
+  body.hide-en .en .body,body.hide-ja .ja .body{filter:none}
+  @page{size:A4 landscape;margin:10mm}
+}
+</style>
+</head>
+<body>
+<main id="book"></main>
+<audio id="au" preload="auto"></audio>
+<div class="bar"><div class="in">
+  <button class="play" id="play" aria-label="再生">▶</button>
+  <button id="prev" aria-label="前の段落">⏮</button>
+  <button id="next" aria-label="次の段落">⏭</button>
+  <div class="seek"><span id="cur">0:00</span><input type="range" id="pos" min="0" max="1000" value="0"><span id="dur">0:00</span></div>
+  <select id="rate" aria-label="速度">
+    <option value="0.7">0.7×</option><option value="0.8">0.8×</option><option value="0.9">0.9×</option>
+    <option value="1" selected>1.0×</option><option value="1.1">1.1×</option><option value="1.2">1.2×</option>
+  </select>
+  <button id="loop" title="今の段落をくり返す">段落リピート</button>
+  <button id="hideEn" title="英文をぼかす（音だけでシャドーイング）">英文を隠す</button>
+  <button id="hideJa">訳を隠す</button>
+</div></div>
+<script>
+const D = {"meta": {"series_en": "Weekly Focus 6", "series_ja": "今週の焦点 6", "track": "17", "title_en": "The world court names genocide in Myanmar, but a verdict is only the beginning", "subtitle_en": "The judgment for the Rohingya is historic, yet without enforcement and pressure from states, justice will remain unfinished", "title_ja": "世界裁判所がミャンマーのジェノサイドを認定――判決は始まりにすぎない", "subtitle_ja": "ロヒンギャをめぐる歴史的判決だが、執行と各国の圧力がなければ正義は未完のままだ", "source_en": "Original text based on reports from Human Rights Watch, AP, Reuters and Radio Free Asia, Nov. 2026", "date_ja": "2026年11月22日作成", "start_page": 14, "voice": "Samantha", "rate": 145, "pause_sec": 1.0, "engine": "openai", "openai_voice": "cedar"}, "sections": [{"heading_en": "", "heading_ja": "", "paragraphs": [{"en": "On Thursday the International Court of Justice, the highest judicial body of the United Nations, delivered a ruling that many survivors had waited nearly a decade to hear. By nine votes to six, the judges found that Myanmar committed genocide against the Rohingya Muslim minority during a brutal military campaign in 2016 and 2017.", "ja": "木曜日、国連の最高司法機関である国際司法裁判所は、多くの生存者が10年近く待ち続けた判決を言い渡した。裁判官は9対6の票決で、ミャンマーが2016年から2017年にかけての残忍な軍事作戦でイスラム教徒少数民族ロヒンギャに対しジェノサイドを行ったと認定した。"}, {"en": "It is the first time the court has held a state responsible for committing genocide. The judgment is final and cannot be appealed. For a body that settles disputes between governments, this is a moment of rare moral clarity, and it deserves to be recognized as such.", "ja": "同裁判所が国家にジェノサイドの責任があると認めたのは初めてである。判決は最終であり、上訴はできない。国家間の紛争を扱う機関にとって、これは珍しいほど明確な道義的判断の瞬間であり、そのように受け止められるべきだ。"}, {"en": "The numbers explain why the case mattered. More than seven hundred thousand Rohingya fled across the border into Bangladesh in 2017, carrying stories of burned villages, killings and sexual violence. Most still live in crowded camps in Cox's Bazar, with little hope of returning home and few chances to work.", "ja": "数字を見れば、この裁判の重みが分かる。2017年には70万人を超えるロヒンギャが国境を越えてバングラデシュへ逃れ、村が焼かれ、人々が殺され、性暴力が行われたという証言を携えていた。大半は今もコックスバザールの過密な難民キャンプで暮らし、帰郷の見通しも働く機会もほとんどない。"}, {"en": "The case was brought by The Gambia, a small West African nation, which filed its application in 2019 on behalf of Islamic countries. Myanmar tried to stop the case on procedural grounds, but the court rejected those objections in 2022. The final judgment came after years of patient legal work.", "ja": "訴えを起こしたのは西アフリカの小国ガンビアで、2019年にイスラム諸国を代表して申し立てた。ミャンマーは手続き上の理由で審理を止めようとしたが、裁判所は2022年にその異議を退けた。今回の最終判決は、長年にわたる粘り強い法的作業の末に出されたものだ。"}], "vocab": [{"w": "Court of Justice", "m": "司法裁判所"}, {"w": "deliver a ruling", "m": "判決を言い渡す"}, {"w": "survivor", "m": "生存者"}, {"w": "minority", "m": "少数民族"}, {"w": "brutal", "m": "残忍な"}, {"w": "held responsible", "m": "責任があるとされた"}, {"w": "appeal", "m": "上訴する"}, {"w": "moral clarity", "m": "道義的な明確さ"}, {"w": "flee", "m": "逃れる"}, {"w": "file an application", "m": "申し立てを行う"}, {"w": "procedural grounds", "m": "手続き上の理由"}]}, {"heading_en": "What the Court Decided", "heading_ja": "裁判所が認定したこと", "paragraphs": [{"en": "The ruling rests on the Genocide Convention of 1948, which Myanmar joined in 1956. The judges concluded that the military operations were carried out with the intent to destroy the Rohingya, in whole or in part. That finding of intent is the hardest part of any genocide case to prove.", "ja": "判決の根拠は1948年のジェノサイド条約で、ミャンマーは1956年に加入している。裁判官は、軍事作戦がロヒンギャを全体または一部破壊する意図をもって行われたと結論づけた。この意図の認定こそ、あらゆるジェノサイド裁判で最も立証が難しい部分である。"}, {"en": "The court also ordered Myanmar to provide reparations to the victims. How much must be paid, and to whom, will be decided in later proceedings. That means the road ahead is long, and the survivors who celebrated this week may need to wait years more for any practical help.", "ja": "裁判所はまた、ミャンマーに被害者への賠償を命じた。支払額や対象者は今後の手続きで決まる。つまり道のりは長く、今週喜んだ生存者が実際の支援を受けるまで、さらに何年も待たなければならない可能性がある。"}, {"en": "Yet the judgment has limits. It did not order Myanmar to grant citizenship to the Rohingya, because the judges said that question lay outside the measures before them. Many Rohingya have been stateless for decades, and without legal status, every other right remains fragile.", "ja": "とはいえ、判決には限界もある。ロヒンギャへの市民権付与は命じられなかった。裁判官がその問題は審理中の措置の範囲外だとしたためである。多くのロヒンギャは何十年も無国籍のままで、法的地位がなければ、ほかのあらゆる権利も脆いままだ。"}, {"en": "Six judges disagreed with the majority. A split of nine to six shows that even among the world's top jurists, the legal test for genocide is demanding and contested. Critics will point to that division, but it should not be used to dilute the central message of the verdict.", "ja": "6人の裁判官は多数意見に反対した。9対6という割れ方は、世界最高水準の法律家の間でも、ジェノサイドの法的基準が厳格で議論の余地があることを示している。批判派はこの分断を指摘するだろうが、それで判決の中心的なメッセージを薄めてはならない。"}], "vocab": [{"w": "rest on", "m": "〜に基づく"}, {"w": "intent", "m": "意図"}, {"w": "in whole or in part", "m": "全体または一部"}, {"w": "reparations", "m": "賠償"}, {"w": "later proceedings", "m": "今後の手続き"}, {"w": "citizenship", "m": "市民権"}, {"w": "stateless", "m": "無国籍の"}, {"w": "fragile", "m": "脆い"}, {"w": "majority", "m": "多数意見"}, {"w": "contested", "m": "議論の余地がある"}, {"w": "dilute", "m": "薄める"}]}, {"heading_en": "A Verdict Without an Enforcer", "heading_ja": "執行者なき判決", "paragraphs": [{"en": "The harder question is what happens next. The court has no police and no army. Its decisions are binding, but enforcement depends largely on the Security Council, where veto powers can shield their friends. Myanmar's government had not responded publicly when this article was written.", "ja": "難しいのは、この先どうなるかである。裁判所には警察も軍隊もない。判決は拘束力を持つが、執行は主に安全保障理事会に依存しており、そこでは拒否権を持つ国が友好国をかばえる。本稿執筆時点で、ミャンマー政府は公式な反応を示していなかった。"}, {"en": "Analysts warn that the military leadership may become even more defensive toward the United Nations. The commander of the operations of 2017 is now the country's president. A government led by such a figure is unlikely to accept guilt, pay compensation or welcome back hundreds of thousands of refugees.", "ja": "軍政が国連に対していっそう防御的になるかもしれないと、分析者は警告する。2017年の作戦を指揮した人物は、今や同国の大統領である。そうした人物が率いる政府が、罪を認め、賠償を支払い、数十万人の難民を迎え入れる可能性は低い。"}, {"en": "Bangladesh, which has sheltered the refugees for years, welcomed the decision and hopes Myanmar will comply and take its people back. But repatriation to a country still shaken by conflict would be dangerous. Return must be voluntary, safe and dignified, or it will only create a second tragedy.", "ja": "長年難民を受け入れてきたバングラデシュは判決を歓迎し、ミャンマーが従って自国民を引き取ることを望んでいる。だが、今も紛争に揺れる国への送還は危険だ。帰還は自発的で、安全で、尊厳が守られるものでなければならず、さもなければ第二の悲劇を生むだけである。"}, {"en": "Pressure will therefore have to come from many directions. Sanctions, arms restrictions and the pursuit of individual criminals in other courts all remain available. States that ratified the Genocide Convention are bound by the ruling, and they should act as if they are.", "ja": "したがって、圧力は多方面から加えなければならない。制裁、武器の規制、他の裁判所での個人の訴追といった手段は、いずれも残されている。ジェノサイド条約を批准した国々は判決に拘束されており、そのように行動すべきである。"}], "vocab": [{"w": "binding", "m": "拘束力のある"}, {"w": "enforcement", "m": "執行"}, {"w": "Security Council", "m": "安全保障理事会"}, {"w": "veto", "m": "拒否権"}, {"w": "shield", "m": "かばう"}, {"w": "defensive", "m": "防御的な"}, {"w": "compensation", "m": "補償"}, {"w": "repatriation", "m": "送還"}, {"w": "voluntary", "m": "自発的な"}, {"w": "dignified", "m": "尊厳ある"}, {"w": "sanctions", "m": "制裁"}]}, {"heading_en": "What It Means for Japan", "heading_ja": "日本にとっての意味", "paragraphs": [{"en": "Japan has long been one of Asia's most active supporters of humanitarian aid, and it has often kept lines of communication open with Myanmar. Tokyo may argue that engagement is the best way to influence a difficult partner. After this judgment, that argument will be harder to make without concrete results.", "ja": "日本は長年、アジアで最も積極的な人道支援国の一つであり、ミャンマーとも対話の窓口をしばしば維持してきた。東京は、関与こそ難しい相手に影響を及ぼす最善の方法だと主張するかもしれない。だが今回の判決の後では、具体的な成果なしにその主張を続けるのは難しくなる。"}, {"en": "A responsible policy would combine three things. First, continued help for refugees in Bangladesh and the host communities around them. Second, clear public support for the court's authority. Third, careful review of any economic ties that could benefit the military. Silence would be read as indifference.", "ja": "責任ある政策は三つを組み合わせるべきだ。第一に、バングラデシュの難民と周辺の受け入れ地域への継続的な支援。第二に、裁判所の権威への明確な公的支持。第三に、軍に利益をもたらしかねない経済関係の慎重な見直しである。沈黙は無関心と受け取られるだろう。"}, {"en": "The ruling also carries a wider lesson. In an age when wars in the Middle East and Europe dominate the headlines, international law can seem weak and distant. Thursday's decision shows that patient institutions still matter. A verdict cannot undo a massacre, but it can make denial much harder to defend.", "ja": "この判決には、より広い教訓もある。中東や欧州の戦争が見出しを占める時代には、国際法は弱く遠い存在に見えがちだ。木曜日の決定は、粘り強い制度がなお重要であることを示した。判決は虐殺を取り消せないが、否認を擁護することをはるかに難しくする。"}], "vocab": [{"w": "humanitarian aid", "m": "人道支援"}, {"w": "lines of communication", "m": "対話の窓口"}, {"w": "engagement", "m": "関与"}, {"w": "concrete results", "m": "具体的な成果"}, {"w": "host community", "m": "受け入れ地域"}, {"w": "economic ties", "m": "経済関係"}, {"w": "indifference", "m": "無関心"}, {"w": "dominate the headlines", "m": "見出しを占める"}, {"w": "undo", "m": "取り消す"}, {"w": "denial", "m": "否認"}, {"w": "defend", "m": "擁護する"}]}], "timings": [[0.0, 21.91], [22.91, 39.42], [40.42, 59.67], [60.67, 78.72], [79.72, 99.69], [100.69, 117.06], [118.06, 134.38], [135.38, 151.84], [152.84, 169.54], [170.54, 189.0], [190.0, 207.62], [208.62, 224.62], [225.62, 243.74], [244.74, 262.96], [263.96, 284.12]], "audio": "audio.m4a"};
+const $ = s => document.querySelector(s);
+const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const store = { get(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}} };
+const KEY = 'shadow:' + D.meta.title_en;
+const checked = store.get(KEY) || {};
+const m = D.meta;
+let pi = 0, page = m.start_page || 1, html = '';
+D.sections.forEach((s, si) => {
+  const first = si === 0;
+  const enP = s.paragraphs.map(p => `<p class="para" data-i="${pi++}">${esc(p.en)}</p>`).join('');
+  pi -= s.paragraphs.length;
+  const jaP = s.paragraphs.map(p => `<p class="para" data-i="${pi++}">${esc(p.ja)}</p>`).join('');
+  const vocab = s.vocab.map((v, vi) => { const id = `v${si}-${vi}`;
+    return `<li><label><input type="checkbox" data-k="${id}" ${checked[id]?'checked':''}><b>${esc(v.w)}</b><span>${esc(v.m)}</span></label></li>`; }).join('');
+  html += `<section class="spread">
+    <div class="page en">
+      <div class="runhead">${esc(m.series_en)} <button class="track" data-s="${si}"><i>▶</i>Track ${esc(m.track)}</button></div>
+      ${first ? `<h1>${esc(m.title_en)}</h1><h2 class="sub">${esc(m.subtitle_en)}</h2><p class="source">${esc(m.source_en)}</p>` : ''}
+      ${s.heading_en ? `<h3>${esc(s.heading_en)}</h3>` : ''}
+      <div class="body">${enP}</div>
+      <span class="folio">${page}</span>
+    </div>
+    <div class="page ja">
+      <div class="runhead">${esc(m.series_ja)}</div>
+      ${first ? `<h1>${esc(m.title_ja)}</h1><h2 class="sub">${esc(m.subtitle_ja)}</h2><p class="source">${esc(m.date_ja)}</p>` : ''}
+      ${s.heading_ja ? `<h3>${esc(s.heading_ja)}</h3>` : ''}
+      <div class="body">${jaP}</div>
+      <div class="words"><div class="band">Words and Phrases</div><ul>${vocab}</ul></div>
+      <span class="folio">${page + 1}</span>
+    </div></section>`;
+  page += 2;
+});
+$('#book').innerHTML = html;
+
+const au = $('#au');
+// 音声を丸ごと読み込んでから再生する（Range 非対応のサーバーでもシークできるように）
+fetch(D.audio).then(r => { if (!r.ok) throw 0; return r.blob(); })
+  .then(b => au.src = URL.createObjectURL(b)).catch(() => au.src = D.audio);
+const T = D.timings, fmt = t => `${Math.floor(t/60)}:${String(Math.floor(t%60)).padStart(2,'0')}`;
+let loop = false, cur = -1;
+const idxAt = t => { for (let i = T.length - 1; i >= 0; i--) if (t >= T[i][0] - 0.05) return i; return 0; };
+const seekTo = i => { i = Math.max(0, Math.min(T.length - 1, i)); au.currentTime = T[i][0]; mark(i); au.play(); };
+function mark(i){
+  if (i === cur) return; cur = i;
+  document.querySelectorAll('.para.on').forEach(e => e.classList.remove('on'));
+  document.querySelectorAll(`.para[data-i="${i}"]`).forEach(e => e.classList.add('on'));
+  const el = document.querySelector(`.en .para[data-i="${i}"]`);
+  if (el && !au.paused) { const r = el.getBoundingClientRect(); if (r.top < 60 || r.bottom > innerHeight - 110) el.scrollIntoView({behavior:'smooth', block:'center'}); }
+}
+au.addEventListener('loadedmetadata', () => $('#dur').textContent = fmt(au.duration));
+au.addEventListener('timeupdate', () => {
+  const t = au.currentTime;
+  if (loop && cur >= 0 && t >= T[cur][1] + 0.4) { au.currentTime = T[cur][0]; return; }
+  mark(idxAt(t));
+  $('#cur').textContent = fmt(t);
+  if (au.duration) $('#pos').value = t / au.duration * 1000;
+});
+au.addEventListener('play', () => $('#play').textContent = '❚❚');
+au.addEventListener('pause', () => $('#play').textContent = '▶');
+$('#play').onclick = () => au.paused ? au.play() : au.pause();
+$('#prev').onclick = () => seekTo((cur < 0 ? 0 : cur) - 1);
+$('#next').onclick = () => seekTo(cur + 1);
+$('#pos').oninput = e => { if (au.duration) au.currentTime = e.target.value / 1000 * au.duration; };
+$('#rate').onchange = e => au.playbackRate = +e.target.value;
+const tog = (id, fn) => $(id).onclick = e => { e.currentTarget.classList.toggle('on'); fn(e.currentTarget.classList.contains('on')); };
+tog('#loop', v => loop = v);
+tog('#hideEn', v => document.body.classList.toggle('hide-en', v));
+tog('#hideJa', v => document.body.classList.toggle('hide-ja', v));
+document.addEventListener('click', e => {
+  const p = e.target.closest('.para'); if (p) return seekTo(+p.dataset.i);
+  const t = e.target.closest('.track'); if (t) { const s = +t.dataset.s; let i = 0; for (let k = 0; k < s; k++) i += D.sections[k].paragraphs.length; seekTo(i); }
+});
+document.addEventListener('change', e => { const k = e.target.dataset && e.target.dataset.k; if (k) { checked[k] = e.target.checked; store.set(KEY, checked); } });
+document.addEventListener('keydown', e => { if (e.target.tagName === 'INPUT' && e.target.type !== 'range') return;
+  if (e.code === 'Space') { e.preventDefault(); $('#play').click(); }
+  if (e.code === 'ArrowRight') seekTo(cur + 1); if (e.code === 'ArrowLeft') seekTo(cur - 1); });
+</script>
+</body>
+</html>
