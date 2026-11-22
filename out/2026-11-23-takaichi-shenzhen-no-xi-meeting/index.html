@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Takaichi leaves Shenzhen without a meeting with Xi, and Japan must hold firm without going silent</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --desk:#e9e6df; --paper:#fbfaf6; --ink:#1d1d1b; --muted:#6b6a65; --rule:#2b2b2b;
+  --band:#8a8a88; --band-ink:#fff; --hl:#fff2b3; --hl-line:#e0b400; --gutter:rgba(0,0,0,.10);
+  --bar:#1f1f1e; --bar-ink:#f4f3ef; --accent:#c8a200;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --desk:#151514; --paper:#22221f; --ink:#e9e7e1; --muted:#a3a19a; --rule:#cfcdc6;
+    --band:#5c5c59; --band-ink:#fff; --hl:#4a4120; --hl-line:#d8b42a; --gutter:rgba(0,0,0,.45);
+    --bar:#0d0d0c; --bar-ink:#f4f3ef;
+  }
+}
+:root[data-theme="dark"]{
+  --desk:#151514; --paper:#22221f; --ink:#e9e7e1; --muted:#a3a19a; --rule:#cfcdc6;
+  --band:#5c5c59; --band-ink:#fff; --hl:#4a4120; --hl-line:#d8b42a; --gutter:rgba(0,0,0,.45);
+  --bar:#0d0d0c; --bar-ink:#f4f3ef;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--desk);color:var(--ink);font-family:"Noto Sans JP",system-ui,sans-serif;padding:24px 16px 120px}
+.spread{max-width:1240px;margin:0 auto 32px;display:grid;grid-template-columns:1fr 1fr;background:var(--paper);
+  box-shadow:0 1px 2px rgba(0,0,0,.08),0 10px 30px rgba(0,0,0,.10);border-radius:4px;position:relative}
+.spread::after{content:"";position:absolute;top:0;bottom:0;left:50%;width:36px;transform:translateX(-50%);
+  background:linear-gradient(90deg,transparent,var(--gutter) 50%,transparent);pointer-events:none}
+.page{padding:44px 52px 56px;position:relative;min-height:640px;display:flex;flex-direction:column}
+.runhead{display:flex;align-items:center;gap:10px;font-size:13px;letter-spacing:.02em;color:var(--ink);margin-bottom:28px}
+.runhead::after{content:"";flex:1;border-top:1px solid var(--rule)}
+.page.ja .runhead{flex-direction:row-reverse}
+.track{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:700;cursor:pointer;border:0;background:none;color:inherit;padding:0}
+.track i{width:18px;height:18px;border-radius:50%;border:1.5px solid currentColor;display:grid;place-items:center;font-style:normal;font-size:9px}
+h1{font-family:"Source Serif 4",Georgia,serif;font-size:30px;line-height:1.15;margin:0 0 6px;font-weight:700}
+h2.sub{font-family:"Source Serif 4",Georgia,serif;font-size:19px;line-height:1.3;margin:0 0 14px;font-weight:700}
+.page.ja h1{font-family:"Noto Serif JP",serif;font-size:24px;line-height:1.45;font-weight:700;margin-bottom:2px}
+.page.ja h2.sub{font-family:"Noto Serif JP",serif;font-size:18px;font-weight:700}
+.source{text-align:right;font-size:12px;color:var(--muted);margin:0 0 22px}
+.source::before{content:"● "}
+h3{font-family:"Source Serif 4",Georgia,serif;font-size:17px;margin:4px 0 8px;font-weight:700}
+.page.ja h3{font-family:"Noto Sans JP",sans-serif;font-size:15px}
+.en p{font-family:"Source Serif 4",Georgia,serif;font-size:18px;line-height:1.72;margin:0;text-indent:1.4em;text-align:justify;hyphens:auto}
+.ja p{font-family:"Noto Serif JP",serif;font-size:15px;line-height:2.0;margin:0;text-indent:1em;text-align:justify}
+.para{cursor:pointer;border-radius:3px;transition:background .2s;padding:1px 4px;margin:0 -4px}
+.para:hover{background:color-mix(in srgb,var(--hl) 45%,transparent)}
+.para.on{background:var(--hl);box-shadow:inset 3px 0 0 var(--hl-line)}
+body.hide-en .en .body{filter:blur(6px);user-select:none}
+body.hide-en .en .para.on{filter:none}
+body.hide-ja .ja .body{filter:blur(5px)}
+.words{margin-top:auto;padding-top:28px}
+.words .band{background:var(--band);color:var(--band-ink);font-weight:700;font-size:14px;padding:5px 14px;border-radius:999px 999px 0 0;width:92%}
+.words ul{list-style:none;margin:0;padding:10px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(165px,1fr));gap:4px 14px;font-size:13px}
+.words li{display:flex;gap:6px;align-items:baseline}
+.words label{display:block;cursor:pointer;padding-left:20px;text-indent:-20px;line-height:1.5}
+.words input{margin:0 6px 0 0;vertical-align:-1px;accent-color:var(--accent)}
+.words b{font-family:"Source Serif 4",Georgia,serif;font-weight:400;font-size:14px;margin-right:6px}
+.words span{color:var(--muted)}
+.folio{position:absolute;bottom:18px;font-size:13px;color:var(--muted)}
+.en .folio{left:52px}.ja .folio{right:52px}
+/* player */
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--bar);color:var(--bar-ink);padding:10px 16px calc(10px + env(safe-area-inset-bottom));z-index:10}
+.bar .in{max-width:1240px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px}
+.bar button,.bar select{font:inherit;font-size:13px;color:inherit;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:6px;padding:6px 10px;cursor:pointer}
+.bar button.on{background:var(--accent);border-color:var(--accent);color:#111}
+.bar .play{width:44px;height:36px;font-size:16px}
+.seek{flex:1;min-width:160px;display:flex;align-items:center;gap:8px;font-size:12px;font-variant-numeric:tabular-nums}
+.seek input{flex:1;accent-color:var(--accent)}
+@media (max-width:860px){
+  .spread{grid-template-columns:1fr}
+  .spread::after{display:none}
+  .page{padding:28px 18px 48px;min-height:0}
+  .page.ja{border-top:1px dashed var(--gutter)}
+  h1{font-size:25px}
+  .en p{font-size:17px}
+  .folio{display:none}
+  body{padding:12px 0 150px}
+  .spread{border-radius:0}
+}
+@media print{
+  body{background:#fff;padding:0}
+  .bar{display:none}
+  .spread{box-shadow:none;break-after:page;margin:0;max-width:none}
+  .para.on{background:none;box-shadow:none}
+  body.hide-en .en .body,body.hide-ja .ja .body{filter:none}
+  @page{size:A4 landscape;margin:10mm}
+}
+</style>
+</head>
+<body>
+<main id="book"></main>
+<audio id="au" preload="auto"></audio>
+<div class="bar"><div class="in">
+  <button class="play" id="play" aria-label="再生">▶</button>
+  <button id="prev" aria-label="前の段落">⏮</button>
+  <button id="next" aria-label="次の段落">⏭</button>
+  <div class="seek"><span id="cur">0:00</span><input type="range" id="pos" min="0" max="1000" value="0"><span id="dur">0:00</span></div>
+  <select id="rate" aria-label="速度">
+    <option value="0.7">0.7×</option><option value="0.8">0.8×</option><option value="0.9">0.9×</option>
+    <option value="1" selected>1.0×</option><option value="1.1">1.1×</option><option value="1.2">1.2×</option>
+  </select>
+  <button id="loop" title="今の段落をくり返す">段落リピート</button>
+  <button id="hideEn" title="英文をぼかす（音だけでシャドーイング）">英文を隠す</button>
+  <button id="hideJa">訳を隠す</button>
+</div></div>
+<script>
+const D = {"meta": {"series_en": "Politics & Diplomacy 3", "series_ja": "政治・外交 3", "track": "18", "title_en": "Takaichi leaves Shenzhen without a meeting with Xi, and Japan must hold firm without going silent", "subtitle_en": "A cold welcome and two handshakes show that Beijing wants a retraction on Taiwan, but Tokyo should keep its principles and keep talking", "title_ja": "習氏との会談なく深圳を後にした高市首相――毅然と、しかし沈黙せずに", "subtitle_ja": "冷たい出迎えと二度の握手は、北京が台湾発言の撤回を求めていることを示す。日本は原則を守りつつ対話を続けるべきだ", "source_en": "Original text based on reports from Latin Times, Time News, Washington Times and Kyodo, Nov. 2026", "date_ja": "2026年11月23日作成", "start_page": 14, "voice": "Samantha", "rate": 145, "pause_sec": 1.0, "engine": "openai", "openai_voice": "cedar"}, "sections": [{"heading_en": "", "heading_ja": "", "paragraphs": [{"en": "Prime Minister Sanae Takaichi flew home from Shenzhen last week without the one thing she came for. She never sat down with President Xi Jinping. Instead, the leaders of Japan and China exchanged two brief handshakes at an international summit, and little else passed between them.", "ja": "高市早苗首相は先週、最大の目的を果たせないまま深圳から帰国した。習近平国家主席とは一度も席を共にしなかった。日中の首脳が国際会議の場で交わしたのは、短い握手を二度だけで、それ以外にはほとんど何もなかった。"}, {"en": "It was the first visit to China by a sitting Japanese prime minister in seven years, so expectations were high. Tokyo hoped the Asia-Pacific economic summit would offer a chance to cool a dispute that has dragged on for a full year and has hurt businesses on both sides.", "ja": "現職の日本の首相の訪中は7年ぶりであり、期待は高かった。東京は、アジア太平洋の経済会議が、丸一年も長引き両国の企業に打撃を与えてきた対立を和らげる機会になると望んでいた。"}, {"en": "The welcome was telling. Reports said Takaichi received a red carpet and an honor guard, but no music and no crowd. Her host was a retired diplomat with no current post. Other leaders were greeted with far more ceremony, and the contrast was hard to miss.", "ja": "出迎えは示唆的だった。報道によれば、高市氏にはレッドカーペットと儀仗兵が用意されたが、音楽も観衆もなかった。案内役は現職を持たない退職外交官だった。ほかの首脳はずっと華やかに迎えられ、その差は際立っていた。"}, {"en": "At the closing press conference, Takaichi said she wants a constructive and stable relationship with China. She added that dialogue is essential precisely because the two countries disagree on so many issues. That message was calm and sensible, but Beijing gave no sign that it was listening.", "ja": "閉会後の記者会見で高市氏は、中国と建設的で安定した関係を築きたいと述べた。さらに、意見が食い違う問題が多いからこそ対話が不可欠だと付け加えた。冷静で理にかなった発信だったが、北京が耳を傾けた様子はない。"}], "vocab": [{"w": "come home without", "m": "〜を得ずに帰る"}, {"w": "exchange handshakes", "m": "握手を交わす"}, {"w": "sitting prime minister", "m": "現職の首相"}, {"w": "drag on", "m": "長引く"}, {"w": "telling", "m": "示唆的な、多くを物語る"}, {"w": "honor guard", "m": "儀仗隊"}, {"w": "constructive and stable", "m": "建設的で安定した"}, {"w": "give no sign", "m": "兆候を見せない"}]}, {"heading_en": "How the Dispute Began", "heading_ja": "対立の発端", "paragraphs": [{"en": "The quarrel goes back to November of last year. Takaichi told the Diet that a Chinese military move against Taiwan could amount to a survival-threatening situation for Japan, a legal term that can open the door to the use of the Self-Defense Forces.", "ja": "対立の起点は昨年11月にさかのぼる。高市氏は国会で、台湾に対する中国の軍事行動が日本にとって存立危機事態になり得ると述べた。これは自衛隊の武力行使への道を開き得る法律用語である。"}, {"en": "Beijing reacted with fury. It called the remarks a violation of the one-China principle and demanded a full retraction. Since then, China has reportedly imposed curbs on seafood imports, issued travel warnings for its citizens, and tightened exports of rare earth minerals that Japanese manufacturers need.", "ja": "北京は激しく反発した。発言は一つの中国の原則に反するとして、全面的な撤回を要求した。以来、中国は水産物の輸入制限や自国民への渡航警告に踏み切り、日本の製造業に欠かせないレアアースの輸出も絞ったと伝えられる。"}, {"en": "Tokyo has refused to back down. Its position is that nothing has changed in Japan's long-standing policy, which rests on the 1972 joint communique. Takaichi repeated that Japan understands and respects China's stance, but she did not take back what she said in the Diet.", "ja": "東京は譲っていない。日本の立場は、1972年の共同声明に基づく長年の政策に何ら変更はないというものだ。高市氏は中国の立場を理解し尊重すると繰り返したが、国会での発言は撤回しなかった。"}, {"en": "After she left Shenzhen, Beijing again urged Japan to correct its position on Taiwan. In other words, China has made a retraction the price of normal relations. Without that step, officials in Beijing appear content to keep the leaders at arm's length.", "ja": "高市氏が深圳を離れた後、北京は改めて台湾に関する立場を正すよう日本に促した。つまり中国は、発言の撤回を関係正常化の代価にしたのだ。その一歩がなければ、北京の当局者は首脳同士を遠ざけたままで構わないと考えているようだ。"}], "vocab": [{"w": "go back to", "m": "〜にさかのぼる"}, {"w": "survival-threatening situation", "m": "存立危機事態"}, {"w": "react with fury", "m": "激しく反発する"}, {"w": "retraction", "m": "撤回"}, {"w": "impose curbs on", "m": "〜に規制を課す"}, {"w": "rare earth minerals", "m": "レアアース"}, {"w": "back down", "m": "譲歩する"}, {"w": "keep at arm's length", "m": "距離を置く"}]}, {"heading_en": "Why Japan Should Hold Firm", "heading_ja": "日本が毅然とすべき理由", "paragraphs": [{"en": "We believe Japan was right not to pay that price. A democratic government cannot rewrite its security policy because a neighbor demands it. If a single sentence in parliament can be punished with trade penalties, every future leader will think twice before speaking honestly.", "ja": "日本が代価を払わなかったのは正しかったと考える。民主主義の政府が、隣国に求められたからといって安全保障政策を書き換えることはできない。国会での一言が貿易上の制裁で罰せられるなら、今後の指導者は誠実に語ることをためらうだろう。"}, {"en": "Geography also matters. Japan's westernmost inhabited island, Yonaguni, lies roughly one hundred kilometers from the Taiwanese coast. A crisis in the Taiwan Strait would not be a distant event for Japan. It would be a threat on the doorstep, and leaders must be free to say so.", "ja": "地理も重要である。日本最西端の有人島、与那国島は台湾の沿岸からおよそ100キロしか離れていない。台湾海峡の有事は、日本にとって遠い出来事ではない。玄関先の脅威であり、指導者はそれを口にできなければならない。"}, {"en": "Firmness, however, should not turn into stubborn silence. Japan can keep its legal position while still lowering the temperature. Quiet contacts between senior officials, working-level talks on trade and fishing, and clear explanations to Beijing can reduce the risk of a miscalculation.", "ja": "とはいえ、毅然とした姿勢が頑なな沈黙に変わってはならない。日本は法的立場を保ちつつ、緊張を和らげることもできる。高官同士の静かな接触、貿易や漁業をめぐる実務協議、北京への丁寧な説明は、誤算の危険を減らしてくれる。"}, {"en": "Japan should also widen its circle of friends. Closer ties with South Korea, Southeast Asian nations, Australia and the United States give Tokyo more weight than it could ever have alone, and they show Beijing that pressure on one country invites a response from many.", "ja": "日本は友好国の輪も広げるべきである。韓国、東南アジア諸国、オーストラリア、米国との関係を深めれば、日本単独では持ち得ない重みが生まれ、一国への圧力が多くの国の反応を招くことを北京に示せる。"}], "vocab": [{"w": "hold firm", "m": "毅然とした態度を保つ"}, {"w": "pay the price", "m": "代償を払う"}, {"w": "on the doorstep", "m": "目と鼻の先に"}, {"w": "lower the temperature", "m": "緊張を和らげる"}, {"w": "working-level talks", "m": "実務者協議"}, {"w": "miscalculation", "m": "誤算"}, {"w": "widen the circle", "m": "輪を広げる"}, {"w": "invite a response", "m": "反応を招く"}]}, {"heading_en": "The Road Ahead", "heading_ja": "今後の道筋", "paragraphs": [{"en": "Domestic politics will shape what happens next. Some analysts say the snub could even raise Takaichi's standing at home, since many voters dislike seeing Japan pushed around. That is a tempting thought, but a leader should not enjoy a diplomatic freeze for its political benefits.", "ja": "今後は国内政治も影響するだろう。多くの有権者は日本が軽んじられるのを好まないため、今回の冷遇がむしろ高市氏の支持を高めるとの見方もある。魅力的な見立てだが、指導者は外交の凍結が政治的に得だからといって歓迎してはならない。"}, {"en": "The costs of the freeze are real. Fishermen cannot sell their catch, tourism has weakened, and companies that depend on Chinese minerals are anxious about supply. The longer the standoff continues, the more ordinary workers will pay for a quarrel they did not choose.", "ja": "凍結の代償は現実のものだ。漁業者は水揚げを売れず、観光は弱まり、中国産鉱物に頼る企業は供給に不安を抱える。膠着が長引くほど、自ら選んだわけではない争いの付けを、一般の働き手が払うことになる。"}, {"en": "Both governments should look for a face-saving way out. One option is a statement that repeats existing commitments without new wording on Taiwan. Another is a series of small steps, such as resuming exchanges and easing curbs, which would build trust before any summit takes place.", "ja": "両政府は面子を保てる出口を探すべきだ。一つは、台湾に関する新たな文言を加えず、既存の約束を確認する声明である。もう一つは、交流の再開や規制の緩和といった小さな措置を積み重ね、首脳会談の前に信頼を築くことだ。"}, {"en": "A handshake is not a policy. Takaichi was right to hold her ground in Shenzhen, but the real test comes now. Japan must combine firm principles with patient diplomacy, and China must decide whether a permanent chill truly serves its own interests.", "ja": "握手は政策ではない。高市氏が深圳で立場を守ったのは正しかったが、本当の試練はこれからである。日本は揺るがぬ原則と辛抱強い外交を両立させねばならず、中国は恒常的な冷え込みが本当に自国の利益になるのかを見極める必要がある。"}], "vocab": [{"w": "snub", "m": "冷遇、無視"}, {"w": "standing at home", "m": "国内での支持・評価"}, {"w": "diplomatic freeze", "m": "外交の凍結"}, {"w": "standoff", "m": "膠着状態"}, {"w": "face-saving", "m": "面子を保つ"}, {"w": "ease curbs", "m": "規制を緩める"}, {"w": "hold one's ground", "m": "立場を守る"}, {"w": "serve one's interests", "m": "利益にかなう"}]}], "timings": [[0.0, 17.62], [18.62, 35.68], [36.68, 53.0], [54.0, 73.06], [74.06, 88.82], [89.82, 108.58], [109.58, 126.29], [127.29, 142.1], [143.1, 159.61], [160.61, 178.87], [179.87, 196.79], [197.79, 214.26], [215.26, 231.82], [232.82, 249.38], [250.38, 268.54], [269.54, 285.19]], "audio": "audio.m4a"};
+const $ = s => document.querySelector(s);
+const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const store = { get(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}} };
+const KEY = 'shadow:' + D.meta.title_en;
+const checked = store.get(KEY) || {};
+const m = D.meta;
+let pi = 0, page = m.start_page || 1, html = '';
+D.sections.forEach((s, si) => {
+  const first = si === 0;
+  const enP = s.paragraphs.map(p => `<p class="para" data-i="${pi++}">${esc(p.en)}</p>`).join('');
+  pi -= s.paragraphs.length;
+  const jaP = s.paragraphs.map(p => `<p class="para" data-i="${pi++}">${esc(p.ja)}</p>`).join('');
+  const vocab = s.vocab.map((v, vi) => { const id = `v${si}-${vi}`;
+    return `<li><label><input type="checkbox" data-k="${id}" ${checked[id]?'checked':''}><b>${esc(v.w)}</b><span>${esc(v.m)}</span></label></li>`; }).join('');
+  html += `<section class="spread">
+    <div class="page en">
+      <div class="runhead">${esc(m.series_en)} <button class="track" data-s="${si}"><i>▶</i>Track ${esc(m.track)}</button></div>
+      ${first ? `<h1>${esc(m.title_en)}</h1><h2 class="sub">${esc(m.subtitle_en)}</h2><p class="source">${esc(m.source_en)}</p>` : ''}
+      ${s.heading_en ? `<h3>${esc(s.heading_en)}</h3>` : ''}
+      <div class="body">${enP}</div>
+      <span class="folio">${page}</span>
+    </div>
+    <div class="page ja">
+      <div class="runhead">${esc(m.series_ja)}</div>
+      ${first ? `<h1>${esc(m.title_ja)}</h1><h2 class="sub">${esc(m.subtitle_ja)}</h2><p class="source">${esc(m.date_ja)}</p>` : ''}
+      ${s.heading_ja ? `<h3>${esc(s.heading_ja)}</h3>` : ''}
+      <div class="body">${jaP}</div>
+      <div class="words"><div class="band">Words and Phrases</div><ul>${vocab}</ul></div>
+      <span class="folio">${page + 1}</span>
+    </div></section>`;
+  page += 2;
+});
+$('#book').innerHTML = html;
+
+const au = $('#au');
+// 音声を丸ごと読み込んでから再生する（Range 非対応のサーバーでもシークできるように）
+fetch(D.audio).then(r => { if (!r.ok) throw 0; return r.blob(); })
+  .then(b => au.src = URL.createObjectURL(b)).catch(() => au.src = D.audio);
+const T = D.timings, fmt = t => `${Math.floor(t/60)}:${String(Math.floor(t%60)).padStart(2,'0')}`;
+let loop = false, cur = -1;
+const idxAt = t => { for (let i = T.length - 1; i >= 0; i--) if (t >= T[i][0] - 0.05) return i; return 0; };
+const seekTo = i => { i = Math.max(0, Math.min(T.length - 1, i)); au.currentTime = T[i][0]; mark(i); au.play(); };
+function mark(i){
+  if (i === cur) return; cur = i;
+  document.querySelectorAll('.para.on').forEach(e => e.classList.remove('on'));
+  document.querySelectorAll(`.para[data-i="${i}"]`).forEach(e => e.classList.add('on'));
+  const el = document.querySelector(`.en .para[data-i="${i}"]`);
+  if (el && !au.paused) { const r = el.getBoundingClientRect(); if (r.top < 60 || r.bottom > innerHeight - 110) el.scrollIntoView({behavior:'smooth', block:'center'}); }
+}
+au.addEventListener('loadedmetadata', () => $('#dur').textContent = fmt(au.duration));
+au.addEventListener('timeupdate', () => {
+  const t = au.currentTime;
+  if (loop && cur >= 0 && t >= T[cur][1] + 0.4) { au.currentTime = T[cur][0]; return; }
+  mark(idxAt(t));
+  $('#cur').textContent = fmt(t);
+  if (au.duration) $('#pos').value = t / au.duration * 1000;
+});
+au.addEventListener('play', () => $('#play').textContent = '❚❚');
+au.addEventListener('pause', () => $('#play').textContent = '▶');
+$('#play').onclick = () => au.paused ? au.play() : au.pause();
+$('#prev').onclick = () => seekTo((cur < 0 ? 0 : cur) - 1);
+$('#next').onclick = () => seekTo(cur + 1);
+$('#pos').oninput = e => { if (au.duration) au.currentTime = e.target.value / 1000 * au.duration; };
+$('#rate').onchange = e => au.playbackRate = +e.target.value;
+const tog = (id, fn) => $(id).onclick = e => { e.currentTarget.classList.toggle('on'); fn(e.currentTarget.classList.contains('on')); };
+tog('#loop', v => loop = v);
+tog('#hideEn', v => document.body.classList.toggle('hide-en', v));
+tog('#hideJa', v => document.body.classList.toggle('hide-ja', v));
+document.addEventListener('click', e => {
+  const p = e.target.closest('.para'); if (p) return seekTo(+p.dataset.i);
+  const t = e.target.closest('.track'); if (t) { const s = +t.dataset.s; let i = 0; for (let k = 0; k < s; k++) i += D.sections[k].paragraphs.length; seekTo(i); }
+});
+document.addEventListener('change', e => { const k = e.target.dataset && e.target.dataset.k; if (k) { checked[k] = e.target.checked; store.set(KEY, checked); } });
+document.addEventListener('keydown', e => { if (e.target.tagName === 'INPUT' && e.target.type !== 'range') return;
+  if (e.code === 'Space') { e.preventDefault(); $('#play').click(); }
+  if (e.code === 'ArrowRight') seekTo(cur + 1); if (e.code === 'ArrowLeft') seekTo(cur - 1); });
+</script>
+</body>
+</html>
