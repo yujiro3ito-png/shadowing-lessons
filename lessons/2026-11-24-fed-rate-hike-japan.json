@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "series_en": "Economy & Business 3",
+    "series_ja": "経済・ビジネス 3",
+    "track": "19",
+    "title_en": "The Fed is set to raise rates again, and Japan will feel the shock",
+    "subtitle_en": "With inflation spreading and officials divided, Washington should act steadily and explain clearly, while Tokyo protects households and keeps its budget credible",
+    "title_ja": "米利上げ再び、その衝撃は日本にも及ぶ",
+    "subtitle_ja": "インフレが広がり当局者の意見も割れる中、米国は着実に動き明確に説明すべきだ。日本は家計を守り、財政の信認を保たねばならない",
+    "source_en": "Original text based on reports from AP, TheStreet, Motley Fool and Yahoo Finance, Nov. 2026",
+    "date_ja": "2026年11月24日作成",
+    "start_page": 14,
+    "voice": "Samantha",
+    "rate": 145,
+    "pause_sec": 1.0,
+    "engine": "openai",
+    "openai_voice": "cedar"
+  },
+  "sections": [
+    {
+      "heading_en": "",
+      "heading_ja": "",
+      "paragraphs": [
+        {
+          "en": "America's central bank is about to do something that markets, borrowers and foreign governments hoped they would not see again soon. After raising its key rate in September for the first time in three years, the Federal Reserve is now widely expected to raise it again next month.",
+          "ja": "米連邦準備制度理事会は、市場も借り手も外国政府も当面は見たくないと願ってきたことをしようとしている。9月に3年ぶりの利上げに踏み切った同理事会は、来月再び利上げすると広く予想されている。"
+        },
+        {
+          "en": "Minutes of the October meeting, released this week, showed that nearly every official expects a quarter point increase at the December gathering. Futures markets agree. Traders now put the odds of a hike at around ninety percent, and some days at nearly one hundred.",
+          "ja": "今週公表された10月会合の議事要旨は、ほぼ全ての当局者が12月会合での0.25ポイントの利上げを見込んでいることを示した。先物市場も同じ見方だ。トレーダーは利上げの確率を約9割、日によってはほぼ10割と見ている。"
+        },
+        {
+          "en": "The reason is simple. Inflation has picked up again this autumn, and it is no longer limited to energy and goods hit by tariffs. Governor Christopher Waller said core prices have been rising at an annual pace of about three and a half percent, far above the two percent target.",
+          "ja": "理由は単純だ。インフレは今秋再び加速し、もはやエネルギーや関税の影響を受けた品目に限られない。クリストファー・ウォラー理事は、変動の大きい品目を除く物価が年率約3.5％で上昇していると述べた。目標の2％を大きく上回る。"
+        },
+        {
+          "en": "Waller went further than most of his colleagues. He argued for a half point increase in December and warned that several hikes, not just two, may be needed. Inflation, he said, is heading in the wrong direction, and waiting would only make the cure more painful.",
+          "ja": "ウォラー氏は同僚の大半よりさらに踏み込んだ。12月に0.5ポイントの利上げを行うべきだと主張し、2回ではなく数回の利上げが必要になるかもしれないと警告した。インフレは誤った方向に向かっており、待てば治療はいっそう痛みを伴うと語った。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "key rate",
+          "m": "政策金利"
+        },
+        {
+          "w": "minutes",
+          "m": "議事要旨"
+        },
+        {
+          "w": "quarter point",
+          "m": "0.25ポイント"
+        },
+        {
+          "w": "core prices",
+          "m": "コア物価"
+        },
+        {
+          "w": "annual pace",
+          "m": "年率ペース"
+        },
+        {
+          "w": "pick up",
+          "m": "加速する"
+        },
+        {
+          "w": "head in the wrong direction",
+          "m": "誤った方向に向かう"
+        },
+        {
+          "w": "hike",
+          "m": "利上げ(する)"
+        }
+      ]
+    },
+    {
+      "heading_en": "A Divided Committee",
+      "heading_ja": "割れる委員会",
+      "paragraphs": [
+        {
+          "en": "Not everyone agrees. John Williams, who leads the New York Fed, said the situation does not call for dramatic action, and he opposed the larger step. Yet even the cautious camp accepts that rates are heading up. The argument is about speed, not direction.",
+          "ja": "全員が同意しているわけではない。ニューヨーク連銀のジョン・ウィリアムズ総裁は、状況は劇的な対応を求めてはいないとして、大幅な利上げに反対した。だが慎重派でさえ、金利が上がる方向にあることは認めている。争点は方向ではなく速度である。"
+        },
+        {
+          "en": "Two members, Lisa Cook and Beth Hammack, formally dissented in October because they wanted higher rates right away. Alberto Musalem of the St. Louis Fed even predicted several increases before spring. A committee that once debated cuts now debates how hard to press the brake.",
+          "ja": "リサ・クック氏とベス・ハマック氏の2人は、直ちに金利を引き上げたいとして10月に正式に反対票を投じた。セントルイス連銀のアルベルト・ムサレム氏は、春までに複数回の利上げがあると予測さえした。かつて利下げを議論した委員会が、今はブレーキをどれだけ強く踏むかを議論している。"
+        },
+        {
+          "en": "The chair, Kevin Warsh, offered little help. Asked about the next move, he said he does not believe in forward guidance except in a crisis, and he would not prejudge any meeting. That is a principled position, but it leaves investors guessing while the stakes keep rising.",
+          "ja": "議長のケビン・ウォーシュ氏はほとんど手がかりを与えなかった。次の一手を問われると、危機でもない限り先行きの指針は示さない立場であり、会合の結論を前もって決めつけることもしないと答えた。筋の通った姿勢だが、利害が膨らむ中で投資家は推測を強いられる。"
+        },
+        {
+          "en": "There is a case for that restraint. Central bankers who promise too much can be trapped by their own words. But silence has a price as well. When officials disagree in public and the chair stays quiet, markets tend to swing wildly on every speech and every data release.",
+          "ja": "その慎重さには一理ある。約束しすぎる中央銀行幹部は、自らの言葉に縛られかねない。しかし沈黙にも代償がある。当局者が公然と意見を違え、議長が口を閉ざせば、市場は演説や経済指標のたびに大きく揺れやすくなる。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "call for",
+          "m": "～を必要とする"
+        },
+        {
+          "w": "dissent",
+          "m": "反対意見を述べる"
+        },
+        {
+          "w": "camp",
+          "m": "陣営"
+        },
+        {
+          "w": "press the brake",
+          "m": "ブレーキを踏む"
+        },
+        {
+          "w": "forward guidance",
+          "m": "先行きの指針"
+        },
+        {
+          "w": "prejudge",
+          "m": "前もって判断する"
+        },
+        {
+          "w": "restraint",
+          "m": "自制、慎重さ"
+        },
+        {
+          "w": "swing wildly",
+          "m": "激しく変動する"
+        }
+      ]
+    },
+    {
+      "heading_en": "The Cost for Households",
+      "heading_ja": "家計への代償",
+      "paragraphs": [
+        {
+          "en": "Ordinary Americans are already feeling the squeeze. Mortgage rates have climbed above seven percent in recent months, and home sales have withered. Young families who hoped to buy a first house are putting their plans on hold, and many owners are staying put rather than give up cheap old loans.",
+          "ja": "普通の米国民はすでに締め付けを感じている。住宅ローン金利はここ数か月で7％を超え、住宅販売は冷え込んだ。初めての家の購入を望んでいた若い家族は計画を先送りし、多くの所有者は低利の古いローンを手放したくないため動かずにいる。"
+        },
+        {
+          "en": "Stock investors are nervous too. Technology shares, which carried the market for much of the year, have wobbled as expensive artificial intelligence bets look less attractive when borrowing costs rise. Higher rates make future profits worth less today, and that arithmetic is unforgiving for richly valued companies.",
+          "ja": "株式投資家も神経質になっている。今年の相場の多くを牽引してきたハイテク株は揺らいでいる。借り入れコストが上がると、高価な人工知能への賭けは魅力が薄れるからだ。金利が上がれば将来の利益の現在価値は下がり、その計算は割高な企業に容赦がない。"
+        },
+        {
+          "en": "The ripple effects will cross the Pacific. A higher American rate usually pulls money toward the dollar and weakens the yen, which raises the cost of imported fuel and food in Japan. Households here, already struggling with rising prices, would feel the pain a second time.",
+          "ja": "波及効果は太平洋を越える。米国の金利上昇は通常、ドルへの資金流入を促して円を弱くし、日本の輸入燃料や食料品のコストを押し上げる。すでに物価高に苦しむ日本の家計は、二度目の痛みを味わうことになる。"
+        },
+        {
+          "en": "That puts the Bank of Japan in a difficult position. It raised its own rate in September to the highest level in decades, yet the gap with America remains wide. If the yen slides further, pressure for another increase will grow, even though a fragile economy needs support, not strain.",
+          "ja": "これは日本銀行を難しい立場に置く。日銀は9月に政策金利を数十年ぶりの高水準まで引き上げたが、米国との金利差は依然として大きい。円がさらに下落すれば、脆弱な経済に必要なのは重荷ではなく支えであるにもかかわらず、追加利上げを求める圧力は強まるだろう。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "feel the squeeze",
+          "m": "締め付けを感じる"
+        },
+        {
+          "w": "wither",
+          "m": "冷え込む、しぼむ"
+        },
+        {
+          "w": "put on hold",
+          "m": "保留にする"
+        },
+        {
+          "w": "wobble",
+          "m": "揺らぐ"
+        },
+        {
+          "w": "borrowing costs",
+          "m": "借り入れコスト"
+        },
+        {
+          "w": "richly valued",
+          "m": "割高な"
+        },
+        {
+          "w": "ripple effects",
+          "m": "波及効果"
+        },
+        {
+          "w": "slide",
+          "m": "下落する"
+        }
+      ]
+    },
+    {
+      "heading_en": "What Policymakers Should Do",
+      "heading_ja": "政策当局者がなすべきこと",
+      "paragraphs": [
+        {
+          "en": "The Fed has little choice but to act. Letting inflation settle in at three percent or more would erode savings, hurt workers on fixed incomes and force a harsher correction later. A steady quarter point move in December is the prudent course, and a larger one should be kept in reserve.",
+          "ja": "連邦準備制度には行動する以外の選択肢がほとんどない。インフレが3％以上で定着するのを許せば、貯蓄は目減りし、固定収入の労働者は打撃を受け、後にいっそう厳しい調整を強いられる。12月に着実な0.25ポイントの利上げを行うのが賢明であり、それより大きな措置は温存すべきだ。"
+        },
+        {
+          "en": "What the Fed owes the world is clarity. It need not promise a path, but it should explain how it reads the data and what would change its mind. Plain language, repeated often, calms markets far better than studied silence, especially when its own members disagree so openly.",
+          "ja": "連邦準備制度が世界に負っているのは明確さである。道筋を約束する必要はないが、データをどう読み、何があれば考えを変えるのかを説明すべきだ。特に内部の意見がこれほど公然と割れているときには、平易な言葉を繰り返し語るほうが、計算された沈黙よりはるかに市場を落ち着かせる。"
+        },
+        {
+          "en": "Tokyo has its own homework. The government should resist the temptation to blame every price rise on the yen and instead protect the most vulnerable households with targeted help. At the same time, it must keep its budget credible, because bond markets here are already watching it closely.",
+          "ja": "東京にも宿題がある。政府は物価上昇の原因を何でも円安のせいにする誘惑に抵抗し、代わりに最も弱い立場の世帯を的を絞った支援で守るべきだ。同時に、日本の債券市場がすでに財政を注視している以上、予算の信認も保たなければならない。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "have little choice but to",
+          "m": "～するほかない"
+        },
+        {
+          "w": "settle in",
+          "m": "定着する"
+        },
+        {
+          "w": "erode",
+          "m": "むししばむ、目減りさせる"
+        },
+        {
+          "w": "prudent",
+          "m": "賢明な"
+        },
+        {
+          "w": "erode",
+          "m": "蝕む、目減りさせる"
+        },
+        {
+          "w": "owe",
+          "m": "～を負っている"
+        },
+        {
+          "w": "targeted help",
+          "m": "的を絞った支援"
+        },
+        {
+          "w": "credible",
+          "m": "信頼できる"
+        }
+      ]
+    }
+  ]
+}
