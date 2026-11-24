@@ -1,0 +1,237 @@
+{
+  "meta": {
+    "series_en": "Technology & AI 3",
+    "series_ja": "テクノロジー・AI 3",
+    "track": "20",
+    "title_en": "Nvidia brings Huang back in a week, and the speed should worry as much as it reassures",
+    "subtitle_en": "A president's pressure and a surging stock cannot replace independent oversight of the company that supplies the world's most sought-after chips",
+    "title_ja": "エヌビディア、ファン氏を1週間で復帰、その速さは安心より不安を呼ぶ",
+    "subtitle_ja": "大統領の圧力と株価の急騰は、世界が求める半導体の供給企業に対する独立した監督の代わりにはならない",
+    "source_en": "Original text based on reports from NVIDIA, CNBC, CBS News, NBC News and PBS NewsHour, Nov. 2026",
+    "date_ja": "2026年11月25日作成",
+    "start_page": 14,
+    "voice": "Samantha",
+    "rate": 145,
+    "pause_sec": 1.0,
+    "engine": "openai",
+    "openai_voice": "cedar"
+  },
+  "sections": [
+    {
+      "heading_en": "",
+      "heading_ja": "",
+      "paragraphs": [
+        {
+          "en": "Nvidia's board did something on Monday that it had flatly refused to do a week earlier. It voted unanimously to bring back Jensen Huang as chief executive, president and director. The company he built over thirty years now has its founder back, and Wall Street responded with relief and enthusiasm.",
+          "ja": "エヌビディアの取締役会は月曜日、1週間前には断固として拒んでいたことを実行した。ジェンスン・ファン氏を最高経営責任者、社長、取締役として復帰させることを全会一致で決めたのだ。30年かけて築いた会社に創業者が戻り、ウォール街は安堵と熱狂で応えた。"
+        },
+        {
+          "en": "The reversal was remarkable. Huang had resigned about two weeks earlier, after reports that he had a relationship with a woman suspected of working for Chinese intelligence. Just last Tuesday, the board chair said the directors accepted his resignation and had no intention of reinstating him.",
+          "ja": "この転換は驚くべきものだった。ファン氏は、中国の情報機関に関わる疑いのある女性との関係が報じられたことを受け、約2週間前に辞任していた。つい先週の火曜日には、取締役会議長が辞任を受け入れ復帰させる考えはないと述べていた。"
+        },
+        {
+          "en": "Investors showed their view at once. Nvidia shares jumped by more than thirty percent, and the Nasdaq erased the losses from a steep sell-off on Friday. One company's chief executive had become a swing factor for a whole market, which says a great deal about how much of the artificial intelligence boom rests on a single firm.",
+          "ja": "投資家の判断はすぐに表れた。エヌビディア株は30パーセント以上急騰し、ナスダックは金曜日の急落による損失を取り戻した。一企業の経営者が市場全体の変動要因となったことは、人工知能ブームがいかに1社に依存しているかを物語っている。"
+        },
+        {
+          "en": "Still, speed is not the same as wisdom. The question for readers is not whether Huang is talented, because he plainly is. The question is whether a company this important to the world economy and to national security can be run on trust alone, and whether this decision was made on the merits.",
+          "ja": "それでも、迅速さは賢明さと同じではない。問われているのは、ファン氏に才能があるかどうかではない。それは明らかだ。問題は、世界経済と安全保障にとってこれほど重要な企業が信頼だけで運営できるのか、そしてこの判断が内容に即して下されたのかである。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "step down",
+          "m": "辞任する"
+        },
+        {
+          "w": "reinstate",
+          "m": "復職させる"
+        },
+        {
+          "w": "unanimously",
+          "m": "全会一致で"
+        },
+        {
+          "w": "reversal",
+          "m": "逆転、方針転換"
+        },
+        {
+          "w": "sell-off",
+          "m": "大量売り、急落"
+        },
+        {
+          "w": "swing factor",
+          "m": "変動要因"
+        },
+        {
+          "w": "rest on",
+          "m": "〜に依存する"
+        },
+        {
+          "w": "on the merits",
+          "m": "実質的な内容に基づいて"
+        }
+      ]
+    },
+    {
+      "heading_en": "The Pressure From Washington",
+      "heading_ja": "ワシントンからの圧力",
+      "paragraphs": [
+        {
+          "en": "President Donald Trump said he spoke directly and indirectly with the board, and he said his administration had assured the company that Huang's return posed no national security concern. Nvidia's own statement said directors consulted senior government officials. That is unusual for a president.",
+          "ja": "ドナルド・トランプ大統領は、取締役会と直接および間接に話をしたと述べ、ファン氏の復帰に安全保障上の懸念はないと政権が会社に伝えたと語った。エヌビディア自身の声明も、取締役が政府高官と協議したと述べている。大統領としては異例である。"
+        },
+        {
+          "en": "Supporters will say the president protected jobs, savings and a national champion. Critics will answer that markets had been rattled, and that a leader who soothes a stock price is not necessarily judging a security risk. When a decision pleases the market and the White House at the same time, careful observers should ask who was left out.",
+          "ja": "支持者は、大統領が雇用と貯蓄、そして国を代表する企業を守ったと言うだろう。批判者は、市場が動揺していたのであり、株価をなだめる指導者が必ずしも安全保障上のリスクを判断しているわけではないと反論するだろう。市場とホワイトハウスの双方を満足させる決定には、誰が置き去りにされたのかを注意深い観察者は問うべきだ。"
+        },
+        {
+          "en": "Nvidia sits at the center of a bitter contest over advanced chips. Washington has tightened export rules, and Beijing wants every route around them. A chief executive who has been described as a target of foreign intelligence is therefore not only a personnel matter. He is a possible pressure point in a rivalry between great powers.",
+          "ja": "エヌビディアは先端半導体をめぐる激しい争いの中心にいる。ワシントンは輸出規制を強め、北京はそのあらゆる抜け道を求めている。外国の情報機関に狙われたと伝えられる最高経営責任者は、したがって単なる人事の問題ではない。大国間の対立における急所となり得る存在なのだ。"
+        },
+        {
+          "en": "The company says it understands this. Its board named an investigation committee made up only of independent directors to examine reports that Huang was targeted by a foreign effort. Huang supports the review. That promise should be tested by results.",
+          "ja": "同社はこの点を理解していると説明する。取締役会は、ファン氏が外国による工作の標的になったとの報道を調べるため、独立取締役のみで構成する調査委員会を設けた。ファン氏は調査を支持している。その約束は結果で試されるべきだ。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "intervene",
+          "m": "介入する"
+        },
+        {
+          "w": "succession",
+          "m": "後継、継承"
+        },
+        {
+          "w": "national champion",
+          "m": "国を代表する企業"
+        },
+        {
+          "w": "rattle",
+          "m": "動揺させる"
+        },
+        {
+          "w": "pressure point",
+          "m": "急所、圧力の掛けどころ"
+        },
+        {
+          "w": "rivalry",
+          "m": "対立、競争関係"
+        },
+        {
+          "w": "target",
+          "m": "標的にする"
+        },
+        {
+          "w": "investigation committee",
+          "m": "調査委員会"
+        }
+      ]
+    },
+    {
+      "heading_en": "Governance After the Shock",
+      "heading_ja": "衝撃の後の統治",
+      "paragraphs": [
+        {
+          "en": "The board also created a new committee for national security and export control, again made up of independent directors, and it plans to hire its own national security counsel. Nvidia is searching for a chief compliance officer who will report to the directors rather than to management. These are sensible steps that arrive late.",
+          "ja": "取締役会は、国家安全保障と輸出管理を担う新しい委員会も設けた。ここも独立取締役だけで構成し、独自の国家安全保障担当の弁護士を雇う方針だ。エヌビディアは、経営陣ではなく取締役に報告する最高コンプライアンス責任者も探している。いずれも妥当な措置だが、遅きに失した感がある。"
+        },
+        {
+          "en": "Good governance means that no single person, however brilliant, is allowed to become indispensable. A company worth trillions of dollars should be able to survive the absence of its founder for more than two weeks without a panic. Investors cheered, but the protection had been thin.",
+          "ja": "優れた統治とは、どれほど有能な人物であっても、ただ一人が不可欠な存在になるのを許さないことだ。時価総額が数兆ドルの会社は、創業者が2週間以上不在でも動揺なく持ちこたえられるべきである。投資家は喝采したが、備えは薄かった。"
+        },
+        {
+          "en": "The new controls also face a harder test than any committee charter. Export rules are only as strong as the companies that follow them. If the firm that supplies the most sought-after chips in the world cannot show that it monitors its customers, its routes and its own leaders, tougher laws will keep arriving.",
+          "ja": "新たな管理体制は、どんな委員会の規定よりも厳しい試練に直面する。輸出規制は、それを守る企業の力以上には強くならない。世界で最も求められる半導体を供給する企業が、顧客も流通経路も自社の幹部も監視していると示せなければ、より厳しい法律が次々に登場するだろう。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "independent director",
+          "m": "独立取締役"
+        },
+        {
+          "w": "export control",
+          "m": "輸出管理"
+        },
+        {
+          "w": "compliance officer",
+          "m": "コンプライアンス責任者"
+        },
+        {
+          "w": "indispensable",
+          "m": "不可欠な"
+        },
+        {
+          "w": "charter",
+          "m": "規定、憲章"
+        },
+        {
+          "w": "exposed",
+          "m": "露呈させた"
+        },
+        {
+          "w": "counsel",
+          "m": "弁護士、法律顧問"
+        },
+        {
+          "w": "panic",
+          "m": "動揺、パニック"
+        }
+      ]
+    },
+    {
+      "heading_en": "What It Means for Japan",
+      "heading_ja": "日本にとっての意味",
+      "paragraphs": [
+        {
+          "en": "For Japan, this is not a distant drama. Japanese manufacturers, cloud providers and start-ups depend on Nvidia hardware to train and run their artificial intelligence systems. A sudden leadership crisis at the supplier, or a sudden return, can change prices, delivery schedules and investment plans for companies that have no say in the matter.",
+          "ja": "日本にとって、これは遠い国の出来事ではない。日本の製造業者やクラウド事業者、新興企業は、人工知能の学習や運用をエヌビディアの製品に頼っている。供給元で突然の経営危機が起きたり、突然の復帰があったりすれば、発言権のない企業の価格、納期、投資計画が左右されかねない。"
+        },
+        {
+          "en": "Tokyo should draw two conclusions. First, it must keep diversifying its sources of computing power, supporting domestic efforts and building ties with other suppliers, even if none can match Nvidia today. Second, it should press for transparency in its own dealings, so that Japanese users know the risks before they commit billions of yen.",
+          "ja": "東京は2つの結論を導くべきだ。第1に、現時点でエヌビディアに並ぶ供給元がなくとも、国内の取り組みを支え、他の供給元との関係を築いて、計算資源の調達先を分散し続けなければならない。第2に、日本の利用者が数十億円を投じる前にリスクを知れるよう、自らの取引でも透明性を求めるべきだ。"
+        },
+        {
+          "en": "Japan also has a stake in how the rivalry between Washington and Beijing is managed. Export controls are meant to protect security, not to hand political leaders a lever over private companies. If rules can bend when stocks fall, allies will wonder how reliable the system is,.",
+          "ja": "米中の対立がどう管理されるかにも、日本は利害を持つ。輸出管理は安全保障を守るためのものであり、政治指導者に民間企業を動かす梃子を与えるためのものではない。株価が下がると規則が曲がるのなら、同盟国はこの制度の信頼性を疑い。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "diversify",
+          "m": "分散する"
+        },
+        {
+          "w": "computing power",
+          "m": "計算能力"
+        },
+        {
+          "w": "supplier",
+          "m": "供給元"
+        },
+        {
+          "w": "stake",
+          "m": "利害関係"
+        },
+        {
+          "w": "lever",
+          "m": "梃子"
+        },
+        {
+          "w": "bend",
+          "m": "曲がる、緩む"
+        },
+        {
+          "w": "commit",
+          "m": "(資金などを)投じる"
+        },
+        {
+          "w": "ally",
+          "m": "同盟国"
+        }
+      ]
+    }
+  ]
+}
