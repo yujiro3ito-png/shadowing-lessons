@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>COP31 ends with nothing to sign, and one veto cannot be allowed to decide the climate's fate</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --desk:#e9e6df; --paper:#fbfaf6; --ink:#1d1d1b; --muted:#6b6a65; --rule:#2b2b2b;
+  --band:#8a8a88; --band-ink:#fff; --hl:#fff2b3; --hl-line:#e0b400; --gutter:rgba(0,0,0,.10);
+  --bar:#1f1f1e; --bar-ink:#f4f3ef; --accent:#c8a200;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --desk:#151514; --paper:#22221f; --ink:#e9e7e1; --muted:#a3a19a; --rule:#cfcdc6;
+    --band:#5c5c59; --band-ink:#fff; --hl:#4a4120; --hl-line:#d8b42a; --gutter:rgba(0,0,0,.45);
+    --bar:#0d0d0c; --bar-ink:#f4f3ef;
+  }
+}
+:root[data-theme="dark"]{
+  --desk:#151514; --paper:#22221f; --ink:#e9e7e1; --muted:#a3a19a; --rule:#cfcdc6;
+  --band:#5c5c59; --band-ink:#fff; --hl:#4a4120; --hl-line:#d8b42a; --gutter:rgba(0,0,0,.45);
+  --bar:#0d0d0c; --bar-ink:#f4f3ef;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--desk);color:var(--ink);font-family:"Noto Sans JP",system-ui,sans-serif;padding:24px 16px 120px}
+.spread{max-width:1240px;margin:0 auto 32px;display:grid;grid-template-columns:1fr 1fr;background:var(--paper);
+  box-shadow:0 1px 2px rgba(0,0,0,.08),0 10px 30px rgba(0,0,0,.10);border-radius:4px;position:relative}
+.spread::after{content:"";position:absolute;top:0;bottom:0;left:50%;width:36px;transform:translateX(-50%);
+  background:linear-gradient(90deg,transparent,var(--gutter) 50%,transparent);pointer-events:none}
+.page{padding:44px 52px 56px;position:relative;min-height:640px;display:flex;flex-direction:column}
+.runhead{display:flex;align-items:center;gap:10px;font-size:13px;letter-spacing:.02em;color:var(--ink);margin-bottom:28px}
+.runhead::after{content:"";flex:1;border-top:1px solid var(--rule)}
+.page.ja .runhead{flex-direction:row-reverse}
+.track{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:700;cursor:pointer;border:0;background:none;color:inherit;padding:0}
+.track i{width:18px;height:18px;border-radius:50%;border:1.5px solid currentColor;display:grid;place-items:center;font-style:normal;font-size:9px}
+h1{font-family:"Source Serif 4",Georgia,serif;font-size:30px;line-height:1.15;margin:0 0 6px;font-weight:700}
+h2.sub{font-family:"Source Serif 4",Georgia,serif;font-size:19px;line-height:1.3;margin:0 0 14px;font-weight:700}
+.page.ja h1{font-family:"Noto Serif JP",serif;font-size:24px;line-height:1.45;font-weight:700;margin-bottom:2px}
+.page.ja h2.sub{font-family:"Noto Serif JP",serif;font-size:18px;font-weight:700}
+.source{text-align:right;font-size:12px;color:var(--muted);margin:0 0 22px}
+.source::before{content:"● "}
+h3{font-family:"Source Serif 4",Georgia,serif;font-size:17px;margin:4px 0 8px;font-weight:700}
+.page.ja h3{font-family:"Noto Sans JP",sans-serif;font-size:15px}
+.en p{font-family:"Source Serif 4",Georgia,serif;font-size:18px;line-height:1.72;margin:0;text-indent:1.4em;text-align:justify;hyphens:auto}
+.ja p{font-family:"Noto Serif JP",serif;font-size:15px;line-height:2.0;margin:0;text-indent:1em;text-align:justify}
+.para{cursor:pointer;border-radius:3px;transition:background .2s;padding:1px 4px;margin:0 -4px}
+.para:hover{background:color-mix(in srgb,var(--hl) 45%,transparent)}
+.para.on{background:var(--hl);box-shadow:inset 3px 0 0 var(--hl-line)}
+body.hide-en .en .body{filter:blur(6px);user-select:none}
+body.hide-en .en .para.on{filter:none}
+body.hide-ja .ja .body{filter:blur(5px)}
+.words{margin-top:auto;padding-top:28px}
+.words .band{background:var(--band);color:var(--band-ink);font-weight:700;font-size:14px;padding:5px 14px;border-radius:999px 999px 0 0;width:92%}
+.words ul{list-style:none;margin:0;padding:10px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(165px,1fr));gap:4px 14px;font-size:13px}
+.words li{display:flex;gap:6px;align-items:baseline}
+.words label{display:block;cursor:pointer;padding-left:20px;text-indent:-20px;line-height:1.5}
+.words input{margin:0 6px 0 0;vertical-align:-1px;accent-color:var(--accent)}
+.words b{font-family:"Source Serif 4",Georgia,serif;font-weight:400;font-size:14px;margin-right:6px}
+.words span{color:var(--muted)}
+.folio{position:absolute;bottom:18px;font-size:13px;color:var(--muted)}
+.en .folio{left:52px}.ja .folio{right:52px}
+/* player */
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--bar);color:var(--bar-ink);padding:10px 16px calc(10px + env(safe-area-inset-bottom));z-index:10}
+.bar .in{max-width:1240px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px}
+.bar button,.bar select{font:inherit;font-size:13px;color:inherit;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:6px;padding:6px 10px;cursor:pointer}
+.bar button.on{background:var(--accent);border-color:var(--accent);color:#111}
+.bar .play{width:44px;height:36px;font-size:16px}
+.seek{flex:1;min-width:160px;display:flex;align-items:center;gap:8px;font-size:12px;font-variant-numeric:tabular-nums}
+.seek input{flex:1;accent-color:var(--accent)}
+@media (max-width:860px){
+  .spread{grid-template-columns:1fr}
+  .spread::after{display:none}
+  .page{padding:28px 18px 48px;min-height:0}
+  .page.ja{border-top:1px dashed var(--gutter)}
+  h1{font-size:25px}
+  .en p{font-size:17px}
+  .folio{display:none}
+  body{padding:12px 0 150px}
+  .spread{border-radius:0}
+}
+@media print{
+  body{background:#fff;padding:0}
+  .bar{display:none}
+  .spread{box-shadow:none;break-after:page;margin:0;max-width:none}
+  .para.on{background:none;box-shadow:none}
+  body.hide-en .en .body,body.hide-ja .ja .body{filter:none}
+  @page{size:A4 landscape;margin:10mm}
+}
+</style>
+</head>
+<body>
+<main id="book"></main>
+<audio id="au" preload="auto"></audio>
+<div class="bar"><div class="in">
+  <button class="play" id="play" aria-label="再生">▶</button>
+  <button id="prev" aria-label="前の段落">⏮</button>
+  <button id="next" aria-label="次の段落">⏭</button>
+  <div class="seek"><span id="cur">0:00</span><input type="range" id="pos" min="0" max="1000" value="0"><span id="dur">0:00</span></div>
+  <select id="rate" aria-label="速度">
+    <option value="0.7">0.7×</option><option value="0.8">0.8×</option><option value="0.9">0.9×</option>
+    <option value="1" selected>1.0×</option><option value="1.1">1.1×</option><option value="1.2">1.2×</option>
+  </select>
+  <button id="loop" title="今の段落をくり返す">段落リピート</button>
+  <button id="hideEn" title="英文をぼかす（音だけでシャドーイング）">英文を隠す</button>
+  <button id="hideJa">訳を隠す</button>
+</div></div>
+<script>
+const D = {"meta": {"series_en": "Science & Environment 3", "series_ja": "科学・環境 3", "track": "21", "title_en": "COP31 ends with nothing to sign, and one veto cannot be allowed to decide the climate's fate", "subtitle_en": "The longest climate summit on record failed over fossil fuels, but the rules that remain and the coalitions now forming still offer a way forward", "title_ja": "COP31、署名すべき合意なく閉幕、ひとつの拒否権に気候の命運を委ねてはならない", "subtitle_ja": "史上最長の気候サミットは化石燃料をめぐって決裂したが、残る枠組みと新たな有志連合には前進の道がある", "source_en": "Original text based on reports from CBS News, the United Nations, CNN and BBVA, Nov. 2026", "date_ja": "2026年11月26日作成", "start_page": 14, "voice": "Samantha", "rate": 145, "pause_sec": 1.0, "engine": "openai", "openai_voice": "cedar"}, "sections": [{"heading_en": "", "heading_ja": "", "paragraphs": [{"en": "The longest climate summit in history ended on Sunday with nothing to sign. After two weeks in Antalya and two extra days of overtime, delegates from nearly two hundred countries went home without the political pact that every host hopes to deliver. It was the first such failure since Copenhagen in 2009.", "ja": "史上最長の気候サミットは日曜日、署名すべき合意のないまま幕を閉じた。アンタルヤでの2週間と2日間の延長を経て、200近い国の代表は、開催国なら誰もが成し遂げたいと願う政治合意を持たずに帰途についた。このような失敗は2009年のコペンハーゲン以来初めてである。"}, {"en": "The cause was simple to state and hard to solve. Early drafts promised accelerated action to phase out fossil fuels. Later versions quietly dropped that language, and the final text did not mention coal, oil or gas at all. Under United Nations rules, one objection is enough to stop consensus.", "ja": "原因は説明するのは簡単だが、解決は難しい。初期の草案は化石燃料の段階的廃止に向けた行動の加速を約束していた。後の版ではその文言が静かに削られ、最終案には石炭も石油もガスも一切登場しなかった。国連の規則では、ひとつの反対だけで全会一致は成立しなくなる。"}, {"en": "Turkey's environment minister, who presided over the talks, admitted the gap plainly. He said there was no agreement on the text, so the decisions could not be adopted. His Australian co-president blamed unbridgeable red lines and the most complicated geopolitical climate in living memory. Both descriptions were honest, and neither is comforting.", "ja": "議長を務めたトルコの環境相は、溝の存在を率直に認めた。案文に合意はなく、したがって決定は採択されないと述べた。共同議長を務めたオーストラリアの閣僚は、越えられない一線と、記憶にある限り最も複雑な地政学的環境が原因だと語った。どちらの説明も正直だが、安心できるものではない。"}, {"en": "The timing makes the failure harder to excuse. This year brought deadly floods, record heat and destructive wildfires, many of them linked to a powerful El Niño that scientists say climate change has made worse. The Secretary-General of the United Nations said there is no ambiguity in the science, and he was right.", "ja": "時期を考えると、この失敗はいっそう弁解しがたい。今年は致命的な洪水、記録的な暑さ、破壊的な山火事に見舞われ、その多くは強力なエルニーニョに関連しており、科学者は気候変動がそれを悪化させたと指摘する。国連事務総長は科学に曖昧さはないと述べたが、その通りである。"}], "vocab": [{"w": "overtime", "m": "延長、時間外"}, {"w": "delegate", "m": "代表、代議員"}, {"w": "phase out", "m": "段階的に廃止する"}, {"w": "consensus", "m": "合意、全会一致"}, {"w": "preside over", "m": "議長を務める、取り仕切る"}, {"w": "unbridgeable", "m": "埋めがたい、橋渡しできない"}, {"w": "red line", "m": "越えられない一線、譲れない条件"}, {"w": "in living memory", "m": "記憶にある限りで"}, {"w": "destructive", "m": "破壊的な"}, {"w": "ambiguity", "m": "曖昧さ"}]}, {"heading_en": "A split that ran deep", "heading_ja": "深く走った亀裂", "paragraphs": [{"en": "The European Union refused to accept a text that said nothing about fossil fuels. Its spokesman, Ireland's climate minister, said Europe would not endorse a summit that greenwashes the industry. A coalition led by France and Panama, joined by African, Latin American and Pacific nations, made the same demand and added stronger promises on finance.", "ja": "欧州連合は、化石燃料に一言も触れない案文の受け入れを拒んだ。その代弁者であるアイルランドの気候相は、業界を環境に優しく見せかけるだけの会議を欧州は承認しないと述べた。フランスとパナマが率いる連合には、アフリカ、中南米、太平洋の国々も加わり、同じ要求に加えて資金面でのより強い約束を求めた。"}, {"en": "On the other side stood oil producers, with Saudi Arabia the most visible. They argued that every viable technology should stay on the table, including carbon capture. Later drafts did propose removing billions of tons of carbon dioxide by 2035, which critics call a distraction from the harder task of burning less.", "ja": "反対側には産油国が立ち、サウジアラビアが最も目立った。彼らは炭素回収を含め、実行可能なあらゆる技術を選択肢として残すべきだと主張した。後の草案は2035年までに数十億トンの二酸化炭素を除去する案を盛り込んだが、批判する側は、燃やす量を減らすというより困難な課題から目をそらさせるものだと見ている。"}, {"en": "Small island nations felt the disappointment most sharply. The Marshall Islands withheld its support and called the outcome a failure for countries on the front line. Ghana, speaking for African states, said the text gave just transition only one generic sentence, yet chose not to block the consensus.", "ja": "失望を最も強く感じたのは島しょ国である。マーシャル諸島は支持を見送り、最前線に立つ国々にとっての失敗だと評した。アフリカ諸国を代表したガーナは、公正な移行に割かれた文言が一般的な一文にすぎないと述べながらも、合意を妨げない道を選んだ。"}, {"en": "The absence of the United States hung over the hall for a second year. Washington sent no delegation after leaving the Paris Agreement, and its silence removed a major emitter from the bargaining table. It also gave other large economies a convenient reason to hold back their own ambitions.", "ja": "米国の不在は、2年連続で会場に影を落とした。ワシントンはパリ協定から離脱して以降、代表団を送らず、その沈黙は主要排出国を交渉の席から消し去った。それは他の大国にも、自国の野心を抑える都合のよい口実を与えた。"}], "vocab": [{"w": "endorse", "m": "承認する、支持する"}, {"w": "greenwash", "m": "環境配慮を装う、グリーンウォッシュする"}, {"w": "coalition", "m": "連合、連立"}, {"w": "viable", "m": "実行可能な"}, {"w": "on the table", "m": "検討の対象として"}, {"w": "carbon capture", "m": "炭素回収"}, {"w": "distraction", "m": "気をそらすもの"}, {"w": "withhold", "m": "差し控える、保留する"}, {"w": "front line", "m": "最前線"}, {"w": "hold back", "m": "抑える、控える"}]}, {"heading_en": "What survived the wreckage", "heading_ja": "残骸の中に残ったもの", "paragraphs": [{"en": "Not everything was lost. Delegates reached agreement on a just transition, adaptation and cooperation on financing. More than ninety countries pledged to speed up electrification, and the presidency pointed to forty-six decisions adopted without objection. These are modest gains, but they should not be dismissed.", "ja": "すべてが失われたわけではない。代表団は公正な移行、気候変動への適応、資金協力で合意に達した。90を超える国が電化の加速を約束し、議長国は異議なく採択された46の決定を挙げた。ささやかな成果ではあるが、軽んじるべきではない。"}, {"en": "The Dubai commitment to transition away from fossil fuels also remains in force, and the Paris Agreement is untouched. Failure to repeat the language in Antalya did not erase it. That is a useful reminder that the existing rules still bind governments, whatever the final text of this summit failed to say.", "ja": "化石燃料からの転換を掲げたドバイでの約束も有効であり、パリ協定にも影響はない。アンタルヤで文言を繰り返せなかったからといって、それが消えるわけではない。今回の最終案が何を書き損ねたにせよ、既存のルールが各国政府を縛り続けているという有益な再確認である。"}, {"en": "Yet the arithmetic remains grim. If every national promise were fully kept, the world would still warm by just over two and a half degrees Celsius. That is better than the four degrees once feared before Paris, but it is far above the threshold that scientists consider safe for coastlines and harvests.", "ja": "それでも数字は厳しいままである。各国の約束がすべて完全に守られたとしても、世界の気温は摂氏2.5度をわずかに超えて上昇する。パリ協定以前に懸念された4度よりは良いが、沿岸部や収穫にとって安全と科学者が考える水準を大きく上回っている。"}, {"en": "Some governments are now looking beyond the formal process. A group of countries has joined what is called the Santa Marta process, a diplomatic effort to build a coalition for moving away from coal, oil and gas. Such voluntary alliances may move faster than a forum where a single objector holds a veto.", "ja": "一部の政府は、すでに正式な枠組みの外に目を向けている。複数の国が、石炭、石油、ガスからの脱却に向けた有志連合を築く外交努力、いわゆるサンタ・マルタ・プロセスに加わった。こうした自発的な同盟は、ひとりの反対者が拒否権を握る場よりも速く動けるかもしれない。"}], "vocab": [{"w": "just transition", "m": "公正な移行"}, {"w": "adaptation", "m": "適応"}, {"w": "electrification", "m": "電化"}, {"w": "modest", "m": "ささやかな、控えめな"}, {"w": "dismiss", "m": "軽視する、退ける"}, {"w": "in force", "m": "効力を持って、有効で"}, {"w": "bind", "m": "拘束する"}, {"w": "arithmetic", "m": "数字の計算、現実の数値"}, {"w": "threshold", "m": "しきい値、境界線"}, {"w": "veto", "m": "拒否権"}]}, {"heading_en": "Japan's choice", "heading_ja": "日本の選択", "paragraphs": [{"en": "Japan should take note, because its position was uncomfortable. As an importer of nearly all its fuel, it has every reason to cut dependence on fossil energy, especially when war in the Gulf has pushed oil prices higher. Yet Tokyo has often favored gradual language over firm deadlines.", "ja": "日本は、自らの立場が居心地の悪いものだったことを肝に銘じるべきである。燃料のほぼすべてを輸入する国として、とりわけ湾岸の戦争が原油価格を押し上げている今、化石エネルギーへの依存を減らす十分な理由がある。それでも東京は、明確な期限より段階的な表現を好むことが多かった。"}, {"en": "A wiser course is to treat energy security and climate policy as one task. Faster investment in offshore wind, grid upgrades and nuclear restarts approved by regulators would cut both emissions and exposure to distant conflicts. Japan could also expand financial help for vulnerable partners in Asia and the Pacific.", "ja": "賢明な道は、エネルギー安全保障と気候政策をひとつの課題として扱うことである。洋上風力への投資の加速、送電網の増強、規制当局が認めた原発の再稼働は、排出と遠方の紛争への脆弱性の双方を減らす。日本はアジアと太平洋の脆弱なパートナーへの資金支援も拡大できる。"}, {"en": "The next summit will be held in Addis Ababa, Ethiopia, and it will inherit every unsolved problem from Antalya. Governments have a year to decide whether the veto will keep shaping outcomes. Unless leaders act at home first, the next communique will again lag behind the planet.", "ja": "次回のサミットはエチオピアのアディスアベバで開かれ、アンタルヤの未解決の課題をすべて引き継ぐ。各国政府には、拒否権が今後も結果を左右し続けるのかを決めるための1年がある。まず自国で行動しなければ、次の声明もまた、地球の現実に遅れをとるだろう。"}], "vocab": [{"w": "take note", "m": "留意する、肝に銘じる"}, {"w": "dependence on", "m": "〜への依存"}, {"w": "gradual", "m": "段階的な、漸進的な"}, {"w": "energy security", "m": "エネルギー安全保障"}, {"w": "offshore wind", "m": "洋上風力"}, {"w": "grid", "m": "送電網"}, {"w": "regulator", "m": "規制当局"}, {"w": "exposure to", "m": "〜にさらされること"}, {"w": "inherit", "m": "引き継ぐ"}, {"w": "lag behind", "m": "遅れをとる"}]}], "timings": [[0.0, 20.4], [21.4, 39.81], [40.81, 63.22], [64.22, 85.94], [86.94, 108.54], [109.54, 130.95], [131.95, 150.5], [151.5, 169.17], [170.17, 188.53], [189.53, 208.94], [209.94, 228.06], [229.06, 247.52], [248.52, 269.78], [270.78, 292.43], [293.43, 310.45]], "audio": "audio.m4a"};
+const $ = s => document.querySelector(s);
+const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const store = { get(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}} };
+const KEY = 'shadow:' + D.meta.title_en;
+const checked = store.get(KEY) || {};
+const m = D.meta;
+let pi = 0, page = m.start_page || 1, html = '';
+D.sections.forEach((s, si) => {
+  const first = si === 0;
+  const enP = s.paragraphs.map(p => `<p class="para" data-i="${pi++}">${esc(p.en)}</p>`).join('');
+  pi -= s.paragraphs.length;
+  const jaP = s.paragraphs.map(p => `<p class="para" data-i="${pi++}">${esc(p.ja)}</p>`).join('');
+  const vocab = s.vocab.map((v, vi) => { const id = `v${si}-${vi}`;
+    return `<li><label><input type="checkbox" data-k="${id}" ${checked[id]?'checked':''}><b>${esc(v.w)}</b><span>${esc(v.m)}</span></label></li>`; }).join('');
+  html += `<section class="spread">
+    <div class="page en">
+      <div class="runhead">${esc(m.series_en)} <button class="track" data-s="${si}"><i>▶</i>Track ${esc(m.track)}</button></div>
+      ${first ? `<h1>${esc(m.title_en)}</h1><h2 class="sub">${esc(m.subtitle_en)}</h2><p class="source">${esc(m.source_en)}</p>` : ''}
+      ${s.heading_en ? `<h3>${esc(s.heading_en)}</h3>` : ''}
+      <div class="body">${enP}</div>
+      <span class="folio">${page}</span>
+    </div>
+    <div class="page ja">
+      <div class="runhead">${esc(m.series_ja)}</div>
+      ${first ? `<h1>${esc(m.title_ja)}</h1><h2 class="sub">${esc(m.subtitle_ja)}</h2><p class="source">${esc(m.date_ja)}</p>` : ''}
+      ${s.heading_ja ? `<h3>${esc(s.heading_ja)}</h3>` : ''}
+      <div class="body">${jaP}</div>
+      <div class="words"><div class="band">Words and Phrases</div><ul>${vocab}</ul></div>
+      <span class="folio">${page + 1}</span>
+    </div></section>`;
+  page += 2;
+});
+$('#book').innerHTML = html;
+
+const au = $('#au');
+// 音声を丸ごと読み込んでから再生する（Range 非対応のサーバーでもシークできるように）
+fetch(D.audio).then(r => { if (!r.ok) throw 0; return r.blob(); })
+  .then(b => au.src = URL.createObjectURL(b)).catch(() => au.src = D.audio);
+const T = D.timings, fmt = t => `${Math.floor(t/60)}:${String(Math.floor(t%60)).padStart(2,'0')}`;
+let loop = false, cur = -1;
+const idxAt = t => { for (let i = T.length - 1; i >= 0; i--) if (t >= T[i][0] - 0.05) return i; return 0; };
+const seekTo = i => { i = Math.max(0, Math.min(T.length - 1, i)); au.currentTime = T[i][0]; mark(i); au.play(); };
+function mark(i){
+  if (i === cur) return; cur = i;
+  document.querySelectorAll('.para.on').forEach(e => e.classList.remove('on'));
+  document.querySelectorAll(`.para[data-i="${i}"]`).forEach(e => e.classList.add('on'));
+  const el = document.querySelector(`.en .para[data-i="${i}"]`);
+  if (el && !au.paused) { const r = el.getBoundingClientRect(); if (r.top < 60 || r.bottom > innerHeight - 110) el.scrollIntoView({behavior:'smooth', block:'center'}); }
+}
+au.addEventListener('loadedmetadata', () => $('#dur').textContent = fmt(au.duration));
+au.addEventListener('timeupdate', () => {
+  const t = au.currentTime;
+  if (loop && cur >= 0 && t >= T[cur][1] + 0.4) { au.currentTime = T[cur][0]; return; }
+  mark(idxAt(t));
+  $('#cur').textContent = fmt(t);
+  if (au.duration) $('#pos').value = t / au.duration * 1000;
+});
+au.addEventListener('play', () => $('#play').textContent = '❚❚');
+au.addEventListener('pause', () => $('#play').textContent = '▶');
+$('#play').onclick = () => au.paused ? au.play() : au.pause();
+$('#prev').onclick = () => seekTo((cur < 0 ? 0 : cur) - 1);
+$('#next').onclick = () => seekTo(cur + 1);
+$('#pos').oninput = e => { if (au.duration) au.currentTime = e.target.value / 1000 * au.duration; };
+$('#rate').onchange = e => au.playbackRate = +e.target.value;
+const tog = (id, fn) => $(id).onclick = e => { e.currentTarget.classList.toggle('on'); fn(e.currentTarget.classList.contains('on')); };
+tog('#loop', v => loop = v);
+tog('#hideEn', v => document.body.classList.toggle('hide-en', v));
+tog('#hideJa', v => document.body.classList.toggle('hide-ja', v));
+document.addEventListener('click', e => {
+  const p = e.target.closest('.para'); if (p) return seekTo(+p.dataset.i);
+  const t = e.target.closest('.track'); if (t) { const s = +t.dataset.s; let i = 0; for (let k = 0; k < s; k++) i += D.sections[k].paragraphs.length; seekTo(i); }
+});
+document.addEventListener('change', e => { const k = e.target.dataset && e.target.dataset.k; if (k) { checked[k] = e.target.checked; store.set(KEY, checked); } });
+document.addEventListener('keydown', e => { if (e.target.tagName === 'INPUT' && e.target.type !== 'range') return;
+  if (e.code === 'Space') { e.preventDefault(); $('#play').click(); }
+  if (e.code === 'ArrowRight') seekTo(cur + 1); if (e.code === 'ArrowLeft') seekTo(cur - 1); });
+</script>
+</body>
+</html>
