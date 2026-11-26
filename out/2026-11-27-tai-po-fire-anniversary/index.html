@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>One year after Tai Po, a fire that trust alone could not stop must change how Hong Kong inspects</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --desk:#e9e6df; --paper:#fbfaf6; --ink:#1d1d1b; --muted:#6b6a65; --rule:#2b2b2b;
+  --band:#8a8a88; --band-ink:#fff; --hl:#fff2b3; --hl-line:#e0b400; --gutter:rgba(0,0,0,.10);
+  --bar:#1f1f1e; --bar-ink:#f4f3ef; --accent:#c8a200;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --desk:#151514; --paper:#22221f; --ink:#e9e7e1; --muted:#a3a19a; --rule:#cfcdc6;
+    --band:#5c5c59; --band-ink:#fff; --hl:#4a4120; --hl-line:#d8b42a; --gutter:rgba(0,0,0,.45);
+    --bar:#0d0d0c; --bar-ink:#f4f3ef;
+  }
+}
+:root[data-theme="dark"]{
+  --desk:#151514; --paper:#22221f; --ink:#e9e7e1; --muted:#a3a19a; --rule:#cfcdc6;
+  --band:#5c5c59; --band-ink:#fff; --hl:#4a4120; --hl-line:#d8b42a; --gutter:rgba(0,0,0,.45);
+  --bar:#0d0d0c; --bar-ink:#f4f3ef;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--desk);color:var(--ink);font-family:"Noto Sans JP",system-ui,sans-serif;padding:24px 16px 120px}
+.spread{max-width:1240px;margin:0 auto 32px;display:grid;grid-template-columns:1fr 1fr;background:var(--paper);
+  box-shadow:0 1px 2px rgba(0,0,0,.08),0 10px 30px rgba(0,0,0,.10);border-radius:4px;position:relative}
+.spread::after{content:"";position:absolute;top:0;bottom:0;left:50%;width:36px;transform:translateX(-50%);
+  background:linear-gradient(90deg,transparent,var(--gutter) 50%,transparent);pointer-events:none}
+.page{padding:44px 52px 56px;position:relative;min-height:640px;display:flex;flex-direction:column}
+.runhead{display:flex;align-items:center;gap:10px;font-size:13px;letter-spacing:.02em;color:var(--ink);margin-bottom:28px}
+.runhead::after{content:"";flex:1;border-top:1px solid var(--rule)}
+.page.ja .runhead{flex-direction:row-reverse}
+.track{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:700;cursor:pointer;border:0;background:none;color:inherit;padding:0}
+.track i{width:18px;height:18px;border-radius:50%;border:1.5px solid currentColor;display:grid;place-items:center;font-style:normal;font-size:9px}
+h1{font-family:"Source Serif 4",Georgia,serif;font-size:30px;line-height:1.15;margin:0 0 6px;font-weight:700}
+h2.sub{font-family:"Source Serif 4",Georgia,serif;font-size:19px;line-height:1.3;margin:0 0 14px;font-weight:700}
+.page.ja h1{font-family:"Noto Serif JP",serif;font-size:24px;line-height:1.45;font-weight:700;margin-bottom:2px}
+.page.ja h2.sub{font-family:"Noto Serif JP",serif;font-size:18px;font-weight:700}
+.source{text-align:right;font-size:12px;color:var(--muted);margin:0 0 22px}
+.source::before{content:"● "}
+h3{font-family:"Source Serif 4",Georgia,serif;font-size:17px;margin:4px 0 8px;font-weight:700}
+.page.ja h3{font-family:"Noto Sans JP",sans-serif;font-size:15px}
+.en p{font-family:"Source Serif 4",Georgia,serif;font-size:18px;line-height:1.72;margin:0;text-indent:1.4em;text-align:justify;hyphens:auto}
+.ja p{font-family:"Noto Serif JP",serif;font-size:15px;line-height:2.0;margin:0;text-indent:1em;text-align:justify}
+.para{cursor:pointer;border-radius:3px;transition:background .2s;padding:1px 4px;margin:0 -4px}
+.para:hover{background:color-mix(in srgb,var(--hl) 45%,transparent)}
+.para.on{background:var(--hl);box-shadow:inset 3px 0 0 var(--hl-line)}
+body.hide-en .en .body{filter:blur(6px);user-select:none}
+body.hide-en .en .para.on{filter:none}
+body.hide-ja .ja .body{filter:blur(5px)}
+.words{margin-top:auto;padding-top:28px}
+.words .band{background:var(--band);color:var(--band-ink);font-weight:700;font-size:14px;padding:5px 14px;border-radius:999px 999px 0 0;width:92%}
+.words ul{list-style:none;margin:0;padding:10px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(165px,1fr));gap:4px 14px;font-size:13px}
+.words li{display:flex;gap:6px;align-items:baseline}
+.words label{display:block;cursor:pointer;padding-left:20px;text-indent:-20px;line-height:1.5}
+.words input{margin:0 6px 0 0;vertical-align:-1px;accent-color:var(--accent)}
+.words b{font-family:"Source Serif 4",Georgia,serif;font-weight:400;font-size:14px;margin-right:6px}
+.words span{color:var(--muted)}
+.folio{position:absolute;bottom:18px;font-size:13px;color:var(--muted)}
+.en .folio{left:52px}.ja .folio{right:52px}
+/* player */
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--bar);color:var(--bar-ink);padding:10px 16px calc(10px + env(safe-area-inset-bottom));z-index:10}
+.bar .in{max-width:1240px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px}
+.bar button,.bar select{font:inherit;font-size:13px;color:inherit;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:6px;padding:6px 10px;cursor:pointer}
+.bar button.on{background:var(--accent);border-color:var(--accent);color:#111}
+.bar .play{width:44px;height:36px;font-size:16px}
+.seek{flex:1;min-width:160px;display:flex;align-items:center;gap:8px;font-size:12px;font-variant-numeric:tabular-nums}
+.seek input{flex:1;accent-color:var(--accent)}
+@media (max-width:860px){
+  .spread{grid-template-columns:1fr}
+  .spread::after{display:none}
+  .page{padding:28px 18px 48px;min-height:0}
+  .page.ja{border-top:1px dashed var(--gutter)}
+  h1{font-size:25px}
+  .en p{font-size:17px}
+  .folio{display:none}
+  body{padding:12px 0 150px}
+  .spread{border-radius:0}
+}
+@media print{
+  body{background:#fff;padding:0}
+  .bar{display:none}
+  .spread{box-shadow:none;break-after:page;margin:0;max-width:none}
+  .para.on{background:none;box-shadow:none}
+  body.hide-en .en .body,body.hide-ja .ja .body{filter:none}
+  @page{size:A4 landscape;margin:10mm}
+}
+</style>
+</head>
+<body>
+<main id="book"></main>
+<audio id="au" preload="auto"></audio>
+<div class="bar"><div class="in">
+  <button class="play" id="play" aria-label="再生">▶</button>
+  <button id="prev" aria-label="前の段落">⏮</button>
+  <button id="next" aria-label="次の段落">⏭</button>
+  <div class="seek"><span id="cur">0:00</span><input type="range" id="pos" min="0" max="1000" value="0"><span id="dur">0:00</span></div>
+  <select id="rate" aria-label="速度">
+    <option value="0.7">0.7×</option><option value="0.8">0.8×</option><option value="0.9">0.9×</option>
+    <option value="1" selected>1.0×</option><option value="1.1">1.1×</option><option value="1.2">1.2×</option>
+  </select>
+  <button id="loop" title="今の段落をくり返す">段落リピート</button>
+  <button id="hideEn" title="英文をぼかす（音だけでシャドーイング）">英文を隠す</button>
+  <button id="hideJa">訳を隠す</button>
+</div></div>
+<script>
+const D = {"meta": {"series_en": "Society & Culture 3", "series_ja": "社会・文化 3", "track": "22", "title_en": "One year after Tai Po, a fire that trust alone could not stop must change how Hong Kong inspects", "subtitle_en": "The inquiry shows that an honour system invited deception, and that accountability must reach beyond a few resignations to every inspector who looked away", "title_ja": "大埔の火災から1年、「信頼」に頼った検査制度を改めよ", "subtitle_ja": "独立委員会は、性善説の制度が不正を招いたと指摘した。責任追及は数人の辞任にとどまらず、目をそらした全ての検査担当者に及ぶべきだ", "source_en": "Original text based on reports from Korea Times, The Star, The Standard and South China Morning Post, Nov. 2026", "date_ja": "2026年11月27日作成", "start_page": 14, "voice": "Samantha", "rate": 145, "pause_sec": 1.0, "engine": "openai", "openai_voice": "cedar"}, "sections": [{"heading_en": "", "heading_ja": "", "paragraphs": [{"en": "One year ago this week, a fire began at a renovation site in Hong Kong and became the deadliest blaze the city has seen in decades. It tore through several towers of the Wang Fuk Court housing estate in Tai Po. One hundred sixty-eight people lost their lives.", "ja": "1年前の今週、香港の改修工事現場で起きた火災は、この街で数十年ぶりとなる最悪の惨事に発展した。火は大埔の宏福苑団地の複数の棟を次々に焼き、168人の命が奪われた。"}, {"en": "Most of the victims were older residents, and more than one hundred of them were aged sixty-five or over. Nearly five thousand people lost their homes. For many families, the anniversary is not a day of remembrance alone. It is a day to ask why a repair project turned into a funeral.", "ja": "犠牲者の大半は高齢の住民で、65歳以上が100人を超えた。住まいを失った人は5000人近くに上る。多くの遺族にとって、この日は追悼の日であるだけではない。なぜ修繕工事が葬儀に変わったのかを問う日でもある。"}, {"en": "A judge-led independent panel has now answered that question in a long final report, released in late October. Its conclusion is stark. The disaster was not simply bad luck or the act of one careless worker. It was the result of many small failures that nobody stopped in time.", "ja": "判事が率いる独立委員会は、10月下旬に公表した長大な最終報告書で、この問いに答えた。結論は厳しい。この惨事は不運でも、不注意な作業員ひとりの行為でもない。誰も時機を逃さずに止めなかった、数多くの小さな失敗の積み重ねだった。"}, {"en": "The report found that the fire most likely began with a cigarette-like source that set paper alight on a flat roof. A small flame, however, should never have grown into a catastrophe. What turned it into one was the flammable material that surrounded the buildings, and the safety systems that failed.", "ja": "報告書によれば、出火原因は、たばこのような火種が屋上の紙に燃え移ったものとみられる。だが小さな火が大惨事になってはならなかった。それを可能にしたのは、建物を覆っていた燃えやすい資材と、作動しなかった安全装置である。"}], "vocab": [{"w": "honour system", "m": "性善説に基づく制度"}, {"w": "blaze", "m": "大火災"}, {"w": "tear through", "m": "燃え広がる"}, {"w": "lose one's life", "m": "命を落とす"}, {"w": "anniversary", "m": "記念日、周年"}, {"w": "remembrance", "m": "追悼"}, {"w": "independent panel", "m": "独立委員会"}, {"w": "stark", "m": "厳しい、あからさまな"}, {"w": "catastrophe", "m": "大惨事"}, {"w": "flammable", "m": "燃えやすい"}]}, {"heading_en": "A System Built on Trust", "heading_ja": "信頼に頼った制度", "paragraphs": [{"en": "The panel described a regulatory culture that assumed honesty but invited exploitation. Officials relied on professionals to do their jobs properly. Paperwork was checked on a sampling basis, and almost no one visited the site unless a resident complained.", "ja": "委員会は、誠実さを前提としながら悪用を招いた規制の文化を指摘した。当局は専門家が適切に職務を果たすと信じていた。書類は抽出で確認され、住民が苦情を申し立てない限り、現場を訪れる者はほとんどいなかった。"}, {"en": "On this estate, the truth was often missing. The inquiry said the main contractor and its consultant showed gross negligence and deceptive compliance. Test certificates for scaffolding nets were questionable, failed fire tests were allegedly hidden, and cheaper materials were reportedly swapped in without the required protection.", "ja": "この団地では、真実がしばしば欠けていた。調査は、元請け業者とコンサルタントに重大な過失と、見せかけの法令順守があったと述べた。足場用ネットの検査証明書には疑義があり、不合格だった燃焼試験は隠され、必要な防火性能のない安価な資材にすり替えられたとされる。"}, {"en": "Some professionals who signed official documents did little real work and simply lent their names for a fee. Workers kept smoking on site despite warnings from residents. Meanwhile, all eight towers were wrapped at once in netting and foam boards, and the wrapping stayed in place for more than a year.", "ja": "公的書類に署名した専門家の一部は、実際にはほとんど仕事をせず、報酬と引き換えに名義を貸していた。住民の警告にもかかわらず、作業員は現場で喫煙を続けた。その間、8棟すべてがネットと発泡ボードで同時に覆われ、その状態が1年以上続いた。"}, {"en": "Government departments missed their chances too. The fire services did not properly track shutdowns of alarms, and the buildings authorities barely regulated temporary materials. A hazard that everyone could see on paper became a hazard that no one owned in practice. That gap is where one hundred sixty-eight people fell.", "ja": "政府の各部署も機会を逃した。消防当局は警報設備の停止を適切に追跡せず、建築当局は仮設資材をほとんど規制していなかった。書類上は誰の目にも明らかだった危険は、現実には誰の責任でもない危険になった。その隙間に、168人が落ちたのである。"}], "vocab": [{"w": "assume", "m": "前提とする"}, {"w": "exploitation", "m": "悪用、搾取"}, {"w": "on a sampling basis", "m": "抽出方式で"}, {"w": "gross negligence", "m": "重大な過失"}, {"w": "deceptive", "m": "人を欺く"}, {"w": "compliance", "m": "法令順守"}, {"w": "questionable", "m": "疑わしい"}, {"w": "lend one's name", "m": "名義を貸す"}, {"w": "shutdown", "m": "停止"}, {"w": "hazard", "m": "危険要因"}]}, {"heading_en": "Who Answers for It", "heading_ja": "誰が責任を負うのか", "paragraphs": [{"en": "The report named four government bodies as partly responsible, including the fire services and the buildings department. It said the Housing Bureau's checking unit bore a greater share. It also named at least eleven officials, one of whom allegedly gave contractors advance notice of inspections so they could stage compliance.", "ja": "報告書は、消防や建築当局を含む4つの政府機関に一部の責任があると名指しした。住宅局の検査部門の責任はより重いとした。また少なくとも11人の官僚を挙げ、うち1人は業者に検査を事前に知らせ、順守を演出させていたとされる。"}, {"en": "Chief Executive John Lee apologised, and seven other senior officials bowed beside him at a news conference. The housing minister resigned, saying she accepted political responsibility. Prosecutors have charged seven people and two companies, including with manslaughter, and at least thirty-five people have been arrested.", "ja": "李家超行政長官は謝罪し、記者会見では他の高官7人も隣で頭を下げた。住宅担当の閣僚は、政治的責任をとって辞任した。検察は7人と2社を過失致死罪などで起訴し、少なくとも35人が逮捕されている。"}, {"en": "These steps matter, but survivors are right to say that an apology after eleven months feels late. Some residents also doubt that a resignation at the top will reach the officials who looked away on the ground. Accountability that stops at a few names is not accountability for a system.", "ja": "これらの措置は重要だが、11か月後の謝罪は遅すぎるという生存者の声はもっともだ。トップの辞任が、現場で目をそらした職員にまで及ぶのか、疑う住民もいる。数人の名前で止まる責任追及は、制度への責任追及ではない。"}, {"en": "The government has promised to finish its administrative reviews within three months. That deadline should be treated as a promise to the public. Disciplinary action must be explained openly, including who was punished, for what, and why.", "ja": "政府は、行政上の調査を3か月以内に終えると約束した。この期限は国民への約束として扱われるべきだ。処分は、誰がなぜ何について罰せられたのかを含めて、公に説明されなければならない。"}], "vocab": [{"w": "bow", "m": "頭を下げる"}, {"w": "senior official", "m": "高官"}, {"w": "manslaughter", "m": "過失致死"}, {"w": "arrest", "m": "逮捕する"}, {"w": "stage", "m": "演出する、見せかける"}, {"w": "bear a share", "m": "責任の一端を負う"}, {"w": "prosecutor", "m": "検察官"}, {"w": "look away", "m": "目をそらす"}, {"w": "disciplinary action", "m": "懲戒処分"}, {"w": "rebuild trust", "m": "信頼を再構築する"}]}, {"heading_en": "What Must Change", "heading_ja": "何を変えるべきか", "paragraphs": [{"en": "Hong Kong has proposed a new criminal offence aimed at bid-rigging in building maintenance projects. That is a sensible start. Yet it found no direct proof of rigging at this estate, so the law should not become a substitute for inspection.", "ja": "香港は、建物の維持修繕工事における談合を対象とする新たな刑事罰を提案した。妥当な第一歩だ。ただ、この団地での談合の直接証拠は見つかっておらず、新法が現場の検査の代わりになってはならない。"}, {"en": "The deeper reform is to replace trust with verification. Inspectors should visit sites without warning, test materials themselves, and keep records that cannot be quietly deleted. Fire alarms should never be switched off without a clear process that someone is responsible for restoring them.", "ja": "より本質的な改革は、信頼を検証に置き換えることだ。検査官は予告なしに現場を訪れ、資材を自ら試験し、静かに消去できない記録を残すべきである。警報設備は、復旧に責任を持つ者が明確な手続きなしに止められてはならない。"}, {"en": "Japan should read this report as a warning, not as foreign news. Many of our own apartment blocks are aging and heading into major repairs, and our systems also lean on professional honesty. A year after Tai Po, the best memorial is to ask whether our own inspectors truly look.", "ja": "日本はこの報告書を、他国のニュースではなく警告として読むべきだ。日本でも多くの集合住宅が老朽化し、大規模修繕の時期を迎えており、制度が専門家の誠実さに頼る面も同じである。大埔の火災から1年、最良の追悼は、私たち自身の検査が本当に目を光らせているかを問うことだ。"}], "vocab": [{"w": "bid-rigging", "m": "談合"}, {"w": "sensible", "m": "賢明な"}, {"w": "substitute for", "m": "〜の代わり"}, {"w": "verification", "m": "検証"}, {"w": "without warning", "m": "予告なしに"}, {"w": "quietly", "m": "こっそりと"}, {"w": "restore", "m": "復旧させる"}, {"w": "aging", "m": "老朽化した"}, {"w": "lean on", "m": "頼る"}, {"w": "memorial", "m": "記念、追悼"}]}], "timings": [[0.0, 16.97], [17.97, 36.23], [37.23, 55.28], [56.28, 73.03], [74.03, 88.48], [89.48, 108.99], [109.99, 126.5], [127.5, 145.91], [146.91, 166.62], [167.62, 187.03], [188.03, 204.88], [205.88, 220.33], [221.33, 236.88], [237.88, 256.19], [257.19, 275.19]], "audio": "audio.m4a"};
+const $ = s => document.querySelector(s);
+const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const store = { get(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}} };
+const KEY = 'shadow:' + D.meta.title_en;
+const checked = store.get(KEY) || {};
+const m = D.meta;
+let pi = 0, page = m.start_page || 1, html = '';
+D.sections.forEach((s, si) => {
+  const first = si === 0;
+  const enP = s.paragraphs.map(p => `<p class="para" data-i="${pi++}">${esc(p.en)}</p>`).join('');
+  pi -= s.paragraphs.length;
+  const jaP = s.paragraphs.map(p => `<p class="para" data-i="${pi++}">${esc(p.ja)}</p>`).join('');
+  const vocab = s.vocab.map((v, vi) => { const id = `v${si}-${vi}`;
+    return `<li><label><input type="checkbox" data-k="${id}" ${checked[id]?'checked':''}><b>${esc(v.w)}</b><span>${esc(v.m)}</span></label></li>`; }).join('');
+  html += `<section class="spread">
+    <div class="page en">
+      <div class="runhead">${esc(m.series_en)} <button class="track" data-s="${si}"><i>▶</i>Track ${esc(m.track)}</button></div>
+      ${first ? `<h1>${esc(m.title_en)}</h1><h2 class="sub">${esc(m.subtitle_en)}</h2><p class="source">${esc(m.source_en)}</p>` : ''}
+      ${s.heading_en ? `<h3>${esc(s.heading_en)}</h3>` : ''}
+      <div class="body">${enP}</div>
+      <span class="folio">${page}</span>
+    </div>
+    <div class="page ja">
+      <div class="runhead">${esc(m.series_ja)}</div>
+      ${first ? `<h1>${esc(m.title_ja)}</h1><h2 class="sub">${esc(m.subtitle_ja)}</h2><p class="source">${esc(m.date_ja)}</p>` : ''}
+      ${s.heading_ja ? `<h3>${esc(s.heading_ja)}</h3>` : ''}
+      <div class="body">${jaP}</div>
+      <div class="words"><div class="band">Words and Phrases</div><ul>${vocab}</ul></div>
+      <span class="folio">${page + 1}</span>
+    </div></section>`;
+  page += 2;
+});
+$('#book').innerHTML = html;
+
+const au = $('#au');
+// 音声を丸ごと読み込んでから再生する（Range 非対応のサーバーでもシークできるように）
+fetch(D.audio).then(r => { if (!r.ok) throw 0; return r.blob(); })
+  .then(b => au.src = URL.createObjectURL(b)).catch(() => au.src = D.audio);
+const T = D.timings, fmt = t => `${Math.floor(t/60)}:${String(Math.floor(t%60)).padStart(2,'0')}`;
+let loop = false, cur = -1;
+const idxAt = t => { for (let i = T.length - 1; i >= 0; i--) if (t >= T[i][0] - 0.05) return i; return 0; };
+const seekTo = i => { i = Math.max(0, Math.min(T.length - 1, i)); au.currentTime = T[i][0]; mark(i); au.play(); };
+function mark(i){
+  if (i === cur) return; cur = i;
+  document.querySelectorAll('.para.on').forEach(e => e.classList.remove('on'));
+  document.querySelectorAll(`.para[data-i="${i}"]`).forEach(e => e.classList.add('on'));
+  const el = document.querySelector(`.en .para[data-i="${i}"]`);
+  if (el && !au.paused) { const r = el.getBoundingClientRect(); if (r.top < 60 || r.bottom > innerHeight - 110) el.scrollIntoView({behavior:'smooth', block:'center'}); }
+}
+au.addEventListener('loadedmetadata', () => $('#dur').textContent = fmt(au.duration));
+au.addEventListener('timeupdate', () => {
+  const t = au.currentTime;
+  if (loop && cur >= 0 && t >= T[cur][1] + 0.4) { au.currentTime = T[cur][0]; return; }
+  mark(idxAt(t));
+  $('#cur').textContent = fmt(t);
+  if (au.duration) $('#pos').value = t / au.duration * 1000;
+});
+au.addEventListener('play', () => $('#play').textContent = '❚❚');
+au.addEventListener('pause', () => $('#play').textContent = '▶');
+$('#play').onclick = () => au.paused ? au.play() : au.pause();
+$('#prev').onclick = () => seekTo((cur < 0 ? 0 : cur) - 1);
+$('#next').onclick = () => seekTo(cur + 1);
+$('#pos').oninput = e => { if (au.duration) au.currentTime = e.target.value / 1000 * au.duration; };
+$('#rate').onchange = e => au.playbackRate = +e.target.value;
+const tog = (id, fn) => $(id).onclick = e => { e.currentTarget.classList.toggle('on'); fn(e.currentTarget.classList.contains('on')); };
+tog('#loop', v => loop = v);
+tog('#hideEn', v => document.body.classList.toggle('hide-en', v));
+tog('#hideJa', v => document.body.classList.toggle('hide-ja', v));
+document.addEventListener('click', e => {
+  const p = e.target.closest('.para'); if (p) return seekTo(+p.dataset.i);
+  const t = e.target.closest('.track'); if (t) { const s = +t.dataset.s; let i = 0; for (let k = 0; k < s; k++) i += D.sections[k].paragraphs.length; seekTo(i); }
+});
+document.addEventListener('change', e => { const k = e.target.dataset && e.target.dataset.k; if (k) { checked[k] = e.target.checked; store.set(KEY, checked); } });
+document.addEventListener('keydown', e => { if (e.target.tagName === 'INPUT' && e.target.type !== 'range') return;
+  if (e.code === 'Space') { e.preventDefault(); $('#play').click(); }
+  if (e.code === 'ArrowRight') seekTo(cur + 1); if (e.code === 'ArrowLeft') seekTo(cur - 1); });
+</script>
+</body>
+</html>
