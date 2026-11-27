@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ebola passes twelve thousand cases in Congo, and a war the world ignored is helping it spread</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --desk:#e9e6df; --paper:#fbfaf6; --ink:#1d1d1b; --muted:#6b6a65; --rule:#2b2b2b;
+  --band:#8a8a88; --band-ink:#fff; --hl:#fff2b3; --hl-line:#e0b400; --gutter:rgba(0,0,0,.10);
+  --bar:#1f1f1e; --bar-ink:#f4f3ef; --accent:#c8a200;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --desk:#151514; --paper:#22221f; --ink:#e9e7e1; --muted:#a3a19a; --rule:#cfcdc6;
+    --band:#5c5c59; --band-ink:#fff; --hl:#4a4120; --hl-line:#d8b42a; --gutter:rgba(0,0,0,.45);
+    --bar:#0d0d0c; --bar-ink:#f4f3ef;
+  }
+}
+:root[data-theme="dark"]{
+  --desk:#151514; --paper:#22221f; --ink:#e9e7e1; --muted:#a3a19a; --rule:#cfcdc6;
+  --band:#5c5c59; --band-ink:#fff; --hl:#4a4120; --hl-line:#d8b42a; --gutter:rgba(0,0,0,.45);
+  --bar:#0d0d0c; --bar-ink:#f4f3ef;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--desk);color:var(--ink);font-family:"Noto Sans JP",system-ui,sans-serif;padding:24px 16px 120px}
+.spread{max-width:1240px;margin:0 auto 32px;display:grid;grid-template-columns:1fr 1fr;background:var(--paper);
+  box-shadow:0 1px 2px rgba(0,0,0,.08),0 10px 30px rgba(0,0,0,.10);border-radius:4px;position:relative}
+.spread::after{content:"";position:absolute;top:0;bottom:0;left:50%;width:36px;transform:translateX(-50%);
+  background:linear-gradient(90deg,transparent,var(--gutter) 50%,transparent);pointer-events:none}
+.page{padding:44px 52px 56px;position:relative;min-height:640px;display:flex;flex-direction:column}
+.runhead{display:flex;align-items:center;gap:10px;font-size:13px;letter-spacing:.02em;color:var(--ink);margin-bottom:28px}
+.runhead::after{content:"";flex:1;border-top:1px solid var(--rule)}
+.page.ja .runhead{flex-direction:row-reverse}
+.track{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:700;cursor:pointer;border:0;background:none;color:inherit;padding:0}
+.track i{width:18px;height:18px;border-radius:50%;border:1.5px solid currentColor;display:grid;place-items:center;font-style:normal;font-size:9px}
+h1{font-family:"Source Serif 4",Georgia,serif;font-size:30px;line-height:1.15;margin:0 0 6px;font-weight:700}
+h2.sub{font-family:"Source Serif 4",Georgia,serif;font-size:19px;line-height:1.3;margin:0 0 14px;font-weight:700}
+.page.ja h1{font-family:"Noto Serif JP",serif;font-size:24px;line-height:1.45;font-weight:700;margin-bottom:2px}
+.page.ja h2.sub{font-family:"Noto Serif JP",serif;font-size:18px;font-weight:700}
+.source{text-align:right;font-size:12px;color:var(--muted);margin:0 0 22px}
+.source::before{content:"● "}
+h3{font-family:"Source Serif 4",Georgia,serif;font-size:17px;margin:4px 0 8px;font-weight:700}
+.page.ja h3{font-family:"Noto Sans JP",sans-serif;font-size:15px}
+.en p{font-family:"Source Serif 4",Georgia,serif;font-size:18px;line-height:1.72;margin:0;text-indent:1.4em;text-align:justify;hyphens:auto}
+.ja p{font-family:"Noto Serif JP",serif;font-size:15px;line-height:2.0;margin:0;text-indent:1em;text-align:justify}
+.para{cursor:pointer;border-radius:3px;transition:background .2s;padding:1px 4px;margin:0 -4px}
+.para:hover{background:color-mix(in srgb,var(--hl) 45%,transparent)}
+.para.on{background:var(--hl);box-shadow:inset 3px 0 0 var(--hl-line)}
+body.hide-en .en .body{filter:blur(6px);user-select:none}
+body.hide-en .en .para.on{filter:none}
+body.hide-ja .ja .body{filter:blur(5px)}
+.words{margin-top:auto;padding-top:28px}
+.words .band{background:var(--band);color:var(--band-ink);font-weight:700;font-size:14px;padding:5px 14px;border-radius:999px 999px 0 0;width:92%}
+.words ul{list-style:none;margin:0;padding:10px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(165px,1fr));gap:4px 14px;font-size:13px}
+.words li{display:flex;gap:6px;align-items:baseline}
+.words label{display:block;cursor:pointer;padding-left:20px;text-indent:-20px;line-height:1.5}
+.words input{margin:0 6px 0 0;vertical-align:-1px;accent-color:var(--accent)}
+.words b{font-family:"Source Serif 4",Georgia,serif;font-weight:400;font-size:14px;margin-right:6px}
+.words span{color:var(--muted)}
+.folio{position:absolute;bottom:18px;font-size:13px;color:var(--muted)}
+.en .folio{left:52px}.ja .folio{right:52px}
+/* player */
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--bar);color:var(--bar-ink);padding:10px 16px calc(10px + env(safe-area-inset-bottom));z-index:10}
+.bar .in{max-width:1240px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px}
+.bar button,.bar select{font:inherit;font-size:13px;color:inherit;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:6px;padding:6px 10px;cursor:pointer}
+.bar button.on{background:var(--accent);border-color:var(--accent);color:#111}
+.bar .play{width:44px;height:36px;font-size:16px}
+.seek{flex:1;min-width:160px;display:flex;align-items:center;gap:8px;font-size:12px;font-variant-numeric:tabular-nums}
+.seek input{flex:1;accent-color:var(--accent)}
+@media (max-width:860px){
+  .spread{grid-template-columns:1fr}
+  .spread::after{display:none}
+  .page{padding:28px 18px 48px;min-height:0}
+  .page.ja{border-top:1px dashed var(--gutter)}
+  h1{font-size:25px}
+  .en p{font-size:17px}
+  .folio{display:none}
+  body{padding:12px 0 150px}
+  .spread{border-radius:0}
+}
+@media print{
+  body{background:#fff;padding:0}
+  .bar{display:none}
+  .spread{box-shadow:none;break-after:page;margin:0;max-width:none}
+  .para.on{background:none;box-shadow:none}
+  body.hide-en .en .body,body.hide-ja .ja .body{filter:none}
+  @page{size:A4 landscape;margin:10mm}
+}
+</style>
+</head>
+<body>
+<main id="book"></main>
+<audio id="au" preload="auto"></audio>
+<div class="bar"><div class="in">
+  <button class="play" id="play" aria-label="再生">▶</button>
+  <button id="prev" aria-label="前の段落">⏮</button>
+  <button id="next" aria-label="次の段落">⏭</button>
+  <div class="seek"><span id="cur">0:00</span><input type="range" id="pos" min="0" max="1000" value="0"><span id="dur">0:00</span></div>
+  <select id="rate" aria-label="速度">
+    <option value="0.7">0.7×</option><option value="0.8">0.8×</option><option value="0.9">0.9×</option>
+    <option value="1" selected>1.0×</option><option value="1.1">1.1×</option><option value="1.2">1.2×</option>
+  </select>
+  <button id="loop" title="今の段落をくり返す">段落リピート</button>
+  <button id="hideEn" title="英文をぼかす（音だけでシャドーイング）">英文を隠す</button>
+  <button id="hideJa">訳を隠す</button>
+</div></div>
+<script>
+const D = {"meta": {"series_en": "Weekly Focus 7", "series_ja": "今週の焦点 7", "track": "23", "title_en": "Ebola passes twelve thousand cases in Congo, and a war the world ignored is helping it spread", "subtitle_en": "With no approved vaccine and gunfire blocking the health teams, the outbreak will end only if outside powers press for a ceasefire and pay for the response without delay", "title_ja": "コンゴのエボラ、感染1万2000人超え——放置された戦争が流行を助長している", "subtitle_ja": "承認されたワクチンはなく、銃撃が医療チームを阻んでいる。域外の大国が停戦を迫り、遅滞なく資金を出さなければ、流行は終わらない", "source_en": "Original text based on reports from Al Jazeera, U.S. News, 10 Things and the World Health Organization, Nov. 2026", "date_ja": "2026年11月28日作成", "start_page": 14, "voice": "Samantha", "rate": 145, "pause_sec": 1.0, "engine": "openai", "openai_voice": "cedar"}, "sections": [{"heading_en": "", "heading_ja": "", "paragraphs": [{"en": "On Thursday, the government of the Democratic Republic of Congo reported that confirmed Ebola infections have passed twelve thousand. More than five thousand nine hundred people have died. The outbreak was declared in May, and it is now the second largest Ebola epidemic ever recorded, behind only the one in West Africa.", "ja": "木曜日、コンゴ民主共和国政府は、エボラ出血熱の確定感染者が1万2000人を超えたと発表した。死者は5900人を上回る。流行は5月に宣言され、いまや記録上、西アフリカでの流行に次ぐ史上2番目の規模となっている。"}, {"en": "The figures deserve attention for more than their size. Roughly half of those infected have died. The disease has reached eight of the country's twenty-six provinces, and cases have been found in five countries. Only Congo, however, still has active transmission, and that is where the world must now concentrate its effort.", "ja": "この数字は規模だけでなく、その中身にも注目すべきだ。感染者のおよそ半数が亡くなっている。病気は国内26州のうち8州に及び、5か国で症例が確認された。ただ、いま感染が続いているのはコンゴだけであり、世界はそこに力を集中させなければならない。"}, {"en": "The virus is the rare Bundibugyo species, and it is the reason this outbreak has been so hard to stop. Unlike the Zaire species behind earlier epidemics, it has no approved vaccine and no approved treatment. Doctors are left with basic care, isolation and the old discipline of tracing every contact.", "ja": "原因はまれなブンディブギョ型のウイルスで、これが流行を止めにくくしている最大の理由だ。過去の流行を起こしたザイール型と違い、承認されたワクチンも治療薬もない。医師に残されているのは、基本的な治療と隔離、そして接触者を一人残らず追跡する昔ながらの手法である。"}, {"en": "That last tool is now failing. According to figures cited by African health officials, only about fifteen percent of new infections come from people already known to be contacts. The rest appear without warning, which means the disease is moving through communities faster than the teams chasing it can possibly follow.", "ja": "その最後の手段が、いま機能していない。アフリカの保健当局が示した数字によれば、新たな感染のうち、すでに接触者として把握されていた人からのものは約15%にすぎない。残りは前触れなく現れる。病気は、追跡する側が追いつけない速さで地域社会に広がっているということだ。"}], "vocab": [{"w": "outbreak", "m": "（感染症の）流行、大発生"}, {"w": "confirmed", "m": "確定した"}, {"w": "epidemic", "m": "大流行"}, {"w": "species", "m": "種、型"}, {"w": "approved", "m": "承認された"}, {"w": "isolation", "m": "隔離"}, {"w": "trace", "m": "追跡する"}, {"w": "contact", "m": "接触者"}, {"w": "transmission", "m": "感染伝播"}, {"w": "concentrate", "m": "集中させる"}]}, {"heading_en": "War in the way", "heading_ja": "立ちはだかる戦闘", "paragraphs": [{"en": "The deeper problem is war. Ituri province, where the outbreak began, is also a battlefield. This week, fighting between the Congolese army and a rebel group called the Convention for the Popular Revolution intensified, and civilians fled their homes. One clash came within about fifteen miles of Bunia, the hub of the response.", "ja": "より根深い問題は戦争である。流行の発生地イトゥリ州は、戦場でもある。今週、コンゴ軍と「人民革命会議」と名乗る反政府勢力との戦闘が激化し、市民が家を追われた。ある衝突は、対応の拠点であるブニアから約15マイルの地点にまで迫った。"}, {"en": "The human cost is visible in a single episode. About a dozen people, including two staff from the World Health Organization and Congolese health officials, were trapped for three days in a hospital in Akwe. They were finally brought out to Bunia. A senior WHO official said they were caught in the crossfire.", "ja": "その犠牲は、ひとつの出来事に表れている。世界保健機関の職員2人とコンゴの保健当局者を含む約12人が、アクウェの病院に3日間閉じ込められた。彼らはようやくブニアへ救出された。WHOの幹部は、彼らが銃撃戦に巻き込まれたと述べた。"}, {"en": "An aid worker described how her team was fired upon on the road back to Bunia. They took shelter at a base of United Nations peacekeepers, who escorted them through two combat zones. Such stories explain why contact tracing has broken down and why treatment centers are short of staff.", "ja": "ある援助関係者は、ブニアへ戻る途中でチームが銃撃を受けたと語った。一行は国連平和維持部隊の基地に避難し、部隊の護衛で二つの戦闘地域を通り抜けた。こうした話は、接触者追跡が破綻し、治療施設が人手不足に陥っている理由を物語っている。"}, {"en": "None of this is new. The World Health Organization called for a ceasefire in the east as early as May, warning that stopping the virus depends on safe access to affected communities. Six months later, the guns have not fallen silent, and the virus has taken full advantage of the gap.", "ja": "これは目新しいことではない。WHOは早くも5月に東部での停戦を呼びかけ、ウイルスを止められるかどうかは、被災地域に安全に入れるかどうかにかかっていると警告していた。6か月たっても銃声はやまず、ウイルスはその隙を存分に利用してきた。"}], "vocab": [{"w": "battlefield", "m": "戦場"}, {"w": "rebel group", "m": "反政府勢力"}, {"w": "intensify", "m": "激化する"}, {"w": "hub", "m": "拠点、中心"}, {"w": "trapped", "m": "閉じ込められた"}, {"w": "crossfire", "m": "十字砲火、銃撃戦"}, {"w": "fire upon", "m": "発砲する"}, {"w": "peacekeeper", "m": "平和維持部隊員"}, {"w": "escort", "m": "護衛する"}, {"w": "ceasefire", "m": "停戦"}, {"w": "break down", "m": "破綻する"}]}, {"heading_en": "A Slow Global Response", "heading_ja": "遅れた世界の対応", "paragraphs": [{"en": "The international response has been slower than the threat demanded. When the outbreak was first reported, funding for disease surveillance had already been cut in several donor countries. Aid groups warned that the delay in spotting the first cases allowed the virus to spread quietly for weeks before anyone raised the alarm.", "ja": "国際社会の対応は、脅威に見合う速さではなかった。流行が最初に報告された時点で、すでに複数のドナー国が感染症の監視への資金を削減していた。援助団体は、最初の症例の発見が遅れたため、誰かが警鐘を鳴らすまでの数週間、ウイルスが静かに広がったと警告している。"}, {"en": "Some help has arrived. The United States added eighty million dollars in aid for Congo and Uganda, and European supplies reached Ituri. Health workers have begun receiving a vaccine designed for the Zaire species, and trials of vaccines aimed at this species are moving ahead. These steps are welcome, but they are small against the scale.", "ja": "支援は一部届いている。米国はコンゴとウガンダに8000万ドルの追加支援を行い、欧州の物資もイトゥリに届いた。医療従事者にはザイール型向けのワクチンの接種が始まり、この型を狙ったワクチンの試験も進んでいる。歓迎すべき動きだが、流行の規模に比べればまだ小さい。"}, {"en": "It is tempting for distant countries to treat this as an African problem. That would be a mistake. Ebola has already crossed borders, and past outbreaks showed how quickly an unchecked epidemic can reach airports. Fighting it at the source is cheaper, and far safer, than waiting for it to arrive.", "ja": "遠い国々が、これをアフリカの問題として片づけたくなるのは無理もない。だがそれは誤りである。エボラはすでに国境を越えており、過去の流行は、抑え込めない流行が空港にどれほど早く到達するかを示した。発生源で止めるほうが、到着を待つよりはるかに安上がりで、安全でもある。"}], "vocab": [{"w": "surveillance", "m": "監視、サーベイランス"}, {"w": "donor", "m": "資金提供者、ドナー"}, {"w": "raise the alarm", "m": "警鐘を鳴らす"}, {"w": "spread", "m": "広がる"}, {"w": "supplies", "m": "物資"}, {"w": "trial", "m": "（臨床）試験"}, {"w": "health worker", "m": "医療従事者"}, {"w": "at the source", "m": "発生源で"}, {"w": "unchecked", "m": "抑制されていない"}, {"w": "welcome", "m": "歓迎すべき"}]}, {"heading_en": "What Japan and Others Should Do", "heading_ja": "日本と世界がなすべきこと", "paragraphs": [{"en": "What should be done? First, the warring sides in Ituri must grant humanitarian access, and outside powers with influence over them should press hard for a real ceasefire. Medical teams cannot trace contacts, bury the dead safely or care for patients while they are dodging bullets.", "ja": "何をすべきか。第一に、イトゥリで対立する双方は人道支援の通行を認めなければならず、双方に影響力を持つ域外の大国は、実効性のある停戦を強く迫るべきだ。銃弾をよけながらでは、医療チームは接触者を追うことも、遺体を安全に埋葬することも、患者を看護することもできない。"}, {"en": "Second, money must move faster. Wealthy nations, including Japan, have the expertise in laboratories, diagnostics and drug development that this outbreak needs. Japan has long supported global health, and its researchers could help speed up work on a vaccine and a treatment for this species. Pledges should become cash within weeks, not months.", "ja": "第二に、資金をより速く動かす必要がある。日本を含む豊かな国々は、この流行が必要とする研究、診断、創薬の力を備えている。日本は長年、世界の保健を支えてきた。日本の研究者は、この型に対するワクチンと治療薬の開発を加速させる助けになりうる。支援の約束は、数か月ではなく数週間で現金になるべきだ。"}, {"en": "Third, trust must be rebuilt. Communities worn down by years of conflict are often wary of outsiders in protective suits. Local leaders, churches and community workers should be paid and trained to carry the message. Experience shows that an outbreak ends only when residents themselves decide to cooperate.", "ja": "第三に、信頼を築き直さなければならない。長年の紛争に疲れ果てた地域社会は、防護服姿の外部の人間を警戒しがちだ。地元の指導者や教会、地域の活動員に報酬を払い、訓練して、メッセージを伝えてもらうべきである。流行が終わるのは、住民自身が協力すると決めたときだけだと、経験は教えている。"}], "vocab": [{"w": "humanitarian access", "m": "人道支援のための通行"}, {"w": "press", "m": "強く迫る"}, {"w": "expertise", "m": "専門知識"}, {"w": "diagnostics", "m": "診断技術"}, {"w": "pledge", "m": "約束、拠出表明"}, {"w": "worn down", "m": "疲弊した"}, {"w": "wary of", "m": "～を警戒して"}, {"w": "protective suit", "m": "防護服"}, {"w": "rebuild", "m": "再構築する"}, {"w": "cooperate", "m": "協力する"}]}], "timings": [[0.0, 18.5], [19.5, 39.42], [40.42, 59.79], [60.79, 78.6], [79.6, 102.9], [103.9, 122.31], [123.31, 140.42], [141.42, 158.18], [159.18, 178.33], [179.33, 199.44], [200.44, 218.3], [219.3, 236.05], [237.05, 258.36], [259.36, 278.13]], "audio": "audio.m4a"};
+const $ = s => document.querySelector(s);
+const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const store = { get(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}} };
+const KEY = 'shadow:' + D.meta.title_en;
+const checked = store.get(KEY) || {};
+const m = D.meta;
+let pi = 0, page = m.start_page || 1, html = '';
+D.sections.forEach((s, si) => {
+  const first = si === 0;
+  const enP = s.paragraphs.map(p => `<p class="para" data-i="${pi++}">${esc(p.en)}</p>`).join('');
+  pi -= s.paragraphs.length;
+  const jaP = s.paragraphs.map(p => `<p class="para" data-i="${pi++}">${esc(p.ja)}</p>`).join('');
+  const vocab = s.vocab.map((v, vi) => { const id = `v${si}-${vi}`;
+    return `<li><label><input type="checkbox" data-k="${id}" ${checked[id]?'checked':''}><b>${esc(v.w)}</b><span>${esc(v.m)}</span></label></li>`; }).join('');
+  html += `<section class="spread">
+    <div class="page en">
+      <div class="runhead">${esc(m.series_en)} <button class="track" data-s="${si}"><i>▶</i>Track ${esc(m.track)}</button></div>
+      ${first ? `<h1>${esc(m.title_en)}</h1><h2 class="sub">${esc(m.subtitle_en)}</h2><p class="source">${esc(m.source_en)}</p>` : ''}
+      ${s.heading_en ? `<h3>${esc(s.heading_en)}</h3>` : ''}
+      <div class="body">${enP}</div>
+      <span class="folio">${page}</span>
+    </div>
+    <div class="page ja">
+      <div class="runhead">${esc(m.series_ja)}</div>
+      ${first ? `<h1>${esc(m.title_ja)}</h1><h2 class="sub">${esc(m.subtitle_ja)}</h2><p class="source">${esc(m.date_ja)}</p>` : ''}
+      ${s.heading_ja ? `<h3>${esc(s.heading_ja)}</h3>` : ''}
+      <div class="body">${jaP}</div>
+      <div class="words"><div class="band">Words and Phrases</div><ul>${vocab}</ul></div>
+      <span class="folio">${page + 1}</span>
+    </div></section>`;
+  page += 2;
+});
+$('#book').innerHTML = html;
+
+const au = $('#au');
+// 音声を丸ごと読み込んでから再生する（Range 非対応のサーバーでもシークできるように）
+fetch(D.audio).then(r => { if (!r.ok) throw 0; return r.blob(); })
+  .then(b => au.src = URL.createObjectURL(b)).catch(() => au.src = D.audio);
+const T = D.timings, fmt = t => `${Math.floor(t/60)}:${String(Math.floor(t%60)).padStart(2,'0')}`;
+let loop = false, cur = -1;
+const idxAt = t => { for (let i = T.length - 1; i >= 0; i--) if (t >= T[i][0] - 0.05) return i; return 0; };
+const seekTo = i => { i = Math.max(0, Math.min(T.length - 1, i)); au.currentTime = T[i][0]; mark(i); au.play(); };
+function mark(i){
+  if (i === cur) return; cur = i;
+  document.querySelectorAll('.para.on').forEach(e => e.classList.remove('on'));
+  document.querySelectorAll(`.para[data-i="${i}"]`).forEach(e => e.classList.add('on'));
+  const el = document.querySelector(`.en .para[data-i="${i}"]`);
+  if (el && !au.paused) { const r = el.getBoundingClientRect(); if (r.top < 60 || r.bottom > innerHeight - 110) el.scrollIntoView({behavior:'smooth', block:'center'}); }
+}
+au.addEventListener('loadedmetadata', () => $('#dur').textContent = fmt(au.duration));
+au.addEventListener('timeupdate', () => {
+  const t = au.currentTime;
+  if (loop && cur >= 0 && t >= T[cur][1] + 0.4) { au.currentTime = T[cur][0]; return; }
+  mark(idxAt(t));
+  $('#cur').textContent = fmt(t);
+  if (au.duration) $('#pos').value = t / au.duration * 1000;
+});
+au.addEventListener('play', () => $('#play').textContent = '❚❚');
+au.addEventListener('pause', () => $('#play').textContent = '▶');
+$('#play').onclick = () => au.paused ? au.play() : au.pause();
+$('#prev').onclick = () => seekTo((cur < 0 ? 0 : cur) - 1);
+$('#next').onclick = () => seekTo(cur + 1);
+$('#pos').oninput = e => { if (au.duration) au.currentTime = e.target.value / 1000 * au.duration; };
+$('#rate').onchange = e => au.playbackRate = +e.target.value;
+const tog = (id, fn) => $(id).onclick = e => { e.currentTarget.classList.toggle('on'); fn(e.currentTarget.classList.contains('on')); };
+tog('#loop', v => loop = v);
+tog('#hideEn', v => document.body.classList.toggle('hide-en', v));
+tog('#hideJa', v => document.body.classList.toggle('hide-ja', v));
+document.addEventListener('click', e => {
+  const p = e.target.closest('.para'); if (p) return seekTo(+p.dataset.i);
+  const t = e.target.closest('.track'); if (t) { const s = +t.dataset.s; let i = 0; for (let k = 0; k < s; k++) i += D.sections[k].paragraphs.length; seekTo(i); }
+});
+document.addEventListener('change', e => { const k = e.target.dataset && e.target.dataset.k; if (k) { checked[k] = e.target.checked; store.set(KEY, checked); } });
+document.addEventListener('keydown', e => { if (e.target.tagName === 'INPUT' && e.target.type !== 'range') return;
+  if (e.code === 'Space') { e.preventDefault(); $('#play').click(); }
+  if (e.code === 'ArrowRight') seekTo(cur + 1); if (e.code === 'ArrowLeft') seekTo(cur - 1); });
+</script>
+</body>
+</html>

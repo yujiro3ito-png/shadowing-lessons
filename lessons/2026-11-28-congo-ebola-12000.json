@@ -1,0 +1,273 @@
+{
+ "meta": {
+  "series_en": "Weekly Focus 7",
+  "series_ja": "今週の焦点 7",
+  "track": "23",
+  "title_en": "Ebola passes twelve thousand cases in Congo, and a war the world ignored is helping it spread",
+  "subtitle_en": "With no approved vaccine and gunfire blocking the health teams, the outbreak will end only if outside powers press for a ceasefire and pay for the response without delay",
+  "title_ja": "コンゴのエボラ、感染1万2000人超え——放置された戦争が流行を助長している",
+  "subtitle_ja": "承認されたワクチンはなく、銃撃が医療チームを阻んでいる。域外の大国が停戦を迫り、遅滞なく資金を出さなければ、流行は終わらない",
+  "source_en": "Original text based on reports from Al Jazeera, U.S. News, 10 Things and the World Health Organization, Nov. 2026",
+  "date_ja": "2026年11月28日作成",
+  "start_page": 14,
+  "voice": "Samantha",
+  "rate": 145,
+  "pause_sec": 1.0,
+  "engine": "openai",
+  "openai_voice": "cedar"
+ },
+ "sections": [
+  {
+   "heading_en": "",
+   "heading_ja": "",
+   "paragraphs": [
+    {
+     "en": "On Thursday, the government of the Democratic Republic of Congo reported that confirmed Ebola infections have passed twelve thousand. More than five thousand nine hundred people have died. The outbreak was declared in May, and it is now the second largest Ebola epidemic ever recorded, behind only the one in West Africa.",
+     "ja": "木曜日、コンゴ民主共和国政府は、エボラ出血熱の確定感染者が1万2000人を超えたと発表した。死者は5900人を上回る。流行は5月に宣言され、いまや記録上、西アフリカでの流行に次ぐ史上2番目の規模となっている。"
+    },
+    {
+     "en": "The figures deserve attention for more than their size. Roughly half of those infected have died. The disease has reached eight of the country's twenty-six provinces, and cases have been found in five countries. Only Congo, however, still has active transmission, and that is where the world must now concentrate its effort.",
+     "ja": "この数字は規模だけでなく、その中身にも注目すべきだ。感染者のおよそ半数が亡くなっている。病気は国内26州のうち8州に及び、5か国で症例が確認された。ただ、いま感染が続いているのはコンゴだけであり、世界はそこに力を集中させなければならない。"
+    },
+    {
+     "en": "The virus is the rare Bundibugyo species, and it is the reason this outbreak has been so hard to stop. Unlike the Zaire species behind earlier epidemics, it has no approved vaccine and no approved treatment. Doctors are left with basic care, isolation and the old discipline of tracing every contact.",
+     "ja": "原因はまれなブンディブギョ型のウイルスで、これが流行を止めにくくしている最大の理由だ。過去の流行を起こしたザイール型と違い、承認されたワクチンも治療薬もない。医師に残されているのは、基本的な治療と隔離、そして接触者を一人残らず追跡する昔ながらの手法である。"
+    },
+    {
+     "en": "That last tool is now failing. According to figures cited by African health officials, only about fifteen percent of new infections come from people already known to be contacts. The rest appear without warning, which means the disease is moving through communities faster than the teams chasing it can possibly follow.",
+     "ja": "その最後の手段が、いま機能していない。アフリカの保健当局が示した数字によれば、新たな感染のうち、すでに接触者として把握されていた人からのものは約15%にすぎない。残りは前触れなく現れる。病気は、追跡する側が追いつけない速さで地域社会に広がっているということだ。"
+    }
+   ],
+   "vocab": [
+    {
+     "w": "outbreak",
+     "m": "（感染症の）流行、大発生"
+    },
+    {
+     "w": "confirmed",
+     "m": "確定した"
+    },
+    {
+     "w": "epidemic",
+     "m": "大流行"
+    },
+    {
+     "w": "species",
+     "m": "種、型"
+    },
+    {
+     "w": "approved",
+     "m": "承認された"
+    },
+    {
+     "w": "isolation",
+     "m": "隔離"
+    },
+    {
+     "w": "trace",
+     "m": "追跡する"
+    },
+    {
+     "w": "contact",
+     "m": "接触者"
+    },
+    {
+     "w": "transmission",
+     "m": "感染伝播"
+    },
+    {
+     "w": "concentrate",
+     "m": "集中させる"
+    }
+   ]
+  },
+  {
+   "heading_en": "War in the way",
+   "heading_ja": "立ちはだかる戦闘",
+   "paragraphs": [
+    {
+     "en": "The deeper problem is war. Ituri province, where the outbreak began, is also a battlefield. This week, fighting between the Congolese army and a rebel group called the Convention for the Popular Revolution intensified, and civilians fled their homes. One clash came within about fifteen miles of Bunia, the hub of the response.",
+     "ja": "より根深い問題は戦争である。流行の発生地イトゥリ州は、戦場でもある。今週、コンゴ軍と「人民革命会議」と名乗る反政府勢力との戦闘が激化し、市民が家を追われた。ある衝突は、対応の拠点であるブニアから約15マイルの地点にまで迫った。"
+    },
+    {
+     "en": "The human cost is visible in a single episode. About a dozen people, including two staff from the World Health Organization and Congolese health officials, were trapped for three days in a hospital in Akwe. They were finally brought out to Bunia. A senior WHO official said they were caught in the crossfire.",
+     "ja": "その犠牲は、ひとつの出来事に表れている。世界保健機関の職員2人とコンゴの保健当局者を含む約12人が、アクウェの病院に3日間閉じ込められた。彼らはようやくブニアへ救出された。WHOの幹部は、彼らが銃撃戦に巻き込まれたと述べた。"
+    },
+    {
+     "en": "An aid worker described how her team was fired upon on the road back to Bunia. They took shelter at a base of United Nations peacekeepers, who escorted them through two combat zones. Such stories explain why contact tracing has broken down and why treatment centers are short of staff.",
+     "ja": "ある援助関係者は、ブニアへ戻る途中でチームが銃撃を受けたと語った。一行は国連平和維持部隊の基地に避難し、部隊の護衛で二つの戦闘地域を通り抜けた。こうした話は、接触者追跡が破綻し、治療施設が人手不足に陥っている理由を物語っている。"
+    },
+    {
+     "en": "None of this is new. The World Health Organization called for a ceasefire in the east as early as May, warning that stopping the virus depends on safe access to affected communities. Six months later, the guns have not fallen silent, and the virus has taken full advantage of the gap.",
+     "ja": "これは目新しいことではない。WHOは早くも5月に東部での停戦を呼びかけ、ウイルスを止められるかどうかは、被災地域に安全に入れるかどうかにかかっていると警告していた。6か月たっても銃声はやまず、ウイルスはその隙を存分に利用してきた。"
+    }
+   ],
+   "vocab": [
+    {
+     "w": "battlefield",
+     "m": "戦場"
+    },
+    {
+     "w": "rebel group",
+     "m": "反政府勢力"
+    },
+    {
+     "w": "intensify",
+     "m": "激化する"
+    },
+    {
+     "w": "hub",
+     "m": "拠点、中心"
+    },
+    {
+     "w": "trapped",
+     "m": "閉じ込められた"
+    },
+    {
+     "w": "crossfire",
+     "m": "十字砲火、銃撃戦"
+    },
+    {
+     "w": "fire upon",
+     "m": "発砲する"
+    },
+    {
+     "w": "peacekeeper",
+     "m": "平和維持部隊員"
+    },
+    {
+     "w": "escort",
+     "m": "護衛する"
+    },
+    {
+     "w": "ceasefire",
+     "m": "停戦"
+    },
+    {
+     "w": "break down",
+     "m": "破綻する"
+    }
+   ]
+  },
+  {
+   "heading_en": "A Slow Global Response",
+   "heading_ja": "遅れた世界の対応",
+   "paragraphs": [
+    {
+     "en": "The international response has been slower than the threat demanded. When the outbreak was first reported, funding for disease surveillance had already been cut in several donor countries. Aid groups warned that the delay in spotting the first cases allowed the virus to spread quietly for weeks before anyone raised the alarm.",
+     "ja": "国際社会の対応は、脅威に見合う速さではなかった。流行が最初に報告された時点で、すでに複数のドナー国が感染症の監視への資金を削減していた。援助団体は、最初の症例の発見が遅れたため、誰かが警鐘を鳴らすまでの数週間、ウイルスが静かに広がったと警告している。"
+    },
+    {
+     "en": "Some help has arrived. The United States added eighty million dollars in aid for Congo and Uganda, and European supplies reached Ituri. Health workers have begun receiving a vaccine designed for the Zaire species, and trials of vaccines aimed at this species are moving ahead. These steps are welcome, but they are small against the scale.",
+     "ja": "支援は一部届いている。米国はコンゴとウガンダに8000万ドルの追加支援を行い、欧州の物資もイトゥリに届いた。医療従事者にはザイール型向けのワクチンの接種が始まり、この型を狙ったワクチンの試験も進んでいる。歓迎すべき動きだが、流行の規模に比べればまだ小さい。"
+    },
+    {
+     "en": "It is tempting for distant countries to treat this as an African problem. That would be a mistake. Ebola has already crossed borders, and past outbreaks showed how quickly an unchecked epidemic can reach airports. Fighting it at the source is cheaper, and far safer, than waiting for it to arrive.",
+     "ja": "遠い国々が、これをアフリカの問題として片づけたくなるのは無理もない。だがそれは誤りである。エボラはすでに国境を越えており、過去の流行は、抑え込めない流行が空港にどれほど早く到達するかを示した。発生源で止めるほうが、到着を待つよりはるかに安上がりで、安全でもある。"
+    }
+   ],
+   "vocab": [
+    {
+     "w": "surveillance",
+     "m": "監視、サーベイランス"
+    },
+    {
+     "w": "donor",
+     "m": "資金提供者、ドナー"
+    },
+    {
+     "w": "raise the alarm",
+     "m": "警鐘を鳴らす"
+    },
+    {
+     "w": "spread",
+     "m": "広がる"
+    },
+    {
+     "w": "supplies",
+     "m": "物資"
+    },
+    {
+     "w": "trial",
+     "m": "（臨床）試験"
+    },
+    {
+     "w": "health worker",
+     "m": "医療従事者"
+    },
+    {
+     "w": "at the source",
+     "m": "発生源で"
+    },
+    {
+     "w": "unchecked",
+     "m": "抑制されていない"
+    },
+    {
+     "w": "welcome",
+     "m": "歓迎すべき"
+    }
+   ]
+  },
+  {
+   "heading_en": "What Japan and Others Should Do",
+   "heading_ja": "日本と世界がなすべきこと",
+   "paragraphs": [
+    {
+     "en": "What should be done? First, the warring sides in Ituri must grant humanitarian access, and outside powers with influence over them should press hard for a real ceasefire. Medical teams cannot trace contacts, bury the dead safely or care for patients while they are dodging bullets.",
+     "ja": "何をすべきか。第一に、イトゥリで対立する双方は人道支援の通行を認めなければならず、双方に影響力を持つ域外の大国は、実効性のある停戦を強く迫るべきだ。銃弾をよけながらでは、医療チームは接触者を追うことも、遺体を安全に埋葬することも、患者を看護することもできない。"
+    },
+    {
+     "en": "Second, money must move faster. Wealthy nations, including Japan, have the expertise in laboratories, diagnostics and drug development that this outbreak needs. Japan has long supported global health, and its researchers could help speed up work on a vaccine and a treatment for this species. Pledges should become cash within weeks, not months.",
+     "ja": "第二に、資金をより速く動かす必要がある。日本を含む豊かな国々は、この流行が必要とする研究、診断、創薬の力を備えている。日本は長年、世界の保健を支えてきた。日本の研究者は、この型に対するワクチンと治療薬の開発を加速させる助けになりうる。支援の約束は、数か月ではなく数週間で現金になるべきだ。"
+    },
+    {
+     "en": "Third, trust must be rebuilt. Communities worn down by years of conflict are often wary of outsiders in protective suits. Local leaders, churches and community workers should be paid and trained to carry the message. Experience shows that an outbreak ends only when residents themselves decide to cooperate.",
+     "ja": "第三に、信頼を築き直さなければならない。長年の紛争に疲れ果てた地域社会は、防護服姿の外部の人間を警戒しがちだ。地元の指導者や教会、地域の活動員に報酬を払い、訓練して、メッセージを伝えてもらうべきである。流行が終わるのは、住民自身が協力すると決めたときだけだと、経験は教えている。"
+    }
+   ],
+   "vocab": [
+    {
+     "w": "humanitarian access",
+     "m": "人道支援のための通行"
+    },
+    {
+     "w": "press",
+     "m": "強く迫る"
+    },
+    {
+     "w": "expertise",
+     "m": "専門知識"
+    },
+    {
+     "w": "diagnostics",
+     "m": "診断技術"
+    },
+    {
+     "w": "pledge",
+     "m": "約束、拠出表明"
+    },
+    {
+     "w": "worn down",
+     "m": "疲弊した"
+    },
+    {
+     "w": "wary of",
+     "m": "～を警戒して"
+    },
+    {
+     "w": "protective suit",
+     "m": "防護服"
+    },
+    {
+     "w": "rebuild",
+     "m": "再構築する"
+    },
+    {
+     "w": "cooperate",
+     "m": "協力する"
+    }
+   ]
+  }
+ ]
+}
