@@ -1,0 +1,277 @@
+{
+  "meta": {
+    "series_en": "Weekly Focus 8",
+    "series_ja": "今週の焦点 8",
+    "track": "24",
+    "title_en": "Trump, Xi and Putin share one room in Shenzhen, but a photograph is not a peace plan",
+    "subtitle_en": "The first three-way summit produced warm words and no answers on Ukraine, Iran or nuclear arms, and Japan must work with like-minded partners rather than wait for the giants",
+    "title_ja": "トランプ・習・プーチン、深圳で初の三者会談——だが写真は和平計画ではない",
+    "subtitle_ja": "初の三者会談は温かい言葉を生んだが、ウクライナ、イラン、核軍縮への答えはなかった。日本は大国を待たず、志を同じくする国々と連携すべきだ",
+    "source_en": "Original text based on reports from RFE/RL, CBS News, Reuters and Devdiscourse, Nov. 2026",
+    "date_ja": "2026年11月29日作成",
+    "start_page": 14,
+    "voice": "Samantha",
+    "rate": 145,
+    "pause_sec": 1.0,
+    "engine": "openai",
+    "openai_voice": "cedar"
+  },
+  "sections": [
+    {
+      "heading_en": "",
+      "heading_ja": "",
+      "paragraphs": [
+        {
+          "en": "For ninety minutes in Shenzhen last Thursday, the leaders of the three most powerful military states on earth sat in one room. The three had never met together before. The images traveled around the world within minutes, and those images, more than any agreement, are what the meeting leaves behind.",
+          "ja": "先週木曜日、深圳で、世界で最も強力な軍事力を持つ3カ国の指導者が、90分間にわたり同じ部屋に座った。3人がそろって会談するのは初めてである。映像は数分で世界を駆けめぐり、合意よりもむしろその映像こそが、この会談の残したものとなった。"
+        },
+        {
+          "en": "The setting was the summit of the Asia-Pacific Economic Cooperation forum. Mr. Putin had not attended since 2017, and his arrival alone signaled how far Moscow has moved from isolation. Mr. Trump flew home immediately afterward and spoke to no reporters that night.",
+          "ja": "舞台はアジア太平洋経済協力会議の首脳会合である。プーチン氏の出席は2017年以来であり、その到着だけでも、モスクワが孤立からどれほど抜け出したかを示していた。トランプ氏は会談後すぐに帰国し、その夜は記者団に何も語らなかった。"
+        },
+        {
+          "en": "A joint statement followed. It said the three men had exchanged views in detail, that a nuclear war cannot be won and must never be fought, and that they would raise oil and gas production for the benefit of all countries. It was short, polite and strikingly vague.",
+          "ja": "その後、共同声明が出された。3首脳が詳細に意見を交換したこと、核戦争に勝者はなく決して戦ってはならないこと、そしてすべての国の利益のために石油とガスの生産を増やすことが記された。声明は短く、丁寧で、際立って曖昧だった。"
+        },
+        {
+          "en": "The reaction split along familiar lines. Beijing called the talks positive and fruitful. The Kremlin said Mr. Putin left in an excellent mood. Mr. Trump called Mr. Putin a friend and rated the meeting a twelve out of ten. Critics in Washington and Kyiv were less charmed.",
+          "ja": "反応は、おなじみの線に沿って割れた。北京は会談を前向きで実り多いと評した。クレムリンは、プーチン氏が上機嫌で帰ったと述べた。トランプ氏はプーチン氏を友人と呼び、会談を10点満点で12点と採点した。ワシントンとキーウの批判派は、それほど魅了されなかった。ワシントンとキーウの批判派は、もっと冷ややかな見方をした。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "trilateral",
+          "m": "三者間の"
+        },
+        {
+          "w": "sit down",
+          "m": "席に着く、会談する"
+        },
+        {
+          "w": "head of state",
+          "m": "国家元首"
+        },
+        {
+          "w": "signal",
+          "m": "示す、合図する"
+        },
+        {
+          "w": "isolation",
+          "m": "孤立"
+        },
+        {
+          "w": "sidelines",
+          "m": "（会議の）周辺、脇"
+        },
+        {
+          "w": "joint statement",
+          "m": "共同声明"
+        },
+        {
+          "w": "strikingly vague",
+          "m": "際立って曖昧な"
+        },
+        {
+          "w": "split along lines",
+          "m": "〜の線で意見が割れる"
+        },
+        {
+          "w": "fruitful",
+          "m": "実り多い"
+        },
+        {
+          "w": "flattering",
+          "m": "好意的な、持ち上げる"
+        }
+      ]
+    },
+    {
+      "heading_en": "What was left unsaid",
+      "heading_ja": "語られなかったもの",
+      "paragraphs": [
+        {
+          "en": "Start with what the statement left out. It never mentioned Ukraine, even though Europe and Kyiv had feared that the three might settle the war over their heads. Mr. Putin later said the leaders had discussed it, but he ruled out direct talks, pointing to a Ukrainian strike on a bridge in Crimea.",
+          "ja": "まず、声明が触れなかった点から見ていこう。声明はウクライナに一言も言及しなかった。欧州とキーウは、3首脳が自分たちの頭越しに戦争を決着させることを恐れていた。プーチン氏は後に、首脳間で協議したと述べたが、クリミアの橋へのウクライナ軍の攻撃を挙げ、直接交渉を否定した。"
+        },
+        {
+          "en": "It also never named the war in Iran, which has disrupted oil and gas trade on a scale the International Energy Agency calls the largest on record. Mr. Trump had hoped to raise it. China buys large amounts of Iranian oil, and neither Mr. Xi nor Mr. Putin showed any appetite for the subject.",
+          "ja": "声明はイラン戦争にも触れなかった。この戦争は、国際エネルギー機関が過去最大と呼ぶ規模で石油とガスの貿易を混乱させている。トランプ氏は取り上げたい意向だった。中国はイラン産原油を大量に買っており、習氏もプーチン氏もこの話題に乗り気を見せなかった。"
+        },
+        {
+          "en": "On nuclear weapons the words were warm but the commitments were thin. The three pledged a dialogue on reducing nuclear risks. Yet China is believed to hold about six hundred and twenty warheads, while America and Russia each hold more than five thousand, and Beijing still regards formal arms talks as premature.",
+          "ja": "核兵器をめぐっては、言葉は温かいが約束は乏しかった。3カ国は核リスク低減に向けた対話を約束した。しかし中国の核弾頭は約620発とみられ、米ロはそれぞれ5000発を超える。北京は今も、正式な軍縮交渉は時期尚早だと考えている。"
+        },
+        {
+          "en": "Even the promise of more oil deserves a second look. Higher output might ease prices, which would help consumers in Japan. But the language about refined products was read by some analysts as a gesture toward Russia's struggling energy sector, a sector that sanctions were meant to squeeze.",
+          "ja": "石油増産の約束さえ、再考に値する。増産は価格を和らげ、日本の消費者を助けるかもしれない。だが、石油精製品に関する文言は、苦境にあるロシアのエネルギー部門への配慮だと読む分析者もいる。制裁は本来、まさにその部門を締め付けるためのものだった。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "leave out",
+          "m": "省く、言及しない"
+        },
+        {
+          "w": "over one's head",
+          "m": "頭越しに"
+        },
+        {
+          "w": "rule out",
+          "m": "排除する、否定する"
+        },
+        {
+          "w": "disrupt",
+          "m": "混乱させる"
+        },
+        {
+          "w": "on record",
+          "m": "記録上の"
+        },
+        {
+          "w": "appetite",
+          "m": "意欲、関心"
+        },
+        {
+          "w": "pledge",
+          "m": "約束する"
+        },
+        {
+          "w": "warhead",
+          "m": "核弾頭"
+        },
+        {
+          "w": "premature",
+          "m": "時期尚早の"
+        },
+        {
+          "w": "squeeze",
+          "m": "締め付ける"
+        }
+      ]
+    },
+    {
+      "heading_en": "Who gains, who loses",
+      "heading_ja": "得をする者、失う者",
+      "paragraphs": [
+        {
+          "en": "The winners are easy to name. Mr. Putin gained legitimacy, sitting as an equal with the American president after years of being treated as an outcast. The three leaders also questioned the jurisdiction of the International Criminal Court, which issued an arrest warrant for Mr. Putin in 2023.",
+          "ja": "勝者は容易に挙げられる。プーチン氏は、長年のけ者扱いを受けた末に、米大統領と対等に席に着くことで正当性を得た。3首脳はまた、2023年にプーチン氏への逮捕状を出した国際刑事裁判所の管轄権にも疑問を呈した。"
+        },
+        {
+          "en": "Mr. Xi gained a role as host and as the man in the middle. He spoke of nuclear weapons as a sword of Damocles hanging over humanity. He accommodated Mr. Trump's interest without promising any action, and that is a skill Beijing has refined.",
+          "ja": "習氏は、主催者として、また真ん中に立つ人物としての役割を得た。核兵器を人類の頭上に吊るされたダモクレスの剣と呼んだ。トランプ氏の関心に付き合いつつ、行動は何も約束しなかった。これは北京が磨き上げてきた技である。"
+        },
+        {
+          "en": "Mr. Trump's gain is harder to measure. He can say that he spoke to both men and that the room was friendly. But a tariff truce between Washington and Beijing expires on January tenth, and nothing in Shenzhen suggested that the harder bargains have become any easier.",
+          "ja": "トランプ氏の得たものは測りにくい。両氏と話し、雰囲気は友好的だったと言うことはできる。だが、米中の関税休戦は1月10日に期限を迎える。深圳では、より難しい取引が少しでも容易になったと思わせるものは何もなかった。"
+        },
+        {
+          "en": "The clear loser is the principle that big powers should not decide the fate of smaller nations without them. Volodymyr Zelensky criticized Mr. Trump's warm words about Mr. Putin, and a United States senator said the photographs troubled him. Their discomfort is understandable.",
+          "ja": "明確な敗者は、大国が小国の命運を当事者抜きで決めてはならないという原則である。ゼレンスキー大統領はトランプ氏のプーチン氏への温かい言葉を批判し、米上院議員は写真に心が乱されると述べた。その不快感は理解できる。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "legitimacy",
+          "m": "正当性"
+        },
+        {
+          "w": "outcast",
+          "m": "のけ者"
+        },
+        {
+          "w": "jurisdiction",
+          "m": "管轄権"
+        },
+        {
+          "w": "arrest warrant",
+          "m": "逮捕状"
+        },
+        {
+          "w": "accommodate",
+          "m": "要望に応じる、配慮する"
+        },
+        {
+          "w": "refine",
+          "m": "磨き上げる"
+        },
+        {
+          "w": "truce",
+          "m": "休戦"
+        },
+        {
+          "w": "expire",
+          "m": "期限が切れる"
+        },
+        {
+          "w": "bargain",
+          "m": "取引"
+        },
+        {
+          "w": "discomfort",
+          "m": "不快感、居心地の悪さ"
+        }
+      ]
+    },
+    {
+      "heading_en": "Japan's lesson",
+      "heading_ja": "日本への教訓",
+      "paragraphs": [
+        {
+          "en": "Japan has particular reason to watch. Prime Minister Sanae Takaichi traveled to the same summit and returned without a meeting with Mr. Xi. Tokyo stood on the margins while the larger powers staged their show. That contrast should prompt sober reflection rather than resentment.",
+          "ja": "日本には、注視すべき特別な理由がある。高市早苗首相は同じ首脳会合に赴いたが、習氏との会談はないまま帰国した。大国が華やかな舞台を演じる間、東京は脇に立っていた。この対照は、恨みではなく冷静な内省を促すべきである。"
+        },
+        {
+          "en": "The government should keep three habits. First, it should coordinate closely with Seoul, Canberra and European capitals, so that middle powers speak with one voice. Second, it should press Washington to keep Ukraine at the table. Third, it should keep its own channel to Beijing open.",
+          "ja": "政府は三つの習慣を保つべきである。第一に、ソウル、キャンベラ、欧州各国の首都と緊密に連携し、中堅国が一つの声で語るようにすること。第二に、ウクライナを交渉の席に残すよう米国に働きかけること。第三に、北京との独自の対話の窓口を開けておくことである。"
+        },
+        {
+          "en": "A summit that produces warm words is not worthless, since leaders who talk are less likely to blunder into war. But warmth is not a plan. The test comes in the coming weeks, when oil output, nuclear dialogue and Ukraine either move or stall. Japan should judge the meeting by what follows.",
+          "ja": "温かい言葉しか生まない首脳会談も無価値ではない。対話する指導者は、うっかり戦争に突き進む可能性が低いからだ。しかし、温かさは計画ではない。試されるのは今後数週間、石油の生産、核をめぐる対話、ウクライナが動くのか止まるのかである。日本は、この会談を、その後に起きることで評価すべきである。"
+        }
+      ],
+      "vocab": [
+        {
+          "w": "on the margins",
+          "m": "周縁で"
+        },
+        {
+          "w": "stage a show",
+          "m": "見世物を演じる"
+        },
+        {
+          "w": "sober",
+          "m": "冷静な"
+        },
+        {
+          "w": "resentment",
+          "m": "恨み、憤り"
+        },
+        {
+          "w": "coordinate with",
+          "m": "〜と連携する"
+        },
+        {
+          "w": "middle power",
+          "m": "中堅国"
+        },
+        {
+          "w": "press",
+          "m": "強く働きかける"
+        },
+        {
+          "w": "blunder into",
+          "m": "うっかり〜に陥る"
+        },
+        {
+          "w": "stall",
+          "m": "停滞する"
+        },
+        {
+          "w": "judge by",
+          "m": "〜で判断する"
+        }
+      ]
+    }
+  ]
+}
